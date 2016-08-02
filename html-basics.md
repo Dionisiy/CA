@@ -103,7 +103,11 @@ HTML actually lets us have more than one heading size. There are six heading siz
 
 ### Adding images and links to your page
 
-First, there's an opening `<a>` tag and that tag has an attribute called`href`. The `href` value tells your link where you want it to go
+First, there's an opening `<a>` tag and that tag has an attribute called`href`. The `href` value tells your link where you want it to go.Then you have a description of your link between your opening `<a>`and your closing `</a>` tags. This is what you will be able to click on.
+
+
+
+
 
 
 

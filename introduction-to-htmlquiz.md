@@ -28,7 +28,7 @@ You will be redirected to http:\/\/www.pgtips.co.uk
 
 What is the difference between HTML and CSS?
 
-Answer: HTML gives a webpage structure. CSS provides styling.
+**Answer**: HTML gives a webpage structure. CSS provides styling.
 
 For this tag to display an image, what must you replace "\#" with?
 

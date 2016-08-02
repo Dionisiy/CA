@@ -48,7 +48,7 @@ What is the purpose of this code?
 
 `<!DOCTYPE html>`
 
-Answer: Tells the web browser what language to expect \(in this case, HTML\)
+**Answer**: Tells the web browser what language to expect \(in this case, HTML\)
 
 Where in your HTML document should you include this code?
 

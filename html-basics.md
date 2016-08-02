@@ -6,9 +6,14 @@ A markup language is a programming language used to make text do more than just 
 
 Here is a example of HTML
 
-```<!DOCTYPE html><html> <head> </head> <body>
-
- </body>
+```auto
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    
+    <body>
+    </body>
 
 </html>
 

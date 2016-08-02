@@ -1,5 +1,3 @@
-
-
 # HTML and CSS
 
 HTML stands for **HyperText Markup Language**. Hypertext means "text wth links in it".
@@ -15,11 +13,10 @@ Here is a example of HTML
     </head>
     <body>
 
-    
     </body>
 
 </html>
-      
+
 ```
 
 1. Things inside `<>`s are called **tags.**
@@ -31,29 +28,17 @@ Here is a example of HTML
 
 > Always put `<!DOCTYPE html>` on the first line. This tells the browser what language it's reading \(in this case, HTML\).
 
-
-
 **Make the head**
-
-
 
 There are always two parts to an HTML file: the head and the body. Let's start with the head.
 
 The head contains information about your HTML file, like its title. The title is what we see in the browser's title bar or page tab.
 
-
-
 **Paragraphs in the body**
-
-
 
 The body is where you put your content, such as text, images, and links. The content in the body is what will be visible on the actual page.
 
+\`\`\`
 
-
-```
-
-```
-
-
+\`\`\`
 

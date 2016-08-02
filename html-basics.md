@@ -109,16 +109,21 @@ First, there's an opening `<a>` tag and that tag has an attribute called`href`. 
 
 Here is an example how to use images and link on the web page:
 
-`<!DOCTYPE html>
-<html>
+```auto
+    
+    <!DOCTYPE html>
+    <html>
 	<head>
 		<title>Images and links</title>
 	</head>
 	<body>
-		<img src="http://s3.amazonaws.com/codecademy-blog/assets/f3a16fb6.jpg"/>
-	 <a href="http://google.com"><img src="http://s3.amazonaws.com/codecademy-blog/assets/ninja_zpsa5dbe37a.jpg"/></a>
+		<img src="http://s3.amazonaws.com/codecademy-blog/assets/f3a16fb6.jpg" width="70" />
+	 <a href="http://google.com"><img src="http://s3.amazonaws.com/codecademy-blog/assets/ninja_zpsa5dbe37a.jpg" width="150"/></a>
 	</body>
-</html>`
+    </html>
+
+```
+
 
 
 

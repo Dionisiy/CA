@@ -16,7 +16,7 @@ You can see the code  below:
         <a href="http://google.com"><img src="http://cdn.arstechnica.net/wp-content/uploads/2016/02/5718897981_10faa45ac3_b-640x624.jpg" width="150"></a>
         <p>What is yor name?</p>
         <p>How old are you?</p>
-        <p>Whereare you from?</p>
+        <p>Where are you from?</p>
 
         <a href="#"> Link </a>
         <br/>

@@ -1,7 +1,37 @@
-# Redux FAQ
+# HTML and CSS
 
-## Table of Contents
+HTML stands for **HyperText Markup Language**. Hypertext means "text wth links in it".
 
-* **General** - [When should I use Redux?](#general-when-to-use)  - [Can Redux only be used with React?](#general-only-react)  - [Do I need to have a particular build tool to use Redux?](#general-build-tools) - **Reducers** - [How do I share state between two reducers? Do I have to use combineReducers?](#reducers-share-state)  - [Do I have to use the switch statement to handle actions?](#reducers-use-switch) - **Organizing State** - [Do I have to put all my state into Redux? Should I ever use React's setState\(\)?](#organizing-state-only-redux-state)  - [Can I put functions, promises, or other non-serializable items in my store state?](#organizing-state-non-serializable)  - [How do I organize nested or duplicate data in my state?](#organizing-state-nested-data) - **Store Setup** - [Can or should I create multiple stores? Can I import my store directly, and use it in components myself?](#store-setup-multiple-stores)  - \[Is it OK to have more than one middleware chain in my store enhancer? What is the difference between next and dispatch in a middleware function?\]\(
+A markup language is a programming language used to make text do more than just sit on a page: it can turn text into images, links, tables, lists and much more.
 
+Here is a example of HTML
 
+```<!DOCTYPE html><html> <head> </head> <body>
+
+ </body>
+
+</html>
+
+```
+
+1. Things inside `<>`s are called **tags.**
+
+2. Tags nearly always come in pairs: an opening tag and a closing tag.
+
+3. Example of opening tag: &lt;html&gt;
+
+> Always put `<!DOCTYPE html>` on the first line. This tells the browser what language it's reading \(in this case, HTML\).
+
+**Make the head**
+
+There are always two parts to an HTML file: the head and the body. Let's start with the head.
+
+The head contains information about your HTML file, like its title. The title is what we see in the browser's title bar or page tab.
+
+**Paragraphs in the body**
+
+The body is where you put your content, such as text, images, and links. The content in the body is what will be visible on the actual page.
+
+\`\`\`
+
+\`\`\`

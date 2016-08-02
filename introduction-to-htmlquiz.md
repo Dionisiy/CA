@@ -38,7 +38,7 @@ For this tag to display an image, what must you replace "\#" with?
 
 HTML is a "markup language." What does that mean?
 
-Answer: It turns text into images, links, tables, lists more
+**Answer**: It turns text into images, links, tables, lists more
 
 What element\(s\) will you find inside a body tag?
 

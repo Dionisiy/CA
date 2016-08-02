@@ -34,7 +34,7 @@ For this tag to display an image, what must you replace "\#" with?
 
 `<img src="#">`
 
-Answer: An image URL
+**Answer**: An image URL
 
 HTML is a "markup language." What does that mean?
 

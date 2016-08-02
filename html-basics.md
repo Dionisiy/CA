@@ -4,6 +4,8 @@ HTML stands for **HyperText Markup Language**. Hypertext means "text wth links i
 
 A markup language is a programming language used to make text do more than just sit on a page: it can turn text into images, links, tables, lists and much more.
 
+HTML is used to give websites structure.
+
 Here is a example of HTML
 
 ```auto
@@ -34,6 +36,8 @@ There are always two parts to an HTML file: the head and the body. Let's start w
 
 The head contains information about your HTML file, like its title. The title is what we see in the browser's title bar or page tab.
 
+In the head, we have the &lt;title&gt; tags, and we use these to specify the webpage's name.
+
 ### **Paragraphs in the body**
 
 The body is where you put your content, such as text, images, and links. The content in the body is what will be visible on the actual page.
@@ -54,8 +58,6 @@ The body is where you put your content, such as text, images, and links. The con
 </html> 
 ```
 
-
-
 ### **Paragraphs and headings**
 
 HTML actually lets us have more than one heading size. There are six heading sizes:
@@ -70,40 +72,34 @@ HTML actually lets us have more than one heading size. There are six heading siz
 ```
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>
-			Headings & Paragraphs
-		</title>
-		
-	</head>
-	<body>
-		
+    <head>
+        <title>
+            Headings & Paragraphs
+        </title>
+
+    </head>
+    <body>
+
     <h1>This is a heading</h1>
-	<p>This is a paragraph</p>
-	
-	<h2>This is a heading</h2>
-	<p>This is a paragraph</p>
-	
-	<h3>This is a heading</h3>
-	<p>This is a paragraph</p>
-	
-	<h4>This is a heading</h4>
-	<p>This is a paragraph</p>
-	
-	<h5>This is a heading</h5>
-	<p>This is a paragraph</p>
-	
-	<h6>This is a heading</h6>
-	<p>This is a paragraph</p>
-	</body>
+    <p>This is a paragraph</p>
+
+    <h2>This is a heading</h2>
+    <p>This is a paragraph</p>
+
+    <h3>This is a heading</h3>
+    <p>This is a paragraph</p>
+
+    <h4>This is a heading</h4>
+    <p>This is a paragraph</p>
+
+    <h5>This is a heading</h5>
+    <p>This is a paragraph</p>
+
+    <h6>This is a heading</h6>
+    <p>This is a paragraph</p>
+    </body>
 </html>
 ```
 
-
-
 ### Adding images to your page
-
-
-
-
 

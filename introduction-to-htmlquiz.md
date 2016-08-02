@@ -58,7 +58,7 @@ Answer: The very first line
 
 Which of these lines of HTML, by default, will display the text with the largest font size?
 
-&lt;p&gt;Welcome to New York&lt;\/p&gt;
+`<p>Welcome to New York</p>`
 
 &lt;h4&gt;Welcome to New York&lt;\/h4&gt;
 

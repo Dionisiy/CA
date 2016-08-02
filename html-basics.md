@@ -101,5 +101,9 @@ HTML actually lets us have more than one heading size. There are six heading siz
 </html>
 ```
 
-### Adding images to your page
+### Adding images and links to your page
+
+First, there's an opening `<a>` tag and that tag has an attribute called`href`. The `href` value tells your link where you want it to go
+
+
 

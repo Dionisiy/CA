@@ -14,7 +14,7 @@ This HTML anchor tag will not work. Why?
 
 Below is a paragraph element, what is a benefit of inputting text into one?
 
-Answer: It allows the text to be styled
+**Answer**: It allows the text to be styled
 
 What will happen if you click on this image on a webpage?
 

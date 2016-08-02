@@ -32,7 +32,7 @@ Answer: HTML gives a webpage structure. CSS provides styling.
 
 For this tag to display an image, what must you replace "\#" with?
 
-&lt;img src="\#"&gt;
+`<img src="#">`
 
 Answer: An image URL
 
@@ -46,13 +46,13 @@ Answer: Headings, paragraphs, links and images
 
 What is the purpose of this code?
 
-&lt;!DOCTYPE html&gt;
+`<!DOCTYPE html>`
 
 Answer: Tells the web browser what language to expect \(in this case, HTML\)
 
 Where in your HTML document should you include this code?
 
-&lt;!DOCTYPE html&gt;
+`<!DOCTYPE html>`
 
 Answer: The very first line
 

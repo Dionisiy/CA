@@ -32,6 +32,10 @@ The head contains information about your HTML file, like its title. The title is
 
 The body is where you put your content, such as text, images, and links. The content in the body is what will be visible on the actual page.
 
-\`\`\`
+```<!DOCTYPE html><html> <head> <title> my webpage</title> </head> <body>
 
-\`\`\`
+ <p>Hello, World!</p> <p>This is a paragraph</p>  </body>
+
+</html>```
+
+

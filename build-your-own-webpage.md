@@ -8,7 +8,7 @@ You can see the code  below:
 <!DOCTYPE>
 <html>
     <head>
-        <title>web page</title>
+        <title>Web page</title>
     </head>
     <body>
         <h1>Big Brother is looking after you!!!</h1>

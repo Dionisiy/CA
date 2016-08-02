@@ -42,7 +42,7 @@ Answer: It turns text into images, links, tables, lists more
 
 What element\(s\) will you find inside a body tag?
 
-Answer: Headings, paragraphs, links and images
+**Answer**: Headings, paragraphs, links and images
 
 What is the purpose of this code?
 

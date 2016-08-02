@@ -24,7 +24,7 @@ What will happen if you click on this image on a webpage?
 
 `</a>`
 
-You will be redirected to http:\/\/www.pgtips.co.uk
+**Answer**:You will be redirected to http:\/\/www.pgtips.co.uk
 
 What is the difference between HTML and CSS?
 

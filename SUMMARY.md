@@ -1,6 +1,6 @@
 # Summary
 
 * [HTML&CSS](README.md)
-    * [HTML Basics](adada.md)
-    * [12](12.md)
+    * [Introduction to HTML](adada.md)
+        * [HTML Basics](html-basics.md)
 

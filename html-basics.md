@@ -105,6 +105,21 @@ HTML actually lets us have more than one heading size. There are six heading siz
 
 First, there's an opening `<a>` tag and that tag has an attribute called`href`. The `href` value tells your link where you want it to go.Then you have a description of your link between your opening `<a>`and your closing `</a>` tags. This is what you will be able to click on.
 
+`<img src="url" />`  - tag uses for adding image to a web page.
+
+Here is an example how to use images and link on the web page:
+
+`<!DOCTYPE html>
+<html>
+	<head>
+		<title>Images and links</title>
+	</head>
+	<body>
+		<img src="http://s3.amazonaws.com/codecademy-blog/assets/f3a16fb6.jpg"/>
+	 <a href="http://google.com"><img src="http://s3.amazonaws.com/codecademy-blog/assets/ninja_zpsa5dbe37a.jpg"/></a>
+	</body>
+</html>`
+
 
 
 

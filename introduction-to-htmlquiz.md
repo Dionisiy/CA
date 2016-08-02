@@ -62,7 +62,9 @@ Which of these lines of HTML, by default, will display the text with the largest
 
 &lt;h4&gt;Welcome to New York&lt;\/h4&gt;
 
-&lt;h1&gt;Welcome to New York&lt;\/h1&gt;
+```
+<h1>Welcome to New York</h1>
+```
 
 `<span>Welcome to New York</span>`
 

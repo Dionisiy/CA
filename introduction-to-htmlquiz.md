@@ -54,7 +54,7 @@ Where in your HTML document should you include this code?
 
 `<!DOCTYPE html>`
 
-Answer: The very first line
+**Answer**: The very first line
 
 Which of these lines of HTML, by default, will display the text with the largest font size?
 

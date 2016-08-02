@@ -4,7 +4,7 @@ What is the function of the tag below?
 
 `<title> Jane's Website </title>`
 
-Answer: It stores the webpage title for browser and search engine results
+**Answer**: It stores the webpage title for browser and search engine results
 
 This HTML anchor tag will not work. Why?
 

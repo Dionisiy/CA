@@ -10,7 +10,7 @@ This HTML anchor tag will not work. Why?
 
 `<a href=https://www.codecademy.com/>click here</a>`
 
-Answer: The URL is missing quotation marks
+**Answer**: The URL is missing quotation marks
 
 Below is a paragraph element, what is a benefit of inputting text into one?
 

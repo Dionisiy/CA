@@ -8,5 +8,5 @@
     * [HTML Structure: Using Lists](html-structure-using-lists.md)
         * [HTML Basics II](html-basics-ii.md)
         * [Social Networking Profile](social-networking-profile.md)
-        * HTML Structure: Using Lists:Quiz
+        * [HTML Structure: Using Lists:Quiz](html-structure-using-listsquiz.md)
 

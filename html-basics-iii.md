@@ -37,5 +37,11 @@ The cat was playing in the garden.
 
 The **&lt;button&gt;** element defines a clickable **button**:
 
+```
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+```
+
+
+
 
 

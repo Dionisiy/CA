@@ -153,8 +153,6 @@ To change the color of text, simply add the style attribute in the opening tag, 
 
 ### **Font family**
 
-
-
 We can do this using `font-family to change font in our tag.`
 
 ```
@@ -162,6 +160,29 @@ We can do this using `font-family to change font in our tag.`
 ```
 
 
+
+### **Background color**
+
+
+
+We can use the `style` attribute again, and set it equal to `"background-color: red"` \(or whatever color you want\).
+
+```
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>Background color!</title>
+	</head>
+	<body style="background-color:brown;">
+		<h3>Favorite Football Teams</h3>
+			<ol style="background-color:yellow;">
+				<li>The Hawthorn Football Club</li>	
+				<li>San Franscisco 49ers</li>
+				<li>Barcelona FC</li>
+			</ol>			
+	</body>
+</html>
+```
 
 
 

@@ -8,3 +8,9 @@ Embedding media in your HTML document is trivial:
 
 
 
+```
+<video src="url" controls>
+  Your browser does not support the <code>video</code> element.
+</video>
+```
+

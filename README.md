@@ -26,3 +26,9 @@ The `src` attribute can be a URL of the audio file or the path to the file on th
 
 
 
+This code example uses attributes of the [`<audio>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio "The HTML <audio> element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the <source> element; the browser will choose the most suitable one.") element:
+
+* `controls` : Displays the standard HTML5 controls for the audio on the web page.
+* `autoplay` : Makes the audio play automatically.
+* `loop` : Make the audio repeat \(loop\) automatically.
+

@@ -12,5 +12,6 @@
         * [HTML Basics II](html-basics-ii.md)
         * [Social Networking Profile](social-networking-profile.md)
         * [HTML Structure: Using Lists:Quiz](html-structure-using-listsquiz.md)
-        * External Resources
+        * [External Resources](external-resources.md)
+            * Audio and Video
 

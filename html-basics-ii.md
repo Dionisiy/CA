@@ -44,3 +44,12 @@ The exapmle of ordered list below.
 ```
 
 Because each listed item is only on one line, we put the entire **element** on one line.
+
+
+
+**Unordered lists**
+
+The &lt;ul&gt; tag defines an unordered \(bulleted\) list.
+
+
+

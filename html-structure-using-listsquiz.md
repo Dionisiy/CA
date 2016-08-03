@@ -53,3 +53,7 @@
 
 **Answer**: The style attribute
 
+
+
+7\) Which of these statements is true about the code below?
+

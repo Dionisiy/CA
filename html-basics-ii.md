@@ -22,24 +22,25 @@ The exapmle of ordered list below.
 ```
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Lists</title>
-	</head>
-	<body>
-		<h1>List of my favorite things</h1>
-		<ol>
-			<li>Raindrops on roses</li>
-			<li>Whiskers on kittens</li>
-			<li>Bright copper kettles</li>
-			<li>Warm woolen mittens</li>
-		</ol>
-		<h2>List of things I find just OK</h2>
-		<ol>
-		    <li>first</li>
-		    <li>second</li>
-		    <li>third</li>
-		</ol>
-	</body>
+    <head>
+        <title>Lists</title>
+    </head>
+    <body>
+        <h1>List of my favorite things</h1>
+        <ol>
+            <li>Raindrops on roses</li>
+            <li>Whiskers on kittens</li>
+            <li>Bright copper kettles</li>
+            <li>Warm woolen mittens</li>
+        </ol>
+        <h2>List of things I find just OK</h2>
+        <ol>
+            <li>first</li>
+            <li>second</li>
+            <li>third</li>
+        </ol>
+    </body>
 </html>
 ```
 
+Because each listed item is only on one line, we put the entire **element** on one line.

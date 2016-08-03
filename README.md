@@ -24,11 +24,22 @@ Here is an example for embedding _audio_ into your HTML document
 
 The `src` attribute can be a URL of the audio file or the path to the file on the local system.
 
-
-
-This code example uses attributes of the [`<audio>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio "The HTML <audio> element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the <source> element; the browser will choose the most suitable one.") element:
+This code example uses attributes of the `<audio>` element:
 
 * `controls` : Displays the standard HTML5 controls for the audio on the web page.
 * `autoplay` : Makes the audio play automatically.
 * `loop` : Make the audio repeat \(loop\) automatically.
+
+
+Multiple source files can be specified using the [`<source>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source "Editorial review completed.") element in order to provide video or audio encoded in different formats for different browsers. For instance:
+
+
+
+```
+<video controls>
+  <source src="SampleVideo.ogv" type="video/ogv">
+  <source src="SampleVideo.mp4" type="video/mp4">
+  Your browser does not support the <code>video</code> element.
+</video>
+```
 

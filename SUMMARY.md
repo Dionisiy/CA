@@ -13,5 +13,5 @@
         * [Social Networking Profile](social-networking-profile.md)
         * [HTML Structure: Using Lists:Quiz](html-structure-using-listsquiz.md)
         * [External Resources](external-resources.md)
-            * Audio and Video
+            * HTML5 Audio and Video
 

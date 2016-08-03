@@ -143,23 +143,27 @@ We use the `style` attribute to change style of ouw tags.
 </html>
 ```
 
-
-
 ### **Font color**
 
-
-
 To change the color of text, simply add the style attribute in the opening tag, then make the style equal to "color:blue".
-
-
 
 ```
 <h2 style="color:red">
 ```
 
-
-
 ### **Font family**
+
+
+
+We can do this using `font-family to change font in our tag.`
+
+```
+<li style="font-family: Arial">Hello!</li>
+```
+
+
+
+
 
 
 

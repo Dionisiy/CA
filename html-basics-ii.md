@@ -159,32 +159,40 @@ We can do this using `font-family to change font in our tag.`
 <li style="font-family: Arial">Hello!</li>
 ```
 
-
-
 ### **Background color**
-
-
 
 We can use the `style` attribute again, and set it equal to `"background-color: red"` \(or whatever color you want\).
 
 ```
  <!DOCTYPE html>
 <html>
-	<head>
-		<title>Background color!</title>
-	</head>
-	<body style="background-color:brown;">
-		<h3>Favorite Football Teams</h3>
-			<ol style="background-color:yellow;">
-				<li>The Hawthorn Football Club</li>	
-				<li>San Franscisco 49ers</li>
-				<li>Barcelona FC</li>
-			</ol>			
-	</body>
+    <head>
+        <title>Background color!</title>
+    </head>
+    <body style="background-color:brown;">
+        <h3>Favorite Football Teams</h3>
+            <ol style="background-color:yellow;">
+                <li>The Hawthorn Football Club</li>    
+                <li>San Franscisco 49ers</li>
+                <li>Barcelona FC</li>
+            </ol>            
+    </body>
 </html>
 ```
 
 
+
+### **Aligning the text**
+
+
+
+We can use `text-align:left ` property in `style` attribute ro determine the location of the text.
+
+
+
+```
+<h1 style="text-align:center">
+```
 
 
 

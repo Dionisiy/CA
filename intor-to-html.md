@@ -38,15 +38,13 @@ The paragraph element consists of the start tag "`<p>`" and the closing tag "`</
 
 Usually [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element "elements: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:") containing content can also contain other elements. For example, the emphasis element \("&lt;em&gt;"\) can be embedded within a paragraph element, to add emphasis to a word or phrase:
 
-The browser uses [tags](https://developer.mozilla.org/en-US/docs/Glossary/Tag "tags: In HTML a tag is used for creating an element.  The name of an HTML element is the name used in angle brackets such as <p> for paragraph.  Note that the end tag's name is preceded by a slash character, "</p>", and that in empty elements the end tag is neither required nor allowed. If attributes are not mentioned, default values are used in each case.") as an indicator of how to display the content in the tags.
+The browser uses [tags](https://developer.mozilla.org/en-US/docs/Glossary/Tag "tags: In HTML a tag is used for creating an element.  The name of an HTML element is the name used in angle brackets such as <p> for paragraph.  Note that the end tag's name is preceded by a slash character, "</p>", and that in empty elements the end tag is neither required nor allowed. If attributes are not mentioned, default values are used in each case.") as an indicator of how to display the content in the tags.
 
-Usually [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element "elements: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:") containing content can also contain other elements. For example, the emphasis element \("&lt;em&gt;"\) can be embedded within a paragraph element, to add emphasis to a word or phrase:
-
-
+Usually [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element "elements: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:") containing content can also contain other elements. For example, the emphasis element \("&lt;em&gt;"\) can be embedded within a paragraph element, to add emphasis to a word or phrase:
 
 
 
-
-
-
+```
+<p>You are <em>beginning</em> to learn HTML.</p>
+```
 

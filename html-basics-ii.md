@@ -132,20 +132,34 @@ We use the `style` attribute to change style of ouw tags.
 ```
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>First font size change</title>
-	</head>
-	<body>
-		<p style = "font-size: 10px"> Some text for you to make tiny! </p>
-		<p style = "font-size: 20px" > Some text for you to make normal size!</p>
-		<p style = "font-size: 40px" > Some text for you to make super big!</p>
-	</body>
+    <head>
+        <title>First font size change</title>
+    </head>
+    <body>
+        <p style = "font-size: 10px"> Some text for you to make tiny! </p>
+        <p style = "font-size: 20px" > Some text for you to make normal size!</p>
+        <p style = "font-size: 40px" > Some text for you to make super big!</p>
+    </body>
 </html>
 ```
 
 
 
+### **Font color**
 
+
+
+To change the color of text, simply add the style attribute in the opening tag, then make the style equal to "color:blue".
+
+
+
+```
+<h2 style="color:red">
+```
+
+
+
+### **Font family**
 
 
 

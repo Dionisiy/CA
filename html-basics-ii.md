@@ -75,69 +75,75 @@ The example of unordered list is below
 
 Example of nested list:
 
-
-
 ```
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Nested lists</title>
-	</head>
-	<body>
-		<ol>
-			<li>Dad's interests
-				<ul>
-					<li>football</li>
-					<li>knitting</li>
-				</ul>
-			</li>
-			<li>Mom's interests
-				<ul>
-					<li>hating football</li>
-					<li>skydiving</li>
-				</ul>
-			</li>
-		</ol>
-		<ul>
-		    <li>Favorite Boys' Names
-		        <ol>
-		            <li>Name 1</li>
-		            <li>Name 2</li>
-		        </ol>
-		    </li>
-		    <li>Favorite Girls' Names.
-		        <ol>
-		            <li>Name 1</li>
-		            <li>Name 2</li>
-		        </ol>
-		    </li>
-		</ul>
-	</body>
+    <head>
+        <title>Nested lists</title>
+    </head>
+    <body>
+        <ol>
+            <li>Dad's interests
+                <ul>
+                    <li>football</li>
+                    <li>knitting</li>
+                </ul>
+            </li>
+            <li>Mom's interests
+                <ul>
+                    <li>hating football</li>
+                    <li>skydiving</li>
+                </ul>
+            </li>
+        </ol>
+        <ul>
+            <li>Favorite Boys' Names
+                <ol>
+                    <li>Name 1</li>
+                    <li>Name 2</li>
+                </ol>
+            </li>
+            <li>Favorite Girls' Names.
+                <ol>
+                    <li>Name 1</li>
+                    <li>Name 2</li>
+                </ol>
+            </li>
+        </ul>
+    </body>
 </html>
 ```
 
-
-
 ### **Making comments**
 
-
-
 You can include little notes in your HTML code that the browser won't display. But it will be in the code to help you remember why you did certain things.
-
-
 
 ```
 <!--Make me into a comment.-->
 
 ```
 
-
-
 ### **Font size**
 
-
-
 We can give tags more instructions by including **attributes** in the opening tag. An attribute is simply a characteristic or some description for the content in the element. You saw this with `src` in `<img>` and `href` in`<a>`.
+
+We use the `style` attribute to change style of ouw tags.
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>First font size change</title>
+	</head>
+	<body>
+		<p style = "font-size: 10px"> Some text for you to make tiny! </p>
+		<p style = "font-size: 20px" > Some text for you to make normal size!</p>
+		<p style = "font-size: 40px" > Some text for you to make super big!</p>
+	</body>
+</html>
+```
+
+
 
 
 

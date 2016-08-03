@@ -53,7 +53,29 @@
 
 **Answer**: The style attribute
 
+7\) Which of these statements is true about the code below
+
+```
+<ol>
+      <li>Mammals</li>
+            <ul>
+                  <li>Black Bear</li>
+                  <li>Sea Lion</li>
+                  <li>Bat</li>
+            </ul>
+
+      <li>Reptiles</li>
+            <ul>
+                  <li>Anole</li>
+                  <li>Spiny Lizard</li>
+                  <li>Gecko</li>
+            </ul>
+</ol>
+```
 
 
-7\) Which of these statements is true about the code below?
+
+Answer: Unordered list items will be preceded by a bullet point
+
+
 

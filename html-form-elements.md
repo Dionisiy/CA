@@ -27,7 +27,13 @@ The **&lt;option&gt;** elements defines the options to select.
 
 The **&lt;textarea&gt;** element defines a multi-line input field \(**a text area**\):
 
+```
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+```
 
+### The &lt;button&gt; Element
 
-
+The **&lt;button&gt;** element defines a clickable **button**:
 

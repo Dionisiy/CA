@@ -42,6 +42,5 @@
   <h1 style="text-align:______">
   ```
 
-  **Answer**:  center, left, right
 
 

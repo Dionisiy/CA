@@ -180,19 +180,32 @@ We can use the `style` attribute again, and set it equal to `"background-color: 
 </html>
 ```
 
-
-
 ### **Aligning the text**
 
-
-
-We can use `text-align:left ` property in `style` attribute ro determine the location of the text.
-
-
+We can use `text-align:left` property in `style` attribute ro determine the location of the text.
 
 ```
 <h1 style="text-align:center">
 ```
 
 
+
+### **Strong words!**
+
+We can change the appearance of words through the tag `<strong> </strong> .`
+
+
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Viva La Revolution!</title>
+	</head>
+	<body>
+		<p>Do you hear the people <strong>sing</strong>?</p>
+		<p>No I don't. I'm <strong>too</strong> busy eating cake.</p>
+	</body>
+</html>
+```
 

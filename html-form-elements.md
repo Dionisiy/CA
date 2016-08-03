@@ -8,3 +8,7 @@ The &lt;input&gt; element can vary in many ways, depending on the **type** attri
 
 > All HTML input types are covered in the next chapter.
 
+
+
+
+

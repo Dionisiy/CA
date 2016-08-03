@@ -42,3 +42,7 @@ Multiple source files can be specified using the `<source>` element in order to 
 
 Controlling an HTML5 audio player to play, pause, increase and decrease volume using some Javascript is straightforward.
 
+
+
+[See the code](https://denishromenko.gitbooks.io/codeacademy_doc/content/html_structure_using_lists/external-ex.html)
+

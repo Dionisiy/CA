@@ -32,8 +32,6 @@ This code example uses attributes of the `<audio>` element:
 
 Multiple source files can be specified using the `<source>` element in order to provide video or audio encoded in different formats for different browsers. For instance:
 
-
-
 ```
 <video controls>
   <source src="SampleVideo.ogv" type="video/ogv">
@@ -42,7 +40,5 @@ Multiple source files can be specified using the `<source>` element in order to 
 </video>
 ```
 
-
-
-
+Controlling an HTML5 audio player to play, pause, increase and decrease volume using some Javascript is straightforward.
 

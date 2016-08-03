@@ -14,4 +14,7 @@
         * [HTML Structure: Using Lists:Quiz](html-structure-using-listsquiz.md)
         * [External Resources](external-resources.md)
             * [HTML5 Audio and Video](html5-audio-and-video.md)
+    * [HTML Structure: Tables,Divs, Spans](html-structure-tablesdivs-spans.md)
+        * HTML Basics III
+        * Clickable Photo Page
 

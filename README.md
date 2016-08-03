@@ -14,3 +14,13 @@ Embedding media in your HTML document is trivial:
 
 This example plays a sample video, with playback controls.
 
+
+
+Here is an example for embedding _audio_ into your HTML document
+
+```
+<audio src="/test/audio.ogg">
+<p>Your browser does not support the <code>audio</code> element.</p>
+</audio>
+```
+

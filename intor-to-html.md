@@ -48,7 +48,7 @@ Usually [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element "el
 
 ## **Elements — the basic building blocks**
 
-[HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML "HTML: HTML (HyperText Markup Language) is a descriptive language that specifies webpage structure.") consists of a set of **[elements](https://developer.mozilla.org/en-US/docs/Glossary/Element "elements: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:")**, which define the **semantic** meaning of their content. Elements include two matching [tags](https://developer.mozilla.org/en-US/docs/Glossary/tag "tags: In HTML a tag is used for creating an element.  The name of an HTML element is the name used in angle brackets such as <p> for paragraph.  Note that the end tag's name is preceded by a slash character, "</p>", and that in empty elements the end tag is neither required nor allowed. If attributes are not mentioned, default values are used in each case.") and everything in between. For example, the "&lt;p&gt;" element indicates a paragraph; the "&lt;img&gt;" element indicates an image. See the [HTML Elements](https://developer.mozilla.org/en-US/docs/HTML/Element "HTML/Element") page for a complete list. _Note: Some tags are self-closing and do not contain any content._
+[HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML "HTML: HTML (HyperText Markup Language) is a descriptive language that specifies webpage structure.") consists of a set of [**elements**](https://developer.mozilla.org/en-US/docs/Glossary/Element "elements: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:"), which define the **semantic** meaning of their content. Elements include two matching [tags](https://developer.mozilla.org/en-US/docs/Glossary/tag "tags: In HTML a tag is used for creating an element.  The name of an HTML element is the name used in angle brackets such as <p> for paragraph.  Note that the end tag's name is preceded by a slash character, "</p>", and that in empty elements the end tag is neither required nor allowed. If attributes are not mentioned, default values are used in each case.") and everything in between. For example, the "&lt;p&gt;" element indicates a paragraph; the "&lt;img&gt;" element indicates an image. See the [HTML Elements](https://developer.mozilla.org/en-US/docs/HTML/Element "HTML/Element") page for a complete list. _Note: Some tags are self-closing and do not contain any content._
 
 Some [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element "elements: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:") have very precise meaning, as in "this is an image", "this is a heading", or "this is an ordered list." Others are less specific, such as "this is a section on the page" or "this is part of the text." Yet others are used for technical reasons, such as "this is identifying information for the page, so do not display it." Regardless, in one way or another all HTML elements have a semantic value.
 
@@ -66,26 +66,20 @@ Most elements may contain other elements, forming a hierarchical structure. A ve
 </html>
 ```
 
-As you can see, the [`<html>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html "The HTML <html> element (or HTML root element) represents the root of an HTML document. All other elements must be descendants of this element.") [element](https://developer.mozilla.org/en-US/docs/Glossary/element "element: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:") surrounds the rest of the document, and the [`<body>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body "The HTML <body> Element represents the content of an HTML document. There can be only one <body> element in a document.") [element](https://developer.mozilla.org/en-US/docs/Glossary/element "element: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:") surrounds the page content. This structure is often thought of as a tree with branches \(in this case, the &lt;body&gt; and &lt;p&gt; elements\) growing from the trunk \(&lt;html&gt;\). This hierarchical structure is called the [**DOM**](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).") \(document object model\).
-
-
+As you can see, the `<html>` [element](https://developer.mozilla.org/en-US/docs/Glossary/element "element: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:") surrounds the rest of the document, and the `<body>` [element](https://developer.mozilla.org/en-US/docs/Glossary/element "element: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:") surrounds the page content. This structure is often thought of as a tree with branches \(in this case, the &lt;body&gt; and &lt;p&gt; elements\) growing from the trunk \(&lt;html&gt;\). This hierarchical structure is called the **[DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).")** \(document object model\).
 
 ## **Tags**
 
 [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML "HTML: HTML (HyperText Markup Language) is a descriptive language that specifies webpage structure.") documents are written in plain text. You can write HTML in any text editor that lets you save content as plain text \(e.g. Notepad, Notepad++, or Sublime Text\), but most HTML authors prefer to use a specialized editor that highlights syntax and shows the [DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).").
 
-
-
 ## **Attributes**
 
-The start tag may contain additional information, as in the preceding example. Such information is called an [**attribute**](https://developer.mozilla.org/en-US/docs/Glossary/attribute "attribute: An attribute extends a tag, changing tag behavior or providing metadata. An attribute always has the form name=value (giving the attribute's identifier and the attribute's associated value)."). Attributes usually consist of 2 parts:
+The start tag may contain additional information, as in the preceding example. Such information is called an **[attribute](https://developer.mozilla.org/en-US/docs/Glossary/attribute "attribute: An attribute extends a tag, changing tag behavior or providing metadata. An attribute always has the form name=value (giving the attribute's identifier and the attribute's associated value).")**. Attributes usually consist of 2 parts:
 
 * An attribute **name**
 * An attribute **value**
 
 A few attributes can only have one value. They are **Boolean** attributes and may be shortened by only specifying the attribute name or leaving the attribute value empty. Thus, the following 3 examples have the same meaning:
-
-
 
 ```
 <input required="required">
@@ -94,6 +88,8 @@ A few attributes can only have one value. They are **Boolean** attributes and ma
 
 <input required>
 ```
+
+
 
 
 

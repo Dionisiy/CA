@@ -30,10 +30,7 @@ This code example uses attributes of the `<audio>` element:
 * `autoplay` : Makes the audio play automatically.
 * `loop` : Make the audio repeat \(loop\) automatically.
 
-
-Multiple source files can be specified using the [`<source>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source "Editorial review completed.") element in order to provide video or audio encoded in different formats for different browsers. For instance:
-
-
+Multiple source files can be specified using the `<source>` element in order to provide video or audio encoded in different formats for different browsers. For instance:
 
 ```
 <video controls>
@@ -42,4 +39,10 @@ Multiple source files can be specified using the [`<source>`](https://developer.
   Your browser does not support the <code>video</code> element.
 </video>
 ```
+
+
+
+Controlling an HTML5 audio player to play, pause, increase and decrease volume using some Javascript is straightforward.
+
+
 

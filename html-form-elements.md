@@ -49,8 +49,6 @@ Users will see a drop-down list of pre-defined options as they input data.
 
 The **list** attribute of the &lt;input&gt; element, must refer to the **id** attribute of the &lt;datalist&gt; element.
 
-
-
 ```
 <form action="action_page.php">
   <input list="browsers">

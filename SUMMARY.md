@@ -5,6 +5,8 @@
         * [HTML Basics](html-basics.md)
         * [Build Your Own Webpage](build-your-own-webpage.md)
         * [Introduction to HTML:Quiz](introduction-to-htmlquiz.md)
+        * [External Resourses](external-resourses.md)
+            * How the Internet Works
     * [HTML Structure: Using Lists](html-structure-using-lists.md)
         * [HTML Basics II](html-basics-ii.md)
         * [Social Networking Profile](social-networking-profile.md)

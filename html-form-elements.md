@@ -12,3 +12,22 @@ The &lt;input&gt; element can vary in many ways, depending on the **type** attri
 
 The **&lt;select&gt;** element defines a **drop-down** list:
 
+```
+<select name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+```
+
+The **&lt;option&gt;** elements defines the options to select.
+
+### The &lt;textarea&gt; Element
+
+The **&lt;textarea&gt;** element defines a multi-line input field \(**a text area**\):
+
+
+
+
+

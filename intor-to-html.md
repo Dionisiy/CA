@@ -10,5 +10,19 @@ The [HTML specification](http://www.w3.org/html/wg/drafts/html/master/ "http://w
 
 [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML "HTML: HTML (HyperText Markup Language) is a descriptive language that specifies webpage structure.") is a** markup language**. "Markup" now means something slightly different: a language with specific syntax that instructs a Web browser how to display a page.
 
-HTML separates "content" \(words, images, audio, video, and so on\) from "presentation" \(instructions for displaying each type of content\). [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML "HTML: HTML (HyperText Markup Language) is a descriptive language that specifies webpage structure.") uses a pre-defined set of [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element "elements: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:") to define content types. 
+HTML separates "content" \(words, images, audio, video, and so on\) from "presentation" \(instructions for displaying each type of content\). [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML "HTML: HTML (HyperText Markup Language) is a descriptive language that specifies webpage structure.") uses a pre-defined set of [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element "elements: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:") to define content types.
+
+
+
+The basic HTML code structure is shown below:
+
+
+
+```
+
+```
+
+> _Most browsers allow the user to view the HTML of any webpage. In Firefox, for example, press Ctrl + U to view the page source._ Beginners will find the code nearly unreadable for a complex page, but if you spend some time looking at the code for a simple page and comparing it to the page the code renders, you will soon develop a clear understanding of how the syntax works.
+
+
 

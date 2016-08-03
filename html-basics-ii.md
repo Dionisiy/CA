@@ -13,7 +13,7 @@ Indentation—that is, the amount each line is spaced in from the margin.it is n
 </html>
 ```
 
-## **Ordered lists**
+### **Ordered lists**
 
 An ordered list is simply a list that is numbered.
 
@@ -45,11 +45,35 @@ The exapmle of ordered list below.
 
 Because each listed item is only on one line, we put the entire **element** on one line.
 
-
-
-**Unordered lists**
+### **Unordered lists**
 
 The &lt;ul&gt; tag defines an unordered \(bulleted\) list.
+
+The example of unordered list is below
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Unordered Lists</title>
+	</head>
+	<body>
+	
+	    <h1>Some random thoughts</h1>
+	    <p>Some recipe</p>
+	    <ul>
+	        <li>some ingridient</li>
+	        <li>some ingridient</li>
+	        <li>another ingridient</li>
+	        <li>fourth ingridient</li>
+	    </ul>
+	</body>
+</html>
+```
+
+
+
+### **Lists inside a list**
 
 
 

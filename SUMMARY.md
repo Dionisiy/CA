@@ -7,6 +7,7 @@
         * [Introduction to HTML:Quiz](introduction-to-htmlquiz.md)
         * [External Resourses](external-resourses.md)
             * [How the Internet Works](how-the-internet-works.md)
+            * [Intro to HTML](intor-to-html.md)
     * [HTML Structure: Using Lists](html-structure-using-lists.md)
         * [HTML Basics II](html-basics-ii.md)
         * [Social Networking Profile](social-networking-profile.md)

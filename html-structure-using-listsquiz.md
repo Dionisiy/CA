@@ -73,9 +73,5 @@
 </ol>
 ```
 
-
-
-Answer: Unordered list items will be preceded by a bullet point
-
-
+**Answer**: Unordered list items will be preceded by a bullet point
 

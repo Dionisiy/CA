@@ -4,5 +4,5 @@ In this task you must use your knowledge to create webpage that consist in headi
 
 You can see the code  below:
 
-[link](https://denishromenko.gitbooks.io/codeacademy_doc/content/test/index.html)
+[See the code](https://denishromenko.gitbooks.io/codeacademy_doc/content/test/index.html)
 

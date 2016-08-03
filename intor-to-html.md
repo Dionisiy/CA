@@ -32,11 +32,9 @@ The basic HTML code structure is shown below:
 
 The paragraph element consists of the start tag "`<p>`" and the closing tag "`</p>`". The following example shows a paragraph contained within the HTML paragraph element. Remember that your browser will not display more than one space character in a row.
 
-
-
-
-
-
+```
+<p>You are beginning to learn HTML.</p>
+```
 
 Usually [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element "elements: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:") containing content can also contain other elements. For example, the emphasis element \("&lt;em&gt;"\) can be embedded within a paragraph element, to add emphasis to a word or phrase:
 

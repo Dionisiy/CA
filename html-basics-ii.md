@@ -2,20 +2,26 @@
 
 Indentation—that is, the amount each line is spaced in from the margin.it is necessary to improve the readability of the code.
 
-
-
 ```
 <!DOCTYPE html>
 <html>
-	<head>
-		<title></title>
-	</head>
-	<body>
-	</body>
+    <head>
+        <title></title>
+    </head>
+    <body>
+    </body>
 </html>
 ```
 
+## **Ordered lists**
+
+An ordered list is simply a list that is numbered.
+
+The exapmle of ordered list below.
 
 
 
+```
+
+```
 

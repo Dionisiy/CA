@@ -51,3 +51,20 @@ The **list** attribute of the &lt;input&gt; element, must refer to the **id** at
 
 
 
+```
+<form action="action_page.php">
+  <input list="browsers">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist> 
+</form>
+```
+
+
+
+
+

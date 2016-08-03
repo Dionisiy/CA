@@ -205,13 +205,24 @@ We can change the appearance of words through the tag `<strong> </strong> .`
 </html>
 ```
 
-
-
 ### **Emphasize words!**
 
+Aside from bolding words, we often want to _italicize_ words for **em**phasis. We can do it through the tag `<em>`
 
 
-Aside from bolding words, we often want to _italicize_ words for **em**phasis. 
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Some nice practice</title>
+	</head>
+	<body>
+		<p>Hey, don't say <em>that</em>!</p>
+		<p>I am <em>so</em> tired.</p>
+	</body>
+</html>
+```
 
 
 

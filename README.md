@@ -1,10 +1,6 @@
 # 
 
-```
-This example plays a sample video, with playback controls.
-```
 
-Here is an example for embedding _audio_ into your HTML document
 
 ```
 <audio src="/test/audio.ogg">

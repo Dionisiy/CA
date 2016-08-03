@@ -14,13 +14,19 @@ HTML separates "content" \(words, images, audio, video, and so on\) from "presen
 
 The basic HTML code structure is shown below:
 
+\`\`\`
 
-
-```
-
-```
-
-
+\`\`\`
 
 > _Most browsers allow the user to view the HTML of any webpage. In Firefox, for example, press Ctrl + U to view the page source._ Beginners will find the code nearly unreadable for a complex page, but if you spend some time looking at the code for a simple page and comparing it to the page the code renders, you will soon develop a clear understanding of how the syntax works.
+
+
+
+The paragraph element consists of the start tag "`<p>`" and the closing tag "`</p>`". The following example shows a paragraph contained within the HTML paragraph element. Remember that your browser will not display more than one space character in a row.
+
+
+
+```
+
+```
 

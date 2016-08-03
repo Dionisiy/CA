@@ -7,7 +7,7 @@ HTML5 introduces built-in media support via the `<audio>` and `<video>` elements
 Embedding media in your HTML document is trivial:
 
 ```
-<video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls>
+<video src="url" controls>
   Your browser does not support the <code>video</code> element.
 </video>
 ```

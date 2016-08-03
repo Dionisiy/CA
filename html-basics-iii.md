@@ -41,7 +41,26 @@ The **&lt;button&gt;** element defines a clickable **button**:
 <button type="button" onclick="alert('Hello World!')">Click Me!</button>
 ```
 
+### HTML5 &lt;datalist&gt; Element
 
+The **&lt;datalist&gt;** element specifies a list of pre-defined options for an &lt;input&gt; element.
+
+Users will see a drop-down list of pre-defined options as they input data.
+
+The **list** attribute of the &lt;input&gt; element, must refer to the **id** attribute of the &lt;datalist&gt; element.
+
+```
+<form action="action_page.php">
+  <input list="browsers">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist> 
+</form>
+```
 
 
 

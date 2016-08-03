@@ -54,26 +54,92 @@ The example of unordered list is below
 ```
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Unordered Lists</title>
+    </head>
+    <body>
+
+        <h1>Some random thoughts</h1>
+        <p>Some recipe</p>
+        <ul>
+            <li>some ingridient</li>
+            <li>some ingridient</li>
+            <li>another ingridient</li>
+            <li>fourth ingridient</li>
+        </ul>
+    </body>
+</html>
+```
+
+### **Lists inside a list**
+
+Example of nested list:
+
+
+
+```
+<!DOCTYPE html>
+<html>
 	<head>
-		<title>Unordered Lists</title>
+		<title>Nested lists</title>
 	</head>
 	<body>
-	
-	    <h1>Some random thoughts</h1>
-	    <p>Some recipe</p>
-	    <ul>
-	        <li>some ingridient</li>
-	        <li>some ingridient</li>
-	        <li>another ingridient</li>
-	        <li>fourth ingridient</li>
-	    </ul>
+		<ol>
+			<li>Dad's interests
+				<ul>
+					<li>football</li>
+					<li>knitting</li>
+				</ul>
+			</li>
+			<li>Mom's interests
+				<ul>
+					<li>hating football</li>
+					<li>skydiving</li>
+				</ul>
+			</li>
+		</ol>
+		<ul>
+		    <li>Favorite Boys' Names
+		        <ol>
+		            <li>Name 1</li>
+		            <li>Name 2</li>
+		        </ol>
+		    </li>
+		    <li>Favorite Girls' Names.
+		        <ol>
+		            <li>Name 1</li>
+		            <li>Name 2</li>
+		        </ol>
+		    </li>
+		</ul>
 	</body>
 </html>
 ```
 
 
 
-### **Lists inside a list**
+### **Making comments**
+
+
+
+You can include little notes in your HTML code that the browser won't display. But it will be in the code to help you remember why you did certain things.
+
+
+
+```
+<!--Make me into a comment.-->
+
+```
+
+
+
+### **Font size**
+
+
+
+We can give tags more instructions by including **attributes** in the opening tag. An attribute is simply a characteristic or some description for the content in the element. You saw this with `src` in `<img>` and `href` in`<a>`.
+
+
 
 
 

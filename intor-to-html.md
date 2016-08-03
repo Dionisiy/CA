@@ -48,11 +48,27 @@ Usually [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element "el
 
 ## **Elements — the basic building blocks**
 
-[HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML "HTML: HTML (HyperText Markup Language) is a descriptive language that specifies webpage structure.") consists of a set of **[elements](https://developer.mozilla.org/en-US/docs/Glossary/Element "elements: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:")**, which define the **semantic** meaning of their content. Elements include two matching [tags](https://developer.mozilla.org/en-US/docs/Glossary/tag "tags: In HTML a tag is used for creating an element.  The name of an HTML element is the name used in angle brackets such as <p> for paragraph.  Note that the end tag's name is preceded by a slash character, "</p>", and that in empty elements the end tag is neither required nor allowed. If attributes are not mentioned, default values are used in each case.") and everything in between. For example, the "&lt;p&gt;" element indicates a paragraph; the "&lt;img&gt;" element indicates an image. See the [HTML Elements](https://developer.mozilla.org/en-US/docs/HTML/Element "HTML/Element") page for a complete list. _Note: Some tags are self-closing and do not contain any content._
+[HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML "HTML: HTML (HyperText Markup Language) is a descriptive language that specifies webpage structure.") consists of a set of [**elements**](https://developer.mozilla.org/en-US/docs/Glossary/Element "elements: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:"), which define the **semantic** meaning of their content. Elements include two matching [tags](https://developer.mozilla.org/en-US/docs/Glossary/tag "tags: In HTML a tag is used for creating an element.  The name of an HTML element is the name used in angle brackets such as <p> for paragraph.  Note that the end tag's name is preceded by a slash character, "</p>", and that in empty elements the end tag is neither required nor allowed. If attributes are not mentioned, default values are used in each case.") and everything in between. For example, the "&lt;p&gt;" element indicates a paragraph; the "&lt;img&gt;" element indicates an image. See the [HTML Elements](https://developer.mozilla.org/en-US/docs/HTML/Element "HTML/Element") page for a complete list. _Note: Some tags are self-closing and do not contain any content._
+
+Some [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element "elements: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:") have very precise meaning, as in "this is an image", "this is a heading", or "this is an ordered list." Others are less specific, such as "this is a section on the page" or "this is part of the text." Yet others are used for technical reasons, such as "this is identifying information for the page, so do not display it." Regardless, in one way or another all HTML elements have a semantic value.
 
 
 
-Some [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element "elements: An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:") have very precise meaning, as in "this is an image", "this is a heading", or "this is an ordered list." Others are less specific, such as "this is a section on the page" or "this is part of the text." Yet others are used for technical reasons, such as "this is identifying information for the page, so do not display it." Regardless, in one way or another all HTML elements have a semantic value.
+Most elements may contain other elements, forming a hierarchical structure. A very simple but complete webpage looks like this:
+
+```
+
+<html>
+  <head>
+    <title>A minimal web page</title>
+  </head>
+  <body>
+    <p>You are in the beginning stage of learning HTML.</p>
+  </body>
+</html>
+```
+
+
 
 
 

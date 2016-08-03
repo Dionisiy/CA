@@ -188,24 +188,32 @@ We can use `text-align:left` property in `style` attribute ro determine the loca
 <h1 style="text-align:center">
 ```
 
-
-
 ### **Strong words!**
 
 We can change the appearance of words through the tag `<strong> </strong> .`
 
-
-
 ```
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Viva La Revolution!</title>
-	</head>
-	<body>
-		<p>Do you hear the people <strong>sing</strong>?</p>
-		<p>No I don't. I'm <strong>too</strong> busy eating cake.</p>
-	</body>
+    <head>
+        <title>Viva La Revolution!</title>
+    </head>
+    <body>
+        <p>Do you hear the people <strong>sing</strong>?</p>
+        <p>No I don't. I'm <strong>too</strong> busy eating cake.</p>
+    </body>
 </html>
 ```
+
+
+
+### **Emphasize words!**
+
+
+
+Aside from bolding words, we often want to _italicize_ words for **em**phasis. 
+
+
+
+
 

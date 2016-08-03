@@ -12,9 +12,5 @@ Embedding media in your HTML document is trivial:
 </video>
 ```
 
-This example plays a sample video, with playback controls, from the Theora web site.
-
-
-
-
+This example plays a sample video, with playback controls.
 

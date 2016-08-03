@@ -14,8 +14,6 @@ Embedding media in your HTML document is trivial:
 
 This example plays a sample video, with playback controls.
 
-
-
 Here is an example for embedding _audio_ into your HTML document
 
 ```
@@ -23,4 +21,8 @@ Here is an example for embedding _audio_ into your HTML document
 <p>Your browser does not support the <code>audio</code> element.</p>
 </audio>
 ```
+
+The `src` attribute can be a URL of the audio file or the path to the file on the local system.
+
+
 

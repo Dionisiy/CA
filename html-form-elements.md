@@ -37,13 +37,17 @@ The cat was playing in the garden.
 
 The **&lt;button&gt;** element defines a clickable **button**:
 
-
-
 ```
 <button type="button" onclick="alert('Hello World!')">Click Me!</button>
 ```
 
+### HTML5 &lt;datalist&gt; Element
 
+The **&lt;datalist&gt;** element specifies a list of pre-defined options for an &lt;input&gt; element.
+
+Users will see a drop-down list of pre-defined options as they input data.
+
+The **list** attribute of the &lt;input&gt; element, must refer to the **id** attribute of the &lt;datalist&gt; element.
 
 
 

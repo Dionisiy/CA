@@ -26,9 +26,21 @@
 </table>
 ```
 
-**Answer**: three 
+**Answer**: three  
 
 
+
+
+
+2\) How is the div tag below being used?
+
+```
+<a href="https://en.wikipedia.org/wiki/San_Francisco">
+  <div style="width:50px; height:50px; background-color:yellow"></div>
+</a>
+```
+
+**Answer**: As a target for a hyperlink \(a.k.a an anchor tag\)
 
 
 

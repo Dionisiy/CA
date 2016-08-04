@@ -76,7 +76,11 @@
 
 **Answer**: Contains information about the table and data in the tag
 
+6\) Below, how does \`colspan\` format the table head?
 
+```
+<th colspan="3">Student Info</th>
+```
 
-
+**Answer**: It makes the table head span three columns
 

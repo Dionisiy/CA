@@ -83,17 +83,21 @@ Just like with images, you can make`<div>`s clickable by wrapping them in`<a></a
 ```
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Result</title>
-	</head>
-	<body>
-		<div style="width:50px; height:50px; background-color:red"></div>
-		<div style="width:50px; height:50px; background-color:blue"></div>
-		<div style="width:50px; height:50px; background-color:green"></div>
-	<a href="http://google.com"><div style="width:50px; height:50px; background-color:yellow"></div></a>
-	</body>
+    <head>
+        <title>Result</title>
+    </head>
+    <body>
+        <div style="width:50px; height:50px; background-color:red"></div>
+        <div style="width:50px; height:50px; background-color:blue"></div>
+        <div style="width:50px; height:50px; background-color:green"></div>
+    <a href="http://google.com"><div style="width:50px; height:50px; background-color:yellow"></div></a>
+    </body>
 </html>
 ```
 
 
+
+**Spantastic**
+
+While `<div>` allows you to divide your webpage up into pieces you can style individually, `<span>` allows you to control styling for smaller parts of your page, such as text.
 

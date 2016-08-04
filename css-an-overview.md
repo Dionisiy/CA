@@ -18,19 +18,21 @@ There are two main reasons for separating your form\/formatting \(CSS\) from you
 ```
 <!DOCTYPE html>
 <html>
-	<head>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-		<title>Even Fancier Fonts</title>
-	</head>
-	<body>
-		<p>Much of this is regular text, but some of it is <span>fancy</span>!
-		We can use our <span>newly fancified font</span> to add some
-		<span>flair</span> to our website. It'd be a <span>royal pain</span> 
-		to make each of these span tags <span>fancy</span> individually,
-		but it's a cinch with <span>CSS</span>!</p>
-	</body>
+    <head>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <title>Even Fancier Fonts</title>
+    </head>
+    <body>
+        <p>Much of this is regular text, but some of it is <span>fancy</span>!
+        We can use our <span>newly fancified font</span> to add some
+        <span>flair</span> to our website. It'd be a <span>royal pain</span> 
+        to make each of these span tags <span>fancy</span> individually,
+        but it's a cinch with <span>CSS</span>!</p>
+    </body>
 </html>
 ```
 
+### **Inline styling**
 
+This is a less awesome way to style your website for the reasons we just mentioned: you have to write the same code over and over, and if you want to make a big stylistic change to several elements, you have to change every single style tag. With a single CSS file, you only have to make the change in one place!
 

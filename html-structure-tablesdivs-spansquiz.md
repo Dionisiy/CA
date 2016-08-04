@@ -86,5 +86,9 @@
 
 7\) Which element would be best for highlighting a word or phrase?
 
+**Answer**: span
 
+8\) Which determines the number of columns an HTML table will have?
+
+**Answer**: The number of table data \(td\) tags in the table rows
 

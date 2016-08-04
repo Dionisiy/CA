@@ -22,5 +22,5 @@
     * [Introduction to CSS](introduction-to-css.md)
         * [CSS: An Overview](css-an-overview.md)
         * [Design a Button for Your Website](design-a-button-for-your-website.md)
-        * Introduction to CSS: Quiz
+        * [Introduction to CSS: Quiz](introduction-to-css-quiz.md)
 

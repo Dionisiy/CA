@@ -84,3 +84,7 @@
 
 **Answer**: It makes the table head span three columns
 
+7\) Which element would be best for highlighting a word or phrase?
+
+
+

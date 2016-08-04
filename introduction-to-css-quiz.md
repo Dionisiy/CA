@@ -38,21 +38,21 @@ background-color: #FF9966;
 
 4\) To create a square-shaped div, which CSS properties would you change?
 
-Answer:Width and height
+**Answer**: Width and height
 
-5\)
+5\) Below, which part of the syntax is called the \`selector\`?
 
-Below, which part of the syntax is called the \`selector\`?
-
+```
 a {
 
-color: \#cc0000;
+color: #cc0000;
 
 text-decoration: none;
 
 }
+```
 
-Answer: a
+**Answer**: a
 
 6\)
 

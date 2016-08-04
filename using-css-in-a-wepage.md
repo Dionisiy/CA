@@ -1,6 +1,6 @@
 # How CSS works
 
-[**CSS**](https://developer.mozilla.org/en-US/docs/Glossary/CSS "CSS: CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser.")**\*\*** \(Cascading Style Sheets\) allows you to create great looking web pages, but how does it work under the hood? This article explains what CSS is, how the browser turns HTML into a Document Object Model \([****DOM****](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).")\), how CSS is applied to parts of the DOM, some very basic syntax examples, and what code is used to actually include our CSS in our web page.\*\*
+**[CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS "CSS: CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser.")****\*\*** \(Cascading Style Sheets\) allows you to create great looking web pages, but how does it work under the hood? This article explains what CSS is, how the browser turns HTML into a Document Object Model \(****[DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).")****\), how CSS is applied to parts of the DOM, some very basic syntax examples, and what code is used to actually include our CSS in our web page.\*\*
 
 ### **What is CSS?**
 
@@ -12,8 +12,6 @@ Web browsers apply **CSS rules** to a document to affect how they are displayed.
 * A [selector](https://developer.mozilla.org/en-US/docs/Glossary/CSS_Selector "selector: A CSS selector is a pattern rule that matches style rules to a specific element (or elements). The selector begins a rule set and precedes definitions of how the element(s) should look."), which _selects_ the element\(s\) you want to apply the updated property values to. For example, _I want to apply my CSS rule to all the paragraphs in my HTML document_.
 
 A set of CSS rules contained within a **stylesheet** determines how a webpage should look. You will learn a lot more about what CSS syntax looks like in the next article of the module — [CSS Syntax](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Syntax).
-
-
 
 ```
 <!DOCTYPE html>
@@ -28,5 +26,18 @@ A set of CSS rules contained within a **stylesheet** determines how a webpage sh
     <p>This is my first CSS example</p>
   </body>
 </html>
+```
+
+```
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+p {
+  color: red;
+}
+
 ```
 

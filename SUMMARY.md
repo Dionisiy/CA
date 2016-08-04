@@ -25,4 +25,8 @@
         * [Introduction to CSS: Quiz](introduction-to-css-quiz.md)
         * [External Resources](external-resources.md)
             * [Using CSS in a Wepage](using-css-in-a-wepage.md)
+    * [Classes and IDs](classes-and-ids.md)
+        * [CSS Selector](css-selector.md)
+        * Sorting Your Friends
+        * Classes and IDs:Quiz
 

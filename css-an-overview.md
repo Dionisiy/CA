@@ -118,15 +118,11 @@ selector {
 }
 ```
 
-
-
 ### **Links and text decoration**
 
 Links have a lot of the same properties as regular text: you can change their font, color, size, and so on.
 
-But links also have a property, `text-decoration`, that you can change to give your links a little more custom flair. 
-
-
+But links also have a property, `text-decoration`, that you can change to give your links a little more custom flair.
 
 
 

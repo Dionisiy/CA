@@ -100,11 +100,11 @@ CSS comments, on the other hand, look like this:
 
 > Remember: the computer doesn't look at comments when figuring out what your HTML and CSS should do, but writing good comments is a good habit you want to pick up!
 
-
-
 ### **Pixels and ems**
 
 
 
+A pixel is a dot on your computer screen. Specifying font sizes in pixels is great when you want the user to see exactly on their screen what you designed on yours, though it assumes your screens are of similar size.
 
+The `font-size` unit **em** is a **relative**measure: one em is equal to the default font size on whatever screen the user is using. That makes it great for smartphone screens, since it doesn't try to tell the smartphone_exactly_ how big to make a font: it just says, "Hey, 1em is the font size that you normally use, so 2em is twice as big and 0.5em is half that size!"
 

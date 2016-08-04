@@ -36,3 +36,9 @@ There are two main reasons for separating your form\/formatting \(CSS\) from you
 
 This is a less awesome way to style your website for the reasons we just mentioned: you have to write the same code over and over, and if you want to make a big stylistic change to several elements, you have to change every single style tag. With a single CSS file, you only have to make the change in one place!
 
+You do this by putting a `<link>` tag \(as you saw in the first exercise of this course\) between the `<head>...</head>`tags of your HTML page. Your `<link>`tag needs three attributes:
+
+1. A `type` attribute that should always be equal to `"text/css"`
+2. A `rel` attribute that should always be equal to `"stylesheet"`
+3. A `href` attribute that should point to the web address of your CSS file
+

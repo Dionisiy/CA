@@ -1,6 +1,6 @@
 # How CSS works
 
-**[CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS "CSS: CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser.")****\*\***\*\*** \(Cascading Style Sheets\) allows you to create great looking web pages, but how does it work under the hood? This article explains what CSS is, how the browser turns HTML into a Document Object Model \(\*\***[DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).")_\*\*_\), how CSS is applied to parts of the DOM, some very basic syntax examples, and what code is used to actually include our CSS in our web page.\*\*
+[**CSS**](https://developer.mozilla.org/en-US/docs/Glossary/CSS "CSS: CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser.")**\*\***\*\***\*\*** \(Cascading Style Sheets\) allows you to create great looking web pages, but how does it work under the hood? This article explains what CSS is, how the browser turns HTML into a Document Object Model \(\*\*_\*_[_DOM_](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).")_\_\_\*\_\), how CSS is applied to parts of the DOM, some very basic syntax examples, and what code is used to actually include our CSS in our web page.\*\*
 
 ### **What is CSS?**
 
@@ -40,9 +40,13 @@ p {
 }
 ```
 
-The first rule starts with an `h1` selector, which means that it will apply its property values to the[`<h1>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1 "Heading elements implement six levels of document headings, <h1> is the most important and <h6> is the least. A heading element briefly describes the topic of the section it introduces. Heading information may be used by user agents, for example, to construct a table of contents for a document automatically.") element. It contains three properties and their values \(each property\/value pair is called a**declaration**\) — the first one sets the text color to blue, the second sets the background color to yellow, and the third one puts a border around the header that is 1 pixel wide, solid \(not dotted, or dashed, etc.\) and colored black.
+The first rule starts with an `h1` selector, which means that it will apply its property values to the`<h1>` element. It contains three properties and their values \(each property\/value pair is called a**declaration**\) — the first one sets the text color to blue, the second sets the background color to yellow, and the third one puts a border around the header that is 1 pixel wide, solid \(not dotted, or dashed, etc.\) and colored black.
 
-The second rule starts with a `p` selector, which means that it will apply its property values to the[`<p>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p "The HTML <p> element (or HTML Paragraph Element) represents a paragraph of text.") element. It contains one declaration, which sets the text color to red.
+The second rule starts with a `p` selector, which means that it will apply its property values to the`<p>` element. It contains one declaration, which sets the text color to red.
 
 In a web browser, the code above would produce the following output:
+
+
+
+
 

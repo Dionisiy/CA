@@ -78,7 +78,22 @@ The `<head>` HTML tag contains information about a web page \(_e.g._ its title\)
 
 One of the most versatile structure tags available to you is the `<div></div>`tag. Short for "division," `<div>` allows you to divide your page into containers \(that is, different pieces\).
 
-
-
 Just like with images, you can make`<div>`s clickable by wrapping them in`<a></a>` tags.
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+	</head>
+	<body>
+		<div style="width:50px; height:50px; background-color:red"></div>
+		<div style="width:50px; height:50px; background-color:blue"></div>
+		<div style="width:50px; height:50px; background-color:green"></div>
+	<a href="http://google.com"><div style="width:50px; height:50px; background-color:yellow"></div></a>
+	</body>
+</html>
+```
+
+
 

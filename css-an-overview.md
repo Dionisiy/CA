@@ -86,15 +86,21 @@ As you start adding more and more property-value pairs for each CSS selector, it
 
 The semicolon tells CSS that one property-value pair is over and it's time to move on to the next one. Without semicolons, it'll become confused and your page won't look right.
 
-
-
 > Don't forget: all property-value pairs for a selector are surrounded by curly braces \(`{}`\).
-
-
 
 ### **Color commentary**
 
 While it's important to get all your syntax down correctly, it's also a good idea to write **comments** as you go along. Good comments will help remind you why you did something a certain way \(or will help someone else out if they're reading your code without you there to explain it\).
+
+
+
+CSS comments, on the other hand, look like this:
+
+```
+/*I'm a comment!*/
+```
+
+> Remember: the computer doesn't look at comments when figuring out what your HTML and CSS should do, but writing good comments is a good habit you want to pick up!
 
 
 

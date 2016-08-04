@@ -12,5 +12,13 @@ As you've seen, it's possible to nest HTML elements inside one another, like so:
         <p>I like tacos!</p>
 ```
 
+There's also a very special selector you can use to apply CSS styling to _every element_ on the page: the `*` selector. For example, if you type
+
+```
+* {
+    border: 2px solid black;
+}
+```
+
 
 

@@ -48,9 +48,9 @@ If you think of the `<html>` tag as the trunk of the tree, you can think of its 
 
 Remember, you can reach an element that is a child of another element like this:
 
-
-
 ```
 div div p { /* Some CSS */ }
 ```
+
+where in this case, we'd be grabbing any `<p>` that is nested _somewhere_inside a `<div>` that is nested_somewhere_ inside another `<div>`.
 

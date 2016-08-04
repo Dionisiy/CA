@@ -83,3 +83,7 @@ Classes are identified in CSS with a dot \(`.`\), like so:
 }
 ```
 
+This allows you to take elements of different types and give them the same styling.
+
+
+

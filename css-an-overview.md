@@ -78,7 +78,15 @@ p {
 
 > Remember: end each property-value pair with a semicolon!
 
-
-
 [see the code](https://denishromenko.gitbooks.io/codeacademy_doc/content/introduction_to_css/ex1.html)
+
+
+
+### **The importance of semicolons**
+
+As you start adding more and more property-value pairs for each CSS selector, it's important to remember to put a semicolon \(`;`\) at the end of each line.
+
+The semicolon tells CSS that one property-value pair is over and it's time to move on to the next one. Without semicolons, it'll become confused and your page won't look right.
+
+
 

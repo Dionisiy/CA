@@ -46,7 +46,11 @@ If you think of the `<html>` tag as the trunk of the tree, you can think of its 
 </html>
 ```
 
-
-
 Remember, you can reach an element that is a child of another element like this:
+
+
+
+```
+div div p { /* Some CSS */ }
+```
 

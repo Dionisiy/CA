@@ -18,5 +18,5 @@
     * [HTML Structure: Tables,Divs, Spans](html-structure-tablesdivs-spans.md)
         * [HTML Basics III](html-basics-iii.md)
         * [Clickable Photo Page](clickable-photo-page.md)
-        * HTML Structure: Tables,Divs, Spans:Quiz
+        * [HTML Structure: Tables,Divs, Spans:Quiz](html-structure-tablesdivs-spansquiz.md)
 

@@ -47,4 +47,4 @@ The second rule starts with a `p` selector, which means that it will apply its p
 In a web browser, the code above would produce the following output:
 
 
-[see the code](https://denishromenko.gitbooks.io/codeacademy_doc/content/introduction_to_css/ex4.html)
+[See the code](https://denishromenko.gitbooks.io/codeacademy_doc/content/introduction_to_css/ex4.html)

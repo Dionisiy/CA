@@ -29,6 +29,10 @@ We use the `<tr>` tag to create a **table row**. We'll learn how to create colum
 
 To make our table look a little more like a table, we'll use the `<thead>` and`<tbody>` tags. These go within the`<table>` tag and stand for **t**able head and **t**able body, respectively.
 
+
+
+### Table heads
+
 The `<head>` HTML tag contains information about a web page \(_e.g._ its title\) and the `<body>` tag contains the contents of the web page. In the same way, the `<thead>` tag can be thought of as containing information about a table and the `<tbody>` tag containing the actual tabular data.
 
 ```
@@ -65,4 +69,6 @@ The `<head>` HTML tag contains information about a web page \(_e.g._ its title\)
     </body>
 </html>
 ```
+
+
 

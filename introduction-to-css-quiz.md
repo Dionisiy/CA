@@ -1,34 +1,26 @@
 ### Quiz
 
-
-
-
-
-
-
-1\)
-
-Which CSS rules are "commented out?"
+1\) Which CSS rules are "commented out?"
 
 a {
 
- color: \#00FF00;
+color: \#00FF00;
 
 }
 
 h1 {
 
- text-align: center;
+text-align: center;
 
- font-family: Impact, Charcoal, sans-serif;
+font-family: Impact, Charcoal, sans-serif;
 
 }
 
 \/\* p {
 
- font-family: Georgia, serif;
+font-family: Georgia, serif;
 
- background-color: \#FF9966;
+background-color: \#FF9966;
 
 } \*\/
 
@@ -58,15 +50,15 @@ Below, which part of the syntax is called the \`selector\`?
 
 a {
 
- color: \#cc0000;
+color: \#cc0000;
 
- text-decoration: none; 
+text-decoration: none;
 
 }
 
 Answer: a
 
-6\) 
+6\)
 
 Why are hexidecimal \(HEX\) values used to assign colors in CSS?
 
@@ -78,7 +70,7 @@ Below, what is special about the \`em\` font-size unit?
 
 a {
 
- font-size: 0.5em;
+font-size: 0.5em;
 
 }
 
@@ -104,15 +96,15 @@ What is CSS?
 
 Answer: A language used to style HTML elements
 
-11\) 
+11\)
 
 Describe the effect of this CSS rule:
 
 p {
 
- font-size: 18px;
+font-size: 18px;
 
- color: gray;
+color: gray;
 
 }
 
@@ -124,11 +116,9 @@ Which is true about the \`px\` unit for font-size?
 
 p {
 
- font-size: 18px;
+font-size: 18px;
 
 }
 
 Answer: The px unit appears exactly the same size on every device
-
-
 

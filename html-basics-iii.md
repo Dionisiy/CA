@@ -74,11 +74,11 @@ The `<head>` HTML tag contains information about a web page \(_e.g._ its title\)
 </html>
 ```
 
-
-
 ### **'Div'ide and conquer**
 
-One of the most versatile structure tags available to you is the `<div></div>`tag. Short for "division," `<div>` allows you to divide your page into containers \(that is, different pieces\). 
+One of the most versatile structure tags available to you is the `<div></div>`tag. Short for "division," `<div>` allows you to divide your page into containers \(that is, different pieces\).
 
 
+
+Just like with images, you can make`<div>`s clickable by wrapping them in`<a></a>` tags.
 

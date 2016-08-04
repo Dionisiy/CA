@@ -62,11 +62,15 @@ p {
 }
 ```
 
-
-
 A **property** is an aspect of a selector. For instance, you can change the `font-family`, `color`, and `font-size` of the text on your web pages \(in addition to many more\).
 
 
+
+A **value** is a possible setting for a property. `color` can be red, blue, black, or almost any color; `font-family`can be a whole bunch of different fonts; and so on.
+
+
+
+Another cool advantage of CSS is that you can set many properties for one selector. For instance, if you want to set a paragraph's font, font color, and font size, you can simply write:
 
 
 

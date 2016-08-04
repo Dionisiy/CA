@@ -68,12 +68,18 @@ There are two important selectors you can use in addition to the universal selec
 
 Classes are useful when you have a bunch of elements that should all receive the same styling. Rather than applying the same rules to several selectors, you can simply apply the same class to all those HTML elements, then define the styling for that class in the CSS tab.
 
-
-
 Classes are assigned to HTML elements with the word `class` and an equals sign, like so:
 
 ```
 <div class="myclassname"></div>
+```
 
+Classes are identified in CSS with a dot \(`.`\), like so:
+
+```
+.square {
+    height: 100px;
+    width: 100px;
+}
 ```
 

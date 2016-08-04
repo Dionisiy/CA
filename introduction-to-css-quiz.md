@@ -2,9 +2,10 @@
 
 1\) Which CSS rules are "commented out?"
 
+```
 a {
 
-color: \#00FF00;
+color: #00FF00;
 
 }
 
@@ -16,13 +17,14 @@ font-family: Impact, Charcoal, sans-serif;
 
 }
 
-\/\* p {
+/* p {
 
 font-family: Georgia, serif;
 
-background-color: \#FF9966;
+background-color: #FF9966;
 
-} \*\/
+} */
+```
 
 Answer: Paragraph rules are commented out
 

@@ -107,5 +107,17 @@ This allows you to apply style to a single instance of a selector, rather than _
 
 ### **Pseudo-class selector**
 
-A **pseudo-class selector** is a way of accessing HTML items that aren't part of the document tree.Pseudo-class selectors let us style these kinds of changes in our HTML document. 
+A **pseudo-class selector** is a way of accessing HTML items that aren't part of the document tree.Pseudo-class selectors let us style these kinds of changes in our HTML document.
+
+
+
+The CSS syntax for pseudo selectors is
+
+```
+selector:pseudo-class_selector {
+    property: value;
+}
+```
+
+
 

@@ -124,4 +124,4 @@ Links have a lot of the same properties as regular text: you can change their fo
 
 But links also have a property, `text-decoration`, that you can change to give your links a little more custom flair.
 
-[see the code]()
+[see the code](https://denishromenko.gitbooks.io/codeacademy_doc/content/introduction_to_css/ex2.html)

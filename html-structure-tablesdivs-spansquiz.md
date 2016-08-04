@@ -42,13 +42,11 @@
 
 **Answer**: They divide HTML into containers and allow you to style different parts of your website
 
-
-
 4\) What is the thead tag used for?
 
 &lt;thead&gt; content &lt;\/thead&gt;
 
 **Answer**: Declaring the table heading
 
-
+5\) Below, what is the purpose of the code between &lt;thead&gt;...&lt;\/thead&gt;?
 

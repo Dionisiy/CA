@@ -23,4 +23,6 @@
         * [CSS: An Overview](css-an-overview.md)
         * [Design a Button for Your Website](design-a-button-for-your-website.md)
         * [Introduction to CSS: Quiz](introduction-to-css-quiz.md)
+        * [External Resources](external-resources.md)
+            * Using CSS in a Wepage
 

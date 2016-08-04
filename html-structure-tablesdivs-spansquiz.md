@@ -26,7 +26,7 @@
 </table>
 ```
 
-**Answer**: three
+**Answer**: three 
 
 
 

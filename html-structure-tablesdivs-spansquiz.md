@@ -74,3 +74,9 @@
 </table>
 ```
 
+**Answer**: Contains information about the table and data in the tag
+
+
+
+
+

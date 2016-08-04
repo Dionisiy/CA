@@ -78,7 +78,5 @@ p {
 
 > Remember: end each property-value pair with a semicolon!
 
-
-
-### See the code
+### 
 

@@ -38,9 +38,9 @@ The `<head>` HTML tag contains information about a web page \(_e.g._ its title\)
     <head>
         <title>Table Time</title>
     </head>
-    
+
     <body>
-        
+
         <table style="border-collapse:collapse;">
             <thead>
                 <tr>
@@ -56,19 +56,19 @@ The `<head>` HTML tag contains information about a web page \(_e.g._ its title\)
                     <td style="padding:5px;">King Kong</td>
                     <td style="padding:5px;border-left:1px solid black;">1933</td>     
                 </tr>
-                
+
                 <tr>
                     <td style="padding:5px;">Dracula</td>
                     <td style="padding:5px;border-left:1px solid black;">1897</td>
                 </tr>
-                
+
                 <tr>
                     <td style="padding:5px;">Bride of Frankenstein</td>
                     <td style="padding:5px;border-left:1px solid black;">1944</td>
                 </tr>
             </tbody>
         </table>
-        
+
     </body>
 
 </html>
@@ -76,9 +76,9 @@ The `<head>` HTML tag contains information about a web page \(_e.g._ its title\)
 
 
 
+### **'Div'ide and conquer**
 
-
-
+One of the most versatile structure tags available to you is the `<div></div>`tag. Short for "division," `<div>` allows you to divide your page into containers \(that is, different pieces\). 
 
 
 

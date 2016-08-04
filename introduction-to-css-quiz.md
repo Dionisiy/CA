@@ -54,21 +54,19 @@ text-decoration: none;
 
 **Answer**: a
 
-6\)
+6\) Why are hexidecimal \(HEX\) values used to assign colors in CSS?
 
-Why are hexidecimal \(HEX\) values used to assign colors in CSS?
+**Answer**: Millions of color options are available using HEX values.
 
-Answer: Millions of color options are available using HEX values.
+7\) Below, what is special about the \`em\` font-size unit?
 
-7\)
-
-Below, what is special about the \`em\` font-size unit?
-
+```
 a {
 
 font-size: 0.5em;
 
 }
+```
 
 Answer: Em units will style font relative to screen size
 

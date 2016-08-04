@@ -26,29 +26,27 @@ You can think of an HTML document as a tree: elements "branch out" from the main
 
 [See the structure](https://denishromenko.gitbooks.io/codeacademy_doc/content/classes_and_ids/ex1.html)
 
-
-
 ### **Parents, children, and siblings**
-
-
 
 If you think of the `<html>` tag as the trunk of the tree, you can think of its immediate branches—`<head>` and`<body>`—as its **children**. Both tags are children of `<html>`, and `<html>` is their**parent** element. Because they are both immediate children of `<html>`\(that is, they are both only one element away\), they are **siblings**.
 
 ```
 <!DOCTYPE html>
 <html> <!--The trunk of the tree!-->
-	<head> <!--Child of html, parent of title,
-		   sibling of body-->
-		<title></title> <!--Immediate child of head,
-						child of head AND html-->
-	</head>
-	<body> <!--Child of html, parent of p,
-		   sibling of head-->
-		<p></p> <!--Immediate child of body,
-				child of body AND html-->
-	</body>
+    <head> <!--Child of html, parent of title,
+           sibling of body-->
+        <title></title> <!--Immediate child of head,
+                        child of head AND html-->
+    </head>
+    <body> <!--Child of html, parent of p,
+           sibling of head-->
+        <p></p> <!--Immediate child of body,
+                child of body AND html-->
+    </body>
 </html>
 ```
 
 
+
+Remember, you can reach an element that is a child of another element like this:
 

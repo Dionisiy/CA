@@ -38,9 +38,17 @@
 
 **Answer**: As a target for a hyperlink \(a.k.a an anchor tag\)
 
-
-
 3\) What purpose do div tags serve?
 
 **Answer**: They divide HTML into containers and allow you to style different parts of your website
+
+
+
+4\) What is the thead tag used for?
+
+&lt;thead&gt; content &lt;\/thead&gt;
+
+**Answer**: Declaring the table heading
+
+
 

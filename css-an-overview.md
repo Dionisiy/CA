@@ -46,15 +46,25 @@ You do this by putting a `<link>` tag \(as you saw in the first exercise of this
         <link type="text/css" rel="stylesheet" href="stylesheet.css" >
 ```
 
-
-
 The general format CSS looks like this:
-
-
 
 ```
 selector {
     property: value;
+}
+```
+
+
+
+A **selector** can be any HTML element, such as `<p>`, `<img>`, or `<table>`. You just take off the `<>`s! To make a paragraph's text red with CSS, you'd type:
+
+
+
+
+
+```
+p {
+    color: red;
 }
 ```
 

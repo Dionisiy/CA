@@ -102,9 +102,23 @@ CSS comments, on the other hand, look like this:
 
 ### **Pixels and ems**
 
-
-
 A pixel is a dot on your computer screen. Specifying font sizes in pixels is great when you want the user to see exactly on their screen what you designed on yours, though it assumes your screens are of similar size.
 
 The `font-size` unit **em** is a **relative**measure: one em is equal to the default font size on whatever screen the user is using. That makes it great for smartphone screens, since it doesn't try to tell the smartphone_exactly_ how big to make a font: it just says, "Hey, 1em is the font size that you normally use, so 2em is twice as big and 0.5em is half that size!"
+
+
+
+### **Bordering on insanity**
+
+Many HTML elements support the`border` property. This can be especially useful with tables.
+
+The `border` property in turn supports several values. For example, for a border 2 pixels thick, solid, and red, you'd type
+
+
+
+```
+selector {
+    border: 2px solid red;
+}
+```
 

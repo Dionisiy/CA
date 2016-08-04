@@ -80,18 +80,15 @@ font-size: 0.5em;
 <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 ```
 
-Anwer: Links to an external CSS file
+**Anwer**: Links to an external CSS file
 
-10\)
+10\) What is CSS?
 
-What is CSS?
+**Answer**: A language used to style HTML elements
 
-Answer: A language used to style HTML elements
+11\) Describe the effect of this CSS rule:
 
-11\)
-
-Describe the effect of this CSS rule:
-
+```
 p {
 
 font-size: 18px;
@@ -99,12 +96,11 @@ font-size: 18px;
 color: gray;
 
 }
+```
 
-Answer: Makes all paragraph text gray and 18px large
+**Answer**: Makes all paragraph text gray and 18px large
 
-12\)
-
-Which is true about the \`px\` unit for font-size?
+12\) Which is true about the \`px\` unit for font-size?
 
 p {
 

@@ -102,11 +102,13 @@ color: gray;
 
 12\) Which is true about the \`px\` unit for font-size?
 
+```
 p {
 
 font-size: 18px;
 
 }
+```
 
-Answer: The px unit appears exactly the same size on every device
+**Answer**: The px unit appears exactly the same size on every device
 

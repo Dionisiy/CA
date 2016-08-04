@@ -1,6 +1,6 @@
 # How CSS works
 
-[**CSS**](https://developer.mozilla.org/en-US/docs/Glossary/CSS "CSS: CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser.")**\*\***\*\***\*\***\*\***\*\***_**\* \(Cascading Style Sheets\) allows you to create great looking web pages, but how does it work under the hood? This article explains what CSS is, how the browser turns HTML into a Document Object Model \(\**_**\***_**\*\_**_[DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).")_\*___\_\___\_\_\_\), how CSS is applied to parts of the DOM, some very basic syntax examples, and what code is used to actually include our CSS in our web page.\*\*
+**[CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS "CSS: CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser.")****\*\***\*\***\*\***\*\***\*\*****_\* \(Cascading Style Sheets\) allows you to create great looking web pages, but how does it work under the hood? This article explains what CSS is, how the browser turns HTML into a Document Object Model \(\_****\***__\*\___\__\*_[__DOM__](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).")_\__**\**_**\_**\_\_\_\), how CSS is applied to parts of the DOM, some very basic syntax examples, and what code is used to actually include our CSS in our web page.\*\*
 
 ### **What is CSS?**
 
@@ -55,6 +55,11 @@ When a browser displays a document, it must combine the document's content with 
 1. The browser converts [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML "HTML: HTML (HyperText Markup Language) is a descriptive language that specifies webpage structure.") and [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS "CSS: CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser.") into the [DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).") \(_Document Object Model_\). The DOM represents the document in the computer's memory. It combines the document's content with its style.
 2. The browser displays the contents of the DOM.
 
+## **About the DOM**
+
+A DOM has a tree-like structure. Each element, attribute and piece of text in the markup language becomes a [node\/dom](https://developer.mozilla.org/en-US/docs/Glossary/node/dom "node/dom: Technical review completed. Editorial review completed.") in the tree structure. The nodes are defined by their relationship to other DOM nodes. Some elements are parents of child nodes, and child nodes have siblings.
+
+Understanding the DOM helps you design, debug and maintain your CSS because the DOM is where your CSS and the document's content meet up.
 
 
 

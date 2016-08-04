@@ -105,11 +105,7 @@ This allows you to apply style to a single instance of a selector, rather than _
 
 [See the Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/classes_and_ids/ex2.html)
 
-
-
 ### **Pseudo-class selector**
 
-
-
-
+A **pseudo-class selector** is a way of accessing HTML items that aren't part of the document tree
 

@@ -54,7 +54,7 @@ div div p { /* Some CSS */ }
 
 where in this case, we'd be grabbing any `<p>` that is nested _somewhere\_inside a _`<div>`_ that is nested\_somewhere_ inside another `<div>`.
 
-
-
 Certain selectors will "override" others if they have a greater**specificity value**. `ul li p {` is more specific CSS than just `p {`, so when CSS sees tags that are _both_ `<p>` tags_and_ happen to be inside unordered lists, it will apply the more specific styling \(`ul li p {`\) to the text inside the lists.
+
+
 

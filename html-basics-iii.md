@@ -29,8 +29,6 @@ We use the `<tr>` tag to create a **table row**. We'll learn how to create colum
 
 To make our table look a little more like a table, we'll use the `<thead>` and`<tbody>` tags. These go within the`<table>` tag and stand for **t**able head and **t**able body, respectively.
 
-
-
 ### Table heads
 
 The `<head>` HTML tag contains information about a web page \(_e.g._ its title\) and the `<body>` tag contains the contents of the web page. In the same way, the `<thead>` tag can be thought of as containing information about a table and the `<tbody>` tag containing the actual tabular data.
@@ -40,35 +38,47 @@ The `<head>` HTML tag contains information about a web page \(_e.g._ its title\)
     <head>
         <title>Table Time</title>
     </head>
-    <body>       
-        <table border="1px">
+    
+    <body>
+        
+        <table style="border-collapse:collapse;">
             <thead>
                 <tr>
-                    <th colspan="2">Famous Monsters by Birth Year</th>
+                    <th colspan="2" style="color:red;">Famous Monsters by Birth Year</th>
                 </tr>
-                <tr>
-                    <th>Famous Monster</th>
-                    <th>Birth Year</th>
+                <tr style="border-bottom:1px solid black;">
+                    <th style="padding:5px;"><em>Famous Monster</em></th>
+                    <th style="padding:5px;border-left:1px solid black;"><em>Birth Year</em></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>King Kong</td>
-                    <td>1933</td>     
-                </tr>                
+                    <td style="padding:5px;">King Kong</td>
+                    <td style="padding:5px;border-left:1px solid black;">1933</td>     
+                </tr>
+                
                 <tr>
-                    <td>Dracula</td>
-                    <td>1897</td>
-                </tr>                
+                    <td style="padding:5px;">Dracula</td>
+                    <td style="padding:5px;border-left:1px solid black;">1897</td>
+                </tr>
+                
                 <tr>
-                    <td>Bride of Frankenstein</td>
-                    <td>1935</td>
+                    <td style="padding:5px;">Bride of Frankenstein</td>
+                    <td style="padding:5px;border-left:1px solid black;">1944</td>
                 </tr>
             </tbody>
         </table>
+        
     </body>
+
 </html>
 ```
+
+
+
+
+
+
 
 
 

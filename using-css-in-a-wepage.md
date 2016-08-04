@@ -1,6 +1,6 @@
 # How CSS works
 
-[**CSS**](https://developer.mozilla.org/en-US/docs/Glossary/CSS "CSS: CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser.")**\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\*\*\*_**\* \(Cascading Style Sheets\) allows you to create great looking web pages, but how does it work under the hood? This article explains what CSS is, how the browser turns HTML into a Document Object Model \(\**_**\*\***\*_**\*\**_**\_\*\***\*\*\_**\_**\***\_\*\***[DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).")**\*\*\_**\__****\*\****_\__\*\_\*\__\*\_\*\_\_\_\), how CSS is applied to parts of the DOM, some very basic syntax examples, and what code is used to actually include our CSS in our web page.\_\*
+**[CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS "CSS: CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser.")****\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\*\*\***_\* \(Cascading Style Sheets\) allows you to create great looking web pages, but how does it work under the hood? This article explains what CSS is, how the browser turns HTML into a Document Object Model \(\_****\*\***\***_\*\_****\_\*\***\*\*\_**\_**\***\_\*\***[DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).")**\*\*\_**\_****_\*\_****\__\*\_\*\__\*\_\*\_\_\_\), how CSS is applied to parts of the DOM, some very basic syntax examples, and what code is used to actually include our CSS in our web page.\_\*
 
 ### **What is CSS?**
 
@@ -91,7 +91,36 @@ There are three different ways to apply CSS to an HTML document that you'll comm
 
 You've already seen **external stylesheets** in this article, but not by that name. An external stylesheet is when you have your CSS written in a separate file with a `.css` extension, and you reference it from an HTML `<link>` element. The HTML file looks something like this:
 
-
-
 This method is arguably the best, as you can use one stylesheet to style multiple documents, and would only need to update the CSS in one place if changes were needed.
+
+
+
+### Internal stylesheet
+
+An **internal stylesheet** is where you don't have an external CSS file, but instead place your CSS inside a [`<style>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style "The HTML <style> element contains style information for a document, or part of a document. By default, the style instructions written inside that element are expected to be CSS.") element, contained inside the [HTML head](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML). So the HTML would look like this:
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My CSS experiment</title>
+    <style>
+      h1 {
+        color: blue;
+        background-color: yellow;
+        border: 1px solid black;
+      }
+
+      p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>This is my first CSS example</p>
+  </body>
+</html>
+```
 

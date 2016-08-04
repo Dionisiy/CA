@@ -24,7 +24,4 @@ There's also a very special selector you can use to apply CSS styling to _every 
 
 You can think of an HTML document as a tree: elements "branch out" from the main trunk \(the `<html></html>` tags\). The first two big branches are `<head>`and `<body>`, and branches multiply and become finer as you get to elements like `<div>`s, `<table>`s, and text \(headers and paragraphs\).
 
-
-
-
-
+[See the structure](https://denishromenko.gitbooks.io/codeacademy_doc/content/classes_and_ids/ex1.html)

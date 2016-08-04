@@ -131,11 +131,7 @@ There are a number of useful pseudo-class selectors for links, including:
 
 ### **First child**
 
-
-
 Another useful pseudo-class selector is `first-child`. It's used to apply styling to _only_ the elements that are the first children of their parents. For instance:
-
-
 
 ```
 p:first-child {
@@ -143,9 +139,6 @@ p:first-child {
 }
 ```
 
-
-
 Would make all paragraphs that are the first children of their parent elements red.
 
-
-
+[See the example]()

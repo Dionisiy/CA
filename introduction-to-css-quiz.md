@@ -26,7 +26,7 @@ background-color: #FF9966;
 } */
 ```
 
-Answer: Paragraph rules are commented out
+**Answer**: Paragraph rules are commented out
 
 2\)
 

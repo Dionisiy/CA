@@ -85,8 +85,6 @@ Classes are identified in CSS with a dot \(`.`\), like so:
 
 This allows you to take elements of different types and give them the same styling.
 
-
-
 ### ID
 
 IDs, on the other hand, are great for when you have exactly _one_ element that should receive a certain kind of styling.
@@ -97,5 +95,13 @@ IDs are assigned to HTML elements with the word `id` and an equals sign:
 <div id="first"></div>
 ```
 
+IDs are identified in CSS with a pound sign \(`#`\)
 
+```
+#first {
+    height: 50px;
+}
+```
+
+This allows you to apply style to a single instance of a selector, rather than _all_ instances.
 

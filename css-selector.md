@@ -119,8 +119,6 @@ selector:pseudo-class_selector {
 
 It's just that little extra colon \(`:`\).
 
-
-
 ### **Links**
 
 There are a number of useful pseudo-class selectors for links, including:
@@ -130,6 +128,10 @@ There are a number of useful pseudo-class selectors for links, including:
 `a:visited`: A visited link.
 
 `a:hover`: A link you're hovering your mouse over.
+
+
+
+### **First child**
 
 
 

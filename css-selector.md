@@ -129,9 +129,23 @@ There are a number of useful pseudo-class selectors for links, including:
 
 `a:hover`: A link you're hovering your mouse over.
 
-
-
 ### **First child**
+
+
+
+Another useful pseudo-class selector is `first-child`. It's used to apply styling to _only_ the elements that are the first children of their parents. For instance:
+
+
+
+```
+p:first-child {
+    color: red;
+}
+```
+
+
+
+Would make all paragraphs that are the first children of their parent elements red.
 
 
 

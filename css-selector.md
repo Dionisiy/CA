@@ -62,7 +62,18 @@ HTML elements can be CSS selectors, but as we saw with the universal selector `*
 
 There are two important selectors you can use in addition to the universal selector and HTML elements: **classes**and **IDs**.
 
-
 [See the Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/classes_and_ids/ex2.html)
 
+### Classes
+
+Classes are useful when you have a bunch of elements that should all receive the same styling. Rather than applying the same rules to several selectors, you can simply apply the same class to all those HTML elements, then define the styling for that class in the CSS tab.
+
+
+
+Classes are assigned to HTML elements with the word `class` and an equals sign, like so:
+
+```
+<div class="myclassname"></div>
+
+```
 

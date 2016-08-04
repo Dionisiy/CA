@@ -20,7 +20,7 @@
         * [Clickable Photo Page](clickable-photo-page.md)
         * [HTML Structure: Tables,Divs, Spans:Quiz](html-structure-tablesdivs-spansquiz.md)
     * [Introduction to CSS](introduction-to-css.md)
-        * CSS: An Overview
+        * [CSS: An Overview](css-an-overview.md)
         * Design a Button for Your Website
         * Introduction to CSS: Quiz
 

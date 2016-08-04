@@ -54,17 +54,19 @@ selector {
 }
 ```
 
-
-
 A **selector** can be any HTML element, such as `<p>`, `<img>`, or `<table>`. You just take off the `<>`s! To make a paragraph's text red with CSS, you'd type:
-
-
-
-
 
 ```
 p {
     color: red;
 }
 ```
+
+
+
+A **property** is an aspect of a selector. For instance, you can change the `font-family`, `color`, and `font-size` of the text on your web pages \(in addition to many more\).
+
+
+
+
 

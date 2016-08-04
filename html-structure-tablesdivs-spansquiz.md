@@ -50,3 +50,27 @@
 
 5\) Below, what is the purpose of the code between &lt;thead&gt;...&lt;\/thead&gt;?
 
+```
+<table border=\"1px\">
+    <thead>
+        <tr>
+            <th colspan=\"2\">Famous Monsters by Birth Year</th>
+        </tr>
+        <tr>
+            <th>Famous Monster</th>
+            <th>Birth Year</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>King Kong</td>
+            <td>1933</td>
+        </tr>
+        <tr>
+            <td>Dracula</td>
+            <td>1897</td>
+        </tr>
+    </tbody>
+</table>
+```
+

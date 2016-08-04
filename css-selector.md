@@ -141,4 +141,4 @@ p:first-child {
 
 Would make all paragraphs that are the first children of their parent elements red.
 
-[See the example]()
+[See the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/classes_and_ids/ex3.html)

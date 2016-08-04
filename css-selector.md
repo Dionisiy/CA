@@ -63,6 +63,6 @@ HTML elements can be CSS selectors, but as we saw with the universal selector `*
 There are two important selectors you can use in addition to the universal selector and HTML elements: **classes**and **IDs**.
 
 
-
+[See the Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/classes_and_ids/ex2.html)
 
 

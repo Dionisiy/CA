@@ -26,11 +26,7 @@
 </table>
 ```
 
-**Answer**: three  
-
-
-
-
+**Answer**: three
 
 2\) How is the div tag below being used?
 
@@ -43,4 +39,8 @@
 **Answer**: As a target for a hyperlink \(a.k.a an anchor tag\)
 
 
+
+3\) What purpose do div tags serve?
+
+**Answer**: They divide HTML into containers and allow you to style different parts of your website
 

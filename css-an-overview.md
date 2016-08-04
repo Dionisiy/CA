@@ -42,3 +42,7 @@ You do this by putting a `<link>` tag \(as you saw in the first exercise of this
 2. A `rel` attribute that should always be equal to `"stylesheet"`
 3. A `href` attribute that should point to the web address of your CSS file
 
+```
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" >
+```
+

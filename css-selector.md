@@ -58,3 +58,11 @@ Certain selectors will "override" others if they have a greater**specificity val
 
 
 
+
+
+### **Beyond HTML elements**
+
+HTML elements can be CSS selectors, but as we saw with the universal selector `*`, they're not the _only_selectors available.
+
+There are two important selectors you can use in addition to the universal selector and HTML elements: **classes**and **IDs**.
+

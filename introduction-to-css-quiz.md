@@ -68,19 +68,17 @@ font-size: 0.5em;
 }
 ```
 
-Answer: Em units will style font relative to screen size
+**Answer**: Em units will style font relative to screen size
 
-8\)
+8\) If a line of code is commented out, that line:
 
-If a line of code is commented out, that line:
+**Answer**: Will have no effect on the webpage
 
-ANswer: Will have no effect on the webpage
+9\) What does this tag do?
 
-9\)
-
-What does this tag do?
-
-&lt;link type="text\/css" rel="stylesheet" href="stylesheet.css"\/&gt;
+```
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+```
 
 Anwer: Links to an external CSS file
 

@@ -28,21 +28,15 @@ background-color: #FF9966;
 
 **Answer**: Paragraph rules are commented out
 
-2\)
+2\) Which property\/value would give table data elements a 2px-thick dashed blue border?
 
-Which property\/value would give table data elements a 2px-thick dashed blue border?
+**Answer**: border: 2px dashed blue;
 
-Answer:border: 2px dashed blue;
+3\) Why use an "external" CSS file?
 
-3\)
+**Answer**: To avoid rewriting code
 
-Why use an "external" CSS file?
-
-Answer: To avoid rewriting code
-
-4\)
-
-To create a square-shaped div, which CSS properties would you change?
+4\) To create a square-shaped div, which CSS properties would you change?
 
 Answer:Width and height
 

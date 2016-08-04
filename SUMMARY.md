@@ -27,6 +27,6 @@
             * [Using CSS in a Wepage](using-css-in-a-wepage.md)
     * [Classes and IDs](classes-and-ids.md)
         * [CSS Selector](css-selector.md)
-        * Sorting Your Friends
+        * [Sorting Your Friends](sorting-your-friends.md)
         * Classes and IDs:Quiz
 

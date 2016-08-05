@@ -2,7 +2,7 @@
 
 
 
-In this project you'll learn how to use the HTML <video> element in a web page.
+In this project you'll learn how to use the HTML `<video>` element in a web page.
 
 
 

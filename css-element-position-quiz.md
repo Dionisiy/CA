@@ -78,7 +78,27 @@ div {
 
 10\) By default, div elements do which of the following?
 
-Answer: Take up the full width of the webpage
+**Answer**: Take up the full width of the webpage
+
+11\) Because of its position property, the header div:
+
+
+
+```
+#header {
+
+ height: 200px;
+
+ border: 2px solid black;
+
+ background-color: #45ADA8;
+
+ width: 100%;
+
+ position: fixed;
+
+}
+```
 
 
 

@@ -44,5 +44,5 @@ Controlling an HTML5 audio player to play, pause, increase and decrease volume u
 
 
 
-[See the code](https://denishromenko.gitbooks.io/codeacademy_doc/content/html_structure_using_lists/external-ex.html)
+[See The Code](https://denishromenko.gitbooks.io/codeacademy_doc/content/html_structure_using_lists/external-ex.html)
 

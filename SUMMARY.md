@@ -41,14 +41,15 @@
         * [Innovation Cloud](innovation-cloud.md)
         * [MOVE](move.md)
         * [Shutterbugg](shutterbugg.md)
-        * Red\_Eye\_Photography
-        * BestBite
-        * Junction
-        * Adoptly
-        * Headlines
-        * Excursion
-        * Pocketbook
-        * Bolt Network
-        * Bass
-        * Armando Perez
+        * [Red\_Eye\_Photography](redeyephotography.md)
+        * [BestBite](bestbite.md)
+        * [Junction](junction.md)
+        * [Adoptly](adoptly.md)
+        * [Headlines](headlines.md)
+        * [Excursion](excursion.md)
+        * [Pocketbook](pocketbook.md)
+        * [Bolt Network](bolt-network.md)
+        * [Bass](bass.md)
+        * [Armando Perez](armando-perez.md)
+        * [Newsroom](newsroom.md)
 

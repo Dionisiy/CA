@@ -130,4 +130,3 @@ The first type of positioning is **absolute** positioning. When an element is se
 
 [See the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex10.html)
 
-

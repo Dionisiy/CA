@@ -82,8 +82,6 @@ div {
 
 11\) Because of its position property, the header div:
 
-
-
 ```
 #header {
 
@@ -99,6 +97,14 @@ div {
 
 }
 ```
+
+
+
+**Answer**: Will not move as you scroll up or down the webpage
+
+12\) By default, HTML elements have a \_\_\_\_ value for the \`position\` property.
+
+**Answer**: static
 
 
 

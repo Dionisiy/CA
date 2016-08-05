@@ -26,3 +26,5 @@ We can change all this with the first positioning property we'll learn: the **di
 
 **none**: This makes the element and its content disappear from the page entirely!
 
+[see the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex4.html)
+

@@ -2,12 +2,11 @@
 
 
 
-In this prooject you'll build a page layout usibg Bootstrap's grid. You'll also use Bootstrap's reusable components to add a navigation menu.
+In this prooject you'll use Bootstrap's grid to build another page layout.
 
 
 
 
-
-[See the Result](https://denishromenko.gitbooks.io/codeacademy_doc/content/html_css_projects/bestbite.html)
+[See the Result](https://denishromenko.gitbooks.io/codeacademy_doc/content/html_css_projects/adoptly.html)
 
 

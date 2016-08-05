@@ -16,8 +16,6 @@ p:first-child{
 
 3\) Which property is the "edge" of the div elements?
 
-
-
 ```
 p {
     border: 2px solid blue;
@@ -30,11 +28,13 @@ p {
 }
 ```
 
-
-
 **Answer**: border
 
+4\) Which of the following best describes the \`static\` value of the CSS \`position\` property?
+
+**Answer**: Where the element would normally go
 
 
- Which of the following best describes the \`static\` value of the CSS \`position\` property?
+
+5\) Which of the following best describes the effect of CSS' \`float\` property?
 

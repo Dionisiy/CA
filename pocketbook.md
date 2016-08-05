@@ -1,7 +1,7 @@
 # Pocketbook
 
 
-In this prooject you'll build a page layout usibg Bootstrap's grid. You'llenu.
+In this project you'll learn how to use the HTML <form> element to make a signup page.
 
 
 

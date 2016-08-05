@@ -116,7 +116,7 @@ If you don't specify an element's positioning type, it defaults to `static`. Thi
 
 The first type of positioning is **absolute** positioning. When an element is set to `position: absolute`, it's then positioned in relation to the first parent element it has that \_doesn't\_have `position: static`. If there's no such element, the element with`position: absolute` gets positioned relative to `<html>`.
 
-[See the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex8.html)
+[See The Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex8.html)
 
 ### **Relative positioning**
 

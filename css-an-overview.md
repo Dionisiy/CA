@@ -78,7 +78,7 @@ p {
 
 > Remember: end each property-value pair with a semicolon!
 
-[see the code](https://denishromenko.gitbooks.io/codeacademy_doc/content/introduction_to_css/ex1.html)
+[See The Code](https://denishromenko.gitbooks.io/codeacademy_doc/content/introduction_to_css/ex1.html)
 
 ### **The importance of semicolons**
 

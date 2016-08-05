@@ -29,7 +29,7 @@
         * [CSS Selector](css-selector.md)
         * [Sorting Your Friends](sorting-your-friends.md)
         * [Classes and Ids:Quiz](quiz.md)
-        * [External Resources](external-resources.md)
+        * [External Resources 5](external-resources.md)
             * [CSS Properties](css-properties.md)
             * [Pseudo-classes Selectors](pseudo-classes-selectors.md)
     * [CSS Element Positioning](css-element-positioning.md)

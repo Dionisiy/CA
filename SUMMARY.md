@@ -31,7 +31,7 @@
         * [Classes and Ids:Quiz](quiz.md)
         * [External Resources](external-resources.md)
             * [CSS Properties](css-properties.md)
-            * Pseudo-classes Selectors
+            * [Pseudo-classes Selectors](pseudo-classes-selectors.md)
     * [CSS Element Positioning](css-element-positioning.md)
         * CSS Positioning
         * Build a Resume

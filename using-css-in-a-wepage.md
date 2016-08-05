@@ -1,6 +1,6 @@
 # How CSS works
 
-**[CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS "CSS: CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser.")****\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\*\*\***_\* \(Cascading Style Sheets\) allows you to create great looking web pages, but how does it work under the hood? This article explains what CSS is, how the browser turns HTML into a Document Object Model \(\_**\*\*\_\_**_\*\_\__\*\*_\*\_**\***_\*\_\__**_\*\_****\***\*\***\_\*\***\*\*\_**\_**\***\_\*\***[DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).")**\*\*\_**\_\*\*_\*\_\_\_\_\*\*_\_\_\*\_\*\__\*\_\*\_\_\_\), how CSS is applied to parts of the DOM, some very basic syntax examples, and what code is used to actually include our CSS in our web page.\_\*
+[**CSS**](https://developer.mozilla.org/en-US/docs/Glossary/CSS "CSS: CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser.")_** \(Cascading Style Sheets\) allows you to create great looking web pages, but how does it work under the hood? This article explains what CSS is, how the browser turns HTML into a Document Object Model **__\(_[DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM "DOM: The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).")\), how CSS is applied to parts of the DOM, some very basic syntax examples, and what code is used to actually include our CSS in our web page.\_\*
 
 ### **What is CSS?**
 
@@ -159,8 +159,4 @@ This can be useful in some circumstances \(maybe you're working with a content m
 ```
 
 Please don't do this, unless you really have to! It is really bad for maintenance \(you might have to update _the same information_ multiple times _per document_\), and it also mixes your presentational CSS information with your HTML structural information, making the CSS harder to read and understand. Keeping your different types of code separated and pure makes for a much easier job for all who work on the code.
-
-
-
-
 

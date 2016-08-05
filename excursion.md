@@ -2,7 +2,7 @@
 
 
 
-In this prooject you'll build a page layout usibg Bootstrap's grid. You'll also use Bootstrap.
+In this prooject you'll learn how to use the HTML <video> element in a web page.
 
 
 

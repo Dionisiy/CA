@@ -19,13 +19,17 @@ In CSS terminology, this entire line is a _rule_. This rule starts with `strong`
 > 
 > This tutorial refers to a selector like strong as a tag selector. The CSS Specification refers to it as a type selector.
 
-Two attributes have special status for CSS. They are [`class`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-class "en-US/docs/Web/HTML/Global_attributes#attr-class") and [`id`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#id "en-US/docs/Web/HTML/Global_attributes#id").
+Two attributes have special status for CSS. They are `class` and `id`.
 
-Use the [`class`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-class "en-US/docs/Web/HTML/Global_attributes#attr-class") attribute in an element to assign the element to a named class. It is up to you what name you choose for the class. Multiple elements in a document can have the same class value.
+
+
+### Class selectors
+
+Use the `class` attribute in an element to assign the element to a named class. It is up to you what name you choose for the class. Multiple elements in a document can have the same class value.
 
 In your stylesheet, type a full stop \(period\) before the class name when you use it in a selector.
 
 ### ID selectors
 
-Use the [`id`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#id "en-US/docs/Web/HTML/Global_attributes#id") attribute in an element to assign an ID to the element. It is up to you what name you choose for the ID. The ID name must be unique in the document.
+Use the `id` attribute in an element to assign an ID to the element. It is up to you what name you choose for the ID. The ID name must be unique in the document.
 

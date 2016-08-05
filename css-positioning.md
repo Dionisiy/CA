@@ -124,11 +124,10 @@ The first type of positioning is **absolute** positioning. When an element is se
 
 [See the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex9.html)
 
-
-
 ### **Fixed positioning**
 
 **Fixed** positioning anchors an element to the browser window—you can think of it as gluing the element to the screen. If you scroll up and down, the fixed element stays put even as other elements scroll past.
 
+[See the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex10.html)
 
 

@@ -76,12 +76,18 @@ When you have a problem with conflicting rules, try to resolve it by making one 
 
 CSS has some ways to select elements based on the relationships between elements. You can use these to make selectors that are more specific.
 
-
-
 | **Selector** | **Selects** |
 | --- | --- |
 | A E | Any E element that is a descendant of an A element \(that is: a child, or a child of a child, etc.\) |
 | A &gt; E | Any E element that is a child \(i.e. direct descendant\) of an A element |
 | E:first-child | Any E element that is the first child of its parent |
 | B + E | Any E element that is the next sibling of a B element \(that is: the next child of the same parent\) |
+
+
+
+> You can combine these to express complex relationships.
+> 
+> You can also use the symbol \* \(asterisk\) to mean "any element".
+
+
 

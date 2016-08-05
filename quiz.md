@@ -36,7 +36,7 @@
 
 **Answer**: `div ul li ol p`
 
+9\) When should you use a class selector?
 
-
-
+ **Answer**: To select many elements that should receive the same styling
 

@@ -72,3 +72,9 @@ Multiple rules may have selectors that each match the same element. If a propert
 
 When you have a problem with conflicting rules, try to resolve it by making one of the rules more specific, so that it has priority. If you cannot do that, try moving one of the rules nearer the end of the stylesheet so that it has priority.
 
+
+
+## **Information: Selectors based on relationships**[**EDIT**](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors$edit#Information_Selectors_based_on_relationships)
+
+CSS has some ways to select elements based on the relationships between elements. You can use these to make selectors that are more specific.
+

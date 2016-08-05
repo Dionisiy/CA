@@ -85,5 +85,3 @@ CSS has some ways to select elements based on the relationships between elements
 | E:first-child | Any E element that is the first child of its parent |
 | B + E | Any E element that is the next sibling of a B element \(that is: the next child of the same parent\) |
 
-
-

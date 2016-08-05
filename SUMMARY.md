@@ -36,5 +36,5 @@
         * [CSS Positioning](css-positioning.md)
         * [Build a Resume](build-a-resume.md)
         * [CSS Element Position: Quiz](css-element-position-quiz.md)
-    * HTML & CSS Projects
+    * [HTML & CSS Projects](html--css-projects.md)
 

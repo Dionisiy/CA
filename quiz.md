@@ -1,18 +1,18 @@
 1\) Which CSS would select an ID named first?
 
-**Answer**: \#first
+**Answer**: `#first`
 
 2\) Which CSS selector will select only list items that are direct children of a div?
 
-**Answer**: div &gt; li
+**Answer**: `div > li`
 
 3\) Which CSS selector will select any list item within a div?
 
-**Answer**: div li
+**Answer**: `div li`
 
 4\) Which pseudo-class selects text when the mouse is directly over it?
 
-**Answer**: hover
+**Answer**: `hover`
 
 5\) Complete the following sentence: "If HTML were a tree..."
 
@@ -31,4 +31,12 @@
 ```
 
 **Answer**: The div is the parent of the p
+
+8\) Which of the following CSS selectors will override the other 3?
+
+**Answer**: `div ul li ol p`
+
+
+
+
 

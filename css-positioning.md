@@ -111,3 +111,12 @@ element {
 If you don't specify an element's positioning type, it defaults to `static`. This just means "where the element would normally go." If you don't tell an element how to position itself, it just plunks itself down in the document.
 
 [See the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex7.html)
+
+
+
+### **Absolute positioning**
+
+The first type of positioning is**absolute** positioning. When an element is set to `position: absolute`, it's then positioned in relation to the first parent element it has that _doesn't_have `position: static`. If there's no such element, the element with`position: absolute` gets positioned relative to `<html>`.
+
+
+

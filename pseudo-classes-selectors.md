@@ -89,5 +89,5 @@ CSS has some ways to select elements based on the relationships between elements
 
 ## **Action: Using pseudo-classes selectors**
 
-
+[See the example of using pseudo-classes selectors](https://denishromenko.gitbooks.io/codeacademy_doc/content/classes_and_ids/ex5.html)
 

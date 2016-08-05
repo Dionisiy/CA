@@ -2,7 +2,7 @@
 
 
 
-In this prooject you'll use Bootstrap's grid to a build a page layout from scratch.
+In this project you'll use Bootstrap's grid to a build a page layout from scratch.
 
 
 

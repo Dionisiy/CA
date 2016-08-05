@@ -34,7 +34,21 @@ p {
 
 **Answer**: Where the element would normally go
 
-
-
 5\) Which of the following best describes the effect of CSS' \`float\` property?
+
+**Answer**: Positions elements within the flow of the webpage
+
+6\) Because of its \`clear\` property, this \`footer\` div will:
+
+
+
+```
+#footer {
+    border: 1px solid blue;
+    height: 50px;
+    clear: both;
+}
+```
+
+**Answer**: Move below all floating elements on the webpage
 

@@ -124,5 +124,11 @@ div {
 
 **Answer**: margin-left
 
+14\) If an p element's padding is 20px, which of the following is true ?
+
+**Answer**: There are 20px between the p text and its border
+
+
+
 
 

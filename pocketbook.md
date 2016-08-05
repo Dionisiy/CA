@@ -1,7 +1,7 @@
 # Pocketbook
 
 
-In this project you'll learn how to use the HTML <form> element to make a signup page.
+In this project you'll learn how to use the HTML `<form>` element to make a signup page.
 
 
 

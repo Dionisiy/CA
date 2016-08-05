@@ -28,7 +28,7 @@ We can change all this with the first positioning property we'll learn: the **di
 
 [see the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex4.html)
 
-**Sketching it out**
+### **Sketching it out**
 
 The **margin** is the space around the element. The larger the margin, the more space between our element and the elements around it. We can adjust the margin to move our HTML elements closer to or farther from each other.
 
@@ -38,7 +38,7 @@ The **padding** is the spacing between the content and the border. We can adjust
 
 The **content** is the actual "stuff" in the box. If we're talking about a `<p>`element, the "stuff" is the text of the paragraph.
 
-**Margin top, right, bottom, left**
+### **Margin top, right, bottom, left**
 
 If you want to specify a particular margin, you can do it like this:
 
@@ -58,7 +58,7 @@ margin: 1px 2px 3px 4px;
 
 will set a top margin of 1 pixel, a right margin of 2, a bottom of 3, and a left of 4.
 
-**Padding**
+### **Padding**
 
 Padding can be set in two ways, just like your margins. You can either select them individually, like this:
 
@@ -78,13 +78,13 @@ padding: value value value value;
 
 You should also know that if you want your padding to be the same for all four sides, you can declare that value only once. `padding: 10px` will give your HTML element 10 pixels of padding on all sides.
 
-
-
-**Negative values**
+### **Negative values**
 
 When you give CSS a positive padding or margin value, it puts that space between the element and its reference: for instance, if you have a`<div>` and you give it a `margin-left` of`20px`, it puts twenty pixels between the left margin of that `<div>` and the side of the screen. This effectively moves the `<div>` twenty pixels to the_right_.
 
-If you want to move an element in the other direction, you can give CSS a_negative_ value: `margin-left: -20px` will move the element twenty pixels to the_left_.
+If you want to move an element in the other direction, you can give CSS a_negative_ value: `margin-left: -20px` will move the element twenty pixels to the _left_.
+
+### Floating
 
 
 

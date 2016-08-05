@@ -1,6 +1,6 @@
 # Broadway
 
-In this project you help to create a home page for design agency
+In this project you wi;; add a navigetion menu, background image, and make a button.
 
 [See The Result](https://denishromenko.gitbooks.io/codeacademy_doc/content/html_css_projects/broadway.html)
 

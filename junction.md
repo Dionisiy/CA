@@ -2,7 +2,7 @@
 
 
 
-In this prooject you'll use Bootstrap's 12-collumn grid to build a page layout.
+In this project you'll use Bootstrap's 12-collumn grid to build a page layout.
 
 
 

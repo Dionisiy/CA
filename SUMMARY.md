@@ -29,4 +29,9 @@
         * [CSS Selector](css-selector.md)
         * [Sorting Your Friends](sorting-your-friends.md)
         * [Classes and Ids:Quiz](quiz.md)
+        * External Resources
+    * [CSS Element Positioning](css-element-positioning.md)
+        * CSS Positioning
+        * Build a Resume
+        * CSS Element Position: Quiz
 

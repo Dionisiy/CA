@@ -28,5 +28,5 @@
     * [Classes and IDs](classes-and-ids.md)
         * [CSS Selector](css-selector.md)
         * [Sorting Your Friends](sorting-your-friends.md)
-        * Classes and Ids:Quiz
+        * [Classes and Ids:Quiz](quiz.md)
 

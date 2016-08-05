@@ -86,7 +86,7 @@ If you want to move an element in the other direction, you can give CSS a_negati
 
 ### Floating
 
+**Floats **are use to detrmine where the elements go on the page.
 
-
-
+When you float an element on the page, you're telling the webpage: "I'm about to tell you where to put this element, but you have to put it into the **flow** of other elements." This means that if you have several elements all floating, they all know the others are there and don't land on top of each other.
 

@@ -34,6 +34,6 @@
             * [Pseudo-classes Selectors](pseudo-classes-selectors.md)
     * [CSS Element Positioning](css-element-positioning.md)
         * [CSS Positioning](css-positioning.md)
-        * Build a Resume
+        * [Build a Resume](build-a-resume.md)
         * [CSS Element Position: Quiz](css-element-position-quiz.md)
 

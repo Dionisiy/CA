@@ -35,5 +35,5 @@
     * [CSS Element Positioning](css-element-positioning.md)
         * [CSS Positioning](css-positioning.md)
         * Build a Resume
-        * CSS Element Position: Quiz
+        * [CSS Element Position: Quiz](css-element-position-quiz.md)
 

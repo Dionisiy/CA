@@ -1,9 +1,7 @@
-# BestBite
+# Armando Perez
 
 
-
-In this prooject you'll build a page layout usibg Bootstrap's grid. You'll also use Bootstrap's reusable components to add a navigation menu.
-
+Build a portfolio page with a grid of images from scratch
 
 
 

@@ -1,6 +1,4 @@
 # HTML & CSS Projects
 
-
-
-In this chapter 
+In this chapter are practical projects in this course.
 

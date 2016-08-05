@@ -42,8 +42,6 @@ The **content** is the actual "stuff" in the box. If we're talking about a `<p>`
 
 If you want to specify a particular margin, you can do it like this:
 
-
-
 ```
 margin-top: /*some value*/
 margin-right: /*some value*/
@@ -62,7 +60,5 @@ will set a top margin of 1 pixel, a right margin of 2, a bottom of 3, and a left
 
 
 
-
-
-
+**Padding**
 

@@ -104,21 +104,25 @@ div {
 
 **Answer**: static
 
- 13\) Which property could be used here to move divs 100px to the right?
+13\) Which property could be used here to move divs 100px to the right?
 
 ```
 div {
-    
+
     height: 50px;
 
     width:50px;
-    
+
     border: 1px solid black;
-    
+
     background-color: yellow;
-    
+
     ____-___: 100px;
 
 }
 ```
+
+**Answer**: margin-left
+
+
 

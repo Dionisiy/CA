@@ -4,6 +4,5 @@ Controlling the position of HTML elements allows you incredibly fine control ove
 
 As we mentioned, elements populate the page in what's known as the **CSS box model**. Each HTML element is like a tiny box or container that holds the pictures and text you specify.
 
+[See The Box Model](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex1.html)
 
-
-[See The Box Model]

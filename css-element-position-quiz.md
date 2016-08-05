@@ -128,7 +128,25 @@ div {
 
 **Answer**: There are 20px between the p text and its border
 
+15\) What is true about these CSS rules?
 
+
+
+```
+a:link {
+    color:#008B45;
+    text-decoration: none;
+    
+} a:hover {
+    color:#00FF00;
+} a:visited {
+    color:#EE9A00;
+}
+```
+
+
+
+**Answer**: All of these are correct \(They deal with how to style a tags, They utilize pseudo-class selectors, They use selectors that aren't part of the document tree \)
 
 
 

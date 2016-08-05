@@ -114,17 +114,9 @@ If you don't specify an element's positioning type, it defaults to `static`. Thi
 
 ### **Absolute positioning**
 
-The first type of positioning is**absolute** positioning. When an element is set to `position: absolute`, it's then positioned in relation to the first parent element it has that \_doesn't\_have `position: static`. If there's no such element, the element with`position: absolute` gets positioned relative to `<html>`.
-
-
+The first type of positioning is **absolute** positioning. When an element is set to `position: absolute`, it's then positioned in relation to the first parent element it has that \_doesn't\_have `position: static`. If there's no such element, the element with`position: absolute` gets positioned relative to `<html>`.
 
 ### **Relative positioning**
 
 **Relative** positioning is more straightforward: it tells the element to move relative to where it would have landed if it just had the default `static`positioning.
-
-
-
-
-
-
 

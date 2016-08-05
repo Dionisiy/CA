@@ -63,8 +63,12 @@ selector:pseudo-class {
 * `:enabled`
 * `:disabled`
 
-
 ## **Information: Specificity**
 
 Multiple rules may have selectors that each match the same element. If a property is given in only one rule, there is no conflict and the property is set on the element. If more than one rule applies to an element and sets the same property, then CSS gives priority to the rule that has the more[specific](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) selector. An ID selector is more specific than a class, pseudo-class or attribute selector, which in turn are more specific than a tag or pseudo-element selector.
+
+
+
+> More details
+> You can also combine selectors, making a more specific selector. For example, the selector .key selects all elements that have the class name key. The selector p.key selects only &lt;p&gt; elements that have the class name key.
 

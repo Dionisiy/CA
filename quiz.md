@@ -22,11 +22,13 @@
 
 **Answer**: All of these are correct \(To select one element for special treatment, To single out an element from others like it, To give an element a unique style\)
 
+7\) How are the p and div related in this code sample?
 
+```
+<div>
+  <p>How are we related?</p>
+</div>
+```
 
-
-
-
-
-
+**Answer**: The div is the parent of the p
 

@@ -72,7 +72,7 @@ div {
 }
 ```
 
+9\) Complete this sentence: "Margin is..."
 
-
-Complete this sentence: "Margin is..."
+**Answer**: ...the space around an HTML element
 

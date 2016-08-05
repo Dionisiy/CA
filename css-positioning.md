@@ -104,7 +104,7 @@ element {
 }
 ```
 
-[See the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex6.html)
+[See The Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex6.html)
 
 ### **Static by default**
 

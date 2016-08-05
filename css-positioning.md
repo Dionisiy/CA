@@ -18,15 +18,15 @@ We can change all this with the first positioning property we'll learn: the **di
 
 **inline-block**: This makes the element a block box, but will allow other elements to sit next to it on the same line.
 
-[see the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex2.html)
+[See the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex2.html)
 
 **inline**: This makes the element sit on the same line as another element, but without formatting it like a block. It only takes up as much width as it needs \(not the whole line\).
 
-[see the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex3.html)
+[See the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex3.html)
 
 **none**: This makes the element and its content disappear from the page entirely!
 
-[see the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex4.html)
+[See the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex4.html)
 
 ### **Sketching it out**
 
@@ -105,6 +105,4 @@ element {
 ```
 
 
-
-
-
+[See the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex6.html)

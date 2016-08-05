@@ -93,3 +93,11 @@ CSS has some ways to select elements based on the relationships between elements
 
 With selectors based on relationships and pseudo-classes you can create complex cascade algorithms. This is a common technique used, for example, in order to create **pure-CSS dropdown menus** \(that is only CSS, without using [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript "en-US/docs/Web/JavaScript")\). The essence of this technique is the creation of a rule like the following:
 
+
+
+## **Action: Using selectors based on relationships and pseudo-classes**
+
+With selectors based on relationships and pseudo-classes you can create complex cascade algorithms. This is a common technique used, for example, in order to create **pure-CSS dropdown menus** \(that is only CSS, without using [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript "en-US/docs/Web/JavaScript")\). The essence of this technique is the creation of a rule like the following:
+
+
+

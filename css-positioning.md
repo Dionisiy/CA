@@ -90,3 +90,19 @@ If you want to move an element in the other direction, you can give CSS a_negati
 
 When you float an element on the page, you're telling the webpage: "I'm about to tell you where to put this element, but you have to put it into the **flow** of other elements." This means that if you have several elements all floating, they all know the others are there and don't land on top of each other.
 
+
+
+### **Clearing elements**
+
+Unfortunately, we sometimes mix large floating elements with non-floating ones, and elements _do_ end up on top of each other.
+
+If you tell an element to `clear: left`, it will immediately move below any floating elements on the left side of the page; it can also clear elements on the `right`. If you tell it to `clear: both`, it will get out of the way of elements floating on the left _and_ right!
+
+The syntax is what you're used to:
+
+```
+element {
+    clear: /*right, left, or both*/
+}
+```
+

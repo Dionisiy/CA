@@ -30,7 +30,7 @@
         * [Sorting Your Friends](sorting-your-friends.md)
         * [Classes and Ids:Quiz](quiz.md)
         * [External Resources](external-resources.md)
-            * CSS Properties
+            * [CSS Properties](css-properties.md)
             * Pseudo-classes Selectors
     * [CSS Element Positioning](css-element-positioning.md)
         * CSS Positioning

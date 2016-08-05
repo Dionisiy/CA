@@ -110,7 +110,7 @@ element {
 
 If you don't specify an element's positioning type, it defaults to `static`. This just means "where the element would normally go." If you don't tell an element how to position itself, it just plunks itself down in the document.
 
-[See the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex7.html)
+[See The Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex7.html)
 
 ### **Absolute positioning**
 

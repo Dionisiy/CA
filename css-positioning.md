@@ -6,3 +6,19 @@ As we mentioned, elements populate the page in what's known as the **CSS box mod
 
 [See The Box Model](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex1.html)
 
+
+
+Each HTML element gets its own box to live in.
+
+As you saw, the outermost box of each element went all the way across the page. This is why until now, your HTML elements have been sitting on top of one another: by default, they take up the full width of the page.
+
+We can change all this with the first positioning property we'll learn: the **display** property. 
+
+**block**: This makes the element a block box. It won't let anything sit next to it on the page! It takes up the full width.
+
+
+
+**inline-block**: This makes the element a block box, but will allow other elements to sit next to it on the same line.
+
+
+

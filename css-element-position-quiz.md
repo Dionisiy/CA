@@ -76,3 +76,9 @@ div {
 
 **Answer**: ...the space around an HTML element
 
+10\) By default, div elements do which of the following?
+
+Answer: Take up the full width of the webpage
+
+
+

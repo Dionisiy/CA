@@ -40,8 +40,6 @@ p {
 
 6\) Because of its \`clear\` property, this \`footer\` div will:
 
-
-
 ```
 #footer {
     border: 1px solid blue;
@@ -51,4 +49,8 @@ p {
 ```
 
 **Answer**: Move below all floating elements on the webpage
+
+
+
+7\) Which of the following would decrease space between the "above" div and the p below it?
 

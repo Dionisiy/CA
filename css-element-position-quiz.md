@@ -50,7 +50,35 @@ p {
 
 **Answer**: Move below all floating elements on the webpage
 
-
-
 7\) Which of the following would decrease space between the "above" div and the p below it?
+
+
+
+```
+<div id="above"></div>
+<p>Meaningful paragraph content</p>
+
+```
+
+**Answer**: A negative value for the "above" div's margin-bottom property
+
+
+
+8\) How will divs be arranged according to this code?
+
+
+
+```
+div {
+    height: 50px;
+
+    width: 100px;
+    
+    display: inline-block;
+}
+```
+
+
+
+
 

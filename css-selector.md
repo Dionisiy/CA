@@ -103,7 +103,7 @@ IDs are identified in CSS with a pound sign \(`#`\)
 
 This allows you to apply style to a single instance of a selector, rather than _all_ instances.
 
-[See the Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/classes_and_ids/ex2.html)
+[See The Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/classes_and_ids/ex2.html)
 
 ### **Pseudo-class selector**
 

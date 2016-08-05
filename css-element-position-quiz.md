@@ -98,13 +98,27 @@ div {
 }
 ```
 
-
-
 **Answer**: Will not move as you scroll up or down the webpage
 
 12\) By default, HTML elements have a \_\_\_\_ value for the \`position\` property.
 
 **Answer**: static
 
+ 13\) Which property could be used here to move divs 100px to the right?
 
+```
+div {
+    
+    height: 50px;
+
+    width:50px;
+    
+    border: 1px solid black;
+    
+    background-color: yellow;
+    
+    ____-___: 100px;
+
+}
+```
 

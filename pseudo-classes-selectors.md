@@ -8,3 +8,7 @@ strong {
 }
 ```
 
+In CSS terminology, this entire line is a _rule_. This rule starts with `strong`, which is a _selector_. It selects which elements in the DOM the rule applies to.
+
+
+

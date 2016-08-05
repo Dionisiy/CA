@@ -28,8 +28,6 @@ We can change all this with the first positioning property we'll learn: the **di
 
 [see the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex4.html)
 
-
-
 **Sketching it out**
 
 The **margin** is the space around the element. The larger the margin, the more space between our element and the elements around it. We can adjust the margin to move our HTML elements closer to or farther from each other.
@@ -39,4 +37,14 @@ The **border** is the edge of the element. It's what we've been making visible e
 The **padding** is the spacing between the content and the border. We can adjust this value with CSS to move the border closer to or farther from the content.
 
 The **content** is the actual "stuff" in the box. If we're talking about a `<p>`element, the "stuff" is the text of the paragraph.
+
+
+
+**Margin top, right, bottom, left**
+
+If you want to specify a particular margin, you can do it like this:
+
+
+
+
 

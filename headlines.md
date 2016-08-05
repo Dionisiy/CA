@@ -8,6 +8,6 @@ In this prooject you'll build a page layout usibg Bootstrap's grid. You'll also 
 
 
 
-[See the Result](https://denishromenko.gitbooks.io/codeacademy_doc/content/html_css_projects/bestbite.html)
+[See the Result](https://denishromenko.gitbooks.io/codeacademy_doc/content/html_css_projects/headlines.html)
 
 

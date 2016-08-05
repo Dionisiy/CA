@@ -38,5 +38,11 @@
 
 9\) When should you use a class selector?
 
- **Answer**: To select many elements that should receive the same styling
+**Answer**: To select many elements that should receive the same styling
+
+10\) Which CSS would select a class named question?
+
+**Answer**: `.question`
+
+
 

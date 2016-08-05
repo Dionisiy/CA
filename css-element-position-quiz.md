@@ -10,3 +10,9 @@ p:first-child{
 
 **Answer**:  Applies cursive font to the first p tag of its parent element
 
+
+
+Complete this sentence: "Selectors with the display property \`none\` will..."
+
+Answer: ...not be visible on the webpage
+

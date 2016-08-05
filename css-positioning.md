@@ -124,3 +124,6 @@ The first type of positioning is **absolute** positioning. When an element is se
 
 **Relative** positioning is more straightforward: it tells the element to move relative to where it would have landed if it just had the default `static`positioning.
 
+[See the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex4.html)
+
+

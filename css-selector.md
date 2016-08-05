@@ -143,5 +143,5 @@ Would make all paragraphs that are the first children of their parent elements r
 
 [See the example1](https://denishromenko.gitbooks.io/codeacademy_doc/content/classes_and_ids/ex3.html)
 
-[See the example2](https://denishromenko.gitbooks.io/codeacademy_doc/content/classes_and_ids/ex4.html)
+[See the Example2](https://denishromenko.gitbooks.io/codeacademy_doc/content/classes_and_ids/ex4.html)
 

@@ -14,11 +14,11 @@ We can change all this with the first positioning property we'll learn: the **di
 
 **block**: This makes the element a block box. It won't let anything sit next to it on the page! It takes up the full width.
 
+[see the example](https://denishromenko.gitbooks.io/codeacademy_doc/content/css_element_positioning/ex2.html)
+
 **inline-block**: This makes the element a block box, but will allow other elements to sit next to it on the same line.
 
 **inline**: This makes the element sit on the same line as another element, but without formatting it like a block. It only takes up as much width as it needs \(not the whole line\).
 
 **none**: This makes the element and its content disappear from the page entirely!
-
-
 

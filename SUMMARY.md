@@ -50,4 +50,5 @@
         * Pocketbook
         * Bolt Network
         * Bass
+        * Armando Perez
 

@@ -1,13 +1,13 @@
-# BestBite
+# Bolt Network
 
 
 
-In this prooject you'll build a page layout usibg Bootstrap's grid. You'll also use Bootstrap's reusable components to add a navigation menu.
+In this prooject you'll make a web page with a form and a grid of images.
 
 
 
 
 
-[See The Result](https://denishromenko.gitbooks.io/codeacademy_doc/content/html_css_projects/bestbite.html)
+[See The Result](https://denishromenko.gitbooks.io/codeacademy_doc/content/html_css_projects/bolt_network.html)
 
 

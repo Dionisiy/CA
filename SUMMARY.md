@@ -33,7 +33,7 @@
             * [CSS Properties](css-properties.md)
             * [Pseudo-classes Selectors](pseudo-classes-selectors.md)
     * [CSS Element Positioning](css-element-positioning.md)
-        * CSS Positioning
+        * [CSS Positioning](css-positioning.md)
         * Build a Resume
         * CSS Element Position: Quiz
 

@@ -52,5 +52,5 @@
         * [Bass](bass.md)
         * [Armando Perez](armando-perez.md)
         * [Newsroom](newsroom.md)
-    * HTML & CSS Final Project
+    * [HTML & CSS Final Project](html--css-final-project.md)
 

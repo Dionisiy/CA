@@ -44,8 +44,6 @@ The following design elements also have a big impact on how your site is experie
 
 Have you ever been frustrated by a cluttered mess of files on your computer’s Desktop? The same gradual accumulation of disorganized stuff can happen to your website’s codebase, too. One sign of a pro web developer is the use of meaningful folder structures to keep site content organized. Here’s an example of a file tree, a common way to visualize how folders get organized hierarchically.
 
-
-
 ### Naming Conventions:
 
 * **index.html** - standard name for a website's homepage. index.htmlbelongs in the root directory \(i.e., directly inside **website**\).
@@ -53,4 +51,10 @@ Have you ever been frustrated by a cluttered mess of files on your computer’s 
 * **css** - this directory will store all your css files.
 * **main.css** - a common name used for your website's general stylesheet.
 * **img** - your site’s images will live here.
+
+## Style: Actions
+
+1. Background colors, background patterns\/images.
+2. Font family, font sizes and font colors.
+3. Sizing and positioning images, divs and other page elements.
 

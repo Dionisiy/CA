@@ -24,19 +24,13 @@ Don’t worry, you don’t need design experience to make a wireframe. You don�
 
 Focus on the layout of the pages: think about where you want buttons, images, navigations, and sections to go. Don’t forget to refer to the requirements list as you wireframe the components of your site. This will save you a lot of time once you start coding the different elements of your website.
 
-
-
 # Design
 
 ### UX And UI
 
 Short for User Experience and User Interface, UX\/UI is concerned with how the user experiences and interacts with your website. Will the page feel cluttered and cramped, too bright, too dull, too “decked out” with styling or not decorated enough? These are some of the questions that fall into the realm of UX\/UI design.
 
-
-
-
-
-## UX And UI: Actions
+### UX And UI: Actions
 
 Think high-level about the styling skills you learned in the Codecademy CSS lessons. How can you use display properties to give your web pages a clean, professional look? How can you leverage techniques like positioning, and spacing and bordering with the box model to enhance the user experience? Can you think of ways that pseudo-class selectors could make it more fun for users to interact with your site?
 

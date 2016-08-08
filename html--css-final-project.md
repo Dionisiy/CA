@@ -34,3 +34,13 @@ Short for User Experience and User Interface, UX\/UI is concerned with how the u
 
 Think high-level about the styling skills you learned in the Codecademy CSS lessons. How can you use display properties to give your web pages a clean, professional look? How can you leverage techniques like positioning, and spacing and bordering with the box model to enhance the user experience? Can you think of ways that pseudo-class selectors could make it more fun for users to interact with your site?
 
+
+
+The following design elements also have a big impact on how your site is experienced.
+
+* **Color scheme:** the colors you choose communicate a lot to the user. Since you know HEX colors, you have literally millions of options. Most sites choose just three colors for their color scheme. Choose your colors carefully.
+* **Font:** font choice can make a huge difference in the look and feel of your website. Many sites choose two fonts: one for content and one for logo and navigation items. Lean into your knowledge of the CSS \`font-family\` property.
+* **Visuals:** what photos, images and graphics would best serve the user experience you’re creating? Use CSS properties to style different types of visual elements. Hint: get ready to become best friends with width,height, position, display and others.
+
+
+

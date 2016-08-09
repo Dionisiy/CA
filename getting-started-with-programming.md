@@ -29,10 +29,15 @@ What can we use JavaScript for?
 
 `confirm("I feel awesome!");`
 
-`
-confirm("I am ready to go.");`
+`confirm("I am ready to go.");`
 
 These boxes can be used on websites to confirm things with users. You've probably seen them pop up when you try to delete important things or leave a website with unsaved changes.
 
 [See the Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/js/get_started/ex1.html)
+
+
+
+### **What is programming?**
+
+Programming is like writing a list of instructions to the computer so it can do cool stuff with your information.
 

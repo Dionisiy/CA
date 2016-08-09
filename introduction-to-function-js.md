@@ -10,7 +10,7 @@ Then we use the function keyword to tell the computer that you are making a func
 
 The code in the parentheses is called a parameter. It's a placeholder word that we give a specific value when we call the function.
 
-Then write your block of reusable code between { }. Every line of code in this block must end with a ;.
+Then write your block of reusable code between `{ }`. Every line of code in this block must end with a ;.
 
 You can run this code by "calling" the function, like this:
 
@@ -28,7 +28,7 @@ The keyword function tells the computer that functionName is a function and not 
 
 Parameters go in the parentheses. The computer will look out for it in the code block.
 
-The code block is the reusable code that is between the curly brackets { }. Each line of code inside{ } must end with a semi-colon.
+The code block is the reusable code that is between the curly brackets `{ }.` Each line of code inside`{ } `must end with a semi-colon.
 
 The entire function ends with a semi-colon.
 
@@ -44,15 +44,15 @@ Any time you find yourself typing the same thing, but modifying only one small p
 
 The 'small part' that you find yourself modifying will be the parameter. And the part that you keep repeating will be the code in the reusable block - the code inside { }
 
-Return keyword
+### Return keyword
 
 Sometimes, we just want it toreturn a value. We can then use that value \(ie. the output from the function\) in other code.
 
 The return keyword simply gives the programmer back the value that comes out of the function. So the function runs, and when the returnkeyword is used, the function will immediately stop running and returnthe value.
 
-Functions with two parameters
+### Functions with two parameters
 
 So far we've only looked at functions with one parameter. But often it is useful to write functions with more than one parameter. For example, we can have the following function:
 
-var areaBox = function\(length, width\) { return length \* width; };
+`var areaBox = function(length, width) { return length * width; };`
 

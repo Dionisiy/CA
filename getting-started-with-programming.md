@@ -211,4 +211,4 @@ var varName = data;
 
 
 
-[See the Example]()
+[See the Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/js/get_started/ex3.html)

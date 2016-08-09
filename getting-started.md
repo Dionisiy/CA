@@ -107,7 +107,31 @@ We used an `if` statement to do something if the answer to the condition was yes
 
 In addition to doing something when the condition is `true`, we can do something else if the condition is`false`.
 
+```
+if( "myName".length >= 7 ) {
+    console.log("You have a long name!");
+}
+else {
+    console.log("You have a short name!");  
+}
+```
+
+**Code**:
+
+1. `( )`: control order of operations
+
+2. `*` and `/`: multiplication and division
+
+3. `-` and `+`: subtraction and addition
 
 
+**Examples**:
 
+1. `100/10` evaluates to 10
+
+2. `"Jane".length + 5` evaluates to 9
+
+3. `5*(3+1)` evaluates to 20.
+
+4. 
 

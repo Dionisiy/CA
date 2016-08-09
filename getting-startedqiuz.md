@@ -50,7 +50,7 @@ What is the function of the prompt dialog?
 
 Which of the following will correctly comment the text?
 
-Answer:\/\/ “the text” \/\/
+**Answer**:\/\/ “the text” \/\/
 
 Which of the following returns 'he'?
 

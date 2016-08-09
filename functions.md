@@ -42,11 +42,13 @@ To use the function, we **call** the function by just typing the function's name
 
 At the end of each line of code \(within the `{ }`\) and after the entire function \(after the `{ }`\), please put a semi-colon. The semi-colon acts like a period in a sentence. It helps the computer know where there are stopping points in the code.
 
-
-
 ### **Don't Repeat Yourself \(D.R.Y\)**
 
 
 
+he D.R.Y. principle is really important in programming. No repeating!
 
+Any time you find yourself typing the same thing, but modifying only one small part, you can probably use a function.
+
+The 'small part' that you find yourself modifying will be the parameter. And the part that you keep repeating will be the code in the reusable block - the code inside `{ }`
 

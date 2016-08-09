@@ -122,3 +122,13 @@ When `%` is placed between two numbers, the computer will divide the first numbe
 
 ### **Modulo and if \/ else**
 
+```
+if( 15%3 == 0 ) {
+    console.log("The first number is even");
+} else {
+    console.log("The first number is odd");
+}
+```
+
+
+

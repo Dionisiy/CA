@@ -48,7 +48,7 @@ prompt("What is your name?");
 ```
 
 ```
-prompt("What is Ubuntu?");
+prompt("What is Ubuntu?")
 ```
 
 ### **Data Types I & II: Numbers & Strings**
@@ -223,6 +223,4 @@ A variable's value is easily changed. Just pretend you are creating a new variab
         console.log(myAge);
 
 ```
-
-
 

@@ -107,5 +107,9 @@ if( "myName".length >= 7 ) {
 }
 ```
 
+We used an `if` statement to do something if the answer to the condition was yes, or `true` as we say in JavaScript.
+
+In addition to doing something when the condition is `true`, we can do something else if the condition is`false`. 
+
 
 

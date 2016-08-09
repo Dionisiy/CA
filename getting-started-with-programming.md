@@ -74,7 +74,9 @@ For example, comparing two numbers returns a `true` or `false` result:
 
 ### **Using console.log**
 
-`console.log() `will take whatever is inside the parentheses and log it to the console below your code—that's why it's called `console.log()`!
+`console.log()`will take whatever is inside the parentheses and log it to the console below your code—that's why it's called `console.log()`!
 
 
+
+### **Comparisons**
 

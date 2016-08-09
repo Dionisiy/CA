@@ -54,4 +54,5 @@
         * [Newsroom](newsroom.md)
     * [HTML & CSS Final Project](html--css-final-project.md)
         * [Result](result.md)
+* JavaScript
 

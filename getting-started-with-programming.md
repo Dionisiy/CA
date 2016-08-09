@@ -23,12 +23,12 @@ What can we use JavaScript for?
 * organize and present data \(\_e.g.\_automate spreadsheet work; data visualization\)
 
 
-confirm\('This is an example of using JS to create some interaction on a website. Click OK to continue!'\);
+`confirm('This is an example of using JS to create some interaction on a website. Click OK to continue!');`
 
-Interactive JavaScript
+### Interactive JavaScript
 
-confirm\("I feel awesome!"\);
-confirm\("I am ready to go."\);
+`confirm("I feel awesome!");
+confirm("I am ready to go.");`
 
 These boxes can be used on websites to confirm things with users. You've probably seen them pop up when you try to delete important things or leave a website with unsaved changes.
 

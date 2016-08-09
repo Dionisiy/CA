@@ -199,3 +199,9 @@ The letter `h` is in position `0`, the letter`e` is in position `1`, and so on.
 "Batman".substring(0,3);
 ```
 
+
+
+### **Variables**
+
+To do more complex coding, we need a way to 'save' the values from our coding. We do this by defining a variable with a specific, case-sensitive name.
+

@@ -176,11 +176,22 @@ if( 15%3 == 0 ) {
 
 Sometimes you don't want to display the _entire_ string, just a part of it.
 
-
-
 **Code**:
 
-
-
 `"some word".substring(x, y)` where `x` is where you start chopping and `y` is where you finish chopping the original string.
+
+```
+"hello". substring(0, 2);
+
+```
+
+Each character in a string is numbered starting from 0, like this:
+
+```
+0 1 2 3 4
+ | | | | | 
+ h e l l o
+```
+
+The letter `h` is in position `0`, the letter`e` is in position `1`, and so on.
 

@@ -38,7 +38,7 @@ Answer: 'inputControl'.length &lt; 4
 
 Which statement returns the value of 2?
 
-Answer: \(3 + 1\) \/ 'hi'.length
+**Answer**: \(3 + 1\) \/ 'hi'.length
 
 Which of the following returns 'llo' ?
 

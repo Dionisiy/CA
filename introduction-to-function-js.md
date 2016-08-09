@@ -86,3 +86,5 @@ var bar = function() {
 console.log(localVar);  // error
 ```
 
+The variable `localVar` only exists inside the function `bar`. Trying to print`localVar` outside the function gives a error.
+

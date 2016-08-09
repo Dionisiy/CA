@@ -22,7 +22,7 @@ What best describes the variables in JavaScript?
 
 Which of the following is not a comparator operation in JavaScript?
 
-Answer: &lt;==
+**Answer**: &lt;==
 
 Which of the following is the correct way to declare a variable?
 

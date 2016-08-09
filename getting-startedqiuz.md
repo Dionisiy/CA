@@ -26,7 +26,7 @@ Which of the following is not a comparator operation in JavaScript?
 
 Which of the following is the correct way to declare a variable?
 
-Answer: var myName
+**Answer**: var myName
 
 Which of the following is the correct use of the confirm dialog?
 

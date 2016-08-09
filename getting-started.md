@@ -107,7 +107,16 @@ We used an `if` statement to do something if the answer to the condition was yes
 
 In addition to doing something when the condition is `true`, we can do something else if the condition is`false`.
 
+```
+if( "myName".length >= 7 ) {
+    console.log("You have a long name!");
+}
+else {
+    console.log("You have a short name!");  
+}
+```
 
+### **Math and the modulo**
 
-
+When `%` is placed between two numbers, the computer will divide the first number by the second, and then return the **remainder** of that division.
 

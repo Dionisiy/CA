@@ -10,7 +10,7 @@ What is the substring keyword used for?
 
 Which of the following is the correct way to log a statement to the console?
 
-Answer: console.log\("Hello world"\);
+**Answer**: console.log\("Hello world"\);
 
 Which of the following is the correct way of returning the length of the word 'string'?
 

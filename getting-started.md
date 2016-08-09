@@ -148,3 +148,9 @@ To do more complex coding, we need a way to 'save' the values from our coding. W
 
 Once you create \(or **declare**\) a variable as having a particular name, you can then call up that value by typing the variable name.
 
+```
+var varName = data;
+```
+
+
+

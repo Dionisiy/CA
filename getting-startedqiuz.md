@@ -30,7 +30,7 @@ Which of the following is the correct way to declare a variable?
 
 Which of the following is the correct use of the confirm dialog?
 
-Answer: confirm\(“Hello world”\);
+**Answer**: confirm\(“Hello world”\);
 
 Which of the following statements returns false?
 

@@ -61,13 +61,14 @@ Data comes in various **types**. You have used two already!
 
 To make a _number_ in your code, just write a number as numerals _without quotes_: `42`, `190.12334`.
 
-
-
 To write a string, surround words _with quotes_: `"What is your name?"`
-
-
 
 ### **Data Type III: Booleans**
 
+ **booleans**. A boolean is either `true` or `false`.
 
+For example, comparing two numbers returns a `true` or `false` result:
+
+* `23 > 10` is `true`
+* `5 < 4` is `false`
 

@@ -47,8 +47,6 @@ Examples:
 
 `prompt("What is Ubuntu?")`
 
-
-
 ### **Data Types I & II: Numbers & Strings**
 
 Data comes in various **types**. You have used two already!
@@ -60,4 +58,19 @@ Data comes in various **types**. You have used two already!
 To make a _number_ in your code, just write a number as numerals _without quotes_: `42`, `190.12334`.
 
 To write a string, surround words _with quotes_: `"What is your name?"`
+
+
+
+### **Data Type III: Booleans**
+
+**booleans**. A boolean is either `true` or `false`.
+
+For example, comparing two numbers returns a `true` or `false` result:
+
+* `23 > 10` is `true`
+* `5 < 4` is `false`
+
+### **Using console.log**
+
+`console.log()`will take whatever is inside the parentheses and log it to the console below your code—that's why it's called `console.log()`!
 

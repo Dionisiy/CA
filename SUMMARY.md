@@ -56,5 +56,4 @@
         * [Newsroom](newsroom.md)
     * [HTML & CSS Final Project](html--css-final-project.md)
         * [Result](result.md)
-* [Getting Started with Programming](getting-started-with-programming.md)
 

@@ -18,7 +18,7 @@ Which of the following is the correct way of returning the length of the word 's
 
 What best describes the variables in JavaScript?
 
-Answer:To allow the user to save and call values
+**Answer**: To allow the user to save and call values
 
 Which of the following is not a comparator operation in JavaScript?
 

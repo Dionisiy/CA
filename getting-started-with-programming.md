@@ -216,11 +216,13 @@ A variable's value is easily changed. Just pretend you are creating a new variab
 ```
     var myAge ="23";
 
-	    console.log(myAge);
+        console.log(myAge);
 
-	    myAge="24";
+        myAge="24";
 
-	    console.log(myAge);
+        console.log(myAge);
 
 ```
+
+
 

@@ -54,5 +54,5 @@ Which of the following will correctly comment the text?
 
 Which of the following returns 'he'?
 
-Answer:'hello world'.substring\(0,2\);
+**Answer**:'hello world'.substring\(0,2\);
 

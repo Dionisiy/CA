@@ -116,15 +116,7 @@ else {
 }
 ```
 
-_if_ the condition is`true`, then only the code inside the first pair of curly braces will run._Otherwise_, the condition is `false`, so only the code inside the second pair of curly braces after the `else` keyword will run.
+### **Math and the modulo**
 
-```
-if (12 / 4 === "Ari".length) {
-    confirm("Will this run the first block?");
-} else {
-    confirm("Or the second block?");
-}
-```
-
-
+When `%` is placed between two numbers, the computer will divide the first number by the second, and then return the **remainder** of that division.
 

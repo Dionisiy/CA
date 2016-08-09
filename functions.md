@@ -24,3 +24,21 @@ Calling this function will print out `Hello Emily`.
 
 
 
+### **How does a function work?**
+
+```
+var functionName = function( ) {
+    // code code code
+    // code code code
+    // (more lines of code)
+};
+```
+
+
+
+1. The `var` keyword declares a variable named `functionName`.
+2. The keyword `function` tells the computer that `functionName` is a function and not something else.
+3. Parameters go in the parentheses. The computer will look out for it in the code block.
+4. The code block is the reusable code that is between the curly brackets `{ }`. Each line of code inside`{ }` must end with a semi-colon.
+5. The entire function ends with a semi-colon.
+

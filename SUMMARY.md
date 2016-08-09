@@ -1,6 +1,7 @@
 # Summary
 
 * [JavaScript](javascript.md)
+    * [Getting Started with Programming](getting-started-with-programming.md)
 * [HTML&CSS](README.md)
     * [Introduction to HTML](adada.md)
         * [HTML Basics](html-basics.md)

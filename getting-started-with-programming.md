@@ -162,11 +162,7 @@ else {
 
 When `%` is placed between two numbers, the computer will divide the first number by the second, and then return the **remainder** of that division.
 
-
-
 ### **Modulo and if \/ else**
-
-
 
 ```
 if( 15%3 == 0 ) {
@@ -176,5 +172,5 @@ if( 15%3 == 0 ) {
 }
 ```
 
-
+### **Substrings**
 

@@ -61,8 +61,8 @@
         * [Result](result.md)
 * [JavaScript](javascript.md)
     * [Functions](functions.md)
-        * Introduction to function JS
-    * 'For' Loops in Javascript
+        * [Introduction to function JS](introduction-to-function-js.md)
+    * ['For' Loops in Javascript](for-loops-in-javascript.md)
     * 'While' Loops in JavaScript
     * Control Flow
     * Data Structures

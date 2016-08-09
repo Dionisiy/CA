@@ -1,7 +1,7 @@
 # Summary
 
 * [JavaScript](javascript.md)
-    * Code Your Own Adwenture
+    * [Getting Started](getting-started.md)
 * [Getting Started with Programming](getting-started-with-programming.md)
 * [HTML&CSS](README.md)
     * [Introduction to HTML](adada.md)

@@ -28,13 +28,13 @@ The keyword function tells the computer that functionName is a function and not 
 
 Parameters go in the parentheses. The computer will look out for it in the code block.
 
-The code block is the reusable code that is between the curly brackets `{ }.` Each line of code inside`{ } `must end with a semi-colon.
+The code block is the reusable code that is between the curly brackets `{ }.` Each line of code inside`{ }`must end with a semi-colon.
 
 The entire function ends with a semi-colon.
 
 To use the function, we call the function by just typing the function's name, and putting a parameter value inside parentheses after it. The computer will run the reusable code with the specific parameter value substituted into the code.
 
-At the end of each line of code \(within the { }\) and after the entire function \(after the { }\), please put a semi-colon. The semi-colon acts like a period in a sentence. It helps the computer know where there are stopping points in the code.
+At the end of each line of code \(within the `{ }`\) and after the entire function \(after the` { }`\), please put a semi-colon. The semi-colon acts like a period in a sentence. It helps the computer know where there are stopping points in the code.
 
 ### Don't Repeat Yourself \(D.R.Y\)
 
@@ -42,7 +42,7 @@ he D.R.Y. principle is really important in programming. No repeating!
 
 Any time you find yourself typing the same thing, but modifying only one small part, you can probably use a function.
 
-The 'small part' that you find yourself modifying will be the parameter. And the part that you keep repeating will be the code in the reusable block - the code inside { }
+The 'small part' that you find yourself modifying will be the parameter. And the part that you keep repeating will be the code in the reusable block - the code inside `{ }`
 
 ### Return keyword
 
@@ -55,4 +55,8 @@ The return keyword simply gives the programmer back the value that comes out of 
 So far we've only looked at functions with one parameter. But often it is useful to write functions with more than one parameter. For example, we can have the following function:
 
 `var areaBox = function(length, width) { return length * width; };`
+
+
+
+To call a function with more than one parameter, just enter a value for each parameter in the parentheses. For example, `areaBox(3,9);`
 

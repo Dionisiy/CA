@@ -142,5 +142,9 @@ Sometimes you don't want to display the _entire_ string, just a part of it.
 "hello". substring(0, 2);
 ```
 
+### **Variables**
 
+To do more complex coding, we need a way to 'save' the values from our coding. We do this by defining a variable with a specific, case-sensitive name.
+
+Once you create \(or **declare**\) a variable as having a particular name, you can then call up that value by typing the variable name.
 

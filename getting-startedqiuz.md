@@ -42,7 +42,7 @@ Which statement returns the value of 2?
 
 Which of the following returns 'llo' ?
 
-Answer: 'hello world'.substring\(2,5\);
+**Answer**: 'hello world'.substring\(2,5\);
 
 What is the function of the prompt dialog?
 

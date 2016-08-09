@@ -58,9 +58,18 @@ The `return` keyword simply gives the programmer back the value that comes out o
 
 ### 
 
-
-
 ### **Functions with two parameters**
+
+So far we've only looked at functions with one parameter. But often it is useful to write functions with more than one parameter. For example, we can have the following function:
+
+
+
+```
+var areaBox = function(length, width) {
+    return length * width;
+};
+
+```
 
 
 

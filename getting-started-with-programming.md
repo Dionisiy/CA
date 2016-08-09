@@ -158,5 +158,7 @@ else {
 }
 ```
 
+### **Math and the modulo**
 
+When `%` is placed between two numbers, the computer will divide the first number by the second, and then return the **remainder** of that division.
 

@@ -24,15 +24,15 @@
 
 **Answer**: &lt;==
 
-Which of the following is the correct way to declare a variable?
+> Which of the following is the correct way to declare a variable?
 
 **Answer**: var myName
 
-Which of the following is the correct use of the confirm dialog?
+> Which of the following is the correct use of the confirm dialog?
 
 **Answer**: confirm\(“Hello world”\);
 
-Which of the following statements returns false?
+> Which of the following statements returns false?
 
 Answer: 'inputControl'.length &lt; 4
 

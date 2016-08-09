@@ -12,16 +12,16 @@ Comments make your program easier to understand. When you look back at your code
 
 This is JavaScript \(JS\), a programming language. There are many languages, but JS has many uses and is easy to learn.
 
-
-
 **What can we use JavaScript for?**
 
 * make websites respond to user interaction
-* build apps and games \(_e.g._blackjack\)
-
+* build apps and games \(\_e.g.\_blackjack\)
 
 * access information on the Internet \(_e.g._ find out the top trending words on Twitter by topic\)
 
+* organize and present data \(\_e.g.\_automate spreadsheet work; data visualization\)
 
-* organize and present data \(_e.g._automate spreadsheet work; data visualization\)
+```
+confirm('This is an example of using JS to create some interaction on a website. Click OK to continue!');
+```
 

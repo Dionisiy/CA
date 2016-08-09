@@ -1,9 +1,9 @@
 # Summary
 
-* [JavaScript](javascript.md)
-    * [Getting Started](getting-started.md)
+* [Introduction to JavaScript](javascript.md)
     * [Code your Own Adventure](code-your-own-adventure.md)
     * [Getting Started:QIUZ](getting-startedqiuz.md)
+    * [Getting Started](getting-started.md)
     * Resources 1
 * [HTML&CSS](README.md)
     * [Introduction to HTML](adada.md)
@@ -59,4 +59,13 @@
         * [Newsroom](newsroom.md)
     * [HTML & CSS Final Project](html--css-final-project.md)
         * [Result](result.md)
+* [JavaScript](javascript.md)
+    * [Functions](functions.md)
+        * Introduction to function JS
+    * 'For' Loops in Javascript
+    * 'While' Loops in JavaScript
+    * Control Flow
+    * Data Structures
+    * Objects I
+    * Objects II
 

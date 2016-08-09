@@ -138,5 +138,9 @@ Sometimes you don't want to display the _entire_ string, just a part of it.
 
 `"some word".substring(x, y)` where `x` is where you start chopping and `y` is where you finish chopping the original string.
 
+```
+"hello". substring(0, 2);
+```
+
 
 

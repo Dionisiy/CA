@@ -120,7 +120,16 @@ else {
 }
 ```
 
-
-
 _if_ the condition is`true`, then only the code inside the first pair of curly braces will run._Otherwise_, the condition is `false`, so only the code inside the second pair of curly braces after the `else` keyword will run.
+
+
+
+```
+if (12 / 4 === "Ari".length) {
+    confirm("Will this run the first block?");
+} else {
+    confirm("Or the second block?");
+}
+
+```
 

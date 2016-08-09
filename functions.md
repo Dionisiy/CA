@@ -50,5 +50,13 @@ Any time you find yourself typing the same thing, but modifying only one small p
 
 The 'small part' that you find yourself modifying will be the parameter. And the part that you keep repeating will be the code in the reusable block - the code inside `{ }`
 
+### **Return keyword**
+
+
+
 Sometimes, we just want it to`return` a value. We can then use that value \(ie. the output from the function\) in other code.
+
+
+
+The `return` keyword simply gives the programmer back the value that comes out of the function. So the function runs, and when the `return`keyword is used, the function will immediately stop running and `return`the value.
 

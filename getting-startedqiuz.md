@@ -46,7 +46,7 @@ Which of the following returns 'llo' ?
 
 What is the function of the prompt dialog?
 
-Answer:To ask the user for an input
+**Answer**: To ask the user for an input
 
 Which of the following will correctly comment the text?
 

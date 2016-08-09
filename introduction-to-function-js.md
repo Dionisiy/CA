@@ -34,7 +34,7 @@ The entire function ends with a semi-colon.
 
 To use the function, we call the function by just typing the function's name, and putting a parameter value inside parentheses after it. The computer will run the reusable code with the specific parameter value substituted into the code.
 
-At the end of each line of code \(within the `{ }`\) and after the entire function \(after the` { }`\), please put a semi-colon. The semi-colon acts like a period in a sentence. It helps the computer know where there are stopping points in the code.
+At the end of each line of code \(within the `{ }`\) and after the entire function \(after the`{ }`\), please put a semi-colon. The semi-colon acts like a period in a sentence. It helps the computer know where there are stopping points in the code.
 
 ### Don't Repeat Yourself \(D.R.Y\)
 
@@ -56,7 +56,19 @@ So far we've only looked at functions with one parameter. But often it is useful
 
 `var areaBox = function(length, width) { return length * width; };`
 
-
-
 To call a function with more than one parameter, just enter a value for each parameter in the parentheses. For example, `areaBox(3,9);`
+
+### **Global vs Local Variables**
+
+Variables defined **outside** a function are accessible anywhere once they have been declared. They are called**global variables** and their scope is**global**.
+
+For example:
+
+```
+var globalVar = "hello";
+
+var foo = function() {
+    console.log(globalVar);  // prints "hello"
+}
+```
 

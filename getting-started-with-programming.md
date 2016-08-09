@@ -132,21 +132,19 @@ if (12 / 4 === "Ari".length) {
 
 **Code**:
 
-
-
 1. `( )`: control order of operations
 
 2. `*` and `/`: multiplication and division
 
 3. `-` and `+`: subtraction and addition
 
+
 **Examples**:
-
-
 
 1. `100/10` evaluates to 10
 
 2. `"Jane".length + 5` evaluates to 9
 
-3. `5*(3+1)` evaluates to 20
+3. `5*(3+1)` evaluates to 20.
+
 

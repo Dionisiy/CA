@@ -65,10 +65,16 @@ To write a string, surround words _with quotes_: `"What is your name?"`
 
 ### **Data Type III: Booleans**
 
- **booleans**. A boolean is either `true` or `false`.
+**booleans**. A boolean is either `true` or `false`.
 
 For example, comparing two numbers returns a `true` or `false` result:
 
 * `23 > 10` is `true`
 * `5 < 4` is `false`
+
+### **Using console.log**
+
+`console.log() `will take whatever is inside the parentheses and log it to the console below your code—that's why it's called `console.log()`!
+
+
 

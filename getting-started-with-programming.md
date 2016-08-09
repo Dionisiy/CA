@@ -1,51 +1,5 @@
 ### 
 
-### **Data Types I & II: Numbers & Strings**
-
-Data comes in various **types**. You have used two already!
-
-**a. numbers** are quantities, just like you're used to. You can do math with them.
-
-**b. strings** are sequences of characters, like the letters `a-z`, spaces, and even numbers. These are all strings: `"Ryan"`, `"4"` and `"What is your name?"` Strings are extremely useful as labels, names, and content for your programs.
-
-To make a _number_ in your code, just write a number as numerals _without quotes_: `42`, `190.12334`.
-
-To write a string, surround words _with quotes_: `"What is your name?"`
-
-### **Data Type III: Booleans**
-
-**booleans**. A boolean is either `true` or `false`.
-
-For example, comparing two numbers returns a `true` or `false` result:
-
-* `23 > 10` is `true`
-* `5 < 4` is `false`
-
-### **Using console.log**
-
-`console.log()`will take whatever is inside the parentheses and log it to the console below your code—that's why it's called `console.log()`!
-
-### **Comparisons**
-
-**List of comparison operators**:
-
-* `>` Greater than
-
-* `<` Less than
-
-* `<=` Less than or equal to
-
-* `>=` Greater than or equal to
-
-* `===` Equal to
-
-* `!==` **Not** equal to
-
-
-Here is an example of using the greater than \(&gt;\) operator:
-
-[See the Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/js/get_started/ex2.html)
-
 ### **Decisions, decisions**
 
 An `if` statement is made up of the `if`keyword, a condition like we've seen before, and a pair of curly braces `{ }`. If the answer to the condition is yes, the code inside the curly braces will run.

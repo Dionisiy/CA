@@ -89,9 +89,9 @@ For example, comparing two numbers returns a `true` or `false` result:
 * `>=` Greater than or equal to
 
 * `===` Equal to
+
 * `!==` **Not** equal to
 
 Here is an example of using the greater than \(&gt;\) operator:
 
-
-
+[See the Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/js/get_started/ex1.html)

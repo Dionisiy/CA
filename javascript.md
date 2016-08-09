@@ -21,7 +21,21 @@ This is JavaScript \(JS\), a programming language. There are many languages, but
 
 * organize and present data \(\_e.g.\_automate spreadsheet work; data visualization\)
 
+
 ```
 confirm('This is an example of using JS to create some interaction on a website. Click OK to continue!');
 ```
+
+### **Interactive JavaScript**
+
+
+
+```
+confirm("I feel awesome!");
+confirm("I am ready to go.");
+```
+
+
+
+
 

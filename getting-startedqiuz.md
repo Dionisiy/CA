@@ -6,7 +6,7 @@ What follows after the expression in an if statement?
 
 What is the substring keyword used for?
 
-Answer: Returning a partial part of a string
+**Answer**: Returning a partial part of a string
 
 Which of the following is the correct way to log a statement to the console?
 

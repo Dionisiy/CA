@@ -14,7 +14,7 @@ Which of the following is the correct way to log a statement to the console?
 
 Which of the following is the correct way of returning the length of the word 'string'?
 
-Answer: 'string'.length
+**Answer**: 'string'.length
 
 What best describes the variables in JavaScript?
 

@@ -148,3 +148,15 @@ if (12 / 4 === "Ari".length) {
 3. `5*(3+1)` evaluates to 20.
 
 
+```
+if ("Jon".length * 2 / (2+1) === 2)
+{
+    console.log("The answer makes sense!");
+} 
+else {
+    console.log("Error Error Error");
+}
+```
+
+
+

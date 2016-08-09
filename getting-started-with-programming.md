@@ -92,6 +92,20 @@ For example, comparing two numbers returns a `true` or `false` result:
 
 * `!==` **Not** equal to
 
+
 Here is an example of using the greater than \(&gt;\) operator:
 
 [See the Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/js/get_started/ex2.html)
+
+### **Decisions, decisions**
+
+An `if` statement is made up of the `if`keyword, a condition like we've seen before, and a pair of curly braces `{ }`. If the answer to the condition is yes, the code inside the curly braces will run.
+
+```
+if( "myName".length >= 7 ) {
+    console.log("You have a long name!");
+}
+```
+
+
+

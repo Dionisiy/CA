@@ -44,11 +44,11 @@ At the end of each line of code \(within the `{ }`\) and after the entire functi
 
 ### **Don't Repeat Yourself \(D.R.Y\)**
 
-
-
 he D.R.Y. principle is really important in programming. No repeating!
 
 Any time you find yourself typing the same thing, but modifying only one small part, you can probably use a function.
 
 The 'small part' that you find yourself modifying will be the parameter. And the part that you keep repeating will be the code in the reusable block - the code inside `{ }`
+
+Sometimes, we just want it to`return` a value. We can then use that value \(ie. the output from the function\) in other code.
 

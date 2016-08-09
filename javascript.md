@@ -28,8 +28,6 @@ confirm('This is an example of using JS to create some interaction on a website.
 
 ### **Interactive JavaScript**
 
-
-
 ```
 confirm("I feel awesome!");
 confirm("I am ready to go.");
@@ -37,5 +35,5 @@ confirm("I am ready to go.");
 
 
 
-
+These boxes can be used on websites to _confirm_ things with users. You've probably seen them pop up when you try to delete important things or leave a website with unsaved changes.
 

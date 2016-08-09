@@ -174,3 +174,5 @@ if( 15%3 == 0 ) {
 
 ### **Substrings**
 
+Sometimes you don't want to display the _entire_ string, just a part of it.
+

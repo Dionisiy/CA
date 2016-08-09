@@ -43,5 +43,9 @@ To do any of actions, the program needs an input. You can ask for input with a *
 
 Examples:
 
+`prompt("What is your name?");`
+
+`prompt("What is Ubuntu?")`
+
 
 

@@ -142,5 +142,9 @@ Sometimes you don't want to display the _entire_ string, just a part of it.
 "hello". substring(0, 2);
 ```
 
+Each character in a string is numbered starting from 0, like this:
+
+
+
 
 

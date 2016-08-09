@@ -36,15 +36,15 @@
 
 Answer: 'inputControl'.length &lt; 4
 
-Which statement returns the value of 2?
+> Which statement returns the value of 2?
 
 **Answer**: \(3 + 1\) \/ 'hi'.length
 
-Which of the following returns 'llo' ?
+> Which of the following returns 'llo' ?
 
 **Answer**: 'hello world'.substring\(2,5\);
 
-What is the function of the prompt dialog?
+> What is the function of the prompt dialog?
 
 **Answer**: To ask the user for an input
 

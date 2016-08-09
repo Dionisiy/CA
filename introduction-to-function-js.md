@@ -74,9 +74,7 @@ var foo = function() {
 
 The variable `globalVar` can be accessed anywhere, even inside the function`foo`.
 
-
-
-Variables defined **inside** a function are**local variables**. They cannot be accessed outside of that function.
+Variables defined **inside** a function are **local variables**. They cannot be accessed outside of that function.
 
 For example:
 

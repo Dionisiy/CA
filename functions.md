@@ -40,3 +40,7 @@ var functionName = function( ) {
 
 To use the function, we **call** the function by just typing the function's name, and putting a parameter value inside parentheses after it. The computer will run the reusable code with the specific parameter value substituted into the code.
 
+
+
+At the end of each line of code \(within the `{ }`\) and after the entire function \(after the `{ }`\), please put a semi-colon. The semi-colon acts like a period in a sentence. It helps the computer know where there are stopping points in the code.
+

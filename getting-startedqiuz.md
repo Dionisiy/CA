@@ -16,11 +16,11 @@
 
 **Answer**: 'string'.length
 
-What best describes the variables in JavaScript?
+> What best describes the variables in JavaScript?
 
 **Answer**: To allow the user to save and call values
 
-Which of the following is not a comparator operation in JavaScript?
+> Which of the following is not a comparator operation in JavaScript?
 
 **Answer**: &lt;==
 

@@ -195,3 +195,7 @@ Each character in a string is numbered starting from 0, like this:
 
 The letter `h` is in position `0`, the letter`e` is in position `1`, and so on.
 
+```
+"Batman".substring(0,3);
+```
+

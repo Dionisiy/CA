@@ -48,7 +48,7 @@ Answer: 'inputControl'.length &lt; 4
 
 **Answer**: To ask the user for an input
 
-Which of the following will correctly comment the text?
+> Which of the following will correctly comment the text?
 
 **Answer**:\/\/ “the text” \/\/
 

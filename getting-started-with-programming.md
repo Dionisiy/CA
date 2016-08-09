@@ -76,7 +76,24 @@ For example, comparing two numbers returns a `true` or `false` result:
 
 `console.log()`will take whatever is inside the parentheses and log it to the console below your code—that's why it's called `console.log()`!
 
-
-
 ### **Comparisons**
+
+
+
+**List of comparison operators**:
+
+* `>` Greater than
+
+
+* `<` Less than
+
+
+* `<=` Less than or equal to
+
+
+* `>=` Greater than or equal to
+
+
+* `===` Equal to
+* `!==` **Not** equal to
 

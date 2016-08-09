@@ -72,8 +72,6 @@ For example, comparing two numbers returns a `true` or `false` result:
 
 `console.log()`will take whatever is inside the parentheses and log it to the console below your code—that's why it's called `console.log()`!
 
-
-
 ### **Comparisons**
 
 **List of comparison operators**:
@@ -98,4 +96,12 @@ Here is an example of using the greater than \(&gt;\) operator:
 ### **Decisions, decisions**
 
 An `if` statement is made up of the `if`keyword, a condition like we've seen before, and a pair of curly braces `{ }`. If the answer to the condition is yes, the code inside the curly braces will run.
+
+```
+if( "myName".length >= 7 ) {
+    console.log("You have a long name!");
+}
+```
+
+
 

@@ -52,7 +52,7 @@ Answer: 'inputControl'.length &lt; 4
 
 **Answer**:\/\/ “the text” \/\/
 
-Which of the following returns 'he'?
+> Which of the following returns 'he'?
 
 **Answer**:'hello world'.substring\(0,2\);
 

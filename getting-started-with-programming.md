@@ -176,3 +176,11 @@ if( 15%3 == 0 ) {
 
 Sometimes you don't want to display the _entire_ string, just a part of it.
 
+
+
+**Code**:
+
+
+
+`"some word".substring(x, y)` where `x` is where you start chopping and `y` is where you finish chopping the original string.
+

@@ -1,18 +1,18 @@
 ### QUIZ
 
-What follows after the expression in an if statement?
+> What follows after the expression in an if statement?
 
 **Answer** :curly braces
 
-What is the substring keyword used for?
+> What is the substring keyword used for?
 
 **Answer**: Returning a partial part of a string
 
-Which of the following is the correct way to log a statement to the console?
+> Which of the following is the correct way to log a statement to the console?
 
 **Answer**: console.log\("Hello world"\);
 
-Which of the following is the correct way of returning the length of the word 'string'?
+> Which of the following is the correct way of returning the length of the word 'string'?
 
 **Answer**: 'string'.length
 

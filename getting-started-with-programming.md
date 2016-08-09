@@ -94,4 +94,4 @@ For example, comparing two numbers returns a `true` or `false` result:
 
 Here is an example of using the greater than \(&gt;\) operator:
 
-[See the Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/js/get_started/ex1.html)
+[See the Example](https://denishromenko.gitbooks.io/codeacademy_doc/content/js/get_started/ex2.html)

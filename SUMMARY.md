@@ -62,6 +62,7 @@
 * [JavaScript](javascript.md)
     * [Functions](functions.md)
         * [Introduction to function JS](introduction-to-function-js.md)
+        * [Build 'Rock, Paper, Scissors'](duild-rock-paper-scissors.md)
     * ['For' Loops in Javascript](for-loops-in-javascript.md)
     * 'While' Loops in JavaScript
     * Control Flow

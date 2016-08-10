@@ -1,4 +1,4 @@
-**First for loop**
+### **First for loop**
 
 Instead of manually typing in`console.log` ,many times, we can use a`for` loop to do this. The aim of this exercise is just to show you how a `for`loop looks, and demonstrate how useful it is. Subsequent exercises will
 
@@ -12,7 +12,7 @@ for (var counter = 1; counter < 11; counter++) {
 }
 ```
 
-Syntax:
+### Syntax:
 
 ```
 for (var i = 1; i < 11; i = i + 1) {
@@ -24,11 +24,11 @@ Every `for` loop makes use of a counting variable. Here, our variable is called 
 
 When the `for` loop executes the code in the code block—the bit between `{}`—it does so by starting off where `i =1`.
 
-**Ending the for loop**
+### **Ending the for loop**
 
 We know how to control where the`for` loop starts. Well, the second part of the `for` loop determines that.
 
-**Syntax**
+### **Syntax**
 
 ```
     for (var i = 1; i < 11; i = i + 1) {
@@ -36,7 +36,7 @@ We know how to control where the`for` loop starts. Well, the second part of the 
     }
 ```
 
-**Rules to learn**
+### **Rules to learn**
 
 a. A more efficient way to code to increment up by 1 is to write `i++`.
 
@@ -48,7 +48,7 @@ d. We can decrement down by any value by writing `i -= x`. \(See the Hint for mo
 
 e. Be **very** careful with your syntax—if you write a loop that can't properly end, it's called an **infinite loop**. It will crash your browser!
 
-**How does it work?**
+### **How does it work?**
 
 We've gone through the three bits of syntax for a `for` loop. But how exactly does it work? Let's imagine the steps the computer takes to run the `for`loop on the right.
 
@@ -67,6 +67,10 @@ e. Increment i by 1 and now `i = 3`. This satisfies the condition that `i >= 1`.
 f. We will keep incrementing the code up by 1. It will **always** satisfy the condition. The loop NEVER ends. This will crash your computer!
 
 
+
+### **Meet arrays**
+
+Variables can store numbers or strings. But so far, we've only been able to store ONE number or ONE string. Good thing we have arrays. Arrays:
 
 
 

@@ -33,11 +33,7 @@ var square = function(number) { return number * number };
 var x = square(4) // x gets the value 16..
 ```
 
-
-
 Function expressions are convenient when passing a function as an argument to another function. The following example shows a `map` function being defined and then called with an anonymous function as its first parameter:
-
-
 
 ```
 function map(f,a) {
@@ -47,6 +43,8 @@ function map(f,a) {
     result[i] = f(a[i]);
   return result;
 }
+ map(function(x) {return x * x * x}, [0, 1, 2, 5, 10]);
+
 ```
 
 

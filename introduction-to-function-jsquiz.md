@@ -118,5 +118,5 @@ Answer: parameter
 
 Which of the following best describes what a function in JavaScript is used for?
 
-Answer: A reusable piece of code that can be called on throughout an application
+**Answer**: A reusable piece of code that can be called on throughout an application
 

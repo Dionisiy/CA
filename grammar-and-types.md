@@ -196,10 +196,29 @@ A floating-point literal can have the following parts:
 * A fraction \(another decimal number\),
 * An exponent.
 
-
 ### Object literals
 
 An object literal is a list of zero or more pairs of property names and associated values of an object, enclosed in curly braces \(`{}`\). You should not use an object literal at the beginning of a statement. This will lead to an error or not behave as you expect, because the { will be interpreted as the beginning of a block.
 
 The following is an example of an object literal. The first element of the `car` object defines a property, `myCar`, and assigns to it a new string, "`Saturn`"; the second element, the `getCar`property, is immediately assigned the result of invoking the function `(carTypes("Honda"));`the third element, the `special` property, uses an existing variable \(`sales`\).
+
+
+
+```
+var sales = "Toyota";
+
+function carTypes(name) {
+  if (name === "Honda") {
+    return name;
+  } else {
+    return "Sorry, we don't sell " + name + ".";
+  }
+}
+
+var car = { myCar: "Saturn", getCar: carTypes("Honda"), special: sales };
+
+console.log(car.myCar);   // Saturn
+console.log(car.getCar);  // Honda
+console.log(car.special); // Toyota
+```
 

@@ -18,3 +18,9 @@ However, JavaScript is a bit more complex to get comfortable with than HTML and 
 var myVariable;
 ```
 
+> **Note**: All statements in JavaScript must end with a semi-colon, to indicate that this is where the statement ends. If you don't include these, you can get unexpected results.
+> 
+> **Note**: You can name a variable nearly anything, but there are some name restrictions \(see [this article on variable naming rules](http://www.codelifter.com/main/tips/tip_020.shtml).\) If you are unsure, you can [check your variable name](https://mothereff.in/js-variables) to see if it is valid.
+> 
+> **Note**: JavaScript is case sensitive — `myVariable` is a different variable to `myvariable`. If you are getting problems in your code, check the casing!
+

@@ -168,9 +168,7 @@ Understanding the behavior of extra commas is important to understanding JavaScr
 
 The Boolean type has two literal values: `true` and `false`.
 
-Do not confuse the primitive Boolean values `true` and `false` with the true and false values of the Boolean object. The Boolean object is a wrapper around the primitive Boolean data type. See[`Boolean`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean "The Boolean object is an object wrapper for a boolean value.") for more information.
-
-
+Do not confuse the primitive Boolean values `true` and `false` with the true and false values of the Boolean object. The Boolean object is a wrapper around the primitive Boolean data type. See`Boolean` for more information.
 
 ### Integers
 
@@ -197,4 +195,11 @@ A floating-point literal can have the following parts:
 * A decimal point \("."\),
 * A fraction \(another decimal number\),
 * An exponent.
+
+
+### Object literals
+
+An object literal is a list of zero or more pairs of property names and associated values of an object, enclosed in curly braces \(`{}`\). You should not use an object literal at the beginning of a statement. This will lead to an error or not behave as you expect, because the { will be interpreted as the beginning of a block.
+
+The following is an example of an object literal. The first element of the `car` object defines a property, `myCar`, and assigns to it a new string, "`Saturn`"; the second element, the `getCar`property, is immediately assigned the result of invoking the function `(carTypes("Honda"));`the third element, the `special` property, uses an existing variable \(`sales`\).
 

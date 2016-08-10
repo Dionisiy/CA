@@ -152,8 +152,6 @@ You use literals to represent values in JavaScript. These are fixed values, not 
 
 An array literal is a list of zero or more expressions, each of which represents an array element, enclosed in square brackets \(`[]`\). When you create an array using an array literal, it is initialized with the specified values as its elements, and its length is set to the number of arguments specified.
 
-
-
 ### Extra commas in array literals
 
 You do not have to specify all elements in an array literal. If you put two commas in a row, the array is created with `undefined` for the unspecified elements. The following example creates the `fish` array:
@@ -164,5 +162,5 @@ var fish = ["Lion", , "Angel"];
 
 
 
-
+This array has two elements with values and one empty element \(`fish[0]` is "Lion", `fish[1]` is`undefined`, and `fish[2]` is "Angel"\).
 

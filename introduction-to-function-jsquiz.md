@@ -78,37 +78,37 @@ console.log\(val\);
 
 };
 
-Answer: number
+**Answer**: number
 
 Which of the following correctly calls this function?
 
-var input = prompt\("Enter input value"\);
+`var input = prompt("Enter input value");`
 
-var controlVal = input \/ 2 + 3;
+`var controlVal = input / 2 + 3;`
 
-var multiplier = function\(number, phase\) {
+`var multiplier = function(number, phase) {`
 
-var val = number \* controlVal + phase;
+`var val = number * controlVal + phase;`
 
-console.log\(val\);
+`console.log(val);`
 
-};
+`};`
 
 **Answer**: multiplier\(2, 1\);
 
 Which of the following is a global variable in the block of code below?
 
-var input = prompt\("Enter input value"\);
+`var input = prompt("Enter input value");`
 
-var controlVal = input \/ 2 + 3;
+`var controlVal = input / 2 + 3;`
 
-var multiplier = function\(number, phase\) {
+`var multiplier = function(number, phase) {`
 
-var val = number \* controlVal + phase;
+`var val = number * controlVal + phase;`
 
-console.log\(val\);
+`console.log(val);`
 
-};
+`};`
 
 **Answer**: input
 

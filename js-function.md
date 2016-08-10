@@ -65,3 +65,7 @@ Defining a function does not execute it. Defining the function simply names the 
 square(5);
 ```
 
+The preceding statement calls the function with an argument of 5. The function executes its statements and returns the value 25.
+
+
+

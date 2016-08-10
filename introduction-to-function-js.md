@@ -88,9 +88,7 @@ console.log(localVar);  // error
 
 The variable `localVar` only exists inside the function `bar`. Trying to print`localVar` outside the function gives a error.
 
-
-
-**Functions & if \/ else**
+### **Functions & if \/ else**
 
 An especially useful application of reusable code is `if`\/`else` statements. These can be very wordy, and a pain to type repeatedly.
 

@@ -110,7 +110,7 @@ console.log\(val\);
 
 };
 
-Answer: input
+**Answer**: input
 
 The input into a function is called:
 

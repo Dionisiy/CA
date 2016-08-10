@@ -220,9 +220,15 @@ console.log(car.getCar);  // Honda
 console.log(car.special); // Toyota
 ```
 
-
-
 ### String literals
 
 A string literal is zero or more characters enclosed in double \(`"`\) or single \(`'`\) quotation marks. A string must be delimited by quotation marks of the same type; that is, either both single quotation marks or both double quotation marks. The following are examples of string literals:
+
+```
+"foo"
+'bar'
+
+"one line \n another line"
+"John's cat"
+```
 

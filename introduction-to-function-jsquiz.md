@@ -114,7 +114,7 @@ Answer: input
 
 The input into a function is called:
 
-Answer: parameter
+**Answer**: parameter
 
 Which of the following best describes what a function in JavaScript is used for?
 

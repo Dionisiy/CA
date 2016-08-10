@@ -86,9 +86,20 @@ var mixed = [34, "candy", "blue", 11]
 
 ### **Syntax**:
 
-
-
 `var arrayName = [data, data, data];`
 
 Any time you see data surrounded by`[ ]`, it is an array.
+
+### **Array positions**
+
+
+
+The position of things in arrays is fixed. So we just need to know the array name \(here, it is `junkData`\), and the position of the data we want, and we're done.
+
+Small complication: the position \(or the index\) of each bit of data is counted starting from 0, not 1.
+
+1. First element in the array:`junkData[0]`
+2. Third element in the array:`junkData[2]`
+
+Arrays have 0-based indexing, so we start counting the positions from 0.
 

@@ -202,8 +202,6 @@ An object literal is a list of zero or more pairs of property names and associat
 
 The following is an example of an object literal. The first element of the `car` object defines a property, `myCar`, and assigns to it a new string, "`Saturn`"; the second element, the `getCar`property, is immediately assigned the result of invoking the function `(carTypes("Honda"));`the third element, the `special` property, uses an existing variable \(`sales`\).
 
-
-
 ```
 var sales = "Toyota";
 
@@ -221,4 +219,10 @@ console.log(car.myCar);   // Saturn
 console.log(car.getCar);  // Honda
 console.log(car.special); // Toyota
 ```
+
+
+
+### String literals
+
+A string literal is zero or more characters enclosed in double \(`"`\) or single \(`'`\) quotation marks. A string must be delimited by quotation marks of the same type; that is, either both single quotation marks or both double quotation marks. The following are examples of string literals:
 

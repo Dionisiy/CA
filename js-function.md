@@ -132,3 +132,17 @@ b = addSquares(3,4); // returns 25//
 c = addSquares(4,5); // returns 41//
 ```
 
+
+
+### Preservation of variables
+
+Notice how `x` is preserved when `inside` is returned. A closure must preserve the arguments and variables in all scopes it references. Since each call provides potentially different arguments, a new closure is created for each call to outside. The memory can be freed only when the returned`inside` is no longer accessible.
+
+This is not different from storing references in other objects, but is often less obvious because one does not set the references directly and cannot inspect them.
+
+
+
+### Multiply-nested functions
+
+Functions can be multiply-nested, i.e. a function \(A\) containing a function \(B\) containing a function \(C\). Both functions B and C form closures here, so B can access A and C can access B. In addition, since C can access B which can access A, C can also access A. Thus, the closures can contain multiple scopes; they recursively contain the scope of the functions containing it. This is called _scope chaining_. \(Why it is called "chaining" will be explained later.\)
+

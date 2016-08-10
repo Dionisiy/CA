@@ -40,12 +40,12 @@ Note that variables have different [data types](https://developer.mozilla.org/en
 
 | **VariableExplanationExample** |  |  |
 | --- | --- | --- |
-| **[String](https://developer.mozilla.org/en-US/docs/Glossary/String "String: In any computer programming language, a string is a sequence of characters used to represent text.")** | A string of text. To signify that the variable is a string, you should enclose it in quote marks. | `var myVariable = 'Bob';` |
-| **[Number](https://developer.mozilla.org/en-US/docs/Glossary/Number "Number: In JavaScript, Number is a numeric data type in the double-precision 64-bit floating point format (IEEE 754). In other programming languages different numeric types can exist, for examples: Integers, Floats, Doubles, or Bignums.")** | A number. Numbers don't have quotes around them. | `var myVariable = 10;` |
-| **[Boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean "Boolean: In computer science, a boolean is a logical data type that can have only the values true or false.")** | A True\/False value. The words `true` and`false` are special keywords in JS, and don't need quotes. | `var myVariable = true;` |
-| **[Array](https://developer.mozilla.org/en-US/docs/Glossary/Array "Array: An array is an ordered collection of data (either primitive or object). Based on its place in the array, each data item has a numeric index through which you can access the corresponding value. In JavaScript, arrays are also objects that can be manipulated with various methods.")** | A structure that allows you to store multiple values in one single reference. | `var myVariable = [1,'Bob','Steve',10];` |
+| [**String**](https://developer.mozilla.org/en-US/docs/Glossary/String "String: In any computer programming language, a string is a sequence of characters used to represent text.") | A string of text. To signify that the variable is a string, you should enclose it in quote marks. | `var myVariable = 'Bob';` |
+| [**Number**](https://developer.mozilla.org/en-US/docs/Glossary/Number "Number: In JavaScript, Number is a numeric data type in the double-precision 64-bit floating point format (IEEE 754). In other programming languages different numeric types can exist, for examples: Integers, Floats, Doubles, or Bignums.") | A number. Numbers don't have quotes around them. | `var myVariable = 10;` |
+| [**Boolean**](https://developer.mozilla.org/en-US/docs/Glossary/Boolean "Boolean: In computer science, a boolean is a logical data type that can have only the values true or false.") | A True\/False value. The words `true` and`false` are special keywords in JS, and don't need quotes. | `var myVariable = true;` |
+| [**Array**](https://developer.mozilla.org/en-US/docs/Glossary/Array "Array: An array is an ordered collection of data (either primitive or object). Based on its place in the array, each data item has a numeric index through which you can access the corresponding value. In JavaScript, arrays are also objects that can be manipulated with various methods.") | A structure that allows you to store multiple values in one single reference. | `var myVariable = [1,'Bob','Steve',10];` |
 
-\| [**Object**](https://developer.mozilla.org/en-US/docs/Glossary/Object "Object: Object refers to a data structure containing data and instructions for working with the data. Objects sometimes refer to real-world things, for example a car or map object in a racing game. JavaScript, Java, C++, Python, and Ruby are examples of object-oriented programming languages.") \| Basically, anything. Everything in JavaScript is an object, and can be stored in a variable. Keep this in mind as you learn. \| `var myVariable = document.querySelector('h1');`
+\| **[Object](https://developer.mozilla.org/en-US/docs/Glossary/Object "Object: Object refers to a data structure containing data and instructions for working with the data. Objects sometimes refer to real-world things, for example a car or map object in a racing game. JavaScript, Java, C++, Python, and Ruby are examples of object-oriented programming languages.")** \| Basically, anything. Everything in JavaScript is an object, and can be stored in a variable. Keep this in mind as you learn. \| `var myVariable = document.querySelector('h1');`
 
 All of the above examples too. \|
 \| --- \| --- \| --- \|
@@ -122,7 +122,9 @@ alert('hello!');
 
 These functions, `document.querySelector` and `alert`, are built into the browser for you to use whenever you like.
 
-If you see something that looks like a variable name, but has brackets — `()` — after it, it is probably a function. Functions often take [arguments](https://developer.mozilla.org/en-US/docs/Glossary/Argument "arguments: An argument is a value (primitive or object) passed as input to a function.") — bits of data they need to do their job. These go inside the brackets, separated by commas if there is more than one item.
+If you see something that looks like a variable name, but has brackets — `()` — after it, it is probably a function. Functions often take [arguments](https://developer.mozilla.org/en-US/docs/Glossary/Argument "arguments: An argument is a value (primitive or object) passed as input to a function.") — bits of data they need to do their job. These go inside the brackets, separated by commas if there is more than one item.
 
 For example, the `alert()` function makes a pop-up box appear inside the browser window, but we need to give it a string as an argument to tell the function what to write in the pop-up box.
+
+You can define your own functions — in this next example we write a simple function that takes two numbers as arguments and multiplies them:
 

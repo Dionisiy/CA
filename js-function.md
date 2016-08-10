@@ -178,3 +178,17 @@ result = outside()(20); // returns 20 instead of 10//
 
 The name conflict happens at the statement `return x` and is between `inside`'s parameter `x`and `outside`'s variable `x`. The scope chain here is {`inside`, `outside`, global object}. Therefore`inside`'s `x` takes precedences over `outside`'s `x`, and 20 \(`inside`'s `x`\) is returned instead of 10 \(`outside`'s `x`\).
 
+
+
+## **Function parameters**
+
+Starting with ECMAScript 6, there are two new kinds of parameters: default parameters and rest parameters.
+
+### Default parameters
+
+In JavaScript, parameters of functions default to `undefined`. However, in some situations it might be useful to set a different default value. This is where default parameters can help.
+
+In the past, the general strategy for setting defaults was to test parameter values in the body of the function and assign a value if they are `undefined`. If in the following example, no value is provided for `b` in the call, its value would be `undefined` when evaluating `a*b` and the call to`multiply` would have returned `NaN`. However, this is caught with the second line in this example:
+
+
+

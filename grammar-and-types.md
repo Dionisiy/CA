@@ -136,9 +136,7 @@ In the case that a value representing a number is in memory as a string, there a
 
 `parseInt` will only return whole numbers, so its use is diminished for decimals. Additionally, a best practice for `parseInt` is to always include the radix parameter. The radix parameter is used to specify which numerical system is to be used.
 
-
-
-## **Literals**[**EDIT**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types$edit#Literals)
+## **Literals****[EDIT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types$edit#Literals)**
 
 You use literals to represent values in JavaScript. These are fixed values, not variables, that you_literally_ provide in your script. This section describes the following types of literals:
 
@@ -149,4 +147,8 @@ You use literals to represent values in JavaScript. These are fixed values, not 
 * [Object literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Object_literals)
 * [RegExp literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#RegExp_literals)
 * [String literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#String_literals)
+
+### Array literals
+
+An array literal is a list of zero or more expressions, each of which represents an array element, enclosed in square brackets \(`[]`\). When you create an array using an array literal, it is initialized with the specified values as its elements, and its length is set to the number of arguments specified.
 

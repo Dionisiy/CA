@@ -61,3 +61,21 @@ JavaScript before ECMAScript 2015 does not have [block statement](https://develo
 
 
 
+### Global variables
+
+Global variables are in fact properties of the _global object_. In web pages the global object is[`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window "The window object represents a window containing a DOM document; the document property points to the DOM document loaded in that window."), so you can set and access global variables using the `window.`_`variable`_ syntax.
+
+Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name. For example, if a variable called`phoneNumber` is declared in a document, you can refer to this variable from an iframe as`parent.phoneNumber`.
+
+
+
+### Constants
+
+You can create a read-only, named constant with the [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const "The const declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned.") keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.
+
+A constant cannot change value through assignment or be re-declared while the script is running. It has to be initialized to a value.
+
+The scope rules for constants are the same as those for `let` block scope variables. If the `const`keyword is omitted, the identifier is assumed to represent a variable.
+
+You cannot declare a constant with the same name as a function or variable in the same scope. For example:
+

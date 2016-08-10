@@ -113,5 +113,25 @@ for (var i = 0; i < cities.length; i++) {
 }
 ```
 
+**How does it work?**
 
+
+
+1. [Line 3](javascript:void(0)) declares the array. It has 4 elements.
+
+2. We then start the `for` loop on [line 5](javascript:void(0)).
+
+3. We see `i` starts off at value 0. 
+
+4. The `for` loop runs until `i < 4`\(because `cities.length` equals 4. The array `cities` has 4 elements in it; see the Hint for more.\)
+
+5. We will increment `i` by 1 each time we loop over.
+
+6. We print out `cities[0]`, which is`"Melbourne"`.
+
+7. We then start the loop again. Except now `i = 1`. 
+
+8. It will print out `cities[1]`, which is`"Amman"`. 
+
+9. This continues until `i` is no longer less than `cities.length`.
 

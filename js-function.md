@@ -18,5 +18,15 @@ function square(number) {
 }
 ```
 
-The function `square` takes one argument, called `number`. The function consists of one statement that says to return the argument of the function \(that is, `number`\) multiplied by itself. The [`return`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return "return")statement specifies the value returned by the function.
+The function `square` takes one argument, called `number`. The function consists of one statement that says to return the argument of the function \(that is, `number`\) multiplied by itself. The `return`statement specifies the value returned by the function.
+
+```
+return number * number;
+```
+
+
+
+### Function expressions
+
+While the function declaration above is syntactically a statement, functions can also be created by a **function expression**. Such a function can be **anonymous**; it does not have to have a name. For example, the function `square` could have been defined as:
 

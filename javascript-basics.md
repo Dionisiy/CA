@@ -24,3 +24,17 @@ var myVariable;
 > 
 > **Note**: JavaScript is case sensitive — `myVariable` is a different variable to `myvariable`. If you are getting problems in your code, check the casing!
 
+After declaring a variable, you can give it a value:
+
+`var myVariable = 'Bob';`
+
+After giving a variable a value, you can later choose to change it:
+
+```
+
+var myVariable = 'Bob';
+myVariable = 'Steve';
+```
+
+
+

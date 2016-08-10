@@ -44,8 +44,7 @@ function map(f,a) {
   return result;
 }
  map(function(x) {return x * x * x}, [0, 1, 2, 5, 10]);
-
 ```
 
-
+In JavaScript, a function can be defined based on a condition. For example, the following function definition defines `myFunc` only if `num` equals 0:
 

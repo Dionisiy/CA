@@ -238,3 +238,7 @@ You can call any of the methods of the String object on a string literal valueâ€
 
 In addition to ordinary characters, you can also include special characters in strings, as shown in the following example.
 
+```
+"one line \n another line"
+```
+

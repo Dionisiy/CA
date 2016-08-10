@@ -30,23 +30,23 @@ Which of the following is a local variable in the block of code below?
 
 Which of the following demonstrates correct syntax for a function?
 
-\/\/1
+\/\/1;
 
 var myFunction = function\[\] {};
 
-\/\/2
+\/\/2;
 
 var myFunction = function\(\) {};
 
-\/\/3
+\/\/3;
 
 var myFunction = function{} \(\);
 
-\/\/4
+\/\/4;
 
 var myFunction = function\(\); {};
 
-Answer: 2
+Answer: 2;
 
 How many global variables are there in the following block of code?
 
@@ -62,7 +62,7 @@ How many global variables are there in the following block of code?
 
 `};`
 
-Answer: 3
+Answer: 3;
 
 Which of the following is a parameter in the block of code below?
 

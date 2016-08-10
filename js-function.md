@@ -97,7 +97,19 @@ A function can refer to and call itself. There are three ways for a function to 
 
 For example, consider the following function definition:
 
-
-
 A function that calls itself is called a _recursive function_. In some ways, recursion is analogous to a loop. Both execute the same code multiple times, and both require a condition \(to avoid an infinite loop, or rather, infinite recursion in this case\). For example, the following loop:
+
+
+
+### Nested functions and closures
+
+You can nest a function within a function. The nested \(inner\) function is private to its containing \(outer\) function. It also forms a _closure_. A closure is an expression \(typically a function\) that can have free variables together with an environment that binds those variables \(that "closes" the expression\).
+
+Since a nested function is a closure, this means that a nested function can "inherit" the arguments and variables of its containing function. In other words, the inner function contains the scope of the outer function.
+
+To summarize:
+
+* The inner function can be accessed only from statements in the outer function.
+
+* The inner function forms a closure: the inner function can use the arguments and variables of the outer function, while the outer function cannot use the arguments and variables of the inner function.
 

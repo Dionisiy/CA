@@ -48,3 +48,14 @@ function map(f,a) {
 
 In JavaScript, a function can be defined based on a condition. For example, the following function definition defines `myFunc` only if `num` equals 0:
 
+```
+var myFunc;
+if (num === 0){
+  myFunc = function(theObject) {
+    theObject.make = "Toyota"
+  }
+}
+```
+
+
+

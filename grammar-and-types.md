@@ -242,3 +242,20 @@ In addition to ordinary characters, you can also include special characters in s
 "one line \n another line"
 ```
 
+| **CharacterMeaning** |  |
+| --- | --- |
+| `\0` | Null Byte |
+| `\b` | Backspace |
+| `\f` | Form feed |
+| `\n` | New line |
+| `\r` | Carriage return |
+| `\t` | Tab |
+| `\v` | Vertical tab |
+| `\'` | Apostrophe or single quote |
+| `\"` | Double quote |
+| `\\` | Backslash character |
+| `\`_`XXX`_ | The character with the Latin-1 encoding specified by up to three octal digits _XXX_between 0 and 377. For example, \251 is the octal sequence for the copyright symbol. |
+| `\x`_`XX`_ | The character with the Latin-1 encoding specified by the two hexadecimal digits_XX_ between 00 and FF. For example, \xA9 is the hexadecimal sequence for the copyright symbol. |
+| `\u`_`XXXX`_ | The Unicode character specified by the four hexadecimal digits _XXXX_. For example, \u00A9 is the Unicode sequence for the copyright symbol. See[Unicode escape sequences](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#String_literals). |
+| `\u`_`{XXXXX}`_ | Unicode code point escapes. For example, \u{2F804} is the same as the simple Unicode escapes \uD87E\uDC04. |
+

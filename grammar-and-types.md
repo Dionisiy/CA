@@ -36,9 +36,9 @@ You can declare a variable in three ways:
 
 ### Evaluating variables
 
-A variable declared using the `var` statement with no initial value specified has the value[`undefined`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined "The global undefined property represents the primitive value undefined. It is one of JavaScript's primitive types.").
+A variable declared using the `var` statement with no initial value specified has the value`undefined`.
 
-An attempt to access an undeclared variable or an attempt to access an identifier declared with let statement before initialization will result in a [`ReferenceError`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError "The ReferenceError object represents an error when a non-existent variable is referenced.") exception being thrown:
+An attempt to access an undeclared variable or an attempt to access an identifier declared with let statement before initialization will result in a `ReferenceError` exception being thrown:
 
 ```
 var a;
@@ -51,6 +51,11 @@ var c;
 
 console.log("The value of x is " + x); // Uncaught ReferenceError: x is not defined
 let x;
-
 ```
+
+### Variable scope
+
+When you declare a variable outside of any function, it is called a _global_ variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a _local_ variable, because it is available only within that function.
+
+JavaScript before ECMAScript 2015 does not have [block statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#Block_statement) scope; rather, a variable declared within a block is local to the _function \(or global scope\)_ that the block resides within. For example the following code will log `5`, because the scope of `x` is the function \(or global context\) within which `x` is declared, not the block, which in this case is an `if` statement.
 

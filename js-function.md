@@ -4,7 +4,7 @@
 
 ### Function declarations
 
-A **function definition** \(also called a **function declaration**, or **function statement**\) consists of the[`function`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function "function") keyword, followed by:
+A **function definition** \(also called a **function declaration**, or **function statement**\) consists of the`function` keyword, followed by:
 
 * The name of the function.
 * A list of arguments to the function, enclosed in parentheses and separated by commas.
@@ -12,5 +12,9 @@ A **function definition** \(also called a **function declaration**, or **functio
 
 For example, the following code defines a simple function named `square`:
 
-
+```
+function square(number) {
+  return number * number;
+}
+```
 

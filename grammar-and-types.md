@@ -61,7 +61,7 @@ JavaScript before ECMAScript 2015 does not have [block statement](https://develo
 
 ### Global variables
 
-Global variables are in fact properties of the _global object_. In web pages the global object is`window`, so you can set and access global variables using the `window.``variable` syntax.
+Global variables are in fact properties of the _global object_. In web pages the global object is`window`, so you can set and access global variables using the ```window.``variable``` syntax.
 
 Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name. For example, if a variable called`phoneNumber` is declared in a document, you can refer to this variable from an iframe as`parent.phoneNumber`.
 
@@ -75,21 +75,41 @@ The scope rules for constants are the same as those for `let` block scope variab
 
 You cannot declare a constant with the same name as a function or variable in the same scope. For example:
 
-\/\/ THIS WILL CAUSE AN ERROR
+`// THIS WILL CAUSE AN ERROR`
 
-function f\(\) {};
+`function f() {};`
 
-const f = 5;
+`const f = 5;`
 
-\/\/ THIS WILL CAUSE AN ERROR ALSO
+`// THIS WILL CAUSE AN ERROR ALSO`
 
-function f\(\) {
+`function f() {`
 
- const g = 5;
+`const g = 5;`
 
- var g;
+`var g;`
 
- \/\/statements
+`//statements`
 
-}
+`}`
+
+
+
+## **Data structures and types**
+
+### Data types
+
+The latest ECMAScript standard defines seven data types:
+
+* Six data types that are [primitives](https://developer.mozilla.org/en-US/docs/Glossary/Primitive "primitives: A primitive (primitive value, primitive data type) is data that is not an object and has no methods. In JavaScript, there are 6 primitive data types: string, number, boolean, null, undefined, symbol (new in ECMAScript 2015)."):
+  * [Boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean "Boolean: In computer science, a boolean is a logical data type that can have only the values true or false."). `true` and `false`.
+  * [null](https://developer.mozilla.org/en-US/docs/Glossary/null "null: In computer science, a null value represents a reference that points, generally intentionally, to a nonexistent or invalid object or address. The meaning of a null reference varies among language implementations."). A special keyword denoting a null value. Because JavaScript is case-sensitive,`null` is not the same as `Null`, `NULL`, or any other variant.
+  * [undefined](https://developer.mozilla.org/en-US/docs/Glossary/undefined "undefined: Technical review completed."). A top-level property whose value is undefined.
+  * [Number](https://developer.mozilla.org/en-US/docs/Glossary/Number "Number: In JavaScript, Number is a numeric data type in the double-precision 64-bit floating point format (IEEE 754). In other programming languages different numeric types can exist, for examples: Integers, Floats, Doubles, or Bignums."). `42` or `3.14159`.
+  * [String](https://developer.mozilla.org/en-US/docs/Glossary/String "String: In any computer programming language, a string is a sequence of characters used to represent text."). "Howdy"
+  * [Symbol](https://developer.mozilla.org/en-US/docs/Glossary/Symbol "Symbol: A Symbol is a primitive data type whose instances are unique and immutable. In some programming languages they are also called atoms.") \(new in ECMAScript 2015\). A data type whose instances are unique and immutable.
+
+* and [Object](https://developer.mozilla.org/en-US/docs/Glossary/Object "Object: Object refers to a data structure containing data and instructions for working with the data. Objects sometimes refer to real-world things, for example a car or map object in a racing game. JavaScript, Java, C++, Python, and Ruby are examples of object-oriented programming languages.")
+
+
 

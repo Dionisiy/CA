@@ -6,3 +6,13 @@ a. walk you through the syntax bit by bit
 
 b. explain how the computer thinks as it executes a `for` loop.
 
+
+
+```
+for (var counter = 1; counter < 11; counter++) {
+	console.log(counter);
+}
+```
+
+
+

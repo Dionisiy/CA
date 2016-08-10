@@ -66,11 +66,17 @@ e. Increment i by 1 and now `i = 3`. This satisfies the condition that `i >= 1`.
 
 f. We will keep incrementing the code up by 1. It will **always** satisfy the condition. The loop NEVER ends. This will crash your computer!
 
-
-
 ### **Meet arrays**
 
 Variables can store numbers or strings. But so far, we've only been able to store ONE number or ONE string. Good thing we have arrays. Arrays:
+
+a. store **lists** of data
+
+b. can store **different data types** at the same time
+
+c. are **ordered** so the position of each piece of data is fixed
+
+
 
 
 

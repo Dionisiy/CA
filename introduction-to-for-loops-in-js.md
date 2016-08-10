@@ -134,3 +134,13 @@ for (var i = 0; i < cities.length; i++) {
 9. This continues until `i` is no longer less than `cities.length`.
 
 
+**Remember to:**
+
+1. Put commas between each element in the array.
+2. Put semi-colons between each bit of the `for` loop.
+3. We suggest you use `i` as the iterator.
+4. Beware of infinite loops!
+5. Enjoy yourself while smashing through this coding!
+
+
+

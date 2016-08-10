@@ -26,13 +26,31 @@ You can use most of ISO 8859-1 or Unicode letters such as å and ü in identifie
 
 Some examples of legal names are `Number_hits`, `temp99`, and `_name`.
 
-
-
 ### Declaring variables
 
 You can declare a variable in three ways:
 
-* With the keyword [`var`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var "The variable statement declares a variable, optionally initializing it to a value."). For example, `var x = 42`. This syntax can be used to declare both local and global variables.
+* With the keyword `var`. For example, `var x = 42`. This syntax can be used to declare both local and global variables.
 * By simply assigning it a value. For example, `x = 42`. This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.
-* With the keyword [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let "The let statement declares a block scope local variable, optionally initializing it to a value."). For example, `let y = 13`. This syntax can be used to declare a block scope local variable. See [Variable scope](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope) below.
+* With the keyword `let`. For example, `let y = 13`. This syntax can be used to declare a block scope local variable. See [Variable scope](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope) below.
+
+### Evaluating variables
+
+A variable declared using the `var` statement with no initial value specified has the value[`undefined`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined "The global undefined property represents the primitive value undefined. It is one of JavaScript's primitive types.").
+
+An attempt to access an undeclared variable or an attempt to access an identifier declared with let statement before initialization will result in a [`ReferenceError`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError "The ReferenceError object represents an error when a non-existent variable is referenced.") exception being thrown:
+
+```
+var a;
+console.log("The value of a is " + a); // The value of a is undefined
+
+console.log("The value of b is " + b); // Uncaught ReferenceError: b is not defined
+
+console.log("The value of c is " + c); // The value of c is undefined
+var c;
+
+console.log("The value of x is " + x); // Uncaught ReferenceError: x is not defined
+let x;
+
+```
 

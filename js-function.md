@@ -198,3 +198,7 @@ function multiply(a, b) {
 multiply(5); // 5///
 ```
 
+
+
+With default parameters, the check in the function body is no longer necessary. Now, you can simply put `1` as the default value for `b` in the function head:
+

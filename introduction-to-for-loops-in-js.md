@@ -24,5 +24,15 @@ Every `for` loop makes use of a counting variable. Here, our variable is called 
 
 When the `for` loop executes the code in the code block—the bit between `{}`—it does so by starting off where `i =1`.
 
+**Ending the for loop**
 
+We know how to control where the`for` loop starts. How do we control where it ends? Well, the second part of the `for` loop determines that.
+
+**Syntax**
+
+```
+    for (var i = 1; i < 11; i = i + 1) {
+        code code code; 
+    }
+```
 

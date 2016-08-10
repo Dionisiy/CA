@@ -115,9 +115,19 @@ The latest ECMAScript standard defines seven data types:
 
 JavaScript is a dynamically typed language. That means you don't have to specify the data type of a variable when you declare it, and data types are converted automatically as needed during script execution. So, for example, you could define a variable as follows:
 
-
-
 Because JavaScript is dynamically typed, this assignment does not cause an error message.
 
 In expressions involving numeric and string values with the + operator, JavaScript converts numeric values to strings. For example, consider the following statements:
+
+```
+var answer = 42;
+```
+
+```
+answer = "Thanks for all the fish...";
+```
+
+
+
+
 

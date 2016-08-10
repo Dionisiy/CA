@@ -83,7 +83,17 @@ There are other ways to call functions. There are often cases where a function n
 
 ## **Function scope**
 
-
-
 Variables defined inside a function cannot be accessed from anywhere outside the function, because the variable is defined only in the scope of the function. However, a function can access all variables and functions defined inside the scope in which it is defined. In other words, a function defined in the global scope can access all variables defined in the global scope. A function defined inside another function can also access all variables defined in its parent function and any other variable to which the parent function has access.
+
+## **Scope and the function stack**
+
+### Recursion
+
+A function can refer to and call itself. There are three ways for a function to refer to itself:
+
+1. the function's name
+2. [`arguments.callee`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee)
+3. an in-scope variable that refers to the function
+
+For example, consider the following function definition:
 

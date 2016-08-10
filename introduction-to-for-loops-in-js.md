@@ -26,7 +26,7 @@ When the `for` loop executes the code in the code blockâ€”the bit between `{}`â€
 
 **Ending the for loop**
 
-We know how to control where the`for` loop starts. How do we control where it ends? Well, the second part of the `for` loop determines that.
+We know how to control where the`for` loop starts. Well, the second part of the `for` loop determines that.
 
 **Syntax**
 

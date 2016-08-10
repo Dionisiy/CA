@@ -14,5 +14,17 @@ The syntax of **comments** is the same as in C++ and in many other languages:
 
 There are three kinds of declarations in JavaScript.
 
-[`var`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var "The variable statement declares a variable, optionally initializing it to a value.")Declares a variable, optionally initializing it to a value.[`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let "The let statement declares a block scope local variable, optionally initializing it to a value.")Declares a block scope local variable, optionally initializing it to a value.[`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const "The const declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned.")Declares a read-only named constant.
+`var`Declares a variable, optionally initializing it to a value.`let`Declares a block scope local variable, optionally initializing it to a value.`const`Declares a read-only named constant.
+
+
+
+### Variables
+
+You use variables as symbolic names for values in your application. The names of variables, called [identifiers](https://developer.mozilla.org/en-US/docs/Glossary/Identifier "identifiers: A sequence of characters in the code that identifies a variable, function, or property."), conform to certain rules.
+
+A JavaScript identifier must start with a letter, underscore \(\_\), or dollar sign \($\); subsequent characters can also be digits \(0-9\). Because JavaScript is case sensitive, letters include the characters "A" through "Z" \(uppercase\) and the characters "a" through "z" \(lowercase\).
+
+You can use most of ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the [Unicode escape sequences](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#String_literals) as characters in identifiers.
+
+Some examples of legal names are `Number_hits`, `temp99`, and `_name`.
 

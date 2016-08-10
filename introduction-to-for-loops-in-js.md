@@ -20,3 +20,5 @@ for (var i = 1; i < 11; i = i + 1) {
 }
 ```
 
+Every `for` loop makes use of a counting variable. Here, our variable is called `i` \(but it can have any name\). The variable has many roles. The first part of the for loop tells the computer to start with a value of 1 for `i`. It does this by declaring the variable called `i`and giving it a value of `1`.
+

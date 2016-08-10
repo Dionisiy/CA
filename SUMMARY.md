@@ -4,7 +4,8 @@
     * [Code your Own Adventure](code-your-own-adventure.md)
     * [Getting Started:QIUZ](getting-startedqiuz.md)
     * [Getting Started](getting-started.md)
-    * Resources 1
+    * [Resources 1](resources-1.md)
+        * JavaScript Basics
 * [HTML&CSS](README.md)
     * [Introduction to HTML](adada.md)
         * [HTML Basics](html-basics.md)

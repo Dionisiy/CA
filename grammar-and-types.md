@@ -164,3 +164,37 @@ This array has two elements with values and one empty element \(`fish[0]` is "Li
 
 Understanding the behavior of extra commas is important to understanding JavaScript as a language, however when writing your own code: explicitly declaring the missing elements as`undefined` will increase your code's clarity and maintainability.
 
+### Boolean literals
+
+The Boolean type has two literal values: `true` and `false`.
+
+Do not confuse the primitive Boolean values `true` and `false` with the true and false values of the Boolean object. The Boolean object is a wrapper around the primitive Boolean data type. See[`Boolean`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean "The Boolean object is an object wrapper for a boolean value.") for more information.
+
+
+
+### Integers
+
+Integers can be expressed in decimal \(base 10\), hexadecimal \(base 16\), octal \(base 8\) and binary \(base 2\).
+
+* Decimal integer literal consists of a sequence of digits without a leading 0 \(zero\).
+* Leading 0 \(zero\) on an integer literal, or leading 0o \(or 0O\) indicates it is in octal. Octal integers can include only the digits 0-7.
+* Leading 0x \(or 0X\) indicates hexadecimal. Hexadecimal integers can include digits \(0-9\) and the letters a-f and A-F.
+* Leading 0b \(or 0B\) indicates binary. Binary integers can include digits only 0 and 1.
+
+  ```
+  0, 117 and -345 (decimal, base 10)
+  015, 0001 and -0o77 (octal, base 8) 
+  0x1123, 0x00111 and -0xF1A7 (hexadecimal, "hex" or base 16)
+  0b11, 0b0011 and -0b11 (binary, base 2)
+  ```
+
+
+### loating-point literals
+
+A floating-point literal can have the following parts:
+
+* A decimal integer which can be signed \(preceded by "+" or "-"\),
+* A decimal point \("."\),
+* A fraction \(another decimal number\),
+* An exponent.
+

@@ -111,5 +111,5 @@ The latest ECMAScript standard defines seven data types:
 * and [Object](https://developer.mozilla.org/en-US/docs/Glossary/Object "Object: Object refers to a data structure containing data and instructions for working with the data. Objects sometimes refer to real-world things, for example a car or map object in a racing game. JavaScript, Java, C++, Python, and Ruby are examples of object-oriented programming languages.")
 
 
-Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. [`Objects`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object "The Object constructor creates an object wrapper.") and [`functions`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function "The Function constructor creates a new Function object. In JavaScript every function is actually a Function object.") are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.
+
 

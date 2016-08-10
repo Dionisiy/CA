@@ -127,16 +127,26 @@ Because JavaScript is dynamically typed, this assignment does not cause an error
 
 In expressions involving numeric and string values with the + operator, JavaScript converts numeric values to strings. For example, consider the following statements:
 
-
-
 ### Converting strings to numbers
 
 In the case that a value representing a number is in memory as a string, there are methods for conversion.
 
-* [`parseInt()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt "The parseInt() function parses a string argument and returns an integer of the specified radix (the base in mathematical numeral systems).")
-* [`parseFloat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat "The parseFloat() function parses a string argument and returns a floating point number.")
+* `parseInt()`
+* `parseFloat()`
 
 `parseInt` will only return whole numbers, so its use is diminished for decimals. Additionally, a best practice for `parseInt` is to always include the radix parameter. The radix parameter is used to specify which numerical system is to be used.
 
 
+
+## **Literals**[**EDIT**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types$edit#Literals)
+
+You use literals to represent values in JavaScript. These are fixed values, not variables, that you_literally_ provide in your script. This section describes the following types of literals:
+
+* [Array literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Array_literals)
+* [Boolean literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Boolean_literals)
+* [Floating-point literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Floating-point_literals)
+* [Integers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Integers)
+* [Object literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Object_literals)
+* [RegExp literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#RegExp_literals)
+* [String literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#String_literals)
 

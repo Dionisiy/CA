@@ -1,12 +1,12 @@
 Which of the following is the correct way to call the function below?
 
-var multiplier = function\(number\) {
+`var multiplier = function(number) {`
 
- console.log\(3 \* number\);
+`console.log(3 * number);`
 
-};
+`};`
 
-Answer: multiplier\(5\);
+**Answer**: multiplier\(5\);
 
 What does the return keyword do?
 
@@ -14,23 +14,23 @@ Answer: It allows for the output of a function to be used elsewhere
 
 Which of the following is a local variable in the block of code below?
 
-var input = prompt\("Enter input value"\);
+`var input = prompt("Enter input value");`
 
-var controlVal = input \/ 2 + 3;
+`var controlVal = input / 2 + 3;`
 
-var multiplier = function\(number, phase\) {
+`var multiplier = function(number, phase) {`
 
- var val = number \* controlVal + phase;
+`var val = number * controlVal + phase;`
 
- console.log\(val\);
+`console.log(val);`
 
-};
+`};`
 
-Answer: val
+**Answer**: val
 
 Which of the following demonstrates correct syntax for a function?
 
-\/\/1 
+\/\/1
 
 var myFunction = function\[\] {};
 
@@ -38,7 +38,7 @@ var myFunction = function\[\] {};
 
 var myFunction = function\(\) {};
 
-\/\/3 
+\/\/3
 
 var myFunction = function{} \(\);
 
@@ -56,9 +56,9 @@ var controlVal = input \/ 2 + 3;
 
 var multiplier = function\(number, phase\) {
 
- var val = number \* controlVal + phase;
+var val = number \* controlVal + phase;
 
- console.log\(val\);
+console.log\(val\);
 
 };
 
@@ -72,9 +72,9 @@ var controlVal = input \/ 2 + 3;
 
 var multiplier = function\(number, phase\) {
 
- var val = number \* controlVal + phase;
+var val = number \* controlVal + phase;
 
- console.log\(val\);
+console.log\(val\);
 
 };
 
@@ -88,9 +88,9 @@ var controlVal = input \/ 2 + 3;
 
 var multiplier = function\(number, phase\) {
 
- var val = number \* controlVal + phase;
+var val = number \* controlVal + phase;
 
- console.log\(val\);
+console.log\(val\);
 
 };
 
@@ -104,9 +104,9 @@ var controlVal = input \/ 2 + 3;
 
 var multiplier = function\(number, phase\) {
 
- var val = number \* controlVal + phase;
+var val = number \* controlVal + phase;
 
- console.log\(val\);
+console.log\(val\);
 
 };
 
@@ -119,6 +119,4 @@ Answer: parameter
 Which of the following best describes what a function in JavaScript is used for?
 
 Answer: A reusable piece of code that can be called on throughout an application
-
-
 

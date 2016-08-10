@@ -160,7 +160,7 @@ You do not have to specify all elements in an array literal. If you put two comm
 var fish = ["Lion", , "Angel"];
 ```
 
-
-
 This array has two elements with values and one empty element \(`fish[0]` is "Lion", `fish[1]` is`undefined`, and `fish[2]` is "Angel"\).
+
+Understanding the behavior of extra commas is important to understanding JavaScript as a language, however when writing your own code: explicitly declaring the missing elements as`undefined` will increase your code's clarity and maintainability.
 

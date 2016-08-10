@@ -66,17 +66,17 @@ Answer: 3
 
 Which of the following is a parameter in the block of code below?
 
-var input = prompt\("Enter input value"\);
+`var input = prompt("Enter input value");`
 
-var controlVal = input \/ 2 + 3;
+`var controlVal = input / 2 + 3;`
 
-var multiplier = function\(number, phase\) {
+`var multiplier = function(number, phase) {`
 
-var val = number \* controlVal + phase;
+`var val = number * controlVal + phase;`
 
-console.log\(val\);
+`console.log(val);`
 
-};
+`};`
 
 **Answer**: number
 

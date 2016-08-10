@@ -18,3 +18,5 @@ function square(number) {
 }
 ```
 
+The function `square` takes one argument, called `number`. The function consists of one statement that says to return the argument of the function \(that is, `number`\) multiplied by itself. The [`return`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return "return")statement specifies the value returned by the function.
+

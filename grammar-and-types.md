@@ -232,3 +232,7 @@ A string literal is zero or more characters enclosed in double \(`"`\) or single
 "John's cat"
 ```
 
+
+
+You can call any of the methods of the String object on a string literal value—JavaScript automatically converts the string literal to a temporary String object, calls the method, then discards the temporary String object. You can also use the `String.length` property with a string literal:
+

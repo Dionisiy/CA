@@ -78,5 +78,11 @@ c. are **ordered** so the position of each piece of data is fixed
 
 
 
+```
+var names = ["Mao","Gandhi","Mandela"];
 
+var sizes = [4, 6, 3, 2, 1, 9];
+
+var mixed = [34, "candy", "blue", 11]
+```
 

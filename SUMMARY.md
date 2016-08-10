@@ -60,6 +60,7 @@
     * [Getting Started](getting-started.md)
     * [Resources 1](resources-1.md)
         * [JavaScript Basics](javascript-basics.md)
+        * [Grammar and types](grammar-and-types.md)
 * [JavaScript](javascript.md)
     * [Functions](functions.md)
         * [Introduction to function JS](introduction-to-function-js.md)

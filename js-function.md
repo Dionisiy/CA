@@ -159,5 +159,11 @@ A(1); // logs 6 (1 + 2 + 3)
 
 
 
+In this example, `C` accesses `B`'s `y` and `A`'s `x`. This can be done because:
 
+1. `B` forms a closure including `A`, i.e. `B` can access `A`'s arguments and variables.
+2. `C` forms a closure including `B`.
+3. Because `B`'s closure includes `A`, `C`'s closure includes `A`, `C` can access both `B` _and_ `A`'s arguments and variables. In other words, `C` _chains_ the scopes of `B` and `A` in that order.
+
+The reverse, however, is not true. `A` cannot access `C`, because `A` cannot access any argument or variable of `B`, which `C` is a variable of. Thus, `C` remains private to only `B`.
 

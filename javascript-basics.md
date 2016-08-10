@@ -1,0 +1,4 @@
+## **What is JavaScript, really?**[**EDIT**](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics$edit#What_is_JavaScript_really)
+
+[JavaScript](https://developer.mozilla.org/en-US/docs/Glossary/JavaScript "JavaScript: JavaScript (JS) is a programming language mostly used client-side to dynamically script webpages, but often also server-side.") \("JS" for short\) is a full-fledged dynamic programming language that, when applied to an [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML "HTML: HTML (HyperText Markup Language) is a descriptive language that specifies webpage structure.") document, can provide dynamic interactivity on websites. It was invented by Brendan Eich, co-founder of the Mozilla project, the Mozilla Foundation, and the Mozilla Corporation.
+

@@ -5,7 +5,7 @@
     * [Getting Started:QIUZ](getting-startedqiuz.md)
     * [Getting Started](getting-started.md)
     * [Resources 1](resources-1.md)
-        * JavaScript Basics
+        * [JavaScript Basics](javascript-basics.md)
 * [HTML&CSS](README.md)
     * [Introduction to HTML](adada.md)
         * [HTML Basics](html-basics.md)

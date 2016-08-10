@@ -24,9 +24,14 @@ The function `square` takes one argument, called `number`. The function consists
 return number * number;
 ```
 
-
-
 ### Function expressions
 
 While the function declaration above is syntactically a statement, functions can also be created by a **function expression**. Such a function can be **anonymous**; it does not have to have a name. For example, the function `square` could have been defined as:
+
+
+
+```
+var square = function(number) { return number * number };
+var x = square(4) // x gets the value 16..
+```
 

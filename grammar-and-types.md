@@ -93,8 +93,6 @@ You cannot declare a constant with the same name as a function or variable in th
 
 `}`
 
-
-
 ## **Data structures and types**
 
 ### Data types
@@ -102,6 +100,7 @@ You cannot declare a constant with the same name as a function or variable in th
 The latest ECMAScript standard defines seven data types:
 
 * Six data types that are [primitives](https://developer.mozilla.org/en-US/docs/Glossary/Primitive "primitives: A primitive (primitive value, primitive data type) is data that is not an object and has no methods. In JavaScript, there are 6 primitive data types: string, number, boolean, null, undefined, symbol (new in ECMAScript 2015)."):
+
   * [Boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean "Boolean: In computer science, a boolean is a logical data type that can have only the values true or false."). `true` and `false`.
   * [null](https://developer.mozilla.org/en-US/docs/Glossary/null "null: In computer science, a null value represents a reference that points, generally intentionally, to a nonexistent or invalid object or address. The meaning of a null reference varies among language implementations."). A special keyword denoting a null value. Because JavaScript is case-sensitive,`null` is not the same as `Null`, `NULL`, or any other variant.
   * [undefined](https://developer.mozilla.org/en-US/docs/Glossary/undefined "undefined: Technical review completed."). A top-level property whose value is undefined.
@@ -109,7 +108,8 @@ The latest ECMAScript standard defines seven data types:
   * [String](https://developer.mozilla.org/en-US/docs/Glossary/String "String: In any computer programming language, a string is a sequence of characters used to represent text."). "Howdy"
   * [Symbol](https://developer.mozilla.org/en-US/docs/Glossary/Symbol "Symbol: A Symbol is a primitive data type whose instances are unique and immutable. In some programming languages they are also called atoms.") \(new in ECMAScript 2015\). A data type whose instances are unique and immutable.
 
-* and [Object](https://developer.mozilla.org/en-US/docs/Glossary/Object "Object: Object refers to a data structure containing data and instructions for working with the data. Objects sometimes refer to real-world things, for example a car or map object in a racing game. JavaScript, Java, C++, Python, and Ruby are examples of object-oriented programming languages.")
+* and [Object](https://developer.mozilla.org/en-US/docs/Glossary/Object "Object: Object refers to a data structure containing data and instructions for working with the data. Objects sometimes refer to real-world things, for example a car or map object in a racing game. JavaScript, Java, C++, Python, and Ruby are examples of object-oriented programming languages.")
 
 
+Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. [`Objects`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object "The Object constructor creates an object wrapper.") and [`functions`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function "The Function constructor creates a new Function object. In JavaScript every function is actually a Function object.") are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.
 

@@ -94,7 +94,7 @@ console.log\(val\);
 
 };
 
-Answer: multiplier\(2, 1\);
+**Answer**: multiplier\(2, 1\);
 
 Which of the following is a global variable in the block of code below?
 

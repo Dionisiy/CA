@@ -28,10 +28,26 @@ return number * number;
 
 While the function declaration above is syntactically a statement, functions can also be created by a **function expression**. Such a function can be **anonymous**; it does not have to have a name. For example, the function `square` could have been defined as:
 
-
-
 ```
 var square = function(number) { return number * number };
 var x = square(4) // x gets the value 16..
 ```
+
+
+
+Function expressions are convenient when passing a function as an argument to another function. The following example shows a `map` function being defined and then called with an anonymous function as its first parameter:
+
+
+
+```
+function map(f,a) {
+  var result = [], // Create a new Array
+      i;
+  for (i = 0; i != a.length; i++)
+    result[i] = f(a[i]);
+  return result;
+}
+```
+
+
 

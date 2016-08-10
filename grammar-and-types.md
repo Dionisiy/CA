@@ -59,3 +59,5 @@ When you declare a variable outside of any function, it is called a _global_ var
 
 JavaScript before ECMAScript 2015 does not have [block statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#Block_statement) scope; rather, a variable declared within a block is local to the _function \(or global scope\)_ that the block resides within. For example the following code will log `5`, because the scope of `x` is the function \(or global context\) within which `x` is declared, not the block, which in this case is an `if` statement.
 
+
+

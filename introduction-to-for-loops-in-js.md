@@ -36,8 +36,6 @@ We know how to control where the`for` loop starts. Well, the second part of the 
     }
 ```
 
-
-
 **Rules to learn**
 
 a. A more efficient way to code to increment up by 1 is to write `i++`.
@@ -49,4 +47,28 @@ c. We can increment up by any value by writing `i += x`, where x is how much we 
 d. We can decrement down by any value by writing `i -= x`. \(See the Hint for more.\)
 
 e. Be **very** careful with your syntax—if you write a loop that can't properly end, it's called an **infinite loop**. It will crash your browser!
+
+
+
+**How does it work?**
+
+We've gone through the three bits of syntax for a `for` loop. But how exactly does it work? Let's imagine the steps the computer takes to run the `for`loop on the right.
+
+It is important that there is a way for the `for` loop to end. If the `for` loop is always going to be true, then you will be stuck in an infinite loop and your browser will crash! Look at the code. It is bad.
+
+
+
+a. It begins at `i = 1`. 
+
+b. It will keep going as long as `i >= 1`.
+
+c. Because now `i = 1`, the code will run.
+
+
+
+d. We increment `i` by 1 and now `i =2`. This satisfies the condition. We run the code. 
+
+e. Increment i by 1 and now `i = 3`. This satisfies the condition that `i >= 1`. We run the code.
+
+f. We will keep incrementing the code up by 1. It will **always** satisfy the condition. The loop NEVER ends. This will crash your computer!
 

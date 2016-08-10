@@ -67,5 +67,16 @@ square(5);
 
 The preceding statement calls the function with an argument of 5. The function executes its statements and returns the value 25.
 
+A function can call itself. For example, here is a function that computes factorials recursively:
 
+
+
+```
+function factorial(n){
+  if ((n === 0) || (n === 1))
+    return 1;
+  else
+    return (n * factorial(n - 1));
+}
+```
 

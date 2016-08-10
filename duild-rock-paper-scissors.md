@@ -4,4 +4,4 @@ Rock paper scissors is a classic 2 player game. Each player chooses either rock,
 
 
 
-[See the Result](https://denishromenko.gitbooks.io/codeacademy_doc/content/js/function/ex.html)
+[See the Result](https://denishromenko.gitbooks.io/codeacademy_doc/content/js/function/ex1.html)

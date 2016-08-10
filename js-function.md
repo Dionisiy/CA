@@ -57,5 +57,9 @@ if (num === 0){
 }
 ```
 
+## **Calling functions**
+
+Defining a function does not execute it. Defining the function simply names the function and specifies what to do when the function is called. **Calling** the function actually performs the specified actions with the indicated parameters. For example, if you define the function `square`, you could call it as follows:
+
 
 

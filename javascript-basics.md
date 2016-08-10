@@ -10,3 +10,9 @@ JavaScript itself is fairly compact but very flexible, and developers have writt
 
 However, JavaScript is a bit more complex to get comfortable with than HTML and CSS, and you'll have to start small, and keep working at it in tiny regular steps. To start off with, we'll show you how to add some really basic JavaScript to your page, to create a "hello world!" example \([the standard in basic programming examples](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)\).
 
+
+
+### Variables
+
+[Variables](https://developer.mozilla.org/en-US/docs/Glossary/Variable "Variables: A variable is a named location for storing a value. That way an unpredictable value can be accessed through a predetermined name.") are containers that you can store values in. You start by declaring a variable with the`var` keyword, followed by any name you want to call it:
+

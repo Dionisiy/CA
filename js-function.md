@@ -69,8 +69,6 @@ The preceding statement calls the function with an argument of 5. The function e
 
 A function can call itself. For example, here is a function that computes factorials recursively:
 
-
-
 ```
 function factorial(n){
   if ((n === 0) || (n === 1))
@@ -78,5 +76,10 @@ function factorial(n){
   else
     return (n * factorial(n - 1));
 }
+console.log(factorial(5));
 ```
+
+
+
+
 

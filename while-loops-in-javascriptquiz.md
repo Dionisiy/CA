@@ -32,8 +32,9 @@ while(i < 4) {
 ```
 **Answer**: four
 
-What should the blank line be replaced with to properly exit what is currently an infinite loop?
+- What should the blank line be replaced with to properly exit what is currently an infinite loop?
 
+```
 var check = true;var loopCheck = function(check){
 
  while(check){
@@ -45,5 +46,6 @@ var check = true;var loopCheck = function(check){
  }
 
 }
+```
 
-Answer: check = false;
+**Answer**: check = false;

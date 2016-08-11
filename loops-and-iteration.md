@@ -244,4 +244,20 @@ The syntax of the continue statement looks like the following:
 continue [label];
 
 ```
+### Example
+
+The following example shows a while loop with a continue statement that executes when the value of i is three. Thus, n takes on the values one, three, seven, and twelve.
+
+```
+var i = 0;
+var n = 0;
+while (i < 5) {
+  i++;
+  if (i == 3) {
+    continue;
+  }
+  n += i;
+}
+```
+
 

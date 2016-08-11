@@ -88,3 +88,6 @@ Instead of `hide()`, however, we'll `placefadeTo() `inside `mouseenter()`. `fade
 fadeTo('fast', 0.25);
 ```
 
+would quickly fade the target element to 25% of its original opacity, making it very light-colored.
+
+

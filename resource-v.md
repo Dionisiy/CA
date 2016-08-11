@@ -88,3 +88,23 @@ the empty string ("")
 All other values, including all objects, evaluate to true when passed to a conditional statement.
 
 Do not confuse the primitive boolean values true and false with the true and false values of the Boolean object. For example:
+
+
+switch statement
+
+A switch statement allows a program to evaluate an expression and attempt to match the expression's value to a case label. If a match is found, the program executes the associated statement. A switch statement looks as follows:
+
+```
+switch (expression) {
+  case label_1:
+    statements_1
+    [break;]
+  case label_2:
+    statements_2
+    [break;]
+    ...
+  default:
+    statements_def
+    [break;]
+}
+```

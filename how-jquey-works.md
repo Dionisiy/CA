@@ -53,19 +53,21 @@ Next, add the [.addClass\(\)](http://api.jquery.com/addClass/) call to the scrip
 $( "a" ).addClass( "test" );
 ```
 
-
-
 ### **Special Effects**
 
 jQuery also provides some handy [effects](http://api.jquery.com/category/effects/) to help you make your web sites stand out. For example, if you create a click handler of:
 
-
-
 $\( "a" \).click\(function\( event \) {
- 
-    event.preventDefault\(\);
- 
-    $\( this \).hide\( "slow" \);
- 
+
+```
+event.preventDefault\(\);
+
+$\( this \).hide\( "slow" \);
+```
+
 }\);
+
+Then the link slowly disappears when clicked.
+
+## 
 

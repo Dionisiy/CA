@@ -78,6 +78,8 @@
         * [Introduction to 'While' Loops in JS](introduction-to-while-loops-in-js.md)
         * [Dragon Slayer!](dragon-slayer.md)
         * ['While' Loops in JavaScript:Quiz](while-loops-in-javascriptquiz.md)
+        * [Resource IV](resource-iv.md)
+            * [While Statement](while-statement.md)
     * Control Flow
     * Data Structures
     * Objects I

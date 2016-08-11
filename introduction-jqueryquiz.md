@@ -6,6 +6,16 @@
 
 * What will happen to all `<div>`s on the page when this code runs?
 
+`$(document).ready(function(){`
+
+`$("div").slideDown('slow');`
+
+`});`
+
+**Answer**: They will slide down into place slowly.
+
+* What is the purpose of a semicolon in jQuery?
+
 
 `$(document).ready(function(){`
 
@@ -13,19 +23,10 @@
 
 `});`
 
-Answer: They will slide down into place slowly.
+**Answer**: To tell the computer that an action or phrase is completed.
 
-What is the purpose of a semicolon in jQuery?
+* What does $\(\) mean?
 
-$\(document\).ready\(function\(\){
-
-$\("div"\).slideDown\('slow'\);
-
-}\);
-
-Answer: To tell the computer that an action or phrase is completed.
-
-What does $\(\) mean?
 
 $\(document\).ready\(function\(\){}\);
 

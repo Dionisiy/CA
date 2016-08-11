@@ -287,3 +287,16 @@ The following function takes as its argument an object and the object's name. It
 ```
 
 
+### Arrays
+
+Although it may be tempting to use this as a way to iterate over Array elements, the for...instatement will return the name of your user-defined properties in addition to the numeric indexes. Thus it is better to use a traditional for loop with a numeric index when iterating over arrays, because the for...in statement iterates over user-defined properties in addition to the array elements, if you modify the Array object, such as adding custom properties or methods.
+
+### for...of statement
+
+The for...of statement creates a loop Iterating over iterable objects (including Array, Map,Set, arguments object and so on), invoking a custom iteration hook with statements to be executed for the value of each distinct property.
+
+```
+    for (variable of object) {
+  statement
+}
+```

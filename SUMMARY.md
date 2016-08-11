@@ -91,6 +91,8 @@
     * Objects II
 * [jQuery](jquery.md)
     * Introducing jQuery
+        * Introduction to jQuery
+        * Introduction jQuery:Quiz
     * jQuery Functions
     * Dynamic HTML
     * jQuery Events

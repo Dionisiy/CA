@@ -95,6 +95,8 @@
         * Introduction jQuery:Quiz
         * External Resources I
     * jQuery Functions
+        * jQuery Functions and Selectors
+        * jQuery Functions:Quiz
     * Dynamic HTML
     * jQuery Events
     * jQuery Projects

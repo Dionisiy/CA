@@ -167,3 +167,23 @@ The try...catch statement marks a block of statements to try, and specifies one 
 The try...catch statement consists of a try block, which contains one or more statements, and one or more catch blocks, containing statements that specify what to do if an exception is thrown in the try block. That is, you want the try block to succeed, and if it does not succeed, you want control to pass to the catch block. If any statement within the try block (or in a function called from within the try block) throws an exception, control immediately shifts to thecatch block. If no exception is thrown in the try block, the catch block is skipped. The finallyblock executes after the try and catch blocks execute but before the statements following thetry...catch statement.
 
 
+```
+function getMonthName(mo) {
+  mo = mo - 1; // Adjust month number for array index (1 = Jan, 12 = Dec)
+  var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul",
+                "Aug","Sep","Oct","Nov","Dec"];
+  if (months[mo]) {
+    return months[mo];
+  } else {
+    throw "InvalidMonthNo"; //throw keyword is used here
+  }
+}
+
+try { // statements to try
+  monthName = getMonthName(myMonth); // function could throw exception
+}
+catch (e) {
+  monthName = "unknown";
+  logMyErrors(e); // pass exception object to error handler -> your own function
+}
+```

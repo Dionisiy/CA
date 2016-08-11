@@ -2,12 +2,11 @@
 
 * What does this for loop do?
 
+`for (var i = 2; i <= 7; i++) {`
 
-for \(var i = 2; i &lt;= 7; i++\) {
+`console.log(i);`
 
-console.log\(i\);
-
-};
+`};`
 
 Answer: prints the numbers 2 to 7\/
 

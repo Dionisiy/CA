@@ -36,7 +36,13 @@ Variables are a place for us to store information for use at a later time. Varia
 
 The single = sign is used to assignvalues. For instance, in jQuery, you can write
 
+```
 
+var lucky = 7;
+var name = "Codecademy";
+var $p = $('p');
+```
 
+Our first variable contains a number, 7, while the second variable contains some text, "Codecademy". Our 3rd variable stores the result of a jQuery selector $('p') in the variable $p . As you can see, this is just a handy way to save this information for later.
 
 

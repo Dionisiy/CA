@@ -270,3 +270,20 @@ The for...in statement iterates a specified variable over all the enumerable pro
   statements
 }
 ```
+
+### Example
+
+The following function takes as its argument an object and the object's name. It then iterates over all the object's properties and returns a string that lists the property names and their values.
+
+```
+    function dump_props(obj, obj_name) {
+  var result = "";
+  for (var i in obj) {
+    result += obj_name + "." + i + " = " + obj[i] + "<br>";
+  }
+  result += "<hr>";
+  return result;
+}
+```
+
+

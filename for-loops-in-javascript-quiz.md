@@ -58,7 +58,8 @@ console.log\(i\);
 
 **Answer**: var array = \[ 5, 6, “hello”\];
 
-Which of the following will return “hello” from the array below?
+* Which of the following will return “hello” from the array below?
+
 
 var array = \[ 5, 6, “hello”, 2, false\];
 

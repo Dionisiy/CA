@@ -113,3 +113,7 @@ btn.addEventListener("click", function(){
 
 
 ```
+
+### do...while statement
+
+The do...while statement repeats until a specified condition evaluates to false. A do...whilestatement looks as follows:

@@ -20,3 +20,11 @@ $(document).ready(function() {
 
 A function is made up of three parts: the function keyword, any inputs that function takes (they go between the()s and are separated by commas if there are more than one), and whatever actions the function should perform (these go between the {}s). The general form is:
 
+```
+function(input1, input2, etc) {
+    Do a thing
+    Do another thing
+    Do yet another thing!
+}
+```
+

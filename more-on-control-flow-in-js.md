@@ -12,3 +12,5 @@ if (/* Some condition */) {
 ```
 
 ###If / else if / else
+
+If you call isNaN on something, it checks to see if that thing is not a number. So:

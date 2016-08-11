@@ -1,8 +1,10 @@
+## Quiz
+
 What does this for loop do?
 
 for \(var i = 2; i &lt;= 7; i++\) {
 
- console.log\(i\);
+console.log\(i\);
 
 };
 
@@ -22,7 +24,7 @@ Which of the following for loops prints “0 5 10 15 20 25”\/
 
 for \(var i = 1; i &lt;= 25; i+= 5\) {
 
- console.log\(i\);
+console.log\(i\);
 
 };
 
@@ -30,7 +32,7 @@ for \(var i = 1; i &lt;= 25; i+= 5\) {
 
 for \(var i = 0; i &lt; 28; i += 5\) {
 
- console.log\(i\);
+console.log\(i\);
 
 };
 
@@ -38,7 +40,7 @@ for \(var i = 0; i &lt; 28; i += 5\) {
 
 for \(var i = 0; i &lt; 25; i =+ 5\) {
 
- console.log\(i\);
+console.log\(i\);
 
 };
 
@@ -46,7 +48,7 @@ for \(var i = 0; i &lt; 25; i =+ 5\) {
 
 for \(var i = 0; i &lt;= 25; i =+ 5\) {
 
- console.log\(i\);
+console.log\(i\);
 
 };
 
@@ -66,7 +68,7 @@ Which of the following is the checked condition for this for loop?
 
 for \(var condition = 0; condition &lt; 5; condition ++\) {
 
- return condition;
+return condition;
 
 };
 
@@ -80,11 +82,9 @@ Which of the following is the initialization block for this for loop?
 
 for \(var condition = 0; condition &lt; 5; condition++\) {
 
- return condition;
+return condition;
 
 };
 
 Answer: condition = 0
-
-
 

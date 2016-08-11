@@ -129,3 +129,10 @@ Just about any object can be thrown in JavaScript. Nevertheless, not all thrown 
 - ECMAScript exceptions
 
 - DOMException and DOMError
+
+**throw statement**
+
+Use the throw statement to throw an exception. When you throw an exception, you specify the expression containing the value to be thrown:
+
+
+

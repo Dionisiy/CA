@@ -84,6 +84,8 @@
         * [More on Control Flow in JS](more-on-control-flow-in-js.md)
         * [Code Your Own Adventure II](code-your-own-adventure-ii.md)
         * [Control Flow:Quiz](control-flowquiz.md)
+        * [Resource V](resource-v.md)
+            * Control flow and error handling
     * Data Structures
     * Objects I
     * Objects II

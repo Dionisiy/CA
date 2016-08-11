@@ -74,7 +74,7 @@ console.log\(i\);
 
 **Answer**: condition &lt; 5//
 
-Which of the following best describes an array?
+- Which of the following best describes an array?
 
 **Answer**: A variable that can store a list of different data types
 

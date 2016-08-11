@@ -93,7 +93,8 @@
     * [Introducing jQuery](introducing-jquery.md)
         * [Introduction to jQuery](introduction-to-jquery.md)
         * [Introduction jQuery:Quiz](introduction-jqueryquiz.md)
-        * External Resources I
+        * [External Resources I](external-resources-i.md)
+            * [How jQuey Works?](how-jquey-works.md)
     * [jQuery Functions](jquery-functions.md)
         * jQuery Functions and Selectors
         * jQuery Functions:Quiz

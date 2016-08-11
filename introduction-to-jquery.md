@@ -20,3 +20,9 @@ jQuery is a library, or set of helpful add-ons, to the JavaScriptprogramming lan
 - jQuery provides a simple interface for the underlying JavaScript. It's easier for many users to learn jQuery first, then dive into the nitty-gritty JavaScript details later.
 
 - jQuery is much better at giving you immediate, visual results than regular JavaScript. By the end of this lesson, you'll have built your own interactive button!
+
+###Linking Your HTML and JavaScript Files
+
+Great! Now we need to link our HTML page to our jQuery script so our jQuery magic will affect our HTML.
+
+Just like we need a <link> tag to connect our HTML and CSS, we need a<script> tag to connect our HTML and jQuery. The tag looks like this:

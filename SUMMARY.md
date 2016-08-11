@@ -89,5 +89,11 @@
     * Data Structures
     * Objects I
     * Objects II
-* jQuery
+* [jQuery](jquery.md)
+    * Introducing jQuery
+    * jQuery Functions
+    * Dynamic HTML
+    * jQuery Events
+    * jQuery Projects
+    * JQUERY FINAL PROJECT
 

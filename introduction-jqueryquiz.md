@@ -1,6 +1,7 @@
-How would you correctly target this element in jQuery?
+* How would you correctly target this element in jQuery?
 
-&lt;div&gt;I am a div.&lt;\/div&gt;
+
+`<div>I am a div.</div>`
 
 Answer: $\('div'\)
 
@@ -8,7 +9,7 @@ What will happen to all &lt;div&gt;s on the page when this code runs?
 
 $\(document\).ready\(function\(\){
 
- $\("div"\).slideDown\('slow'\);
+$\("div"\).slideDown\('slow'\);
 
 }\);
 
@@ -18,7 +19,7 @@ What is the purpose of a semicolon in jQuery?
 
 $\(document\).ready\(function\(\){
 
- $\("div"\).slideDown\('slow'\);
+$\("div"\).slideDown\('slow'\);
 
 }\);
 
@@ -32,7 +33,7 @@ Answer: Selects an element to target for jQuery action.
 
 All statements in JavaScript\/jQuery should end in which character?
 
-Answer:` ;`
+Answer:`;`
 
 What is the DOM?
 
@@ -42,11 +43,11 @@ What is the plain English translation of this function?
 
 $\(document\).ready\(function\(\) {
 
- $\('div'\).mouseenter\(function\(\) {
+$\('div'\).mouseenter\(function\(\) {
 
- $\('div'\).fadeTo\('fast', 1\);
+$\('div'\).fadeTo\('fast', 1\);
 
- }\);
+}\);
 
 }\);
 

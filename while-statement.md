@@ -20,3 +20,15 @@ while (n < 3) {
   x += n;
 }
 ```
+
+With each iteration, the loop increments n and adds that value to x. Therefore, x and n take on the following values:
+
+After the first pass: n = 1 and x = 1
+
+After the second pass: n = 2 and x = 3
+
+After the third pass: n = 3 and x = 6
+
+After completing the third pass, the condition n < 3 is no longer true, so the loop terminates.
+
+

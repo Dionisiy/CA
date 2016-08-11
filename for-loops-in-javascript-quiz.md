@@ -56,14 +56,13 @@ console.log\(i\);
 
 * Which of the following uses correct array syntax?
 
-
 Answer: var array = \[ 5, 6, “hello”\];
 
 Which of the following will return “hello” from the array below?
 
 var array = \[ 5, 6, “hello”, 2, false\];
 
-Answer: array\[2\]
+**Answer**: array\[2\]
 
 Which of the following is the checked condition for this for loop?
 

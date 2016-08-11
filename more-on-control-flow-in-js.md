@@ -40,3 +40,13 @@ switch (/*Some expression*/) {
 ```
 
 JavaScript will try to match the expression between the switch()parentheses to each case. It will run the code below each case if it finds a match, and will execute the defaultcode if no match is found.
+
+
+The logical operator and is written in JavaScript like this: &&. It evaluates totrue when both expressions are true; if they're not, it evaluates to false.
+
+```
+true && true;    // => true
+true && false;   // => false
+false && true;   // => false
+false && false;  // => false
+```

@@ -76,6 +76,7 @@
             * [Loops and Iteration](loops-and-iteration.md)
     * ['While' Loops in JavaScript](while-loops-in-javascript.md)
         * [Introduction to 'While' Loops in JS](introduction-to-while-loops-in-js.md)
+        * Dragon Slayer!
     * Control Flow
     * Data Structures
     * Objects I

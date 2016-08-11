@@ -77,3 +77,6 @@ When a for loop executes, the following occurs:
 - The update expression incrementExpression, if there is one, executes, and control returns to step 2.
 
 
+### Example
+
+The following function contains a for statement that counts the number of selected options in a scrolling list (a <select> element that allows multiple selections). The for statement declares the variable i and initializes it to zero. It checks that i is less than the number of options in the<select> element, performs the succeeding if statement, and increments i by one after each pass through the loop.

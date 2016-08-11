@@ -36,3 +36,8 @@ var bool = true;
 ```
 but the first one is faster to type. Get in the habit of typing exactly as much as you need to, and no more!
 
+###The 'do' / 'while' loop
+
+
+Sometimes you want to make sure your loop runs at least one time no matter what. When this is the case, you want a modified while loop called a do/while loop.
+

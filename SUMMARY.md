@@ -68,7 +68,7 @@
         * [Introduction to function JS:Quiz](introduction-to-function-jsquiz.md)
         * [Resources II](resources-ii.md)
             * [Js Function](js-function.md)
-    * ['For' Loops in Javascript](for-loops-in-javascript.md)
+    * [For Loops in Javascript](for-loops-in-javascript.md)
         * [Introduction to 'For' Loops in JS](introduction-to-for-loops-in-js.md)
         * [Search Text for Your Name](search-text-for-your-name.md)
     * 'While' Loops in JavaScript

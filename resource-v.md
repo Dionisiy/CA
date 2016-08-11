@@ -135,4 +135,11 @@ Just about any object can be thrown in JavaScript. Nevertheless, not all thrown 
 Use the throw statement to throw an exception. When you throw an exception, you specify the expression containing the value to be thrown:
 
 
+You may throw any expression, not just expressions of a specific type. The following code throws several exceptions of varying types:
 
+```
+    throw "Error2";   // String type
+throw 42;         // Number type
+throw true;       // Boolean type
+throw {toString: function() { return "I'm an object!"; } };
+```

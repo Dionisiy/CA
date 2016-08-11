@@ -12,3 +12,8 @@ We mentioned infinite loops in the previous exercise. If you give a whileloop a 
 To prevent this from happening, youalways need a way to ensure the condition between your whileparentheses can change.
 
 You'll see the same code from the last exercise in the editor to the right, only we've taken out the part that changes the loop's condition.
+
+
+You may have noticed that when we give a variable the boolean value true, we check that variable directly—we don't bother with ===. For instance,
+
+

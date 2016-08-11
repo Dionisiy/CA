@@ -56,7 +56,7 @@ console.log\(i\);
 
 * Which of the following uses correct array syntax?
 
-Answer: var array = \[ 5, 6, “hello”\];
+**Answer**: var array = \[ 5, 6, “hello”\];
 
 Which of the following will return “hello” from the array below?
 

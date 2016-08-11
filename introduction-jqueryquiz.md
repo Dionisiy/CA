@@ -16,7 +16,6 @@
 
 * What is the purpose of a semicolon in jQuery?
 
-
 `$(document).ready(function(){`
 
 `$("div").slideDown('slow');`
@@ -27,10 +26,9 @@
 
 * What does $\(\) mean?
 
+`$(document).ready(function(){});`
 
-$\(document\).ready\(function\(\){}\);
-
-Answer: Selects an element to target for jQuery action.
+**Answer**: Selects an element to target for jQuery action.
 
 All statements in JavaScript\/jQuery should end in which character?
 

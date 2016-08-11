@@ -84,5 +84,7 @@ would hide every <div> on the page as soon as you mouse over one.
 
 Instead of `hide()`, however, we'll `placefadeTo() `inside `mouseenter()`. `fadeTo()`takes two arguments, or inputs, between its parentheses, separated by a comma: the speed at which to fade, and the opacity (or transparency) to fade to. For example,
 
-
+```
+fadeTo('fast', 0.25);
+```
 

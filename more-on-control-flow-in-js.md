@@ -20,3 +20,23 @@ isNaN(NaN); // => true
 isNaN(undefined); // => true
 isNaN(42);  // => false
 ```
+
+The switch statement is put together like this:
+
+```
+switch (/*Some expression*/) {
+    case 'option1':
+        // Do something
+        break;
+    case 'option2':
+        // Do something else
+        break;
+    case 'option3':
+        // Do a third thing
+        break;
+    default:
+       // Do yet another thing
+}
+```
+
+JavaScript will try to match the expression between the switch()parentheses to each case. It will run the code below each case if it finds a match, and will execute the defaultcode if no match is found.

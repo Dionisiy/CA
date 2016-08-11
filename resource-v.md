@@ -187,3 +187,19 @@ catch (e) {
   logMyErrors(e); // pass exception object to error handler -> your own function
 }
 ```
+
+The catch block
+
+You can use a catch block to handle all exceptions that may be generated in the try block.
+
+
+```
+catch (catchID) {
+  statements
+}
+```
+
+
+The catch block specifies an identifier (catchID in the preceding syntax) that holds the value specified by the throw statement; you can use this identifier to get information about the exception that was thrown. JavaScript creates this identifier when the catch block is entered; the identifier lasts only for the duration of the catch block; after the catch block finishes executing, the identifier is no longer available.
+
+

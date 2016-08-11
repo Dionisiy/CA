@@ -72,7 +72,10 @@
         * [Introduction to 'For' Loops in JS](introduction-to-for-loops-in-js.md)
         * [Search Text for Your Name](search-text-for-your-name.md)
         * [For Loops in JavaScript: Quiz](for-loops-in-javascript-quiz.md)
-    * 'While' Loops in JavaScript
+        * Resources III
+            * Loops and Iteration
+    * ['While' Loops in JavaScript](while-loops-in-javascript.md)
+        * Introduction to 'While' Loops in JS
     * Control Flow
     * Data Structures
     * Objects I

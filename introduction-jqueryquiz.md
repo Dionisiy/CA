@@ -30,13 +30,15 @@
 
 **Answer**: Selects an element to target for jQuery action.
 
-All statements in JavaScript\/jQuery should end in which character?
+* All statements in JavaScript\/jQuery should end in which character?
 
-Answer:`;`
 
-What is the DOM?
+**Answer**:`;`
 
-Answer: The DOM consists of every element on the page, laid out in a hierarchical way that reflects the way the HTML document is ordered.
+* What is the DOM?
+
+
+**Answer**: The DOM consists of every element on the page, laid out in a hierarchical way that reflects the way the HTML document is ordered.
 
 What is the plain English translation of this function?
 

@@ -91,7 +91,7 @@
     * Objects II
 * [jQuery](jquery.md)
     * [Introducing jQuery](introducing-jquery.md)
-        * Introduction to jQuery
+        * [Introduction to jQuery](introduction-to-jquery.md)
         * Introduction jQuery:Quiz
         * External Resources I
     * [jQuery Functions](jquery-functions.md)

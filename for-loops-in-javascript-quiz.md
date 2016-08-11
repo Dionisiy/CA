@@ -54,7 +54,8 @@ console.log\(i\);
 
 **Answer**: 2\/\/
 
-Which of the following uses correct array syntax?
+* Which of the following uses correct array syntax?
+
 
 Answer: var array = \[ 5, 6, “hello”\];
 

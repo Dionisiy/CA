@@ -62,3 +62,20 @@ function(){
 }
 ```
 
+If we add our function inside our.ready(), jQuery will run the code in our function as soon as the HTML document loads. The syntax would then look like this:
+
+```
+$(document).ready(function() {
+    jQuery magic;
+});
+```
+
+`mouseenter()` does what you might expect: it produces a change when your mouse enters a given HTML element. For example,
+
+```
+$(document).ready(function() {
+    $('div').mouseenter(function() {
+        $('div').hide();
+    });
+});
+```

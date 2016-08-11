@@ -53,3 +53,33 @@ if (condition) {
 
 condition can be any expression that evaluates to true or false. See Boolean for an explanation of what evaluates to true and false. If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.
 
+```
+if (condition_1) {
+  statement_1;
+} else if (condition_2) {
+  statement_2;
+} else if (condition_n) {
+  statement_n;
+} else {
+  statement_last;
+} 
+```
+
+In the case of multiple conditions only the first logical condition which evaluates to true will be executed. To execute multiple statements, group them within a block statement ({ ... }) . In general, it's good practice to always use block statements, especially when nesting ifstatements:
+
+
+**Falsy values
+**
+The following values evaluate to false (also known as Falsy values):
+
+false
+
+undefined
+
+null
+
+0
+
+NaN
+
+the empty string ("")

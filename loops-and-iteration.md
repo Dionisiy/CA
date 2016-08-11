@@ -123,9 +123,19 @@ do
   statement
 
 while (condition);
+```
 
 statement executes once before the condition is checked. To execute multiple statements, use a block statement ({ ... }) to group those statements. If condition is true, the statement executes again. At the end of every execution, the condition is checked. When the condition is false, execution stops and control passes to the statement following do...while.
 
+  ###Example
 
-  
+In the following example, the do loop iterates at least once and reiterates until i is no longer less than 5.
+
 ```
+  var i = 0;
+do {
+  i += 1;
+  console.log(i);
+} while (i < 5);
+```
+

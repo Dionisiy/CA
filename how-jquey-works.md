@@ -26,25 +26,25 @@ $( document ).ready(function() {
 });
 ```
 
-
-
 For `click` and most other [events](http://api.jquery.com/category/events/), you can prevent the default behavior by calling `event.preventDefault()` in the event handler:
-
-
 
 ```
 $( document ).ready(function() {
- 
+
     $( "a" ).click(function( event ) {
- 
+
         alert( "As you can see, the link no longer took you to jquery.com" );
- 
+
         event.preventDefault();
- 
+
     });
- 
+
 });
 ```
 
 
+
+### **Adding and Removing an HTML Class**
+
+> mportant: You must place the remaining jQuery examples inside the ready event so that your code executes when the document is ready to be worked on.
 

@@ -46,3 +46,12 @@ $( document ).ready(function() {
 
 > Important: You must place the remaining jQuery examples inside the ready event so that your code executes when the document is ready to be worked on.
 
+Next, add the [.addClass\(\)](http://api.jquery.com/addClass/) call to the script:
+
+
+
+```
+	
+$( "a" ).addClass( "test" );
+```
+

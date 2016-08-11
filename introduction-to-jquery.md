@@ -33,11 +33,11 @@ Just like we need a <link> tag to connect our HTML and CSS, we need a<script> ta
 
 Next, we'll need to start up our jQuery magic using the $(document).ready();syntax you've seen. It works like this:
 
- - $() says, "hey, jQuery things are about to happen!"
+- $() says, "hey, jQuery things are about to happen!"
 
-Putting document between the parentheses tells us that we're about to work our magic on the HTMLdocument itself.
+- Putting document between the parentheses tells us that we're about to work our magic on the HTMLdocument itself.
 
-.ready(); is a function, or basic action, in jQuery. It says "hey, I'm going to do stuff as soon as the HTML document is ready!"
+- .ready(); is a function, or basic action, in jQuery. It says "hey, I'm going to do stuff as soon as the HTML document is ready!"
 
 Whatever goes in .ready()'s parentheses is the jQuery event that occurs as soon as the HTML document is ready.
 

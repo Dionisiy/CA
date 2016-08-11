@@ -28,3 +28,6 @@ function(input1, input2, etc) {
 }
 ```
 
+One of the nice things about jQuery is that you can give a function just about anything as an input—even another function! That's why .ready() can takefunction between its parentheses; it's taking a function as input.
+
+

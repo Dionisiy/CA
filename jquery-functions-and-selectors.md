@@ -17,3 +17,6 @@ $(document).ready(function() {
 
 
 ###Functions, Part II: Functions Explained
+
+A function is made up of three parts: the function keyword, any inputs that function takes (they go between the()s and are separated by commas if there are more than one), and whatever actions the function should perform (these go between the {}s). The general form is:
+

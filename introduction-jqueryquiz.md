@@ -56,15 +56,14 @@
 
 * What is jQuery?
 
-
 **Answer**: A library of JavaScript code.
 
 * What is the advantage to using jQuery over JavaScript?
 
-
 **Answer**: jQuery provides quick, easy shortcuts to pre-written JavaScript.
 
-What two inputs does .fadeIn\(\) take?
+* What two inputs does .fadeIn\(\) take?
 
-Answer: Duration and easing.
+
+**Answer**: Duration and easing.
 

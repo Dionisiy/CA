@@ -239,3 +239,9 @@ The continue statement can be used to restart a while, do-while, for, or label s
 - When you use continue with a label, it applies to the looping statement identified with that label.
 
 The syntax of the continue statement looks like the following:
+
+```
+continue [label];
+
+```
+

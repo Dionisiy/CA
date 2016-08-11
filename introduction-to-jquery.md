@@ -52,3 +52,13 @@ Note that .ready(); ends with a semicolon. This tells jQuery that you're done gi
 
 ###The Functional Approach
 
+Remember, when we say "function," you can think "action." Functions are the basic unit of doing work in jQuery.
+
+For this reason, jQuery includes afunction keyword. The syntax looks like this:
+
+```
+function(){
+    jQuery magic;
+}
+```
+

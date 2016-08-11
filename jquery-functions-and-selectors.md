@@ -87,3 +87,8 @@ we're passing `.ready()` a function (which itself takes no inputs; that's why it
 We don't have to limit ourselves to selecting HTML elements like <p> and<div>; essentially, we can put any CSS selector in quotes and pass it into $(). This means we can select classes, too!
 
 Recall that we can select classes in CSS by using a dot (.). If we haveclass="red" in our HTML, we can target it in CSS with .red. In jQuery, all we need to do is put '.red' in quotes, and we can pass it to $() to make a jQuery object.
+
+###Selecting by ID
+
+If we can select by class, it follows that we can also select by ID. We do this by putting the ID name (in quotes) inside$(). Just as we need the . for classes, we need the # for IDs. We could target id="header" like so:
+

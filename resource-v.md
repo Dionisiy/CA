@@ -42,4 +42,13 @@ A conditional statement is a set of commands that executes if a specified condit
 Use the if statement to execute a statement if a logical condition is true. Use the optional elseclause to execute a statement if the condition is false. An if statement looks as follows:
 
 
+```
+if (condition) {
+  statement_1;
+} else {
+  statement_2;
+}
+```
+
+
 

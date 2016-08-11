@@ -14,6 +14,22 @@ $( document ).ready(function() {
 
 For example, inside the `ready` event, you can add a click handler to the link:
 
+```
+$( document ).ready(function() {
+
+    $( "a" ).click(function( event ) {
+
+        alert( "Thanks for visiting!" );
+
+    });
+
+});
+```
+
+
+
+For `click` and most other [events](http://api.jquery.com/category/events/), you can prevent the default behavior by calling `event.preventDefault()` in the event handler:
+
 
 
 ```
@@ -21,7 +37,9 @@ $( document ).ready(function() {
  
     $( "a" ).click(function( event ) {
  
-        alert( "Thanks for visiting!" );
+        alert( "As you can see, the link no longer took you to jquery.com" );
+ 
+        event.preventDefault();
  
     });
  

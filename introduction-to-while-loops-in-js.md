@@ -17,3 +17,9 @@ You'll see the same code from the last exercise in the editor to the right, only
 You may have noticed that when we give a variable the boolean value true, we check that variable directly—we don't bother with ===. For instance,
 
 
+`
+var bool = true;
+while(bool){
+    //Do something
+}
+`

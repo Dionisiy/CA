@@ -93,6 +93,7 @@
     * Introducing jQuery
         * Introduction to jQuery
         * Introduction jQuery:Quiz
+        * External Resources I
     * jQuery Functions
     * Dynamic HTML
     * jQuery Events

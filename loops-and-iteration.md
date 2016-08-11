@@ -219,5 +219,14 @@ break [label];
 ```
 The first form of the syntax terminates the innermost enclosing loop or switch; the second form of the syntax terminates the specified enclosing labeled statement.
 
+The following example iterates through the elements in an array until it finds the index of an element whose value is theValue:
+
+```
+    for (var i = 0; i < a.length; i++) {
+  if (a[i] == theValue) {
+    break;
+  }
+}
+```
 
 

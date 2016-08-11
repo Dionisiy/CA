@@ -23,3 +23,15 @@ while(bool){
     //Do something
 }
 `
+
+is the same thing as
+
+```
+var bool = true;
+
+   while(bool === true)
+
+{ //Do something }
+
+```
+

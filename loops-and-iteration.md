@@ -213,3 +213,7 @@ When you use break with a label, it terminates the specified labeled statement.
 
 The syntax of the break statement looks like this:
 
+```
+break [label];
+
+```

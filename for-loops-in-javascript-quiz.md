@@ -12,8 +12,7 @@
 
 * Which of the following best describes an element in JavaScript?
 
-
-Answer: an entry in an array
+**Answer**: an entry in an array
 
 What best describes the function of a for loop?
 

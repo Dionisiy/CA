@@ -8,9 +8,10 @@
 
 `};`
 
-Answer: prints the numbers 2 to 7\/
+**Answer**: prints the numbers 2 to 7\/
 
-Which of the following best describes an element in JavaScript?
+* Which of the following best describes an element in JavaScript?
+
 
 Answer: an entry in an array
 

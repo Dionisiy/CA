@@ -54,3 +54,7 @@ Our first variable contains a number, 7, while the second variable contains some
 - Inputs are separated by commas.
 - Inputs can include other functions
 
+###$p vs $('p')
+
+You probably noticed that we used both $ and $() in the last exercise:
+

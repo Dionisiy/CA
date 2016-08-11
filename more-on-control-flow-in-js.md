@@ -41,6 +41,7 @@ switch (/*Some expression*/) {
 
 JavaScript will try to match the expression between the switch()parentheses to each case. It will run the code below each case if it finds a match, and will execute the defaultcode if no match is found.
 
+###And
 
 The logical operator and is written in JavaScript like this: &&. It evaluates totrue when both expressions are true; if they're not, it evaluates to false.
 
@@ -50,3 +51,17 @@ true && false;   // => false
 false && true;   // => false
 false && false;  // => false
 ```
+
+###Or
+
+The logical operator or is written in JavaScript like this: ||. It evaluates totrue when one or the other or bothexpressions are true; if they're not, it evaluates to false.
+
+
+```
+true || true;     // => true
+true || false;    // => true
+false || true;    // => true
+false || false;   // => false
+```
+The or operator is written with two vertical bars ||. The vertical bar character is located right above the Enter key on your keyboard.
+

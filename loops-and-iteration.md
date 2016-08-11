@@ -138,4 +138,13 @@ do {
   console.log(i);
 } while (i < 5);
 ```
+### while statement
+
+A while statement executes its statements as long as a specified condition evaluates to true. Awhile statement looks as follows:
+
+```
+  while (condition)
+  statement
+```
+
 

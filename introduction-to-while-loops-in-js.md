@@ -41,3 +41,10 @@ but the first one is faster to type. Get in the habit of typing exactly as much 
 
 Sometimes you want to make sure your loop runs at least one time no matter what. When this is the case, you want a modified while loop called a do/while loop.
 
+```
+var loopCondition = false;
+
+do { console.log("I'm gonna stop looping 'cause my condition is " + loopCondition + "!"); } while (loopCondition);
+
+```
+

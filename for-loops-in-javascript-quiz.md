@@ -14,7 +14,8 @@
 
 **Answer**: an entry in an array
 
-What best describes the function of a for loop?
+* What best describes the function of a for loop?
+
 
 Answer: It loops through a block of code a determinable number of times
 

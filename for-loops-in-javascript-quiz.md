@@ -72,11 +72,11 @@ console.log\(i\);
 
 `};`
 
-Answer: condition &lt; 5//
+**Answer**: condition &lt; 5//
 
 Which of the following best describes an array?
 
-Answer: A variable that can store a list of different data types
+**Answer**: A variable that can store a list of different data types
 
 Which of the following is the initialization block for this for loop?
 
@@ -86,5 +86,5 @@ return condition;
 
 };
 
-Answer: condition = 0,,
+**Answer**: condition = 0,,
 

@@ -66,12 +66,11 @@ console.log\(i\);
 
 * Which of the following is the checked condition for this for loop?
 
+`for (var condition = 0; condition < 5; condition ++) {`
 
-for \(var condition = 0; condition &lt; 5; condition ++\) {
+`return condition;`
 
-return condition;
-
-};
+`};`
 
 Answer: condition &lt; 5
 

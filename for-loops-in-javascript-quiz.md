@@ -16,10 +16,10 @@
 
 * What best describes the function of a for loop?
 
+**Answer**: It loops through a block of code a determinable number of times
 
-Answer: It loops through a block of code a determinable number of times
+* Which of the following for loops prints “0 5 10 15 20 25”\/
 
-Which of the following for loops prints “0 5 10 15 20 25”\/
 
 \/\/1\/\/
 

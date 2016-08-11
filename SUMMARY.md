@@ -74,8 +74,8 @@
         * [For Loops in JavaScript: Quiz](for-loops-in-javascript-quiz.md)
         * Resources III
             * [Loops and Iteration](loops-and-iteration.md)
-    * ['While' Loops in JavaScript](while-loops-in-javascript.md)
-        * Introduction to 'While' Loops in JS
+    * [While Loops in JavaScript](while-loops-in-javascript.md)
+        * Introduction to While Loops in JS
     * Control Flow
     * Data Structures
     * Objects I

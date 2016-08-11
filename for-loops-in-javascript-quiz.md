@@ -20,7 +20,6 @@
 
 * Which of the following for loops prints “0 5 10 15 20 25”\/
 
-
 \/\/1\/\/
 
 for \(var i = 1; i &lt;= 25; i+= 5\) {
@@ -53,7 +52,7 @@ console.log\(i\);
 
 };
 
-Answer: 2\/\/
+**Answer**: 2\/\/
 
 Which of the following uses correct array syntax?
 

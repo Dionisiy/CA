@@ -96,7 +96,7 @@
         * [External Resources I](external-resources-i.md)
             * [How jQuey Works?](how-jquey-works.md)
     * [jQuery Functions](jquery-functions.md)
-        * jQuery Functions and Selectors
+        * [jQuery Functions and Selectors](jquery-functions-and-selectors.md)
         * jQuery Functions:Quiz
         * External Resources II
     * Dynamic HTML

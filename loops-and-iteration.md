@@ -191,3 +191,16 @@ The syntax of the labeled statement looks like the following:
 label :
    statement
 ```
+
+The value of label may be any JavaScript identifier that is not a reserved word. The statement that you identify with a label may be any statement.
+
+### Example
+
+In this example, the label markLoop identifies a while loop.
+
+```
+markLoop:
+while (theMark == true) {
+   doSomething();
+}
+```

@@ -1,17 +1,17 @@
 * How would you correctly target this element in jQuery?
 
-
 `<div>I am a div.</div>`
 
-Answer: $\('div'\)
+**Answer**: `$('div')`
 
-What will happen to all &lt;div&gt;s on the page when this code runs?
+* What will happen to all `<div>`s on the page when this code runs?
 
-$\(document\).ready\(function\(\){
 
-$\("div"\).slideDown\('slow'\);
+`$(document).ready(function(){`
 
-}\);
+`$("div").slideDown('slow');`
+
+`});`
 
 Answer: They will slide down into place slowly.
 

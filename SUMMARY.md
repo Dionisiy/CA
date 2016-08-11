@@ -81,7 +81,7 @@
         * [Resource IV](resource-iv.md)
             * [While Statement](while-statement.md)
     * Control Flow
-        * More on Control Flow in JS
+        * [More on Control Flow in JS](more-on-control-flow-in-js.md)
         * Code Your Own Adventure II
         * Control Flow:Quiz
     * Data Structures

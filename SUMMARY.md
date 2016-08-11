@@ -89,4 +89,5 @@
     * Data Structures
     * Objects I
     * Objects II
+* jQuery
 

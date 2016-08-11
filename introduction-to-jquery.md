@@ -79,3 +79,5 @@ $(document).ready(function() {
     });
 });
 ```
+
+would hide every <div> on the page as soon as you mouse over one.

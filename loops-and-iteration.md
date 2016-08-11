@@ -124,5 +124,8 @@ do
 
 while (condition);
 
+statement executes once before the condition is checked. To execute multiple statements, use a block statement ({ ... }) to group those statements. If condition is true, the statement executes again. At the end of every execution, the condition is checked. When the condition is false, execution stops and control passes to the statement following do...while.
+
+
   
 ```

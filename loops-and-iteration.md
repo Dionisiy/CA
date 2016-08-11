@@ -217,3 +217,7 @@ The syntax of the break statement looks like this:
 break [label];
 
 ```
+The first form of the syntax terminates the innermost enclosing loop or switch; the second form of the syntax terminates the specified enclosing labeled statement.
+
+
+

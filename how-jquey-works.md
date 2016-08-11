@@ -42,9 +42,7 @@ $( document ).ready(function() {
 });
 ```
 
-
-
 ### **Adding and Removing an HTML Class**
 
-> mportant: You must place the remaining jQuery examples inside the ready event so that your code executes when the document is ready to be worked on.
+> Important: You must place the remaining jQuery examples inside the ready event so that your code executes when the document is ready to be worked on.
 

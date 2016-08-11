@@ -94,11 +94,18 @@
         * Introduction to jQuery
         * Introduction jQuery:Quiz
         * External Resources I
-    * jQuery Functions
+    * [jQuery Functions](jquery-functions.md)
         * jQuery Functions and Selectors
         * jQuery Functions:Quiz
+        * External Resources II
     * Dynamic HTML
+        * Modifying HTML Elements
+        * Dynamic HTML
+        * External Resources III
     * jQuery Events
+        * jQuery Events
+        * jQuery Events:Quiz
+        * External Resources IV
     * jQuery Projects
     * JQUERY FINAL PROJECT
 

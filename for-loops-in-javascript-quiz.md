@@ -1,6 +1,7 @@
 ## Quiz
 
-What does this for loop do?
+* What does this for loop do?
+
 
 for \(var i = 2; i &lt;= 7; i++\) {
 

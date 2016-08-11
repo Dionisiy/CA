@@ -32,3 +32,13 @@ After the third pass: n = 3 and x = 6
 After completing the third pass, the condition n &lt; 3 is no longer true, so the loop terminates.
 
 Avoid infinite loops. Make sure the condition in a loop eventually becomes false; otherwise, the loop will never terminate. The statements in the following while loop execute forever because the condition never becomes false:
+
+
+
+```
+while (true) { 
+    console.log("Hello, world"); 
+}
+
+```
+

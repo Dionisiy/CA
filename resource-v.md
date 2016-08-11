@@ -143,3 +143,27 @@ throw 42;         // Number type
 throw true;       // Boolean type
 throw {toString: function() { return "I'm an object!"; } };
 ```
+
+```
+// Create an object type UserException
+function UserException(message) {
+  this.message = message;
+  this.name = "UserException";
+}
+
+// Make the exception convert to a pretty string when used as a string 
+// (e.g. by the error console)
+UserException.prototype.toString = function() {
+  return this.name + ': "' + this.message + '"';
+}
+
+// Create an instance of the object type and throw it
+throw new UserException("Value too high");
+```
+try...catch statement
+
+The try...catch statement marks a block of statements to try, and specifies one or more responses should an exception be thrown. If an exception is thrown, the try...catchstatement catches it.
+
+The try...catch statement consists of a try block, which contains one or more statements, and one or more catch blocks, containing statements that specify what to do if an exception is thrown in the try block. That is, you want the try block to succeed, and if it does not succeed, you want control to pass to the catch block. If any statement within the try block (or in a function called from within the try block) throws an exception, control immediately shifts to thecatch block. If no exception is thrown in the try block, the catch block is skipped. The finallyblock executes after the try and catch blocks execute but before the statements following thetry...catch statement.
+
+

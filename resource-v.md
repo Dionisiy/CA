@@ -112,3 +112,20 @@ switch (expression) {
 The program first looks for a case clause with a label matching the value of expression and then transfers control to that clause, executing the associated statements. If no matching label is found, the program looks for the optional default clause, and if found, transfers control to that clause, executing the associated statements. If no default clause is found, the program continues execution at the statement following the end of switch. By convention, the defaultclause is the last clause, but it does not need to be so.
 
 The optional break statement associated with each case clause ensures that the program breaks out of switch once the matched statement is executed and continues execution at the statement following switch. If break is omitted, the program continues execution at the next statement in the switch statement.
+
+
+### Exception handling statements
+
+You can throw exceptions using the throw statement and handle them using the try...catchstatements.
+
+- throw statement
+
+- try...catch statement
+
+###Exception types
+
+Just about any object can be thrown in JavaScript. Nevertheless, not all thrown objects are created equal. While it is fairly common to throw numbers or strings as errors it is frequently more effective to use one of the exception types specifically created for this purpose:
+
+- ECMAScript exceptions
+
+- DOMException and DOMError

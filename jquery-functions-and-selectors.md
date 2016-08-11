@@ -72,6 +72,13 @@ var $div = $('div');
 
 
 
+###Using Functions to Select HTML Elements
 
+```
+$(document).ready(function() {
+    $('div').hide();
+});
+```
 
+we're passing .ready() a function (which itself takes no inputs; that's why its () are empty) and that function's job is to .hide() the divjQuery object.
 

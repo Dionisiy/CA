@@ -82,8 +82,8 @@
             * [While Statement](while-statement.md)
     * Control Flow
         * [More on Control Flow in JS](more-on-control-flow-in-js.md)
-        * Code Your Own Adventure II
-        * Control Flow:Quiz
+        * [Code Your Own Adventure II](code-your-own-adventure-ii.md)
+        * [Control Flow:Quiz](control-flowquiz.md)
     * Data Structures
     * Objects I
     * Objects II

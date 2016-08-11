@@ -30,4 +30,13 @@ function(input1, input2, etc) {
 
 One of the nice things about jQuery is that you can give a function just about anything as an input—even another function! That's why .ready() can takefunction between its parentheses; it's taking a function as input.
 
+###Variables
+
+Variables are a place for us to store information for use at a later time. Variables can hold any type of information you work with, so just think of them as containers.
+
+The single = sign is used to assignvalues. For instance, in jQuery, you can write
+
+
+
+
 

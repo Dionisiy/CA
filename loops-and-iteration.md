@@ -204,3 +204,10 @@ while (theMark == true) {
    doSomething();
 }
 ```
+break statement
+Use the break statement to terminate a loop, switch, or in conjunction with a labeled statement.
+
+When you use break without a label, it terminates the innermost enclosing while, do-while, for, or switch immediately and transfers control to the following statement.
+When you use break with a label, it terminates the specified labeled statement.
+The syntax of the break statement looks like this:
+

@@ -83,3 +83,8 @@ null
 NaN
 
 the empty string ("")
+
+
+All other values, including all objects, evaluate to true when passed to a conditional statement.
+
+Do not confuse the primitive boolean values true and false with the true and false values of the Boolean object. For example:

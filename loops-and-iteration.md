@@ -181,3 +181,13 @@ while (true) {
 }
 
 ```
+
+### labeled statement
+A label provides a statement with an identifier that lets you refer to it elsewhere in your program. For example, you can use a label to identify a loop, and then use the break or continue statements to indicate whether a program should interrupt the loop or continue its execution.
+
+The syntax of the labeled statement looks like the following:
+
+```
+label :
+   statement
+```

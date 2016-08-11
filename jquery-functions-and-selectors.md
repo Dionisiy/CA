@@ -46,3 +46,11 @@ var $p = $('p');
 Our first variable contains a number, 7, while the second variable contains some text, "Codecademy". Our 3rd variable stores the result of a jQuery selector $('p') in the variable $p . As you can see, this is just a handy way to save this information for later.
 
 
+**Remember**!
+
+- Start with the function keyword
+- Inputs go between ()
+- Actions go between {}
+- Inputs are separated by commas.
+- Inputs can include other functions
+

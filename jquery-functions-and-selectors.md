@@ -92,3 +92,6 @@ Recall that we can select classes in CSS by using a dot (.). If we haveclass="re
 
 If we can select by class, it follows that we can also select by ID. We do this by putting the ID name (in quotes) inside$(). Just as we need the . for classes, we need the # for IDs. We could target id="header" like so:
 
+```
+    $('#header');
+```

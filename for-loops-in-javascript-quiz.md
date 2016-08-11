@@ -72,7 +72,7 @@ console.log\(i\);
 
 `};`
 
-Answer: condition &lt; 5
+Answer: condition &lt; 5//
 
 Which of the following best describes an array?
 

@@ -65,3 +65,6 @@ false || false;   // => false
 ```
 The or operator is written with two vertical bars ||. The vertical bar character is located right above the Enter key on your keyboard.
 
+###Not
+
+The logical operator not is written in JavaScript like this: !. It makes trueexpressions false, and vice-versa.

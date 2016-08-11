@@ -264,3 +264,9 @@ while (i < 5) {
 ### for...in statement
 
 The for...in statement iterates a specified variable over all the enumerable properties of an object. For each distinct property, JavaScript executes the specified statements. A for...instatement looks as follows:
+
+```
+    for (variable in object) {
+  statements
+}
+```

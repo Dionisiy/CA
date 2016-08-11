@@ -20,6 +20,7 @@
 
 * Which of the following for loops prints “0 5 10 15 20 25”\/
 
+```
 \/\/1\/\/
 
 for \(var i = 1; i &lt;= 25; i+= 5\) {
@@ -51,6 +52,7 @@ for \(var i = 0; i &lt;= 25; i =+ 5\) {
 console.log\(i\);
 
 };
+```
 
 **Answer**: 2\/\/
 

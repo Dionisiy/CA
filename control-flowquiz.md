@@ -35,12 +35,12 @@ var message = "You have selected " + answer;
 
 console.log(message);// switch statement here
 ```
-Answer: switch (answer) {
+**Answer**: switch (answer) {
 
-Which of the following is the symbol for implementing the AND operator?
+- Which of the following is the symbol for implementing the AND operator?
 
-Answer: &&
+**Answer**: &&
 
-What is the use of the isNaN function?
+- What is the use of the isNaN function?
 
-answer: It checks if the value is not a number and returns a boolean
+**Answer**: It checks if the value is not a number and returns a boolean

@@ -40,28 +40,29 @@
 
 * What is the plain English translation of this function?
 
-
 `$(document).ready(function() {`
 
 `$('div').mouseenter(function() {`
 
 `$('div').fadeTo('fast', 1);`
 
-`          });`
+`});`
 
-`     });`
+`});`
 
 `});`
 
 **Answer**: "When the document loads and the mouse moves onto a div, fade to 100% opacity quickly."
 
-What is jQuery?
+* What is jQuery?
 
-Answer: A library of JavaScript code.
 
-What is the advantage to using jQuery over JavaScript?
+**Answer**: A library of JavaScript code.
 
-Answer: jQuery provides quick, easy shortcuts to pre-written JavaScript.
+* What is the advantage to using jQuery over JavaScript?
+
+
+**Answer**: jQuery provides quick, easy shortcuts to pre-written JavaScript.
 
 What two inputs does .fadeIn\(\) take?
 

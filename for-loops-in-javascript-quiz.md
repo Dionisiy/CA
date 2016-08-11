@@ -64,7 +64,8 @@ console.log\(i\);
 
 **Answer**: array\[2\]
 
-Which of the following is the checked condition for this for loop?
+* Which of the following is the checked condition for this for loop?
+
 
 for \(var condition = 0; condition &lt; 5; condition ++\) {
 

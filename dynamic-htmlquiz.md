@@ -28,8 +28,7 @@
 
 **Answer**: `var $div = $("div")`
 
-* How does` .toggleClass()` work in this code?
-
+* How does`.toggleClass()` work in this code?
 
 `$(document).ready(function(){`
 
@@ -41,15 +40,16 @@
 
 `});`
 
-Answer: Adds the class "highlighted" to "\#text", or removes it if it's already there.
+**Answer**: Adds the class "highlighted" to `"#text"`, or removes it if it's already there.
 
-What does the following code do?
+* What does the following code do?
 
-$\(document\).ready\(function\(\){
 
-$\('div'\).append\("&lt;p&gt;This is a paragraph.&lt;\/p&gt;"\);
+`$(document).ready(function(){`
 
-}\);
+`$('div').append("<p>This is a paragraph.</p>");`
+
+`});`
 
 Answer: Adds the paragraph &lt;p&gt; to the end of every &lt;div&gt;.
 

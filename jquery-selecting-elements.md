@@ -144,17 +144,13 @@ Using the `:input` selector selects all `<input>`, `<textarea>`, `<select>`, and
 $( "form :input" );
 ```
 
-
-
 #### **:selected**
 
 Using the `:selected` pseudo-selector targets any selected items in `<option>` elements:
-
-
 
 ```
 $( "form :selected" );
 ```
 
-
+In order to get the best performance using `:selected`, first select elements with a standard jQuery selector, then use `.filter( ":selected" )`, or precede the pseudo-selector with a tag name or some other selector.
 

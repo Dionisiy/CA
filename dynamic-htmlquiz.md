@@ -50,19 +50,15 @@
 
 `});`
 
-**Answer**: Adds the paragraph` <p> `to the end of every `<div>`.
+**Answer**: Adds the paragraph`<p>`to the end of every `<div>`.
 
 * When modifying an element's classes, why do you not include a \`.\` or \`\#\` before a class name?
-
 
 **Answer**: You are modifying an element, not selecting one, so no selector is needed.
 
 * What value would this code return?
 
-
 `$('input[type=checkbox]:checked').val();`
 
-Answer:
-
-The value of the first checked checkbox on the page that jQuery finds.
+**Answer**: The value of the first checked checkbox on the page that jQuery finds.
 

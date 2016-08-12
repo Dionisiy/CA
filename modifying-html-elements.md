@@ -73,9 +73,17 @@ $("div").after($("p"));
 
 Adding elements to our HTML documents is great, but without the ability to remove them, our pages can quickly become cluttered. Thankfully, we have two jQuery functions,`.empty()` and `.remove()`, that help us delete content from our pages.
 
-
-
 `.empty()` deletes an element's content and _all its descendants_. For instance, if you `.empty()` an `'ol'`, you'll also remove all its `'li'`s and their text.
 
 `.remove()`, not only deletes an element's content, but deletes the element itself.
+
+
+
+### **Adding and Removing Classes**
+
+
+
+
+
+
 

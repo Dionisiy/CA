@@ -64,5 +64,5 @@ $("div").after($("p"));
 
 1. We can select an element using`$("p")` and assign it to a variable
 
-
+1. We can move the position in the DOM by using the variable in our`after()` statement
 

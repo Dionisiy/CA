@@ -103,3 +103,28 @@ The semicolon at the end is important—it's how jQuery knows we're done giving 
 ###Flexible Selections
 
 
+
+Anything you can target with CSS, you can modify with jQuery. For example, we can apply a fadeTo() to a pselector like this:
+
+
+```
+$('p').fadeTo('slow', 0);
+
+```
+
+We can apply a fadeTo() to an liselector like this:
+
+
+```
+$('li').fadeTo('slow', 0);
+
+```
+
+
+We can apply a fadeTo() to both the pand li selectors like this:
+
+```
+$('p, li').fadeTo('slow', 0);
+
+```
+

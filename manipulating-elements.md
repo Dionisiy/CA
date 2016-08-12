@@ -52,9 +52,21 @@ Methods such as `.appendTo()` move the element, but sometimes a copy of the elem
 $( "#myList li:first" ).clone().appendTo( "#myList" );
 ```
 
-
-
 If you need to copy related data and events, be sure to pass `true` as an argument to `.clone()`.
 
-## 
+### **Removing Elements**
+
+There are two ways to remove elements from the page: `.remove()` and `.detach()`. Use `.remove()` when you want to permanently remove the selection from the page. While `.remove()` does return the removed element\(s\), those elements will not have their associated data and events attached to them if you return them to the page.
+
+Use `.detach()` if you need the data and events to persist. Like `.remove()`, it returns the selection, but it also maintains the data and events associated with the selection, so you can restore the selection to the page at a later time.
+
+The `.detach()` method is extremely valuable if you are doing heavy manipulation on an element. In that case, it's beneficial to `.detach()` the element from the page, work on it in your code, then restore it to the page when you're done. This limits expensive "DOM touches" while maintaining the element's data and events.
+
+If you want to leave the element on the page but remove its contents, you can use `.empty()` to dispose of the element's inner HTML.
+
+
+
+### **Creating New Elements**
+
+jQuery offers a trivial and elegant way to create new elements using the same `$()` method used to make selections:
 

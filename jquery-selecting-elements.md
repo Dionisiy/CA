@@ -134,5 +134,9 @@ Basically the inverse of the _:disabled_ pseudo-selector, the `:enabled` pseudo-
 $( "form :enabled" );
 ```
 
+In order to get the best performance using `:enabled`, first select elements with a standard jQuery selector, then use `.filter( ":enabled" )`, or precede the pseudo-selector with a tag name or some other selector.
 
+#### **:input**
+
+Using the `:input` selector selects all `<input>`, `<textarea>`, `<select>`, and `<button>` elements:
 

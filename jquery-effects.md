@@ -20,11 +20,7 @@ Another possible effect is `'bounce'`. We give this as an input to `.effect()` j
 $('div').effect('bounce', {times:2}, 200);
 ```
 
-### 
-
 ### **Special Effects**
-
-
 
 The `.effect()` effect has all kinds of magical goodness in it, but it's not the most amazing thing jQuery UI can do. The library has a number of built-in effects that can make your website look sleek and professional with surprisingly little code.
 

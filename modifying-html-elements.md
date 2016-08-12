@@ -100,13 +100,33 @@ where `'selector'` is the HTML element you want and `'className'` is the class n
 
 What if we want to toggle a class back and forth, though? That is, what if we want jQuery to automatically check to see whether our `#text` is `.highlighted`, so that when we click on it, it adds the class if it isn't there and removes it if it is?
 
-
-
 jQuery includes a `.toggleClass()` function that does exactly this.If the element it's called on has the class it receives as an input, `.toggleClass()` removes that class; if the target element doesn't have that class, `.toggleClass()` adds it.
 
-
-
 ### **Changing Your Style**
+
+
+
+jQuery has specific `.height()`and `.width()` functions that can be used to change the heights and widths of HTML elements. 
+
+
+
+For instance:
+
+```
+    $("div").height("100px");
+    $("div").width("50px");
+```
+
+would give all `<div>`s on the page a height of 100 pixels and a width of 50 pixels.
+
+jQuery also includes a general-purpose `.css()` function that takes two inputs: the first is the CSS element to alter, and the second is the value to set it to. For example:
+
+```
+    $("div").css("background-color","#008800");
+
+```
+
+would give all `<div>`s on the page a green background color. You can modify any element's CSS attributes this way.
 
 
 

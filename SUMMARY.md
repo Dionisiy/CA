@@ -102,7 +102,7 @@
             * [jQuery Selecting Elements](jquery-selecting-elements.md)
             * [jQuery Selectors Libruary](jquery-selectors-libruary.md)
     * Dynamic HTML
-        * Modifying HTML Elements
+        * [Modifying HTML Elements](modifying-html-elements.md)
         * Dynamic HTML
         * External Resources III
     * jQuery Events

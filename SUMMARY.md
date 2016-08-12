@@ -103,7 +103,7 @@
             * [jQuery Selectors Libruary](jquery-selectors-libruary.md)
     * Dynamic HTML
         * [Modifying HTML Elements](modifying-html-elements.md)
-        * Dynamic HTML
+        * Dynamic HTML:Quiz
         * External Resources III
     * jQuery Events
         * jQuery Events

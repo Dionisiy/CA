@@ -1,0 +1,12 @@
+# **Effects**
+
+jQuery makes it trivial to add simple effects to your page. Effects can use the built-in settings, or provide a customized duration. You can also create custom animations of arbitrary CSS properties.
+
+
+
+For complete details on jQuery effects, visit the [Effects documentation on api.jquery.com](http://api.jquery.com/category/effects/).
+
+* [Introduction to Effects](http://learn.jquery.com/effects/intro-to-effects/)
+* [Custom Effects with .animate\(\)](http://learn.jquery.com/effects/custom-effects/)
+* [Queue & Dequeue Explained](http://learn.jquery.com/effects/queue-and-dequeue-explained/)
+

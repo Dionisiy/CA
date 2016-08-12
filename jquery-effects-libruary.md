@@ -12,15 +12,15 @@ For complete details on jQuery effects, visit the [Effects documentation on api.
 
 The jQuery library provides several techniques for adding animation to a web page. These include simple, standard animations that are frequently used, and the ability to craft sophisticated custom effects.
 
-
-
-### [**.animate\(\)**](http://api.jquery.com/animate/ "Permalink to .animate()")
+### **[.animate\(\)](http://api.jquery.com/animate/ "Permalink to .animate()")**
 
 Perform a custom animation of a set of CSS properties.
 
-
-
-### [**.clearQueue\(\)**](http://api.jquery.com/clearQueue/ "Permalink to .clearQueue()")
+### **[.clearQueue\(\)](http://api.jquery.com/clearQueue/ "Permalink to .clearQueue()")**
 
 Remove from the queue all items that have not yet been run.
+
+### [**.delay\(\)**](http://api.jquery.com/delay/ "Permalink to .delay()")
+
+Set a timer to delay execution of subsequent items in the queue.
 

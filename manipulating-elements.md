@@ -64,9 +64,24 @@ The `.detach()` method is extremely valuable if you are doing heavy manipulation
 
 If you want to leave the element on the page but remove its contents, you can use `.empty()` to dispose of the element's inner HTML.
 
-
-
 ### **Creating New Elements**
 
 jQuery offers a trivial and elegant way to create new elements using the same `$()` method used to make selections:
+
+```
+// Creating new elements from an HTML string.
+$( "<p>This is a new paragraph</p>" );
+$( "<li class=\"new\">new list item</li>" );
+```
+
+```
+// Creating a new element with an attribute object.
+$( "<a/>", {
+    html: "This is a <strong>new</strong> link",
+    "class": "new",
+    href: "foo.html"
+});
+```
+
+
 

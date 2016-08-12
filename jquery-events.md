@@ -56,13 +56,29 @@ $('div').hover(
 
 Your second `function(){}` doesn't have to be the opposite of the first`function(){}`, but it would be very common!
 
-
-
 ### **Let's .focus\(\)!**
 
 Another event we can make use of is`.focus()`. We say an element has **focus**when we click on it or tab over to it. If you've ever filled out a form on a web page and seen how each text box lights up when you tab to it or click on it, you've seen focus in action!
 
 The `.focus()` event handler only works on elements that can receive focus—the list of these elements is a bit vague, but HTML elements like`<textarea>`s and `<input>`s are the usual suspects.
+
+
+
+### **The .keydown\(\) Event**
+
+The `.keydown()` event is triggered whenever a key on the keyboard is pressed. It only works on whatever page element has focus, so you'll need to click on the window containing your div before pressing a key in order for you to see its effects.
+
+Let's go ahead and combine our new event with a new effect: `.animate()`! We'll use this to move an object on the screen whenever we press a key.
+
+The `.animate()` effect takes two inputs: the animation to perform, and the time in which to perform the animation. Here's an example:
+
+
+
+```
+$(document).ready(function() {
+   $('div').animate({left:'+=10px'},500);
+});
+```
 
 
 

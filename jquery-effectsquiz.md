@@ -2,15 +2,27 @@
 
 * How would you allow users to rearrange the items on this list?
 
-  `<body>```` <ol>```` <li>Super Mario Bros.</li>```` <li>Tetris</li>```` <li>Legend of Zelda: Link's Awakening</li>```` <li>Kirby's Dream World</li>```` <li>Burger Time</li>```` <li>Pokémon Red</li>```` <li>Pokémon Blue</li>```` </ol>````</body>`
 
 
-**Answer**:` $('ol').sortable();`
+* ```
+  <body>
+    <ol> 
+       <li>Super Mario Bros.</li>
+       <li>Tetris</li> 
+       <li>Legend of Zelda: Link's Awakening</li> 
+       <li>Kirby's Dream World</li> <li>Burger Time</li>
+       <li>Pokémon Red</li> 
+       <li>Pokémon Blue</li> 
+    </ol>
+  </body>
+  ```
 
-* How do you correctly apply a jQuery UI function like \`explode\` or \`bounce\`?
 
+Answer: $\('ol'\).sortable\(\);
 
-**Answer**: $\('div'\).effect\('bounce', { times: 2 }, 200\);
+How do you correctly apply a jQuery UI function like \`explode\` or \`bounce\`?
+
+Answer: $\('div'\).effect\('bounce', { times: 2 }, 200\);
 
 What is the correct jQuery method to stop this div from appearing on the page?
 

@@ -40,9 +40,14 @@ $('<p>Stuff!</p>').appendTo('.info');
 
 has the same effect as the `.append()`code above. `.prependTo()` has a similar relationship to `.prepend()`.
 
-
-
 ### **Before and After**
 
 We can specify where in the DOM we insert an element with the `.before()`and `.after()` functions. The syntax looks like this:
+
+```
+$('target').after('<tag>To add</tag>');
+
+```
+
+Where `'target'` is the element after which you want to add something and the bit between `<tag>`s is the HTML element you want to add. You can add`<h1>`s, `<div>`s, or any other valid HTML you like.
 

@@ -100,3 +100,6 @@ If we can select by class, it follows that we can also select by ID. We do this 
 
 The semicolon at the end is important—it's how jQuery knows we're done giving it a command. For now, a good rule of thumb is that you should put semicolons at the end of any line that does not end with an open {. (The editor will try to help you out with your semicolon placement, so pay attention to its warnings.) Examples of correct and incorrect semicolon use are in the Hint.
 
+###Flexible Selections
+
+

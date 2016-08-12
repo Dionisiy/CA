@@ -34,11 +34,9 @@
 
 * Which of these is NOT one of the three parts of a function?
 
-
 **Answer**: The event listener, like .onClick\(\), that tells the computer when to initiate the function.
 
 * Which of these is a syntactically correct variable?
-
 
 `var number = 17;`
 
@@ -46,27 +44,30 @@
 
 `var $div = $('div');`
 
-Answer: All are correct
+**Answer**: All are correct
 
-What is a compound selector?
+* What is a compound selector?
 
-Answer: A selector that chooses two elements at once.
 
-What is the correct syntax to complete this function?
+**Answer**: A selector that chooses two elements at once.
 
-$\(document\).ready\(function\(\) {
+* What is the correct syntax to complete this function?
 
-}\);
 
-Answer: $\('.green, .blue'\).fadeTo\('fast', 1\)
+`$(document).ready(function() {`
 
-Where should the variable go in this code?
+`});`
 
-$\(document\).ready\(function\(\) {
+**Answer**:` $('.green, .blue').fadeTo('fast', 1)`
 
-$target.fadeOut\('fast'\);
+* Where should the variable go in this code?
 
-}\);
+
+`$(document).ready(function() {`
+
+`$target.fadeOut('fast');`
+
+`});`
 
 Answer:
 

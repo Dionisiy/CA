@@ -100,7 +100,7 @@
         * [jQuery Functions:Quiz](jquery-functionsquiz.md)
         * External Resources II
             * [jQuery Selecting Elements](jquery-selecting-elements.md)
-            * jQuery Selectors Libruary
+            * [jQuery Selectors Libruary](jquery-selectors-libruary.md)
     * Dynamic HTML
         * Modifying HTML Elements
         * Dynamic HTML

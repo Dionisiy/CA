@@ -124,26 +124,18 @@ jQuery also includes a general-purpose `.css()` function that takes two inputs: 
 
 would give all `<div>`s on the page a green background color. You can modify any element's CSS attributes this way.
 
-
-
 ### **Modifying Content**
-
-
 
 Finally, we can update the contents of our HTML elements—that is, the bit between the opening and closing tags—using the `.html()` and `.val()`functions.
 
-
-
 `.html()` can be used to set the contents of the first element match it finds. For instance,
-
-
 
 ```
 $('div').html();
 
 ```
 
-will get the HTML contents of the _first_div it finds, and
+will get the HTML contents of the \_first\_div it finds, and
 
 ```
 $('div').html("I love jQuery!");
@@ -162,4 +154,30 @@ $('input:checkbox:checked').val();
 would get the value of the first checked checkbox that jQuery finds.
 
 
+
+### **Remove What's Been Clicked**
+
+
+
+You might think we could do this:
+
+```
+$('.item').click(function() {
+    $(this).remove();
+});
+
+```
+
+and that's not a bad idea. The problem is that it won't work—jQuery looks for all the `.item`s when the DOM is loaded, so by the time your document is ready, it's already decided there are no `.item`s to `.remove()`, and your code won't work.
+
+For this, we'll need a new event handler: `.on()`. You can think of `.on()`as a general handler that takes the event, its selector, and an action as inputs. The syntax looks like this:
+
+```
+$(document).on('event', 'selector', function() {
+    Do something!
+});
+
+```
+
+In this case, `'event'` will be `'click'`,`'selector'` will be `'.item'`, and the thing we'll want to do is call `.remove()`on `this`.
 

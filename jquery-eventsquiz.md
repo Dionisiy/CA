@@ -4,15 +4,13 @@
 
 * How does a `.keydown()` event know which specific key to listen for?
 
-**Answer**: A` .keydown()` function can take the argument 'key' which specifies the key to be pressed.
+**Answer**: A`.keydown()` function can take the argument 'key' which specifies the key to be pressed.
 
 * What is the best function to trigger a jQuery event immediately when a page loads?
-
 
 **Answer**: .`ready()`
 
 * Complete this function to make the div fade out when clicked twice.
-
 
 `$(document).ready(function() {`
 
@@ -26,53 +24,54 @@
 
 **Answer**: `.dblClick(function() {`
 
-Complete this function to move the div 100px down the page when a key is pressed.
+* Complete this function to move the div 100px down the page when a key is pressed.
 
-$\(document\).ready\(function\(\) {
 
-$\(document\).keydown\(function\(\) {
+`$(document).ready(function() {`
 
-$\('div'\)\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+`$(document).keydown(function() {`
 
-}\);
+`$('div')_______________`
 
-}\);
+`});`
 
-Answer: animate\({top: '+= 100px'}, 500\);
+`});`
 
-What is the purpose of the second function in this code?
+**Answer**: `animate({top: '+= 100px'}, 500);`
 
-$\(document\).ready\(function\(\) {
+* What is the purpose of the second function in this code?
 
-$\('div'\).hover\(function\(\){
 
-$\(this\).addClass\("active"\);
+`$(document).ready(function() {`
 
-}
+`$('div').hover(function(){`
 
-function\(\){
+`$(this).addClass("active");`
 
-$\(this\).removeClass\("active"\);
+`}`
 
-}\);
+`function(){`
 
-}\);
+`$(this).removeClass("active");`
 
-Answer:
+`});`
 
-None - without a comma after the first function's closing } this code is invalid and would break the site.
+`});`
 
-What does it mean to say an element has "focus"?
+**Answer**: None - without a comma after the first function's closing } this code is invalid and would break the site.
 
-$\(document\).ready\(function\(\) {
+* What does it mean to say an element has "focus"?
 
-$\('input'\).focus\(function\(\) {
 
-$\('input'\).css\('outline-color', '\#FF0000'\);
+`$(document).ready(function() {`
 
-}\);
+`$('input').focus(function() {`
 
-}\);
+`$('input').css('outline-color', '#FF0000');`
 
-Answer: An element that can receive focus has been clicked on or tabbed into by the user.
+`});`
+
+`});`
+
+**Answer**: An element that can receive focus has been clicked on or tabbed into by the user.
 

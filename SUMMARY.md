@@ -110,7 +110,8 @@
     * [jQuery Events](jquery-events.md)
         * [jQuery Events](jquery-events.md)
         * [jQuery Events:Quiz](jquery-eventsquiz.md)
-        * External Resources IV
+        * [External Resources IV](external-resources-iv.md)
+            * jQuery Events
     * jQuery Projects
     * JQUERY FINAL PROJECT
     * jQuery Effects

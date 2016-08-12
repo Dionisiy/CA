@@ -4,13 +4,23 @@ Borrowing from CSS 1–3, and then adding its own, jQuery offers a powerful set 
 
 To use any of the meta-characters \( such as``!"#$%&'()*+,./:;<=>?@[\]^`{|}~`` \) as a literal part of a name, it must be escaped with with two backslashes: `\\`. For example, an element with `id="foo.bar"`, can use the selector `$("#foo\\.bar")`. The W3C CSS specification contains the [complete set of rules regarding valid CSS selectors](https://www.w3.org/TR/CSS21/syndata.html#value-def-identifier). Also useful is the blog entry by Mathias Bynens on [CSS character escape sequences for identifiers](https://mathiasbynens.be/notes/css-escapes).
 
-> ### [**All Selector \(“\*”\)**](http://api.jquery.com/all-selector/ "Permalink to All Selector (“*”)")
+> ### **[All Selector \(“\*”\)](http://api.jquery.com/all-selector/ "Permalink to All Selector (“*”)")**
 > 
 > Selects all elements.
-
-
-
-> ### [**:animated Selector**](http://api.jquery.com/animated-selector/ "Permalink to :animated Selector")
+> 
+> ### **[:animated Selector](http://api.jquery.com/animated-selector/ "Permalink to :animated Selector")**
 > 
 > Select all elements that are in the progress of an animation at the time the selector is run.
+> 
+> ### [**Attribute Contains Prefix Selector \[name\|=”value”\]**](http://api.jquery.com/attribute-contains-prefix-selector/ "Permalink to Attribute Contains Prefix Selector [name|=”value”]")
+> 
+> Selects elements that have the specified attribute with a value either equal to a given string or starting with that string followed by a hyphen \(-\).
+> 
+> ### [**Attribute Contains Selector \[name\*=”value”\]**](http://api.jquery.com/attribute-contains-selector/ "Permalink to Attribute Contains Selector [name*=”value”]")
+> 
+> Selects elements that have the specified attribute with a value containing a given substring.
+> 
+> ### [**Attribute Contains Word Selector \[name~=”value”\]**](http://api.jquery.com/attribute-contains-word-selector/ "Permalink to Attribute Contains Word Selector [name~=”value”]")
+> 
+> Selects elements that have the specified attribute with a value containing a given word, delimited by spaces.
 

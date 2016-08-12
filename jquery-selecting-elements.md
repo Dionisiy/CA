@@ -57,5 +57,18 @@ $( "div:animated" );
 
 Choosing good selectors is one way to improve JavaScript's performance. Too much specificity can be a bad thing. A selector such as `#myTable thead tr th.special` is overkill if a selector such as `#myTable th.special` will get the job done.
 
-### 
+### **Does My Selection Contain Any Elements?**
+
+Once you've made a selection, you'll often want to know whether you have anything to work with. A common mistake is to use:
+
+```
+// Doesn't work!
+if ( $( "div.foo" ) ) {
+    ...
+}
+```
+
+
+
+
 

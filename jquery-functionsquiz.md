@@ -48,20 +48,17 @@
 
 * What is a compound selector?
 
-
 **Answer**: A selector that chooses two elements at once.
 
 * What is the correct syntax to complete this function?
-
 
 `$(document).ready(function() {`
 
 `});`
 
-**Answer**:` $('.green, .blue').fadeTo('fast', 1)`
+**Answer**:`$('.green, .blue').fadeTo('fast', 1)`
 
 * Where should the variable go in this code?
-
 
 `$(document).ready(function() {`
 
@@ -69,9 +66,7 @@
 
 `});`
 
-Answer:
-
-$\(document\).ready\(function\(\) { var $target = $\('div'\); $target.fadeOut\('fast'\); }\);
+**Answer**: `$(document).ready(function() { var $target = $('div'); $target.fadeOut('fast'); });`
 
 What is the difference between $p and $\('p'\) in this code?
 

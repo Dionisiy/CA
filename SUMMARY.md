@@ -107,8 +107,8 @@
         * External Resources III
             * [Manipulating Elements](manipulating-elements.md)
             * [DOM Manipulation](dom-manipulation.md)
-    * jQuery Events
-        * jQuery Events
+    * [jQuery Events](jquery-events.md)
+        * [jQuery Events](jquery-events.md)
         * jQuery Events:Quiz
         * External Resources IV
     * jQuery Projects

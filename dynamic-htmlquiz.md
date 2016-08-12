@@ -16,14 +16,13 @@
 
 * What is the best way to set the height of this `<div>` using CSS?
 
-
 `<body>`
 
 `<div>I want to be tall!</div>`
 
 `</body>"`
 
-Answer:
+**Answer**:
 
 $\("div"\).height\("100px"\); or $\("div"\).css\("height", "100px"\); would both work equally well.
 

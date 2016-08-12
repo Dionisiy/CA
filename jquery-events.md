@@ -30,13 +30,28 @@ $('div').hover(function(){
 });
 ```
 
-
-
-
-
 ### **The .dblclick\(\) Event**
 
 Now that we've reviewed our jQuery event handlers, let's learn a new one.
+
+
+
+### **Hover**
+
+What if you wanted to create an effect when your mouse is on top of an object, then have that effect vanish when your mouse moved away? You might notice this effect in use on many site's navigation bars!
+
+
+
+```
+$('div').hover(
+    function(){
+      $(this).addClass('highlight');
+   },
+   function(){
+      $(this).removeClass('highlight');
+   }
+);
+```
 
 
 

@@ -125,5 +125,17 @@ $( "#myDiv a:first" ).attr({
 });
 ```
 
-
+```
+// Using a function to determine an attribute's new value.
+$( "#myDiv a:first" ).attr({
+    rel: "nofollow",
+    href: function( idx, href ) {
+        return "/new/" + href;
+    }
+});
+ 
+$( "#myDiv a:first" ).attr( "href", function( idx, href ) {
+    return "/new/" + href;
+});
+```
 

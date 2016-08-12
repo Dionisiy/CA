@@ -12,16 +12,16 @@
 
 * What's the difference between `.empty()` and `.remove()`?
 
-
 **Answer**: `.empty()` deletes the content of an element while `.remove()` deletes the content and the element itself
 
-What is the best way to set the height of this `<div>` using CSS?
+* What is the best way to set the height of this `<div>` using CSS?
 
-&lt;body&gt;
 
-&lt;div&gt;I want to be tall!&lt;\/div&gt;
+`<body>`
 
-&lt;\/body&gt;"
+`<div>I want to be tall!</div>`
+
+`</body>"`
 
 Answer:
 

@@ -46,11 +46,9 @@
 
 * What is the correct jQuery UI method for a user to move an element around the page with the mouse?
 
-
 **Answer**: `$("#element").draggable();`
 
 * Which class would you call the jQuery .accordion\(\); function on in order to create a list of accordion panels?
-
 
 `<body>`
 
@@ -86,29 +84,32 @@
 
 `</body>`
 
-**Answer**: $\(".accordion-menu"\).accordion\(\);
+**Answer**:` $(".accordion-menu").accordion();`
 
-What is jQuery UI?
+* What is jQuery UI?
 
-Answer: A library for jQuery that includes preset animations.
 
-What does '500' mean in this code?
+**Answer**: A library for jQuery that includes preset animations.
 
-$\(document\).ready\(function\(\) {
+* What does '500' mean in this code?
 
-$\('div'\).animate\({ top: '+=10px' }, 500\);
 
-}\);
+`$(document).ready(function() {`
 
-Answer: The div will take 500 milliseconds to move down 10px after the page loads.
+`$('div').animate({ top: '+=10px' }, 500);`
 
-What effect will this code have on the unordered list?
+`});`
 
-$\(document\).ready\(function\(\) {
+**Answer**: The div will take 500 milliseconds to move down 10px after the page loads.
 
-$\('ul'\).selectable\(\);
+* What effect will this code have on the unordered list?
 
-}\);
+
+`$(document).ready(function() {`
+
+`$('ul').selectable();`
+
+`});`
 
 Answer: Make each list item highlight when clicked.
 

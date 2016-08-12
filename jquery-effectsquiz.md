@@ -14,33 +14,35 @@
   ```
 
 
-**Answer**:` $('ol').sortable()`;
+**Answer**:`$('ol').sortable()`;
 
-How do you correctly apply a jQuery UI function like \`explode\` or \`bounce\`?
+* How do you correctly apply a jQuery UI function like \`explode\` or \`bounce\`?
 
-Answer: $\('div'\).effect\('bounce', { times: 2 }, 200\);
 
-What is the correct jQuery method to stop this div from appearing on the page?
+**Answer**:` $('div').effect('bounce', { times: 2 }, 200);`
 
-&lt;!DOCTYPE html&gt;
+* What is the correct jQuery method to stop this div from appearing on the page?
 
-&lt;html&gt;
 
-&lt;head&gt;
+`<!DOCTYPE html>`
 
-&lt;title&gt;Vanishing Act&lt;\/title&gt;
+`<html>`
 
-&lt;script type='text\/javascript' src='script.js'&gt;&lt;\/script&gt;
+`<head>`
 
-&lt;\/head&gt;
+`<title>Vanishing Act</title>`
 
-&lt;body&gt;
+`<script type='text/javascript' src='script.js'></script>`
 
-&lt;div&gt;&lt;\/div&gt;
+`</head>`
 
-&lt;\/body&gt;
+`<body>`
 
-&lt;\/html&gt;
+`<div></div>`
+
+`</body>`
+
+`</html>`
 
 Answer: $\('div'\).hide\(\);
 

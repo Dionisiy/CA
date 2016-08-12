@@ -22,13 +22,12 @@
 
 `</body>"`
 
-**Answer**:
+**Answer**:$\("div"\).height\("100px"\); or $\("div"\).css\("height", "100px"\); would both work equally well.
 
-$\("div"\).height\("100px"\); or $\("div"\).css\("height", "100px"\); would both work equally well.
+* Which of the following correctly creates a variable that targets an existing HTML element?
 
-Which of the following correctly creates a variable that targets an existing HTML element?
 
-Answer: var $div = $\("div"\)
+**Answer**: `var $div = $("div")`
 
 How does .toggleClass\(\) work in this code?
 

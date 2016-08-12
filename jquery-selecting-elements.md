@@ -28,10 +28,25 @@ $( "#contents ul.people li" );
 
 ### **Selecting Elements with a Comma-separated List of Selectors**
 
-
-
 ```
 $( "div.myClass, ul.people" );
+```
+
+### **Pseudo-Selectors**
+
+```
+$( "a.external:first" );
+$( "tr:odd" );
+ 
+// Select all input-like elements in a form (more on this below).
+$( "#myForm :input" );
+$( "div:visible" );
+ 
+// All except the first three divs.
+$( "div:gt(2)" );
+ 
+// All currently animated divs.
+$( "div:animated" );
 ```
 
 

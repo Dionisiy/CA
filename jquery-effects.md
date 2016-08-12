@@ -8,3 +8,19 @@ $('div').animate({top:'+=10px'},500);
 
 Where the bit between curly braces says "hey, jQuery! Add 10 pixels to the current top margin," and the second input says "do it in 500 milliseconds!" \(1,000 milliseconds = one second.\)
 
+
+
+### **Introducing: jQuery UI**
+
+jQuery UI includes a number of ultra-fancy animations you can use to make your websites do incredible things.
+
+
+
+### **.bounce\(\)**
+
+Another possible effect is `'bounce'`. We give this as an input to `.effect()` just like `'explode'`, but we add an extra input to tell it how many times to bounce. This code will make our target`'div'` bounce twice in 200 milliseconds:
+
+
+
+
+

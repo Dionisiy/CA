@@ -30,5 +30,5 @@ $(".info").append("<p>Stuff!</p>");
 $(".info").prepend("<p>Stuff!</p>");
 ```
 
-
+will add a paragraph containing the text "Stuff!" inside all divs of class`.info`. `.append()` will make the paragraph the last child of each div;`.prepend()` will make the paragraph the first child of each div. 
 

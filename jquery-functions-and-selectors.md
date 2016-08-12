@@ -130,4 +130,16 @@ $('p, li').fadeTo('slow', 0);
 This is called a compound selector.
 
 
+###'this' is Important!
+
+In the last lesson, we had some code that looked like this:
+
+```
+$(document).ready(function() {
+    $('div').mouseenter(function() {
+        $('div').hide();
+    });
+});
+```
+
 

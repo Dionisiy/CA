@@ -23,5 +23,12 @@ We can insert our newly created elements using a few jQuery actions.
 
 `.prepend()` inserts the specified element as the _first_ child of the target element.
 
- If we have a div of class`.info`,
+If we have a div of class`.info`,
+
+```
+$(".info").append("<p>Stuff!</p>");
+$(".info").prepend("<p>Stuff!</p>");
+```
+
+
 

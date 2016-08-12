@@ -109,7 +109,7 @@
             * [DOM Manipulation](dom-manipulation.md)
     * [jQuery Events](jquery-events.md)
         * [jQuery Events](jquery-events.md)
-        * jQuery Events:Quiz
+        * [jQuery Events:Quiz](jquery-eventsquiz.md)
         * External Resources IV
     * jQuery Projects
     * JQUERY FINAL PROJECT

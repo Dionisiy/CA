@@ -16,11 +16,15 @@ jQuery UI includes a number of ultra-fancy animations you can use to make your w
 
 Another possible effect is `'bounce'`. We give this as an input to `.effect()` just like `'explode'`, but we add an extra input to tell it how many times to bounce. This code will make our target`'div'` bounce twice in 200 milliseconds:
 
-
-
 ```
 $('div').effect('bounce', {times:2}, 200);
 ```
 
+### 
 
+### **Special Effects**
+
+
+
+The `.effect()` effect has all kinds of magical goodness in it, but it's not the most amazing thing jQuery UI can do. The library has a number of built-in effects that can make your website look sleek and professional with surprisingly little code.
 

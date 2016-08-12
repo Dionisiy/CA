@@ -30,5 +30,13 @@ $(".info").append("<p>Stuff!</p>");
 $(".info").prepend("<p>Stuff!</p>");
 ```
 
-will add a paragraph containing the text "Stuff!" inside all divs of class`.info`. `.append()` will make the paragraph the last child of each div;`.prepend()` will make the paragraph the first child of each div. 
+will add a paragraph containing the text "Stuff!" inside all divs of class`.info`. `.append()` will make the paragraph the last child of each div;`.prepend()` will make the paragraph the first child of each div.
+
+`.appendTo()` does the same as`.append()`, but it just reverses the order of "what to add" and "where to add it." The code
+
+```
+$('<p>Stuff!</p>').appendTo('.info');
+```
+
+
 

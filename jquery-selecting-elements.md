@@ -87,5 +87,5 @@ jQuery doesn't cache elements for you. If you've made a selection that you might
 var divs = $( "div" );
 ```
 
-
+Once the selection is stored in a variable, you can call jQuery methods on the variable just like you would have called them on the original selection.
 

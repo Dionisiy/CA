@@ -49,12 +49,20 @@ $('div').hover(
 );
 ```
 
-
-
 1. We first select the element we want to modify `$('div')`
 2. Secondly notice that our `hover`effect is able to take two `functions(){}`separated by a comma. The comma is very important!
 3. The first `function(){}` we pass will be run when we first mouse over our target. Here we apply a class of`highlight`
 4. The second `function(){}` will be called when our mouse leaves the object. This is where we remove the class `highlight`
 
 Your second `function(){}` doesn't have to be the opposite of the first`function(){}`, but it would be very common!
+
+
+
+### **Let's .focus\(\)!**
+
+Another event we can make use of is`.focus()`. We say an element has **focus**when we click on it or tab over to it. If you've ever filled out a form on a web page and seen how each text box lights up when you tab to it or click on it, you've seen focus in action!
+
+The `.focus()` event handler only works on elements that can receive focus—the list of these elements is a bit vague, but HTML elements like`<textarea>`s and `<input>`s are the usual suspects.
+
+
 

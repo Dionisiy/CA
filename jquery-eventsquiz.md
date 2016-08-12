@@ -1,30 +1,30 @@
 * What is an "event handler"?
 
+**Answer**: A function that indicates an action on the page like `.click()`
 
-**Answer**: A function that indicates an action on the page like .click\(\)
+* How does a `.keydown()` event know which specific key to listen for?
 
-* How does a .keydown\(\) event know which specific key to listen for?
+**Answer**: A` .keydown()` function can take the argument 'key' which specifies the key to be pressed.
+
+* What is the best function to trigger a jQuery event immediately when a page loads?
 
 
-**Answer**: A .keydown\(\) function can take the argument 'key' which specifies the key to be pressed.
+**Answer**: .`ready()`
 
-What is the best function to trigger a jQuery event immediately when a page loads?
+* Complete this function to make the div fade out when clicked twice.
 
-Answer: .ready\(\)
 
-Complete this function to make the div fade out when clicked twice.
+`$(document).ready(function() {`
 
-$\(document\).ready\(function\(\) {
+`$('div')____________`
 
-$\('div'\)\_\_\_\_\_\_\_\_\_\_\_\_
+`$('div').fadeOut("fast");`
 
-$\('div'\).fadeOut\("fast"\);
+`})`
 
-}\)
+`})`
 
-}\)
-
-Answer: .dblClick\(function\(\) {
+**Answer**: `.dblClick(function() {`
 
 Complete this function to move the div 100px down the page when a key is pressed.
 

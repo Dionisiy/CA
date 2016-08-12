@@ -16,18 +16,22 @@ $( ".myClass" );
 
 ### **Selecting Elements by Attribute**
 
-
-
 ```
 $( "input[name='first_name']" );
 ```
 
 ### **Selecting Elements by Compound CSS Selector**
 
+```
+$( "#contents ul.people li" );
+```
+
+### **Selecting Elements with a Comma-separated List of Selectors**
+
 
 
 ```
-$( "#contents ul.people li" );
+$( "div.myClass, ul.people" );
 ```
 
 

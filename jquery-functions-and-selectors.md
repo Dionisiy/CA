@@ -127,4 +127,7 @@ We can apply a fadeTo() to both the pand li selectors like this:
 $('p, li').fadeTo('slow', 0);
 
 ```
+This is called a compound selector.
+
+
 

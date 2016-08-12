@@ -92,3 +92,7 @@ $('selector').addClass('className');
 $('selector').removeClass('className');
 ```
 
+
+
+where `'selector'` is the HTML element you want and `'className'` is the class name you want to add or remove.
+

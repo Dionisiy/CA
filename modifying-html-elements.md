@@ -94,9 +94,19 @@ $('selector').removeClass('className');
 
 where `'selector'` is the HTML element you want and `'className'` is the class name you want to add or remove.
 
-
-
 > **Remember**: You aren't selecting anything, you are modifying your element. This means that you do not need `#` or `.` before your class.
+
+### **Toggling Classes**
+
+What if we want to toggle a class back and forth, though? That is, what if we want jQuery to automatically check to see whether our `#text` is `.highlighted`, so that when we click on it, it adds the class if it isn't there and removes it if it is?
+
+
+
+jQuery includes a `.toggleClass()` function that does exactly this.If the element it's called on has the class it receives as an input, `.toggleClass()` removes that class; if the target element doesn't have that class, `.toggleClass()` adds it.
+
+
+
+### **Changing Your Style**
 
 
 

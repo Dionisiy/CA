@@ -34,13 +34,9 @@ $('div').hover(function(){
 
 Now that we've reviewed our jQuery event handlers, let's learn a new one.
 
-
-
 ### **Hover**
 
 What if you wanted to create an effect when your mouse is on top of an object, then have that effect vanish when your mouse moved away? You might notice this effect in use on many site's navigation bars!
-
-
 
 ```
 $('div').hover(
@@ -54,4 +50,11 @@ $('div').hover(
 ```
 
 
+
+1. We first select the element we want to modify `$('div')`
+2. Secondly notice that our `hover`effect is able to take two `functions(){}`separated by a comma. The comma is very important!
+3. The first `function(){}` we pass will be run when we first mouse over our target. Here we apply a class of`highlight`
+4. The second `function(){}` will be called when our mouse leaves the object. This is where we remove the class `highlight`
+
+Your second `function(){}` doesn't have to be the opposite of the first`function(){}`, but it would be very common!
 

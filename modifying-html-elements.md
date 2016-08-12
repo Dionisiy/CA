@@ -38,5 +38,5 @@ will add a paragraph containing the text "Stuff!" inside all divs of class`.info
 $('<p>Stuff!</p>').appendTo('.info');
 ```
 
-
+has the same effect as the `.append()`code above. `.prependTo()` has a similar relationship to `.prepend()`.
 

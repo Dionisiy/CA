@@ -6,7 +6,6 @@
 
 * What does the 'this' keyword refer to?
 
-
 `$(document).ready(function() {`
 
 `$('div').click(function() {`
@@ -19,19 +18,20 @@
 
 **Answer**: All are correct. \(The jQuery object you want to target.,The jQuery object you are currently doing something with.,A variable set automatically by the jQuery language. \)
 
-What will happen when this code executes?
+* What will happen when this code executes?
 
-$\(document\).ready\(function\(\){
 
-$\('.pull-me'\).click\(function\(\){
+`$(document).ready(function(){`
 
-$\('.panel'\).slideToggle\('slow'\);
+`$('.pull-me').click(function(){`
 
-}\);
+`$('.panel').slideToggle('slow');`
 
-}\);
+`});`
 
-Answer: An element called 'panel' will toggle onscreen slowly when 'pull-me' is clicked.
+`});`
+
+**Answer**: An element called 'panel' will toggle onscreen slowly when 'pull-me' is clicked.
 
 Which of these is NOT one of the three parts of a function?
 

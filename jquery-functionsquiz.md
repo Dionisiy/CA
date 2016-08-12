@@ -20,7 +20,6 @@
 
 * What will happen when this code executes?
 
-
 `$(document).ready(function(){`
 
 `$('.pull-me').click(function(){`
@@ -33,17 +32,19 @@
 
 **Answer**: An element called 'panel' will toggle onscreen slowly when 'pull-me' is clicked.
 
-Which of these is NOT one of the three parts of a function?
+* Which of these is NOT one of the three parts of a function?
 
-Answer: The event listener, like .onClick\(\), that tells the computer when to initiate the function.
 
-Which of these is a syntactically correct variable?
+**Answer**: The event listener, like .onClick\(\), that tells the computer when to initiate the function.
 
-var number = 17;
+* Which of these is a syntactically correct variable?
 
-var name = "John Smith";
 
-var $div = $\('div'\);
+`var number = 17;`
+
+`var name = "John Smith";`
+
+`var $div = $('div');`
 
 Answer: All are correct
 

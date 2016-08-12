@@ -79,11 +79,16 @@ Adding elements to our HTML documents is great, but without the ability to remov
 
 ### **Adding and Removing Classes**
 
-
-
 We don't have to limit ourselves to adding or removing entire elements, though—we can fine-tune our jQuery superpowers to alter classes, CSS, and even the contents of our HTML elements.
 
+jQuery includes two functions, `.addClass()` and`.removeClass()`, that can be used to add or remove a class from an element.
 
+This is great if, for example, you have a`highlighted` class that you want to apply to an element when clicked.
 
-jQuery includes two functions, `.addClass()` and`.removeClass()`, that can be used to add or remove a class from an element. 
+The syntax looks like this:
+
+```
+$('selector').addClass('className');
+$('selector').removeClass('className');
+```
 

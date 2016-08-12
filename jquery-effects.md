@@ -24,3 +24,11 @@ $('div').effect('bounce', {times:2}, 200);
 
 The `.effect()` effect has all kinds of magical goodness in it, but it's not the most amazing thing jQuery UI can do. The library has a number of built-in effects that can make your website look sleek and professional with surprisingly little code.
 
+
+
+
+
+jQuery UI includes a `.draggable()`function that can make any HTML element draggable—you can click on it and move it anywhere on the page!
+
+
+

@@ -99,9 +99,12 @@ myNewElement.insertAfter( "ul:last" ); // This will remove the p from #content!
 $( "ul" ).last().after( myNewElement.clone() ); // Clone the p so now we have two.
 ```
 
-
-
 The created element doesn't need to be stored in a variable – you can call the method to add the element to the page directly after the `$()`. However, most of the time you'll want a reference to the element you added so you won't have to select it later.
 
 You can also create an element as you're adding it to the page, but note that in this case you don't get a reference to the newly created element:
+
+```
+// Creating and adding an element to the page at the same time.
+$( "ul" ).append( "<li>list item</li>" );
+```
 

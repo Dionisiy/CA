@@ -1,10 +1,12 @@
-What is an "event handler"?
+* What is an "event handler"?
 
-Answer: A function that indicates an action on the page like .click\(\)
 
-How does a .keydown\(\) event know which specific key to listen for?
+**Answer**: A function that indicates an action on the page like .click\(\)
 
-Answer: A .keydown\(\) function can take the argument 'key' which specifies the key to be pressed.
+* How does a .keydown\(\) event know which specific key to listen for?
+
+
+**Answer**: A .keydown\(\) function can take the argument 'key' which specifies the key to be pressed.
 
 What is the best function to trigger a jQuery event immediately when a page loads?
 
@@ -14,11 +16,11 @@ Complete this function to make the div fade out when clicked twice.
 
 $\(document\).ready\(function\(\) {
 
- $\('div'\)\_\_\_\_\_\_\_\_\_\_\_\_
+$\('div'\)\_\_\_\_\_\_\_\_\_\_\_\_
 
- $\('div'\).fadeOut\("fast"\);
+$\('div'\).fadeOut\("fast"\);
 
- }\)
+}\)
 
 }\)
 
@@ -28,11 +30,11 @@ Complete this function to move the div 100px down the page when a key is pressed
 
 $\(document\).ready\(function\(\) {
 
- $\(document\).keydown\(function\(\) {
+$\(document\).keydown\(function\(\) {
 
- $\('div'\)\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+$\('div'\)\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
- }\);
+}\);
 
 }\);
 
@@ -42,21 +44,21 @@ What is the purpose of the second function in this code?
 
 $\(document\).ready\(function\(\) {
 
- $\('div'\).hover\(function\(\){
+$\('div'\).hover\(function\(\){
 
- $\(this\).addClass\("active"\);
+$\(this\).addClass\("active"\);
 
- }
+}
 
- function\(\){
+function\(\){
 
- $\(this\).removeClass\("active"\);
-
- }\);
+$\(this\).removeClass\("active"\);
 
 }\);
 
-Answer: 
+}\);
+
+Answer:
 
 None - without a comma after the first function's closing } this code is invalid and would break the site.
 
@@ -64,11 +66,11 @@ What does it mean to say an element has "focus"?
 
 $\(document\).ready\(function\(\) {
 
- $\('input'\).focus\(function\(\) {
+$\('input'\).focus\(function\(\) {
 
- $\('input'\).css\('outline-color', '\#FF0000'\);
+$\('input'\).css\('outline-color', '\#FF0000'\);
 
- }\);
+}\);
 
 }\);
 

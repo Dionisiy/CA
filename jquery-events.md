@@ -24,11 +24,19 @@ $(document).ready(function() {
 
 Well done! Let's add one more jQuery event to our "destruction of Krypton" simulation. Krypton didn't just vanish, it exploded! Let's make it turn red.
 
-
-
 ```
 $('div').hover(function(){
   $('div').addClass('green');
 });
 ```
+
+
+
+
+
+### **The .dblclick\(\) Event**
+
+Now that we've reviewed our jQuery event handlers, let's learn a new one.
+
+
 

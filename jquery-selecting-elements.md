@@ -110,13 +110,21 @@ jQuery offers several pseudo-selectors that help find elements in forms. These a
 
 Not to be confused with _:checkbox_, `:checked` targets _checked_ checkboxes, but keep in mind that this selector works also for_checked_ radio buttons, and `<select>` elements \(for `<select>` elements only, use the `:selected` selector\):
 
-
-
 ```
 $( "form :checked" );
 ```
 
 The `:checked` pseudo-selector works when used with **checkboxes**, **radio buttons** and **selects**.
 
-#### 
+#### **:disabled**
+
+Using the `:disabled` pseudo-selector targets any `<input>` elements with the `disabled` attribute:
+
+
+
+```
+$( "form :disabled" );
+```
+
+
 

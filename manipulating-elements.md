@@ -41,20 +41,20 @@ $( "#myList" ).append( $( "#myList li:first" ) );
 // that we moved, as this returns the list itself.
 ```
 
-
-
 ### **Cloning Elements**
 
 Methods such as `.appendTo()` move the element, but sometimes a copy of the element is needed instead. In this case, use `.clone()` first:
 
 ```
 // Making a copy of an element.
- 
+
 // Copy the first list item to the end of the list:
 $( "#myList li:first" ).clone().appendTo( "#myList" );
 ```
 
 
 
+If you need to copy related data and events, be sure to pass `true` as an argument to `.clone()`.
 
+## 
 

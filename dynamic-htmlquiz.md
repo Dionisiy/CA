@@ -44,22 +44,23 @@
 
 * What does the following code do?
 
-
 `$(document).ready(function(){`
 
 `$('div').append("<p>This is a paragraph.</p>");`
 
 `});`
 
-Answer: Adds the paragraph &lt;p&gt; to the end of every &lt;div&gt;.
+**Answer**: Adds the paragraph` <p> `to the end of every `<div>`.
 
-When modifying an element's classes, why do you not include a \`.\` or \`\#\` before a class name?
+* When modifying an element's classes, why do you not include a \`.\` or \`\#\` before a class name?
 
-Answer: You are modifying an element, not selecting one, so no selector is needed.
 
-What value would this code return?
+**Answer**: You are modifying an element, not selecting one, so no selector is needed.
 
-$\('input\[type=checkbox\]:checked'\).val\(\);
+* What value would this code return?
+
+
+`$('input[type=checkbox]:checked').val();`
 
 Answer:
 

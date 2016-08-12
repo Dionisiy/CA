@@ -117,5 +117,13 @@ jQuery's attribute manipulation capabilities are extensive. Basic changes are si
 $( "#myDiv a:first" ).attr( "href", "newDestination.html" );
 ```
 
+```
+// Manipulating multiple attributes.
+$( "#myDiv a:first" ).attr({
+    href: "newDestination.html",
+    rel: "nofollow"
+});
+```
+
 
 

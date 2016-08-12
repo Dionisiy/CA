@@ -78,3 +78,15 @@ $(document).ready(function() {
 
 This will take the first div it finds and move it ten pixels to the right. Remember, increasing the distance from the left margin moves something to the right; the `+=` bit is just a shorthand for "take the existing number and add ten to it." In this case, it add ten pixels to the current distance from the left margin.
 
+
+
+### **Filling Out the Cases**
+
+Every key press on a keyboard is translated into a number for the computer to use. Don't worry about memorizing them, for now we've given you the basics in `script.js`
+
+```
+/ Left arrow key pressed
+case 37:
+  ('img').animate({left: "-=10px"}, 'fast');
+```
+

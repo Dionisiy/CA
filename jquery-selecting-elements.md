@@ -146,3 +146,15 @@ $( "form :input" );
 
 
 
+#### **:selected**
+
+Using the `:selected` pseudo-selector targets any selected items in `<option>` elements:
+
+
+
+```
+$( "form :selected" );
+```
+
+
+

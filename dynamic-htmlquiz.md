@@ -4,18 +4,18 @@
 
 * Which of the following correctly moves the existing paragraph so that it occurs after the div?
 
-
 `<p id="para">I am a paragraph!</p>`
 
 `<div id="target">Paragraphs go after me.</div>`
 
-**Answer**:` $('#target').after($("#para"));`
+**Answer**:`$('#target').after($("#para"));`
 
-What's the difference between .empty\(\) and .remove\(\)?
+* What's the difference between `.empty()` and `.remove()`?
 
-Answer: .empty\(\) deletes the content of an element while .remove\(\) deletes the content and the element itself
 
-What is the best way to set the height of this &lt;div&gt; using CSS?
+**Answer**: `.empty()` deletes the content of an element while `.remove()` deletes the content and the element itself
+
+What is the best way to set the height of this `<div>` using CSS?
 
 &lt;body&gt;
 

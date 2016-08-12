@@ -12,71 +12,67 @@ For complete details on jQuery effects, visit the [Effects documentation on api.
 
 The jQuery library provides several techniques for adding animation to a web page. These include simple, standard animations that are frequently used, and the ability to craft sophisticated custom effects.
 
-### **[.animate\(\)](http://api.jquery.com/animate/ "Permalink to .animate()")**
+### [**.animate\(\)**](http://api.jquery.com/animate/ "Permalink to .animate()")
 
 Perform a custom animation of a set of CSS properties.
 
-### **[.clearQueue\(\)](http://api.jquery.com/clearQueue/ "Permalink to .clearQueue()")**
+### [**.clearQueue\(\)**](http://api.jquery.com/clearQueue/ "Permalink to .clearQueue()")
 
 Remove from the queue all items that have not yet been run.
 
-### [**.delay\(\)**](http://api.jquery.com/delay/ "Permalink to .delay()")
+### **[.delay\(\)](http://api.jquery.com/delay/ "Permalink to .delay()")**
 
 Set a timer to delay execution of subsequent items in the queue.
 
-### **[.dequeue\(\)](http://api.jquery.com/dequeue/ "Permalink to .dequeue()")**
+### [**.dequeue\(\)**](http://api.jquery.com/dequeue/ "Permalink to .dequeue()")
 
 Execute the next function on the queue for the matched elements.
 
-### **[.fadeIn\(\)](http://api.jquery.com/fadeIn/ "Permalink to .fadeIn()")**
+### [**.fadeIn\(\)**](http://api.jquery.com/fadeIn/ "Permalink to .fadeIn()")
 
 Display the matched elements by fading them to opaque.
 
-### **[.fadeOut\(\)](http://api.jquery.com/fadeOut/ "Permalink to .fadeOut()")**
+### [**.fadeOut\(\)**](http://api.jquery.com/fadeOut/ "Permalink to .fadeOut()")
 
 Hide the matched elements by fading them to transparent.
 
-### **[.fadeTo\(\)](http://api.jquery.com/fadeTo/ "Permalink to .fadeTo()")**
+### [**.fadeTo\(\)**](http://api.jquery.com/fadeTo/ "Permalink to .fadeTo()")
 
 Adjust the opacity of the matched elements.
 
-### **[.fadeToggle\(\)](http://api.jquery.com/fadeToggle/ "Permalink to .fadeToggle()")**
+### [**.fadeToggle\(\)**](http://api.jquery.com/fadeToggle/ "Permalink to .fadeToggle()")
 
 Display or hide the matched elements by animating their opacity.
 
-### **[.finish\(\)](http://api.jquery.com/finish/ "Permalink to .finish()")**
+### [**.finish\(\)**](http://api.jquery.com/finish/ "Permalink to .finish()")
 
-Stop the currently-running animation, remove all queued animations, and complete all animations for the matched elements.
+Stop th  currently-running animation, remove all queued animations, and complete all animations for the matched elements.
 
-### **[.hide\(\)](http://api.jquery.com/hide/ "Permalink to .hide()")**[** **](http://api.jquery.com/hide/ "Permalink to .hide()")
+### [**.hide\(\)**](http://api.jquery.com/hide/ "Permalink to .hide()")**[ ](http://api.jquery.com/hide/ "Permalink to .hide()")**
 
 Hide the matched elements.
 
-### [**jQuery.fx.interval**](http://api.jquery.com/jQuery.fx.interval/ "Permalink to jQuery.fx.interval")
+### **[jQuery.fx.interval](http://api.jquery.com/jQuery.fx.interval/ "Permalink to jQuery.fx.interval")**
 
 The rate \(in milliseconds\) at which animations fire.
 
-### [**jQuery.fx.off**](http://api.jquery.com/jQuery.fx.off/ "Permalink to jQuery.fx.off")
+### **[jQuery.fx.off](http://api.jquery.com/jQuery.fx.off/ "Permalink to jQuery.fx.off")**
 
 Globally disable all animations.
 
-### **[jQuery.speed](http://api.jquery.com/jQuery.speed/ "Permalink to jQuery.speed")**
+### [**jQuery.speed**](http://api.jquery.com/jQuery.speed/ "Permalink to jQuery.speed")
 
 Creates an object containing a set of properties ready to be used in the definition of custom animations.
 
-### **[.queue\(\)](http://api.jquery.com/queue/ "Permalink to .queue()")**
+### [**.queue\(\)**](http://api.jquery.com/queue/ "Permalink to .queue()")
 
 Show or manipulate the queue of functions to be executed on the matched elements.
 
-### [**.show\(\)**](http://api.jquery.com/show/ "Permalink to .show()")
+### **[.show\(\)](http://api.jquery.com/show/ "Permalink to .show()")**
 
 Display the matched elements.
 
-### [**.slideDown\(\)**](http://api.jquery.com/slideDown/ "Permalink to .slideDown()")
-
-Display the matched elements with a sliding motion.
-
-### [**.slideDown\(\)**](http://api.jquery.com/slideDown/ "Permalink to .slideDown()")
+### **[.slideDown\(\)](http://api.jquery.com/slideDown/ "Permalink to .slideDown()")**
 
 Display the matched elements with a sliding motion.
 
@@ -84,11 +80,15 @@ Display the matched elements with a sliding motion.
 
 Display the matched elements with a sliding motion.
 
-### [**.stop\(\)**](http://api.jquery.com/stop/ "Permalink to .stop()")
+### [**.slideDown\(\)**](http://api.jquery.com/slideDown/ "Permalink to .slideDown()")
+
+Display the matched elements with a sliding motion.
+
+### **[.stop\(\)](http://api.jquery.com/stop/ "Permalink to .stop()")**
 
 Stop the currently-running animation on the matched elements.
 
-### **[.toggle\(\)](http://api.jquery.com/toggle/ "Permalink to .toggle()")**
+### [**.toggle\(\)**](http://api.jquery.com/toggle/ "Permalink to .toggle()")
 
 Display or hide the matched elements.
 

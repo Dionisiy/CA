@@ -20,9 +20,15 @@ $(document).ready(function() {
 });
 ```
 
-
-
 ### **Combining .click\(\) and .hover\(\)**
 
 Well done! Let's add one more jQuery event to our "destruction of Krypton" simulation. Krypton didn't just vanish, it exploded! Let's make it turn red.
+
+
+
+```
+$('div').hover(function(){
+  $('div').addClass('green');
+});
+```
 

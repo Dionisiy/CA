@@ -37,17 +37,25 @@ $( "div.myClass, ul.people" );
 ```
 $( "a.external:first" );
 $( "tr:odd" );
- 
+
 // Select all input-like elements in a form (more on this below).
 $( "#myForm :input" );
 $( "div:visible" );
- 
+
 // All except the first three divs.
 $( "div:gt(2)" );
- 
+
 // All currently animated divs.
 $( "div:animated" );
 ```
 
+> **Note:** When using the `:visible` and `:hidden` pseudo-selectors, jQuery tests the actual visibility of the element, not its CSS `visibility` or `display` properties. jQuery looks to see if the element's physical height and width on the page are both greater than zero.
+> 
+> However, this test doesn't work with `<tr>` elements. In the case of `<tr>` jQuery does check the CSS `display` property, and considers an element hidden if its `display` property is set to `none`.
 
+### **Choosing Selectors**
+
+Choosing good selectors is one way to improve JavaScript's performance. Too much specificity can be a bad thing. A selector such as `#myTable thead tr th.special` is overkill if a selector such as `#myTable th.special` will get the job done.
+
+### 
 

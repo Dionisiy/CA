@@ -62,8 +62,6 @@ Another event we can make use of is`.focus()`. We say an element has **focus**wh
 
 The `.focus()` event handler only works on elements that can receive focus—the list of these elements is a bit vague, but HTML elements like`<textarea>`s and `<input>`s are the usual suspects.
 
-
-
 ### **The .keydown\(\) Event**
 
 The `.keydown()` event is triggered whenever a key on the keyboard is pressed. It only works on whatever page element has focus, so you'll need to click on the window containing your div before pressing a key in order for you to see its effects.
@@ -72,13 +70,11 @@ Let's go ahead and combine our new event with a new effect: `.animate()`! We'll 
 
 The `.animate()` effect takes two inputs: the animation to perform, and the time in which to perform the animation. Here's an example:
 
-
-
 ```
 $(document).ready(function() {
    $('div').animate({left:'+=10px'},500);
 });
 ```
 
-
+This will take the first div it finds and move it ten pixels to the right. Remember, increasing the distance from the left margin moves something to the right; the `+=` bit is just a shorthand for "take the existing number and add ten to it." In this case, it add ten pixels to the current distance from the left margin.
 

@@ -12,3 +12,17 @@ There are many ways to change an existing element. Among the most common tasks i
 * `.position()` – Get an object with position information for the first element in the selection, relative to its first positioned ancestor. _This is a getter only_.
 * `.val()` – Get or set the value of form elements.
 
+
+```
+// Changing the HTML of an element.
+$( "#myDiv p:first" ).html( "New <strong>first</strong> paragraph!" );
+```
+
+### **Moving, Copying, and Removing Elements**
+
+While there are a variety of ways to move elements around the DOM, there are generally two approaches:
+
+* Place the selected element\(s\) relative to another element.
+* Place an element relative to the selected element\(s\).
+* 
+

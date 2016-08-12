@@ -26,20 +26,20 @@
 
 * Which of the following correctly creates a variable that targets an existing HTML element?
 
-
 **Answer**: `var $div = $("div")`
 
-How does .toggleClass\(\) work in this code?
+* How does` .toggleClass()` work in this code?
 
-$\(document\).ready\(function\(\){
 
-$\('\#text'\).click\(function\(\){
+`$(document).ready(function(){`
 
-$\('\#text'\).toggleClass\('highlighted'\);
+`$('#text').click(function(){`
 
-}\);
+`$('#text').toggleClass('highlighted');`
 
-}\);
+`});`
+
+`});`
 
 Answer: Adds the class "highlighted" to "\#text", or removes it if it's already there.
 

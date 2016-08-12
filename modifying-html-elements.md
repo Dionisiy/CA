@@ -77,13 +77,13 @@ Adding elements to our HTML documents is great, but without the ability to remov
 
 `.remove()`, not only deletes an element's content, but deletes the element itself.
 
-
-
 ### **Adding and Removing Classes**
 
 
 
+We don't have to limit ourselves to adding or removing entire elements, though—we can fine-tune our jQuery superpowers to alter classes, CSS, and even the contents of our HTML elements.
 
 
 
+jQuery includes two functions, `.addClass()` and`.removeClass()`, that can be used to add or remove a class from an element. 
 

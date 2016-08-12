@@ -64,5 +64,8 @@ $("div").after($("p"));
 
 1. We can select an element using`$("p")` and assign it to a variable
 
-1. We can move the position in the DOM by using the variable in our`after()` statement
+2. We can move the position in the DOM by using the variable in our`after()` statement
+
+
+> Note: This does not copy the element from one location to another, it moves the original element effectively saving you from having to delete the original
 

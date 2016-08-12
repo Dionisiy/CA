@@ -18,11 +18,9 @@
 
 * How do you correctly apply a jQuery UI function like \`explode\` or \`bounce\`?
 
-
-**Answer**:` $('div').effect('bounce', { times: 2 }, 200);`
+**Answer**:`$('div').effect('bounce', { times: 2 }, 200);`
 
 * What is the correct jQuery method to stop this div from appearing on the page?
-
 
 `<!DOCTYPE html>`
 
@@ -44,49 +42,51 @@
 
 `</html>`
 
-Answer: $\('div'\).hide\(\);
+**Answer**: `$('div').hide();`
 
-What is the correct jQuery UI method for a user to move an element around the page with the mouse?
+* What is the correct jQuery UI method for a user to move an element around the page with the mouse?
 
-Answer: $\("\#element"\).draggable\(\);
 
-Which class would you call the jQuery .accordion\(\); function on in order to create a list of accordion panels?
+**Answer**: `$("#element").draggable();`
 
-&lt;body&gt;
+* Which class would you call the jQuery .accordion\(\); function on in order to create a list of accordion panels?
 
-&lt;div class="accordion-menu"&gt;
 
-&lt;h3 class="accordion-header"&gt;Section 1&lt;\/h3&gt;
+`<body>`
 
-&lt;div class="accordion-panel"&gt;
+`<div class="accordion-menu">`
 
-&lt;p class="accordion-content"&gt;I'm the first section!&lt;\/p&gt;
+`<h3 class="accordion-header">Section 1</h3>`
 
-&lt;\/div&gt;
+`<div class="accordion-panel">`
 
-&lt;!--Add two more sections below!--&gt;
+`<p class="accordion-content">I'm the first section!</p>`
 
-&lt;h3 class="accordion-header"&gt;Section 1&lt;\/h3&gt;
+`</div>`
 
-&lt;div class="accordion-panel"&gt;
+`<!--Add two more sections below!-->`
 
-&lt;p class="accordion-content"&gt;I'm the first section!&lt;\/p&gt;
+`<h3 class="accordion-header">Section 1</h3>`
 
-&lt;\/div&gt;
+`<div class="accordion-panel">`
 
-&lt;h3 class="accordion-header"&gt;Section 1&lt;\/h3&gt;
+`<p class="accordion-content">I'm the first section!</p>`
 
-&lt;div class="accordion-panel"&gt;
+`</div>`
 
-&lt;p class="accordion-content"&gt;I'm the first section!&lt;\/p&gt;
+`<h3 class="accordion-header">Section 1</h3>`
 
-&lt;\/div&gt;
+`<div class="accordion-panel">`
 
-&lt;\/div&gt;
+`<p class="accordion-content">I'm the first section!</p>`
 
-&lt;\/body&gt;
+`</div>`
 
-Answer: $\(".accordion-menu"\).accordion\(\);
+`</div>`
+
+`</body>`
+
+**Answer**: $\(".accordion-menu"\).accordion\(\);
 
 What is jQuery UI?
 

@@ -143,3 +143,4 @@ $(document).ready(function() {
 ```
 
 
+The second line is good: this tells us that when we mouse into a div, we should take a certain action. However,$('div').hide(); won't just hide thediv you mouse into; it will hide all thedivs on the page.

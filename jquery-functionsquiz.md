@@ -1,35 +1,33 @@
 ### Quiz
 
-
-
 * What is a variable?
-
 
 **Answer**: A way to store information for use at a later time.
 
-What does the 'this' keyword refer to?
+* What does the 'this' keyword refer to?
 
-$\(document\).ready\(function\(\) {
 
- $\('div'\).click\(function\(\) {
+`$(document).ready(function() {`
 
- $\(this\).fadeOut\('slow'\);
+`$('div').click(function() {`
 
- }\);
+`$(this).fadeOut('slow');`
 
-}\);
+`});`
 
-Answer: All are correct. \(The jQuery object you want to target.,The jQuery object you are currently doing something with.,A variable set automatically by the jQuery language. \)
+`});`
+
+**Answer**: All are correct. \(The jQuery object you want to target.,The jQuery object you are currently doing something with.,A variable set automatically by the jQuery language. \)
 
 What will happen when this code executes?
 
 $\(document\).ready\(function\(\){
 
- $\('.pull-me'\).click\(function\(\){
+$\('.pull-me'\).click\(function\(\){
 
- $\('.panel'\).slideToggle\('slow'\);
+$\('.panel'\).slideToggle\('slow'\);
 
- }\);
+}\);
 
 }\);
 
@@ -65,11 +63,11 @@ Where should the variable go in this code?
 
 $\(document\).ready\(function\(\) {
 
- $target.fadeOut\('fast'\);
+$target.fadeOut\('fast'\);
 
 }\);
 
-Answer: 
+Answer:
 
 $\(document\).ready\(function\(\) { var $target = $\('div'\); $target.fadeOut\('fast'\); }\);
 

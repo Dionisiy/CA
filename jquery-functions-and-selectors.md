@@ -151,4 +151,10 @@ With ``this``, of course!
 
 The `this` keyword refers to the jQuery object you're currently doing something with. Its complete rules are a little tricky, but the important thing to understand is if you use an event handler on an element—that's the fancy name for actions like `.click()`and .`mouseenter()`, since they handle jQuery events—you can call the actualevent that occurs (such as `fadeOut()`) on `$(this)`, and the event will onlyaffect the element you're currently doing something with (for example, clicking on or mousing over).
 
-
+```
+$(document).ready(function() {
+    $('div').click(function() {
+        $(this).fadeOut('slow');
+    });
+});
+```

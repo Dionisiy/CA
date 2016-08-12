@@ -84,15 +84,13 @@
 
 `</body>`
 
-**Answer**:` $(".accordion-menu").accordion();`
+**Answer**:`$(".accordion-menu").accordion();`
 
 * What is jQuery UI?
-
 
 **Answer**: A library for jQuery that includes preset animations.
 
 * What does '500' mean in this code?
-
 
 `$(document).ready(function() {`
 
@@ -104,12 +102,11 @@
 
 * What effect will this code have on the unordered list?
 
-
 `$(document).ready(function() {`
 
 `$('ul').selectable();`
 
 `});`
 
-Answer: Make each list item highlight when clicked.
+**Answer**: Make each list item highlight when clicked.
 

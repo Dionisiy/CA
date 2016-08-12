@@ -140,3 +140,10 @@ In order to get the best performance using `:enabled`, first select elements wit
 
 Using the `:input` selector selects all `<input>`, `<textarea>`, `<select>`, and `<button>` elements:
 
+
+
+```
+$( "form :input" );
+
+```
+

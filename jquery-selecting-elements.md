@@ -8,5 +8,13 @@ The most basic concept of jQuery is to "select some elements and do something wi
 $( "#myId" ); // Note IDs must be unique per page.
 ```
 
+## **Selecting Elements by Class Name**
+
+
+
+```
+$( ".myClass" );
+```
+
 
 

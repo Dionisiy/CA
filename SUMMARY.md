@@ -114,7 +114,8 @@
             * jQuery Events
     * jQuery Projects
     * JQUERY FINAL PROJECT
-    * jQuery Effects
-        * jQuery Effects
+    * [jQuery Effects](jquery-effects.md)
+        * [jQuery Effects](jquery-effects.md)
         * jQuery Effects:Quiz
+        * External Resources V
 

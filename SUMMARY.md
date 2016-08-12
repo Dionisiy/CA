@@ -116,6 +116,6 @@
     * JQUERY FINAL PROJECT
     * [jQuery Effects](jquery-effects.md)
         * [jQuery Effects](jquery-effects.md)
-        * jQuery Effects:Quiz
+        * [jQuery Effects:Quiz](jquery-effectsquiz.md)
         * External Resources V
 

@@ -104,11 +104,7 @@ jQuery includes a `.toggleClass()` function that does exactly this.If the elemen
 
 ### **Changing Your Style**
 
-
-
-jQuery has specific `.height()`and `.width()` functions that can be used to change the heights and widths of HTML elements. 
-
-
+jQuery has specific `.height()`and `.width()` functions that can be used to change the heights and widths of HTML elements.
 
 For instance:
 
@@ -127,6 +123,43 @@ jQuery also includes a general-purpose `.css()` function that takes two inputs: 
 ```
 
 would give all `<div>`s on the page a green background color. You can modify any element's CSS attributes this way.
+
+
+
+### **Modifying Content**
+
+
+
+Finally, we can update the contents of our HTML elements—that is, the bit between the opening and closing tags—using the `.html()` and `.val()`functions.
+
+
+
+`.html()` can be used to set the contents of the first element match it finds. For instance,
+
+
+
+```
+$('div').html();
+
+```
+
+will get the HTML contents of the _first_div it finds, and
+
+```
+$('div').html("I love jQuery!");
+
+```
+
+will set the contents of the first div it finds to "I love jQuery!"
+
+`.val()` is used to get the value of form elements. For example,
+
+```
+$('input:checkbox:checked').val();
+
+```
+
+would get the value of the first checked checkbox that jQuery finds.
 
 
 

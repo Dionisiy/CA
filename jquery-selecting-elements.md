@@ -120,10 +120,18 @@ The `:checked` pseudo-selector works when used with **checkboxes**, **radio butt
 
 Using the `:disabled` pseudo-selector targets any `<input>` elements with the `disabled` attribute:
 
-
-
 ```
 $( "form :disabled" );
+```
+
+In order to get the best performance using `:disabled`, first select elements with a standard jQuery selector, then use `.filter( ":disabled" )`, or precede the pseudo-selector with a tag name or some other selector.
+
+#### **:enabled**
+
+Basically the inverse of the _:disabled_ pseudo-selector, the `:enabled` pseudo-selector targets any elements that _do not_ have a `disabled` attribute:
+
+```
+$( "form :enabled" );
 ```
 
 

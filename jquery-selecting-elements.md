@@ -154,3 +154,17 @@ $( "form :selected" );
 
 In order to get the best performance using `:selected`, first select elements with a standard jQuery selector, then use `.filter( ":selected" )`, or precede the pseudo-selector with a tag name or some other selector.
 
+#### **Selecting by type**
+
+jQuery provides pseudo selectors to select form-specific elements according to their type:
+
+* [`:password`](http://api.jquery.com/password-selector/)
+* [`:reset`](http://api.jquery.com/reset-selector/)
+* [`:radio`](http://api.jquery.com/radio-selector/)
+* [`:text`](http://api.jquery.com/text-selector/)
+* [`:submit`](http://api.jquery.com/submit-selector/)
+* [`:checkbox`](http://api.jquery.com/checkbox-selector/)
+* [`:button`](http://api.jquery.com/button-selector/)
+* [`:image`](http://api.jquery.com/image-selector/)
+* [`:file`](http://api.jquery.com/file-selector/)
+

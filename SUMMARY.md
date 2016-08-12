@@ -113,4 +113,7 @@
         * External Resources IV
     * jQuery Projects
     * JQUERY FINAL PROJECT
+    * jQuery Effects
+        * jQuery Effects
+        * jQuery Effects:Quiz
 

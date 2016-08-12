@@ -24,25 +24,37 @@ While there are a variety of ways to move elements around the DOM, there are gen
 * Place the selected element\(s\) relative to another element.
 * Place an element relative to the selected element\(s\).
 
-
 For example, jQuery provides `.insertAfter()` and `.after()`. The `.insertAfter()` method places the selected element\(s\) after the element provided as an argument. The `.after()` method places the element provided as an argument after the selected element. Several other methods follow this pattern: `.insertBefore()` and `.before()`, `.appendTo()` and `.append()`, and `.prependTo()` and `.prepend()`.
-
-
 
 The method that makes the most sense will depend on what elements are selected, and whether you need to store a reference to the elements you're adding to the page. If you need to store a reference, you will always want to take the first approach – placing the selected elements relative to another element – as it returns the element\(s\) you're placing. In this case, `.insertAfter()`, `.insertBefore()`, `.appendTo()`, and `.prependTo()` should be the tools of choice.
 
-
-
 ```
 // Moving elements using different approaches.
- 
+
 // Make the first list item the last list item:
 var li = $( "#myList li:first" ).appendTo( "#myList" );
- 
+
 // Another approach to the same problem:
 $( "#myList" ).append( $( "#myList li:first" ) );
- 
+
 // Note that there's no way to access the list item
 // that we moved, as this returns the list itself.
 ```
+
+
+
+### **Cloning Elements**
+
+Methods such as `.appendTo()` move the element, but sometimes a copy of the element is needed instead. In this case, use `.clone()` first:
+
+```
+// Making a copy of an element.
+ 
+// Copy the first list item to the end of the list:
+$( "#myList li:first" ).clone().appendTo( "#myList" );
+```
+
+
+
+
 

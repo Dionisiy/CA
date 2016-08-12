@@ -108,9 +108,14 @@ You can also create an element as you're adding it to the page, but note that in
 $( "ul" ).append( "<li>list item</li>" );
 ```
 
-
-
 ### **Manipulating Attributes**
 
 jQuery's attribute manipulation capabilities are extensive. Basic changes are simple, but the `.attr()` method also allows for more complex manipulations. It can either set an explicit value, or set a value using the return value of a function. When the function syntax is used, the function receives two arguments: the zero-based index of the element whose attribute is being changed, and the current value of the attribute being changed.
+
+```
+// Manipulating a single attribute.
+$( "#myDiv a:first" ).attr( "href", "newDestination.html" );
+```
+
+
 

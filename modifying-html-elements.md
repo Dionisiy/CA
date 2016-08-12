@@ -17,7 +17,11 @@ When we put text in quotes like this, we call it a **string** \(as in a "string 
 
 ### **Inserting Elements**
 
+We can insert our newly created elements using a few jQuery actions.
 
+`.append()` inserts the specified element as the last child of the target element.
 
+`.prepend()` inserts the specified element as the _first_ child of the target element.
 
+ If we have a div of class`.info`,
 

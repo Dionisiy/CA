@@ -26,9 +26,15 @@ The `.effect()` effect has all kinds of magical goodness in it, but it's not the
 
 
 
-
+### **.draggable\(\)**
 
 jQuery UI includes a `.draggable()`function that can make any HTML element draggable—you can click on it and move it anywhere on the page!
+
+### **A Greater Selection**
+
+Images and `<div>`s aren't the only elements we can target with jQuery UI—we can also enhance our ordered and unordered lists.
+
+Check out the HTML in `index.html`. We've set up a pretty nifty ordered list, but when it shows up in the Result tab, it's a little bland. With jQuery UI, we can fix that!
 
 
 

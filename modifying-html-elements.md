@@ -55,12 +55,14 @@ Where `'target'` is the element after which you want to add something and the bi
 
 Moving elements around in the DOM is a snap—all we need to do is use the jQuery functions we just learned on existing elements instead of creating new ones.
 
-
-
 ```
 var $paragraph = $("p"); // existing element
 $("div").after($paragraph); // Move it!
 // Same as:
 $("div").after($("p"));
 ```
+
+1. We can select an element using`$("p")` and assign it to a variable
+
+
 

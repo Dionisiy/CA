@@ -40,3 +40,9 @@ $('<p>Stuff!</p>').appendTo('.info');
 
 has the same effect as the `.append()`code above. `.prependTo()` has a similar relationship to `.prepend()`.
 
+
+
+### **Before and After**
+
+We can specify where in the DOM we insert an element with the `.before()`and `.after()` functions. The syntax looks like this:
+

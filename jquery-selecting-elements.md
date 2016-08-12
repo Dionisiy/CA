@@ -72,12 +72,20 @@ This won't work. When a selection is made using `$()`, an object is always retur
 
 The best way to determine if there are any elements is to test the selection's `.length` property, which tells you how many elements were selected. If the answer is 0, the `.length` property will evaluate to `false` when used as a boolean value:
 
-
-
 ```
 // Testing whether a selection contains elements.
 if ( $( "div.foo" ).length ) {
     ...
 }
 ```
+
+### **Saving Selections**
+
+jQuery doesn't cache elements for you. If you've made a selection that you might need to make again, you should save the selection in a variable rather than making the selection repeatedly.
+
+```
+var divs = $( "div" );
+```
+
+
 

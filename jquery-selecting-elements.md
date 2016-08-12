@@ -89,3 +89,20 @@ var divs = $( "div" );
 
 Once the selection is stored in a variable, you can call jQuery methods on the variable just like you would have called them on the original selection.
 
+### **Refining & Filtering Selections**
+
+Sometimes the selection contains more than what you're after. jQuery offers several methods for refining and filtering selections.
+
+
+
+```
+// Refining selections.
+$( "div.foo" ).has( "p" );         // div.foo elements that contain <p> tags
+$( "h1" ).not( ".bar" );           // h1 elements that don't have a class of bar
+$( "ul li" ).filter( ".current" ); // unordered list items with class of current
+$( "ul li" ).first();              // just the first unordered list item
+$( "ul li" ).eq( 5 );              // the sixth
+```
+
+
+

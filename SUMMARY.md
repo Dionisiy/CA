@@ -118,6 +118,6 @@
         * [jQuery Effects](jquery-effects.md)
         * [jQuery Effects:Quiz](jquery-effectsquiz.md)
         * [External Resources V](external-resources-v.md)
-            * [jquery Effects](jquery-effects.md)
+            * [jquery Effects resource](jquery-effects.md)
             * [jQuery Effects Libruary](jquery-effects-libruary.md)
 

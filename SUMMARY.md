@@ -105,7 +105,7 @@
         * [Modifying HTML Elements](modifying-html-elements.md)
         * [Dynamic HTML:Quiz](dynamic-htmlquiz.md)
         * External Resources III
-            * Manipulating Elements
+            * [Manipulating Elements](manipulating-elements.md)
             * DOM Manipulation
     * jQuery Events
         * jQuery Events

@@ -68,7 +68,8 @@
 
 **Answer**: `$(document).ready(function() { var $target = $('div'); $target.fadeOut('fast'); });`
 
-What is the difference between $p and $\('p'\) in this code?
+* What is the difference between $p and $\('p'\) in this code?
+
 
 var $p = $\('p'\);
 

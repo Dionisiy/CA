@@ -15,11 +15,16 @@ All websites use HTML and CSS. After learning both of these languages, you will 
 
 * The website user only sees the content between the opening and closing tags.
 
+
 Headings are a frequently used HTML element. You can think of them like headlines in a newspaper. Your eyes may notice headings first because the words are large and bold compared to other text on the webpage.
 
 There are six heading elements: `h1`, `h2`, `h3`, `h4`,`h5`, and `h6`. `h1` is the largest heading and `h6` is the smallest.
 
-
-
 The HTML _paragraph_ element, `p`, is used to hold one or more sentences, just like paragraphs in an essay or a book.
+
+
+
+```
+<p>Paragraph text here</p>
+```
 

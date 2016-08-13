@@ -19,7 +19,8 @@ CSS comes equipped with 140 _named colors_, such as`red`, used above. For many s
 
 1. _Hexadecimal color \(\#RRGGBB\)_: Hexadecimal values that represent mixtures of red, green and blue. For example, red can be expressed with the hexadecimal value of `#FF0000`: the value`ff` represents red, `00` represents green, and`00` represents blue.
 
-1. _RGB \(Red, Green, Blue\) colors_: Color created by three numbers representing red, green, and blue. When mixed together, the three values create a specific color. For example: purple can be represented as `rgb(128,0,128)`.
+2. _RGB \(Red, Green, Blue\) colors_: Color created by three numbers representing red, green, and blue. When mixed together, the three values create a specific color. For example: purple can be represented as `rgb(128,0,128)`.
+
 
 We can use_class selectors_ to target classes of HTML elements.
 
@@ -33,4 +34,14 @@ Consider the HTML below:
 ```
 
 Here, the `div` is the parent element and the `h2` and`p` are children. CSS styles applied to the `header`_class selector_ will automatically apply to the `h2` and the `p`.
+
+
+
+In CSS, class selectors can be identified by a dot `.`followed by the class name, as seen below:
+
+```
+.header {
+  color: #ffffff; 
+}
+```
 

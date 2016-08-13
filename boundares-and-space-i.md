@@ -26,14 +26,21 @@ In CSS, the _border_ property's value requires three parts:
 3. _color_: sets the border's color, using named colors, HEX, or RGB values.
 
 
-
-
-
 The CSS _padding_ property controls the empty space between the page element's content and its border. Increasing a page element's _padding_ makes the space around the content more spacious, while decreasing it makes the space more compact.
 
 ```
 p {
   padding: 20px; 
+}
+```
+
+
+
+The CSS _margin_ property controls the space between different HTML elements on a webpage. Use margin to bring page elements closer together or to move them further apart.
+
+```
+.answer {
+  margin: 2rem;
 }
 ```
 

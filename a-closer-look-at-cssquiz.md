@@ -1,18 +1,18 @@
 ### Quiz
 
+* What is an external stylesheet?
 
 
-What is an external stylesheet?
+**Answer**: A CSS file accessed via the HTML link element. External stylesheets are outside the HTML file. In order to style HTML, external stylesheets must be linked to using the HTML link element.
 
-Answer: A CSS file accessed via the HTML link element. External stylesheets are outside the HTML file. In order to style HTML, external stylesheets must be linked to using the HTML link element.
+* Which type of color value is used in the following CSS?
 
-Which type of color value is used in the following CSS?
 
-a {
+`a {`
 
- color: \#000000;
+`color: #000000;`
 
-}
+`}`
 
 Answer: hexadecimal \(HEX\) color. In CSS, HEX color values begin with a "\#" followed by a hexadecimal number that represents a mixture of red, green and blue.
 
@@ -20,7 +20,7 @@ In the following CSS, which are the fallback fonts?
 
 h1 {
 
- font-family: "Arial Black", Gadget, sans-serif; 
+font-family: "Arial Black", Gadget, sans-serif;
 
 }
 
@@ -30,7 +30,7 @@ In the following CSS, name the type of selector used:
 
 .supporting {
 
- font-family: "Arial Black", Gadget, sans-serif;
+font-family: "Arial Black", Gadget, sans-serif;
 
 }
 
@@ -40,7 +40,7 @@ What does the following CSS accomplish?
 
 .main {
 
- background-image: url\("https:\/\/s3.amazonaws.com\/codecademy-content\/images\/demo-image.png"\);
+background-image: url\("https:\/\/s3.amazonaws.com\/codecademy-content\/images\/demo-image.png"\);
 
 }
 
@@ -56,7 +56,7 @@ In the following CSS, which is the selector?
 
 h1 {
 
- font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 
 }
 
@@ -66,7 +66,7 @@ In the following CSS, name the type of selector used:
 
 \#contact-us {
 
- font-size: 0.75rem;
+font-size: 0.75rem;
 
 }
 
@@ -76,7 +76,7 @@ In the following CSS, which is the property and which is the value?
 
 p {
 
- color: red;
+color: red;
 
 }
 

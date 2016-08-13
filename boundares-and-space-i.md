@@ -84,3 +84,9 @@ li {
 }
 ```
 
+
+
+### Flex
+
+The CSS display value that arranged the images,_flex_, has been removed. In addition to other capabilities, flex can be used to easily align multiple page elements horizontally.
+

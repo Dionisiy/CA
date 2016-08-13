@@ -202,3 +202,37 @@ ul > li {
 /* Selects only the first-level list items in all unordered lists in the HTML */
 ```
 
+
+
+**Example**
+
+```
+ul a {
+  text-underline: none;
+}
+
+/* Selects all anchors which have an unordered list their ancestry */
+
+```
+
+**Example**
+
+```
+ul + span {
+  display: inline;
+}
+
+/* Selects only spans that directly follow an unordered list */
+
+```
+
+**Example**
+
+```
+a ~ h1 {
+  color: blue;
+}
+
+/* Selects all h1 elements that are in the general vicinity of an anchor */
+```
+

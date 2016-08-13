@@ -149,3 +149,16 @@ body {
 }
 ```
 
+## **ID selectors**
+
+ID selectors are used to select only a single item on a page. Like the term \("identification"\) indicates, ID selectors will ONLY select the first element with a matching ID.
+
+**Example**
+
+```
+#thatThingINeededToStyle {
+  color: blue;
+  font-size: 24px;
+}
+```
+

@@ -84,9 +84,17 @@ li {
 }
 ```
 
-
+## Position
 
 ### Flex
 
 The CSS display value that arranged the images,_flex_, has been removed. In addition to other capabilities, flex can be used to easily align multiple page elements horizontally.
+
+
+
+The CSS _position_ property enables you to position HTML elements in exact locations on a webpage. One useful value for this property is _relative_. This value positions page elements on a webpage relative to where they would normally appear.
+
+### Relative
+
+By first setting `position: relative;`, you can then use the CSS properties `top`, `left`, `bottom`, and`right` to shift an element away from where it would have normally appeared on the page.
 

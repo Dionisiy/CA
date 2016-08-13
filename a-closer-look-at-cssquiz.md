@@ -52,11 +52,13 @@
 
 - In the following CSS, which is the selector?
 
+```
 h1 {
 
 font-family: 'Roboto', sans-serif;
 
 }
+```
 
 **Answer**: h1. CSS selectors can be HTML elements, such as h1, classes or ids. More advanced selectors also exist.
 

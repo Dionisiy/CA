@@ -70,5 +70,5 @@ Which choice describes the following Bootstrap implementation?
 
 Answer: Two images per row
 
-Because the class col-sm-6 spans six columns on the Bootstrap grid, two HTML elements that both use the class will span the entire width of a row \(twelve grid columns\).
+Because the class `col-sm-6` spans six columns on the Bootstrap grid, two HTML elements that both use the class will span the entire width of a row \(twelve grid columns\).
 

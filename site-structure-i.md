@@ -112,11 +112,36 @@ Div elements are often used with the _class_ attribute. Here's an example:
 </div>
 ```
 
-
-
 ### Metadata
 
 The last HTML elements we will explore are involved in _metadata_ processes. You can think of these elements as the "brains" of a webpage because they communicate vital information to the web browser, but are not visible to a webpage visitor.
 
+
+
+1. `<!DOCTYPE html>`: Tells the web browser to expect an HTML document.
+
+
+
+
+
+2. `<html>...</html>`: The root of the HTML document and parent of all other HTML elements on the webpage.
+
+
+
+
+
+3. `<head>...</head>`: Enclose other metadata about the site, such as its title.
+
+
+
+
+
+4. `<title>...</title>`: Contains the site's title, which is one way users can find your site through a search engine, like Google.
+
+
+
+
+
+5. `<meta charset="utf-8"/>`: Tells the web browser which character set to use. In this case, the character set is "utf-8".
 
 

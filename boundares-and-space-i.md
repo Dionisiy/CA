@@ -4,6 +4,10 @@ An important part of styling a webpage with CSS is organizing boundaries and spa
 
 Every page element has boundary and space properties that can be controlled using CSS.
 
+![](/jquery/box-model.png)
+
+
+
 1. _content_: Includes text, images, or other media contained within an HTML element.
 
 2. _padding_: The space between the content and the border. You can think of this like inner space.
@@ -42,8 +46,6 @@ The CSS _margin_ property controls the space between different HTML elements on 
 }
 ```
 
-
-
 The margin property creates space on all sides of a page element. It's also possible to set separate`margin` spacings on each side of an element.
 
 Additional margin properties:
@@ -56,4 +58,9 @@ Additional margin properties:
 
 4. _margin-right_: Sets the right margin.
 
+
+
+#### DISPLAY
+
+Not all HTML elements are displayed on a page in the same way. _Display types_ determine how HTML elements will be arranged in relation to each other.
 

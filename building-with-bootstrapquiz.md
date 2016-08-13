@@ -15,11 +15,11 @@
 
 - Which bootstrap class could fill in the blank to create a row?
 
-&lt;div class=" "&gt;
+```
+<div class=" ">
 
-...
-
-&lt;\/div&gt;
+</div>
+```
 
 Answer: row. The Bootstrap row class spans twelve columns and creates a horizontal division on a webpage layout.
 

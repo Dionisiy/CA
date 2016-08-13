@@ -1,8 +1,8 @@
 ## Quiz
 
-The CSS Box Model:
+- The CSS Box Model:
 
-Answer: Illustrates spacing and boundary properties for HTML elements, such as margin, padding and border
+**Answer**: Illustrates spacing and boundary properties for HTML elements, such as margin, padding and border
 
 In CSS, once position is set to relative, which properties can be used to reposition HTML elements?
 

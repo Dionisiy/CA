@@ -67,8 +67,6 @@ First, a new _section_ element is created and assigned the `jumbotron` class:
 </section>
 ```
 
-
-
 Many websites have a supporting content area. Supporting content can be arranged using Bootstrap's grid. Below is an example implementation of a supporting content area.
 
 First, an HTML section element with the `container`class is used:
@@ -78,4 +76,10 @@ First, an HTML section element with the `container`class is used:
 
 </section>
 ```
+
+
+
+
+
+Next, div elements with the `row` class are added and finally, the rows are divided by using divs with Bootstrap's `col-sm-...` class.
 

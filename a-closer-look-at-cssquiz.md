@@ -46,10 +46,9 @@
 
 * What is the purpose of the following HTML element?
 
+`<link rel="stylesheet" type="text/css" href="style.css"/>`
 
-&lt;link rel="stylesheet" type="text\/css" href="style.css"\/&gt;
-
-Answer: To link to an external stylesheet called style.css. The link element makes CSS stylesheets available to an HTML file. The href attribute specifies the stylesheet. In this case, it is style.css.
+**Answer**: To link to an external stylesheet called style.css. The link element makes CSS stylesheets available to an HTML file. The href attribute specifies the stylesheet. In this case, it is style.css.
 
 In the following CSS, which is the selector?
 

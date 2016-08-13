@@ -19,5 +19,5 @@ p {
 
 ```
 
-In the code, `font-size` is set to `20px` for the `html` selector. The `p` selector has a`font-size` of `0.75rem`, which displays a size 2\/3 that of `html`, or 15px.
+In the code, `font-size` is set to `20px` for the `html` selector. The `p` selector has a`font-size` of `0.75rem`, which displays a size 2\/3 that of `html`, or 15px.\
 

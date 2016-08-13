@@ -30,3 +30,5 @@ What if you wanted to link users to a different webpage? The HTML _anchor_ eleme
 
 `<a href="http://google.com"> Click here for Google!</a>`
 
+Anchor elements use an _attribute_ to link users to websites. Attributes customize the behavior or appearance of HTML elements. Anchor elements use the `href` attribute, which specifies the webpage to link to. 
+

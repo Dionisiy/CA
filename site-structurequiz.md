@@ -1,32 +1,29 @@
 ### Quiz
 
-What is the difference between an opening tag and a closing tag?
+* What is the difference between an opening tag and a closing tag?
 
-Answer: Closing tags contain a forward slash, e.g., &lt;\/a&gt;
 
-HTML closing tags must contain a forward slash to be valid.
+**Answer**: Closing tags contain a forward slash, e.g., &lt;\/a&gt; HTML closing tags must contain a forward slash to be valid.
 
-Identify error\(s\) in the following line of code, if any.
+* Identify error\(s\) in the following line of code, if any.
 
-&lt;h2 Free Music Streaming&lt;\/h2&gt;
 
-Answer: The opening tag should be &lt;h2&gt;
+`<h2 Free Music Streaming</h2>`
 
-HTML tags need &lt; and &gt; to be valid. For example, &lt;h2&gt;.
+**Answer**: The opening tag should be &lt;h2&gt; HTML tags need &lt; and &gt; to be valid. For example, &lt;h2&gt;.
 
-Which HTML element is like the headline in a newspaper?
+* Which HTML element is like the headline in a newspaper?
+
 
 **Answer**: Heading. Headings, such as h1 and h3, display large and bold text.
 
 * Which HTML element is represented by the following code?
-
 
 `<p>...</p>`
 
 **Answer**: Paragraph element. An HTML paragraph element is represented by an opening &lt;p&gt;, displayed text, and a closing &lt;\/p&gt;.
 
 * src, href and class are all...
-
 
 **Answer**: Attributes. Attributes change the behavior or appearance of HTML elements. Src sets an image or video source, href sets a URL for anchor and link elements, and class assigns a class attribute to HTML elements.
 

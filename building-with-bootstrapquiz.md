@@ -45,9 +45,9 @@ Which choice describes the following Bootstrap implementation?
 
 - Which is needed in order to use Bootstrap classes on HTML elements?
 
-Answer: An HTML link element with an href attribute set to the Bootstrap URL. In order for Bootstrap to work, the HTML link element must be used, and the URL where Bootstrap is located must be specified with the href attribute.
+**Answer**: An HTML link element with an href attribute set to the Bootstrap URL. In order for Bootstrap to work, the HTML link element must be used, and the URL where Bootstrap is located must be specified with the href attribute.
 
-In the following code, how many images will display per row on tablet-sized devices and larger?
+- In the following code, how many images will display per row on tablet-sized devices and larger?
 
 &lt;div class="row"&gt;
 

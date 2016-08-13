@@ -2,11 +2,9 @@
 
 * What is an external stylesheet?
 
-
 **Answer**: A CSS file accessed via the HTML link element. External stylesheets are outside the HTML file. In order to style HTML, external stylesheets must be linked to using the HTML link element.
 
 * Which type of color value is used in the following CSS?
-
 
 `a {`
 
@@ -14,7 +12,7 @@
 
 `}`
 
-Answer: hexadecimal \(HEX\) color. In CSS, HEX color values begin with a "\#" followed by a hexadecimal number that represents a mixture of red, green and blue.
+**Answer**: hexadecimal \(HEX\) color. In CSS, HEX color values begin with a "\#" followed by a hexadecimal number that represents a mixture of red, green and blue.
 
 In the following CSS, which are the fallback fonts?
 

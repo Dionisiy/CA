@@ -51,5 +51,13 @@ In CSS, the _background-image_ property sets a background image of your choice f
 }
 ```
 
+To control the size of the chosen background image, use the property _background-size_ as seen below:
+
+```
+  background-size: cover;
+```
+
+
+
 
 

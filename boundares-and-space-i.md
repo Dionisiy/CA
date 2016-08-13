@@ -63,7 +63,7 @@ Not all HTML elements are displayed on a page in the same way. _Display types_ d
 
 The diagram to the right illustrates the _block_ and_inline_ display types.
 
+
+
 ![](/jquery/blocks.png)
-
-
 

@@ -55,11 +55,12 @@ The video element uses a number of attributes. Let's take a look at them:
 
 1. `width` and `height`: Set the size of the screen that displays the video.
 
-1. `controls`: Adds play, pause and volume control.
+2. `controls`: Adds play, pause and volume control.
 
-1. `source src`: Sets the URL of the video to play.
+3. `source src`: Sets the URL of the video to play.
 
-1. `type`: Specifies different video formats.
+4. `type`: Specifies different video formats.
+
 
 Another essential HTML element is the _unordered list_. Items in an unordered list are referred to as _list items_. Each item is bulleted, not numbered. For example:
 
@@ -77,5 +78,14 @@ The HTML code for the list above:
 </ul>
 ```
 
+About unordered lists:
+
+1. `ul` tags create the unordered list.
+
+
+
+
+
+2. `li` tags contain each list item.
 
 

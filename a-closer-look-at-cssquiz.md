@@ -64,11 +64,13 @@ font-family: 'Roboto', sans-serif;
 
 In the following CSS, name the type of selector used:
 
+```
 \#contact-us {
 
 font-size: 0.75rem;
 
 }
+```
 
 **Answer**: id selector. Id selectors are specified in CSS with a prepending "\#". For example, "\#footer".
 

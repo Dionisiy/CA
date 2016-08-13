@@ -82,7 +82,23 @@ About unordered lists:
 
 1. `ul` tags create the unordered list.
 
-1. `li` tags contain each list item.
+2. `li` tags contain each list item.
+
 
 Unordered list elements can be used to organize content on a webpage in a number of ways. Below we will use one to organize our website's navigation menu, sometimes called a _navbar_.
+
+
+
+With the video and unordered list elements, you may have noticed something interesting: these HTML elements had other HTML elements _nested_ inside of them.
+
+For example, in unordered lists, `li` elements are nested inside the `ul`.
+
+```
+<ul>
+  <li>First item</li> 
+  <li>Second item</li>
+</ul>
+```
+
+Web developers refer to the enclosing element as the _parent_ element and the enclosed elements as_children_.
 

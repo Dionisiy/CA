@@ -165,8 +165,6 @@ This text is divided
 
 HTML stands for Hyper Text Markup Language. It is the language used to create all websites.
 
-
-
 ## `<html>`** tag**
 
 All HTML files live within an over-arching html tag. This is the basic tag that defines an html document.
@@ -178,8 +176,6 @@ All HTML files live within an over-arching html tag. This is the basic tag that 
   The rest of your web page goes in here!
 </html>
 ```
-
-
 
 # Hyperlinks
 
@@ -250,5 +246,108 @@ Shopping list
   <li>Kitty litter</li>
   <li>Tomato sauce</li>
 </ul>
+```
+
+
+
+## **Ordered Lists**
+
+Ordered lists' items are denoted with numbers.
+
+**Example**
+
+```
+My numbered list
+
+<ol>
+  <li>First item!</li>
+  <li>Second item!</li>
+  <li>Last item!</li>
+</ol>
+```
+
+
+
+
+
+# Paragraphs
+
+## `<p>`
+
+One of the most common tags in HTML - it denotes a paragraph of text. It often has other elements nested inside of it, such as `<img/>`, `<a>`, `<strong>` and `<em>`.
+
+**Syntax**
+
+```
+<p>This is paragraph text!</p>
+
+```
+
+# Semantic formatting
+
+These tags are similar to the previously mentioned formatting tags which have fallen out of favor. The difference is that these tags have semantic value \(meaning\). `<em>` is used for something that you wish to emphasize and `<strong>` is used for something that is important. With both of these elements, you can convey the level of emphasis or importance with nesting. The more times that you nest the element within itself, the higher the magnitude of the text it contains.
+
+**Example**
+
+```
+<p><strong><strong>Warning:</strong>Acid can cause severe burns</strong> </p>
+
+```
+
+# Tables
+
+An element for displaying information in rows and columns. Supports headers and footers for labeling columns. Divides information into rows \(denoted by the tr tag\) which contain cells \(denoted by the td tag\).
+
+**Example**
+
+```
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Banana</td>
+      <td>$56.75</td>
+    </tr>
+    <tr>
+      <td>Yogurt</td>
+      <td>$12.99</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td>Total</td>
+      <td>$69.74</td>
+    </tr>
+  </tfoot>
+</table>
+
+```
+
+# Tags & Elements
+
+Tags are basic labels that define and separate parts of your markup into elements. They are comprised of a keyword surrounded by angle brackets `<>`. Content goes between two tags and the closing one is prefixed with a slash \(Note: there are some self-closing HTML tags, like image tags\). Tags also have attributes, which are
+
+**Syntax**
+
+```
+<tag attribute='value'>content</tag keyword>
+
+```
+
+# Title
+
+This tag tells the browser what to display as the page title at the top and tells search engines what the title of your site is. It goes inside `<head>` tags. Try and make your page titles descriptive, but not overly verbose.
+
+**Example**
+
+```
+<title> HTML Glossary </title>
 ```
 

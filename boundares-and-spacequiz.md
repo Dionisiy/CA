@@ -16,13 +16,13 @@
 
 **Answer**: `border`. The CSS border property marks the boundary of an HTML element.
 
-Which CSS property controls the space between an HTML element and the next nearest element\(s\)?
+- Which CSS property controls the space between an HTML element and the next nearest element\(s\)?
 
-Answer: margin. The CSS margin property manages the space outside of an HTML element's border.
+**Answer**: margin. The CSS margin property manages the space outside of an HTML element's border.
 
-display: flex
+- display: flex
 
-Answer: Helps arrange HTML elements horizontally or vertically. The CSS display flex value is a valuable tool for creating vertical or horizontal layouts.
+**Answer**: Helps arrange HTML elements horizontally or vertically. The CSS display flex value is a valuable tool for creating vertical or horizontal layouts.
 
 Elements with a display property of inline are
 

@@ -140,7 +140,7 @@
             * [CSS Features](css-features.md)
     * [Boundares and Space](boundares-and-space.md)
         * [Boundares and Space I](boundares-and-space-i.md)
-        * Boundares and Space:Quiz
+        * [Boundares and Space:Quiz](boundares-and-spacequiz.md)
         * Amazing Space
         * Resource C
     * [Building with Bootstrap](building-with-bootstrap.md)

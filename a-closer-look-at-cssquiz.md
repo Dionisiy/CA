@@ -68,7 +68,7 @@ font-size: 0.75rem;
 
 }
 
-Answer: id selector. Id selectors are specified in CSS with a prepending "\#". For example, "\#footer".
+**Answer**: id selector. Id selectors are specified in CSS with a prepending "\#". For example, "\#footer".
 
 In the following CSS, which is the property and which is the value?
 

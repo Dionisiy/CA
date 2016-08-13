@@ -125,7 +125,7 @@
             * [jQuery Effects Libruary](jquery-effects-libruary.md)
 * [Make a Website](make-a-website.md)
     * Site Structure
-        * Site Structure I
+        * [Site Structure I](site-structure-i.md)
         * Site Structure:quiz
         * Resources A
         * Common Cents Party

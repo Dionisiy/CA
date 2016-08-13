@@ -34,8 +34,6 @@ p {
 }
 ```
 
-
-
 The CSS _margin_ property controls the space between different HTML elements on a webpage. Use margin to bring page elements closer together or to move them further apart.
 
 ```
@@ -43,4 +41,19 @@ The CSS _margin_ property controls the space between different HTML elements on 
   margin: 2rem;
 }
 ```
+
+
+
+The margin property creates space on all sides of a page element. It's also possible to set separate`margin` spacings on each side of an element.
+
+Additional margin properties:
+
+1. _margin-top_: Sets the top margin.
+
+2. _margin-bottom_: Sets the bottom margin.
+
+3. _margin-left_: Sets the left margin.
+
+4. _margin-right_: Sets the right margin.
+
 

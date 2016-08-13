@@ -49,11 +49,12 @@ Which choice describes the following Bootstrap implementation?
 
 - In the following code, how many images will display per row on tablet-sized devices and larger?
 
-&lt;div class="row"&gt;
+```
+<div class="row">;
 
-&lt;div class="col-sm-6"&gt;
+<div class="col-sm-6">
 
-&lt;img src="image-1.png"\/&gt;
+<img src="image-1.png"\>
 
 &lt;\/div&gt;
 
@@ -80,6 +81,8 @@ Which choice describes the following Bootstrap implementation?
 &lt;\/div&gt;
 
 &lt;\/div&gt;
+
+```
 
 Answer: Two images per row
 

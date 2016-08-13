@@ -36,16 +36,16 @@
 
 * What does the following CSS accomplish?
 
-
 `.main {`
 
 `background-image: url("https://s3.amazonaws.com/codecademy-content/images/demo-image.png");`
 
 `}`
 
-Answer: Displays a background image for HTML elements with the "main" class. Because the background-image property appears inside the ".main" CSS rule, it applies only to HTML elements with the "main" class.
+**Answer**: Displays a background image for HTML elements with the "main" class. Because the background-image property appears inside the ".main" CSS rule, it applies only to HTML elements with the "main" class.
 
-What is the purpose of the following HTML element?
+* What is the purpose of the following HTML element?
+
 
 &lt;link rel="stylesheet" type="text\/css" href="style.css"\/&gt;
 

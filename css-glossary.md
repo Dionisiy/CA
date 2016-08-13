@@ -278,8 +278,6 @@ li:first-child {
 */
 ```
 
-
-
 ```
 li:last-child {
   color: red;
@@ -287,4 +285,19 @@ li:last-child {
 
 /* This does the opposite; only the last <li> will be red. */
 ```
+
+
+
+**Example**
+
+```
+a:hover {
+  text-decoration: underline;
+}
+
+/* Will underline all links when the user puts their mouse over them */
+
+```
+
+
 

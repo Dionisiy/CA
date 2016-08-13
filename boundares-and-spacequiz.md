@@ -24,9 +24,7 @@
 
 **Answer**: Helps arrange HTML elements horizontally or vertically. The CSS display flex value is a valuable tool for creating vertical or horizontal layouts.
 
-Elements with a display property of inline are
+- Elements with a display property of inline are
 
-Answer: Displayed on the same line as neighboring elements
-
-HTML elements that display inline appear on the same line. This is in contrast to elements that display as blocks, on their own separate lines.
+**Answer**: Displayed on the same line as neighboring elements. HTML elements that display inline appear on the same line. This is in contrast to elements that display as blocks, on their own separate lines.
 

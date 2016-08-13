@@ -202,8 +202,6 @@ ul > li {
 /* Selects only the first-level list items in all unordered lists in the HTML */
 ```
 
-
-
 **Example**
 
 ```
@@ -234,5 +232,30 @@ a ~ h1 {
 }
 
 /* Selects all h1 elements that are in the general vicinity of an anchor */
+```
+
+
+
+## **Universal selector**
+
+The universal selector \(\*\) may be used to select all the elements in a particular range. Be aware that the universal selector is the most performance taxing selector, and should be used sparingly.
+
+**Example**
+
+```
+* {
+  background-color: blue;
+}
+
+/* Selects ALL HTML elements in the page */
+
+```
+
+**Example**
+
+```
+body * {
+  color: red;
+}
 ```
 

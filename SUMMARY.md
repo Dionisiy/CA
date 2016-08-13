@@ -113,6 +113,9 @@
         * [External Resources IV](external-resources-iv.md)
             * jQuery Events
     * jQuery Projects
+        * Bonsai
+        * Pocketbook
+        * Theardly
     * JQUERY FINAL PROJECT
     * [jQuery Effects Title](jquery-effects.md)
         * [jQuery Effects](jquery-effects.md)

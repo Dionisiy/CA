@@ -35,8 +35,6 @@ Consider the HTML below:
 
 Here, the `div` is the parent element and the `h2` and`p` are children. CSS styles applied to the `header`_class selector_ will automatically apply to the `h2` and the `p`.
 
-
-
 In CSS, class selectors can be identified by a dot `.`followed by the class name, as seen below:
 
 ```
@@ -44,4 +42,14 @@ In CSS, class selectors can be identified by a dot `.`followed by the class name
   color: #ffffff; 
 }
 ```
+
+In CSS, the _background-image_ property sets a background image of your choice for a given selector.
+
+```
+.hero {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/bg.jpg");
+}
+```
+
+
 

@@ -162,8 +162,6 @@ ID selectors are used to select only a single item on a page. Like the term \("i
 }
 ```
 
-
-
 ## **Attribute selectors**
 
 HTML elements are also able to be selected by their attributes.
@@ -173,6 +171,14 @@ HTML elements are also able to be selected by their attributes.
 ```
 a[href="http://codecademy.com"] {
   color: purple;
+}
+```
+
+**Example**
+
+```
+input[type="text"] {
+  width: 100px;
 }
 ```
 

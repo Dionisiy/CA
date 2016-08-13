@@ -113,8 +113,6 @@ selector {
 }
 ```
 
-
-
 ## **Class name selectors**
 
 You can also select HTML elements by their Class name. Unlike ID selectors, Class selectors select all elements with a matching class.
@@ -125,10 +123,6 @@ You can also select HTML elements by their Class name. Unlike ID selectors, Clas
 a.link {
   font-size: 12px;
 }
-
-/* HTML Selected: <a href="http://google.com" class="link">, 
-<a href="http://codecademy.com" class="link jumbo"> */
-
 ```
 
 **Example**

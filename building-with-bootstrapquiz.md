@@ -7,13 +7,13 @@
 
 - A webpage with a responsive layout
 
-Answer: All of these. Bootstrap creates CSS layouts that are responsive, meaning the layouts are maintained on different device screen sizes or page elements are rearranged automatically to fit different screen sizes.
+**Answer**: All of these. Bootstrap creates CSS layouts that are responsive, meaning the layouts are maintained on different device screen sizes or page elements are rearranged automatically to fit different screen sizes.
 
-What is a jumbotron?
+- What is a jumbotron?
 
-Answer: Large showcase section featuring important content
+**Answer**: Large showcase section featuring important content
 
-Which bootstrap class could fill in the blank to create a row?
+- Which bootstrap class could fill in the blank to create a row?
 
 &lt;div class=" "&gt;
 

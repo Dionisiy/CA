@@ -116,6 +116,7 @@
         * Bonsai
         * Pocketbook
         * Theardly
+        * forecast
     * JQUERY FINAL PROJECT
     * [jQuery Effects Title](jquery-effects.md)
         * [jQuery Effects](jquery-effects.md)

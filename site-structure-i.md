@@ -49,32 +49,33 @@ Just like websites have URLs, images on the web also have URLs. Image URLs typic
 
 Image elements are _self-closing_, which means they do not need a closing tag.
 
-
-
 The HTML _video_ element can add video to a webpage.
-
-
 
 The video element uses a number of attributes. Let's take a look at them:
 
 1. `width` and `height`: Set the size of the screen that displays the video.
 
+1. `controls`: Adds play, pause and volume control.
 
+1. `source src`: Sets the URL of the video to play.
 
+1. `type`: Specifies different video formats.
 
+Another essential HTML element is the _unordered list_. Items in an unordered list are referred to as _list items_. Each item is bulleted, not numbered. For example:
 
-2. `controls`: Adds play, pause and volume control.
+* A list item
+* A second list item
+* A third list item
 
+The HTML code for the list above:
 
+```
+<ul>
+  <li>A list item</li>
+  <li>A second list item</li>
+  <li>A third list item</li>
+</ul>
+```
 
-
-
-3. `source src`: Sets the URL of the video to play.
-
-
-
-
-
-4. `type`: Specifies different video formats.
 
 

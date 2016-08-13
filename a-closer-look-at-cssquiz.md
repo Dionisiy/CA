@@ -88,5 +88,5 @@ color: red;
 
 Which of the following options will increase the size of paragraph elements to 24 pixels?
 
-Answer: font-size: 24px;. CSS sizing values have a number followed by a measurement type, e.g., 16px or 2rem.
+Answer: `font-size: 24px;`. CSS sizing values have a number followed by a measurement type, e.g., 16px or 2rem.
 

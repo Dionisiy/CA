@@ -4,11 +4,11 @@
 
 **Answer**: Illustrates spacing and boundary properties for HTML elements, such as margin, padding and border
 
-In CSS, once position is set to relative, which properties can be used to reposition HTML elements?
+- In CSS, once position is set to relative, which properties can be used to reposition HTML elements?
 
-Answer: top, bottom, left and right. In order for relative positioning to take effect on the webpage, top, bottom, left and\/or right properties must be specified for the CSS selector.
+**Answer**: top, bottom, left and right. In order for relative positioning to take effect on the webpage, top, bottom, left and\/or right properties must be specified for the CSS selector.
 
-Which CSS property controls the inner space between an HTML element's content and its border?
+- Which CSS property controls the inner space between an HTML element's content and its border?
 
 Answer: padding. The CSS padding property controls the space between the content and the border of an HTML element.
 

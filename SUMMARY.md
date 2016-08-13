@@ -124,4 +124,7 @@
         * [External Resources V](external-resources-v.md)
             * [jQuery Effects Libruary](jquery-effects-libruary.md)
 * [Make a Website](make-a-website.md)
+    * Site Structure
+    * A Closer Look at CSS
+    * Boundares and Space
 

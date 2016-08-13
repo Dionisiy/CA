@@ -43,7 +43,11 @@ Anchor elements use an _attribute_ to link users to websites. Attributes customi
 
 To add images to a webpage, use the HTML \_image\_element:
 
-
-
 &lt;img src="https:\/\/s3.amazonaws.com\/codecademy-content\/projects\/make-a-website\/lesson-1\/bikes1.jpg"\/&gt;
+
+
+
+Just like websites have URLs, images on the web also have URLs. Image URLs typically end with the .jpg or .png file extension. The `src` attribute sets the_source_ for an image element.
+
+Image elements are _self-closing_, which means they do not need a closing tag.
 

@@ -41,3 +41,77 @@ h1 {
 }
 ```
 
+
+
+## **Defining many properties**
+
+Each CSS rule can have as many properties as you like. Each of them applies to the elements that the selector applies to.
+
+**Example**
+
+```
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid black;
+  color: pink;
+}
+/* This will make all <h1> headers big, bold, pink, and inside of a thin black rectangle! */
+
+```
+
+## **Padding**
+
+The padding is the spacing between the content and the border \(edge of the element.\). We can adjust this value with CSS to move the border closer to or farther from the content. Here, the div with id 'box' will get 10px of padding all around it.
+
+**Example**
+
+```
+#box {
+  padding: 10px;
+}
+
+```
+
+## **Margin**
+
+The margin is the space around the element. The larger the margin, the more space between our element and the elements around it. We can adjust the margin to move our HTML elements closer to or farther from each other. Here, the div with id 'box' will get 10px of margin above and below it, and 5px of margin to the left and right.
+
+**Example**
+
+```
+#box {
+  margin: 10px 5px 10px 5px;
+}
+
+```
+
+## **font-family**
+
+The font-family property sets the font of an HTML element's text.
+
+**Syntax**
+
+```
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+```
+
+# Selectors
+
+What are selectors?
+
+Selectors are used in CSS to select the parts of the HTML that are being styled. You can use several different methods for selecting an element.
+
+**Syntax**
+
+```
+selector {
+  rules;
+  rules;
+  rules;
+}
+```
+

@@ -102,3 +102,15 @@ Web developers refer to the enclosing element as the _parent_ element and the en
 
 Referring to HTML elements as parents and children may sound funny, but it's a core web development concept. The web browser also knows about these parent\/child relationships, which will be important as we explore CSS in the next lesson.
 
+
+
+_Div_ elements divide your page by enclosing other elements. These enclosed groups of elements can then be organized, moved and styled independently from one another.
+
+Div elements are often used with the _class_ attribute. Here's an example:
+
+```
+<div class="main">
+ ...
+</div>
+```
+

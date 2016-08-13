@@ -136,7 +136,7 @@
         * [A Closer Look at CSS:Quiz](a-closer-look-at-cssquiz.md)
         * [Cupful Cafe](cupful-cafe.md)
         * [Resource B](resource-b.md)
-            * CSS Glossary
+            * [CSS Glossary](css-glossary.md)
             * CSS Features
     * [Boundares and Space](boundares-and-space.md)
         * Boundares and Space I

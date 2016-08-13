@@ -90,11 +90,66 @@ li {
 
 The CSS display value that arranged the images,_flex_, has been removed. In addition to other capabilities, flex can be used to easily align multiple page elements horizontally.
 
-
-
 The CSS _position_ property enables you to position HTML elements in exact locations on a webpage. One useful value for this property is _relative_. This value positions page elements on a webpage relative to where they would normally appear.
 
 ### Relative
 
 By first setting `position: relative;`, you can then use the CSS properties `top`, `left`, `bottom`, and`right` to shift an element away from where it would have normally appeared on the page.
+
+
+
+## REVIEW
+
+
+
+#### WEB CONCEPTS
+
+* _CSS Box Model_: illustrates the space and boundary properties of an HTML element that can be controlled using CSS.
+
+#### CSS SKILLS
+
+* _border_: sets the outline of an HTML page element, like a picture frame that contains the element.
+
+
+
+
+
+* _padding_: sets the amount of space between an element's content and its border.
+
+
+
+
+
+* _margin_: sets the amount of space between an HTML element and the next nearest element\(s\).
+
+
+
+
+
+* _display_: property that determines how the selected element will be arranged in relation to other HTML elements on the page.
+
+
+
+
+
+* _inline_: display value used to arrange HTML elements on the same line as neighboring elements.
+
+
+
+
+
+* _flex_: display value that allows us to easily align multiple page elements vertically or horizontally.
+
+
+
+
+
+* _float_: property used to float HTML elements left or right of neighboring elements.
+
+
+
+
+
+* _position_: property used to position HTML elements in exact locations on a webpage.
+
 

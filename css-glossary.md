@@ -182,3 +182,9 @@ input[type="text"] {
 }
 ```
 
+```
+input[required] {
+  border: 1px red solid;
+}
+```
+

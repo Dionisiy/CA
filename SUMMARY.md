@@ -144,7 +144,7 @@
         * Amazing Space
     * [Building with Bootstrap](building-with-bootstrap.md)
         * [Building with Bootstrap I](building-with-bootstrap-i.md)
-        * Building with Bootstrap:Quiz
+        * [Building with Bootstrap:Quiz](building-with-bootstrapquiz.md)
         * Codebrainery.io
         * Resource D
 

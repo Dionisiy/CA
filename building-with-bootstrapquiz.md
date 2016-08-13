@@ -1,12 +1,11 @@
 ## Quiz
 
+* Bootstrap is
 
 
-Bootstrap is
+**Answer**: A set of prewritten CSS rules designed to help you build webpages faster
 
-Answer: A set of prewritten CSS rules designed to help you build webpages faster
-
-A webpage with a responsive layout
+- A webpage with a responsive layout
 
 Answer: All of these. Bootstrap creates CSS layouts that are responsive, meaning the layouts are maintained on different device screen sizes or page elements are rearranged automatically to fit different screen sizes.
 
@@ -18,7 +17,7 @@ Which bootstrap class could fill in the blank to create a row?
 
 &lt;div class=" "&gt;
 
- ...
+...
 
 &lt;\/div&gt;
 
@@ -30,11 +29,11 @@ Which choice describes the following Bootstrap implementation?
 
 &lt;nav class="col-sm-8"&gt;
 
- &lt;p&gt;nav item 1&lt;\/p&gt;
+&lt;p&gt;nav item 1&lt;\/p&gt;
 
- &lt;p&gt;nav item 2&lt;\/p&gt;
+&lt;p&gt;nav item 2&lt;\/p&gt;
 
- &lt;p&gt;nav item 3&lt;\/p&gt;
+&lt;p&gt;nav item 3&lt;\/p&gt;
 
 &lt;\/nav&gt;
 
@@ -52,33 +51,33 @@ In the following code, how many images will display per row on tablet-sized devi
 
 &lt;div class="row"&gt;
 
- &lt;div class="col-sm-6"&gt;
+&lt;div class="col-sm-6"&gt;
 
- &lt;img src="image-1.png"\/&gt;
+&lt;img src="image-1.png"\/&gt;
 
- &lt;\/div&gt;
+&lt;\/div&gt;
 
- &lt;div class="col-sm-6"&gt;
+&lt;div class="col-sm-6"&gt;
 
- &lt;img src="image-2.png"\/&gt;
+&lt;img src="image-2.png"\/&gt;
 
- &lt;\/div&gt;
+&lt;\/div&gt;
 
 &lt;\/div&gt;
 
 &lt;div class="row"&gt;
 
- &lt;div class="col-sm-6"&gt;
+&lt;div class="col-sm-6"&gt;
 
- &lt;img src="image-3.png"\/&gt;
+&lt;img src="image-3.png"\/&gt;
 
- &lt;\/div&gt;
+&lt;\/div&gt;
 
- &lt;div class="col-sm-6"&gt;
+&lt;div class="col-sm-6"&gt;
 
- &lt;img src="image-4.png"\/&gt;
+&lt;img src="image-4.png"\/&gt;
 
- &lt;\/div&gt;
+&lt;\/div&gt;
 
 &lt;\/div&gt;
 

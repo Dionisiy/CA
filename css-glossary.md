@@ -257,8 +257,6 @@ body * {
 }
 ```
 
-
-
 ## **Pseudo class selectors**
 
 Pseudo Selectors can be used to narrow down a selection with certain rules.
@@ -278,5 +276,15 @@ li:first-child {
       <li>Not selected</li>
     </ul>
 */
+```
+
+
+
+```
+li:last-child {
+  color: red;
+}
+
+/* This does the opposite; only the last <li> will be red. */
 ```
 

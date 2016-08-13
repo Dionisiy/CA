@@ -41,9 +41,9 @@ Which choice describes the following Bootstrap implementation?
 
 - Which class is used to span 4 columns on Bootstrap's grid?
 
-**Answer**: col-sm-4 The Bootstrap col-sm-4 class spans four columns on the grid.
+**Answer**: `col-sm-4` The Bootstrap `col-sm-4` class spans four columns on the grid.
 
-Which is needed in order to use Bootstrap classes on HTML elements?
+- Which is needed in order to use Bootstrap classes on HTML elements?
 
 Answer: An HTML link element with an href attribute set to the Bootstrap URL. In order for Bootstrap to work, the HTML link element must be used, and the URL where Bootstrap is located must be specified with the href attribute.
 

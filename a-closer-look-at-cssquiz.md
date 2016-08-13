@@ -76,11 +76,13 @@ font-size: 0.75rem;
 
 In the following CSS, which is the property and which is the value?
 
+```
 p {
 
 color: red;
 
 }
+```
 
 Answer: color is the property and red is the value. CSS properties and values are separated by a colon, and are located inside the curly brackets. Values end with a semi-colon.
 

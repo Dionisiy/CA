@@ -22,9 +22,10 @@ In the following CSS, which are the fallback fonts?
 
 `}`
 
-Answer: Gadget and sans-serif. In CSS, fallback fonts appear after the chosen font. Each fallback is comma-separated.
+**Answer**: Gadget and sans-serif. In CSS, fallback fonts appear after the chosen font. Each fallback is comma-separated.
 
-In the following CSS, name the type of selector used:
+* In the following CSS, name the type of selector used:
+
 
 .supporting {
 

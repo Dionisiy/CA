@@ -37,8 +37,6 @@ Links tell the browser where to go using an href attribute, which stores a URL.
 
 You can easily format text to be bold, italic, or underlined using simple formatting tags.
 
-
-
 # Basic Formatting
 
 You can easily format text to be bold, italic, or underlined using simple formatting tags.
@@ -66,10 +64,6 @@ The body is the container for all of a page's content. Comes after the `<head>` 
   </body>
 </html>
 ```
-
-
-
-
 
 ## **Usage**
 
@@ -109,4 +103,69 @@ An element that is an immediate descendent of another element or nested within a
 # Comments
 
 HTML comments are sometimes used in code to explain parts of the markup. They are similar to comments in other languages. Users do not see comments in their browser.
+
+
+
+**Syntax**
+
+```
+<!-- This is an HTML comment! -->
+
+```
+
+# Div
+
+A block level container \(or 'division' of the web page\) for content with no semantic meaning.
+
+**Syntax**
+
+```
+<div>This is a div element.</div>
+
+```
+
+# Head
+
+Tag that surrounds important content that is invisible to the user, but is important to the browser. Elements within this tag contain metadata about the page and links to stylesheets, scripts, etc.
+
+```
+<html>
+    <head>
+    </head>
+    <body>
+    </body>
+</html>
+
+```
+
+# Headings
+
+Heading elements like `<h1>`, `<h2>`, `<h3>`, ... allow you to use six levels of document headings, ranging from largest to smallest, breaking up the document into logical sections. For example, the word 'Headings' above is wrapped in a `<h2>`tag.
+
+**Syntax**
+
+```
+<h1> This is a header! </h1>
+
+```
+
+# Horizontal rules
+
+This tag creates a black line one pixel thick that runs the all the way across its container. It can be styled to look differently with CSS.
+
+**Example**
+
+```
+This text is divided
+<hr>
+...from this text!
+```
+
+
+
+# HTML
+
+## **What is HTML?**
+
+HTML stands for Hyper Text Markup Language. It is the language used to create all websites.
 

@@ -22,9 +22,11 @@ There are six heading elements: `h1`, `h2`, `h3`, `h4`,`h5`, and `h6`. `h1` is t
 
 The HTML _paragraph_ element, `p`, is used to hold one or more sentences, just like paragraphs in an essay or a book.
 
-
-
 ```
 <p>Paragraph text here</p>
 ```
+
+
+
+What if you wanted to link users to a different webpage? The HTML _anchor_ element makes it possible to do this with a single click.
 

@@ -21,7 +21,7 @@
 </div>
 ```
 
-Answer: row. The Bootstrap row class spans twelve columns and creates a horizontal division on a webpage layout.
+**Answer**: row. The Bootstrap row class spans twelve columns and creates a horizontal division on a webpage layout.
 
 Which choice describes the following Bootstrap implementation?
 

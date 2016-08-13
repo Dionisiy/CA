@@ -19,8 +19,7 @@ In the diagram, observe the following:
 5. Elements labeled "col-sm-3" take up three grid columns; elements labeled "col-sm-6" take up six grid columns.
 
 
-
-HTML _header_element with Bootstrap's predefined `container`class is used:
+HTML \_header\_element with Bootstrap's predefined `container`class is used:
 
 ```
 <header class="container">
@@ -56,15 +55,19 @@ The first part consists of the `h1` with Bootstrap's class `col-sm-4`. It will t
 
 In addition to a header\/navigation, many websites have a large showcase area featuring important content. Bootstrap refers to this as a _jumbotron_. Below is an example implementation of a jumbotron.
 
-
-
 First, a new _section_ element is created and assigned the `jumbotron` class:
 
 ```
 <section class="jumbotron">
-
+  <div class="container">
+    <div class="row text-center">
+       ...
+    </div>
+  </div>
 </section>
 ```
+
+
 
 
 

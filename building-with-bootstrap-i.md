@@ -10,14 +10,61 @@ In the diagram, observe the following:
 
 1. Bootstrap's grid columns are represented by 12 vertical bars. The boxes represent HTML elements.
 
-1. The words "container", "jumbotron", "col-sm-6" and "col-sm-3" refer to Bootstrap classes. 
+2. The words "container", "jumbotron", "col-sm-6" and "col-sm-3" refer to Bootstrap classes.
 
-1. The element with class "jumbotron" spans the entire width of the webpage, beyond the borders of the grid. 
+3. The element with class "jumbotron" spans the entire width of the webpage, beyond the borders of the grid.
 
-1. Elements inside the second "container", such as "col-sm-6" and "col-sm-3" are contained within the grid columns. 
+4. Elements inside the second "container", such as "col-sm-6" and "col-sm-3" are contained within the grid columns.
 
-1. Elements labeled "col-sm-3" take up three grid columns; elements labeled "col-sm-6" take up six grid columns.
+5. Elements labeled "col-sm-3" take up three grid columns; elements labeled "col-sm-6" take up six grid columns.
 
+
+
+HTML _header_element with Bootstrap's predefined `container`class is used:
+
+```
+<header class="container">
+  ...
+</header>
+```
+
+Inside the header, a row is created by using a div with Bootstrap's `row` class:
+
+```
+<header class="container">
+  <div class="row">
+  </div> 
+</header>
+```
+
+Finally, the row is cut into two parts:
+
+```
+<header class="container">
+  <div class="row">
+   <h1 class="col-sm-4">Heading</h1>
+   <nav class="col-sm-8 text-right">
+    <p>nav item 1</p>
+    <p>nav item 2</p>
+    <p>nav item 3</p>
+   </nav> 
+ </div>
+</header>
+```
+
+The first part consists of the `h1` with Bootstrap's class `col-sm-4`. It will take up the first four columns on the grid. The second part consists of the `nav`element with class `col-sm-8`. It will take up the remaining eight grid columns. `text-right` indicates that text will be arranged on the right side of the`nav`.
 
 In addition to a header\/navigation, many websites have a large showcase area featuring important content. Bootstrap refers to this as a _jumbotron_. Below is an example implementation of a jumbotron.
+
+
+
+First, a new _section_ element is created and assigned the `jumbotron` class:
+
+```
+<section class="jumbotron">
+
+</section>
+```
+
+
 

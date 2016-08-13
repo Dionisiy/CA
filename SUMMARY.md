@@ -126,7 +126,7 @@
 * [Make a Website](make-a-website.md)
     * Site Structure
         * [Site Structure I](site-structure-i.md)
-        * Site Structure:quiz
+        * [Site Structure:quiz](site-structurequiz.md)
         * Resources A
         * Common Cents Party
     * [A Closer Look at CSS](a-closer-look-at-css.md)

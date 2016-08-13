@@ -41,8 +41,6 @@ h1 {
 }
 ```
 
-
-
 ## **Defining many properties**
 
 Each CSS rule can have as many properties as you like. Each of them applies to the elements that the selector applies to.
@@ -112,6 +110,48 @@ selector {
   rules;
   rules;
   rules;
+}
+```
+
+
+
+## **Class name selectors**
+
+You can also select HTML elements by their Class name. Unlike ID selectors, Class selectors select all elements with a matching class.
+
+**Example**
+
+```
+a.link {
+  font-size: 12px;
+}
+
+/* HTML Selected: <a href="http://google.com" class="link">, 
+<a href="http://codecademy.com" class="link jumbo"> */
+
+```
+
+**Example**
+
+```
+.jumbo {
+  text-size: 1000px;
+}
+
+/* HTML Selected: <a href="http://codecademy.com" class="link jumbo">,
+<span class="jumbo"> */
+
+```
+
+## **Element selectors**
+
+You are able to select HTML elements first by simply using the name of the element.
+
+**Example**
+
+```
+body {
+  background-color: #333;
 }
 ```
 

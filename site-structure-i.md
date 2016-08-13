@@ -11,12 +11,9 @@ All websites use HTML and CSS. After learning both of these languages, you will 
 
 * All HTML elements begin with an _opening tag_. In this case, the opening tag is `<h1>`.
 
-
 * Most elements require a _closing tag_, denoted by a `/`. In this case, the closing tag is `</h1>`.
 
-
 * The website user only sees the content between the opening and closing tags.
-
 
 Headings are a frequently used HTML element. You can think of them like headlines in a newspaper. Your eyes may notice headings first because the words are large and bold compared to other text on the webpage.
 
@@ -24,5 +21,5 @@ There are six heading elements: `h1`, `h2`, `h3`, `h4`,`h5`, and `h6`. `h1` is t
 
 
 
-
+The HTML _paragraph_ element, `p`, is used to hold one or more sentences, just like paragraphs in an essay or a book.
 

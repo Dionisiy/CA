@@ -116,32 +116,98 @@ Div elements are often used with the _class_ attribute. Here's an example:
 
 The last HTML elements we will explore are involved in _metadata_ processes. You can think of these elements as the "brains" of a webpage because they communicate vital information to the web browser, but are not visible to a webpage visitor.
 
-
-
 1. `<!DOCTYPE html>`: Tells the web browser to expect an HTML document.
 
+1. `<html>...</html>`: The root of the HTML document and parent of all other HTML elements on the webpage.
+
+1. `<head>...</head>`: Enclose other metadata about the site, such as its title.
+
+1. `<title>...</title>`: Contains the site's title, which is one way users can find your site through a search engine, like Google.
+
+1. `<meta charset="utf-8"/>`: Tells the web browser which character set to use. In this case, the character set is "utf-8".
+
+### Review
+
+
+
+Before we move on to styling with CSS, let's review what we learned in this lesson.
+
+#### LANGUAGES
+
+* **html**: stands for _hypertext markup language_, and is used to give a webpage structure.
 
 
 
 
-2. `<html>...</html>`: The root of the HTML document and parent of all other HTML elements on the webpage.
+* **css**: stands for _cascading style sheets_, and is used to style HTML elements.
+
+#### HTML ELEMENTS
+
+* _h1 - h6_: indicate text headings on a webpage. h1 is the largest heading; h6 is the smallest.
+
+  ```
+  <h1>Heading</h1>
+  ```
+
+* _p_: used for non-heading text, such as the bodies of articles or company descriptions.
+
+  ```
+  <p>Description of company here.</p>
+  ```
+
+* _a_: short for anchor and used to add links to other webpages. Anchor elements typically have an href attribute:
+
+  ```
+  <a href="http://codecademy.com">Click here</a> to learn how to make a website!
+  ```
+
+* _img_: used to add an image to a webpage. Image elements are _self-closing_ and do not require a closing tag:
+
+  ```
+  <img src="https://images.com/favorite.png">
+  ```
+
+* _video_: used to add videos to a webpage, and uses multiple attributes and a nested source element:
+
+  ```
+  <video width="320" height="240" controls>
+    <source src="https://movies.io/great-clip.mp4" type="video/mp4">
+  </video>
+  ```
+
+* _unordered list_: used to create lists on a webpage and requires li elements inside a ul:
+
+  ```
+  <ul>
+    <li>list item</li>
+    <li>another item</li>
+    <li>yet another</li>
+  </ul>
+  ```
+
+* _div_: used to organize HTML elements into different groups, which can be given a class attribute:
+
+  ```
+  <div class="main">
+    <h2>Subheading!</h2>
+  </div>
+  ```
+
+* _metadata tags_: provide metadata about a webpage.
 
 
+#### WEB CONCEPTS
 
+* **parent\/child elements**: used to describe HTML elements that enclose or are enclosed by other elements. For example, below the ul is the parent and the li items are children:
 
+  ```
+  <ul>
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
+  </ul>
+  ```
 
-3. `<head>...</head>`: Enclose other metadata about the site, such as its title.
-
-
-
-
-
-4. `<title>...</title>`: Contains the site's title, which is one way users can find your site through a search engine, like Google.
-
-
-
-
-
-5. `<meta charset="utf-8"/>`: Tells the web browser which character set to use. In this case, the character set is "utf-8".
+  Click Up Next to start learning about CSS!
 
 

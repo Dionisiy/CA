@@ -36,13 +36,9 @@ Anchor elements use an _attribute_ to link users to websites. Attributes customi
 
 1. valid URL can be used for the value of the`href` attribute.
 
+1. The URL must be enclosed with quotation marks.
 
+1. Text between the `<a>` and `</a>` tags can be as few or as many words as you would like.
 
-
-2. The URL must be enclosed with quotation marks.
-
-
-
-
-3. Text between the `<a>` and `</a>` tags can be as few or as many words as you would like.
+To add images to a webpage, use the HTML _image_element:
 

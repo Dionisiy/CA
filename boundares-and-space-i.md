@@ -74,3 +74,13 @@ In the diagram, notice:
 3. HTML image and anchor elements are displayed inline: they appear on the same line as their neighboring elements on the webpage.
 
 
+Display types can be overwritten in CSS by using the_display_ property.
+
+For example, we can make list items appear on the same line by setting display to `inline`:
+
+```
+li {
+  display: inline;
+}
+```
+

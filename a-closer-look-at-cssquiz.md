@@ -62,7 +62,7 @@ font-family: 'Roboto', sans-serif;
 
 **Answer**: h1. CSS selectors can be HTML elements, such as h1, classes or ids. More advanced selectors also exist.
 
-In the following CSS, name the type of selector used:
+- In the following CSS, name the type of selector used:
 
 ```
 \#contact-us {

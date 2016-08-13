@@ -137,5 +137,11 @@
     * [Boundares and Space](boundares-and-space.md)
         * Boundares and Space I
         * Boundares and Space:Quiz
-    * Building with Bootstrap
+        * Amazing Space
+        * Resource C
+    * [Building with Bootstrap](building-with-bootstrap.md)
+        * Building with Bootstrap I
+        * Building with Bootstrap:Quiz
+        * Codebrainery.io
+        * Resource D
 

@@ -234,8 +234,6 @@ a ~ h1 {
 /* Selects all h1 elements that are in the general vicinity of an anchor */
 ```
 
-
-
 ## **Universal selector**
 
 The universal selector \(\*\) may be used to select all the elements in a particular range. Be aware that the universal selector is the most performance taxing selector, and should be used sparingly.
@@ -257,5 +255,28 @@ The universal selector \(\*\) may be used to select all the elements in a partic
 body * {
   color: red;
 }
+```
+
+
+
+## **Pseudo class selectors**
+
+Pseudo Selectors can be used to narrow down a selection with certain rules.
+
+**Example**
+
+```
+li:first-child {
+  color: red;
+}
+
+/* 
+    This selects only <li> elements that have no elements before them
+    <ul>
+      <li>Selected; will be red</li>
+      <li>Not selected</li>
+      <li>Not selected</li>
+    </ul>
+*/
 ```
 

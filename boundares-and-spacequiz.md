@@ -10,11 +10,11 @@
 
 - Which CSS property controls the inner space between an HTML element's content and its border?
 
-Answer: padding. The CSS padding property controls the space between the content and the border of an HTML element.
+**Answer**: padding. The CSS padding property controls the space between the content and the border of an HTML element.
 
-Which CSS property is like a picture frame which contains an HTML element?
+- Which CSS property is like a picture frame which contains an HTML element?
 
-Answer: border. The CSS border property marks the boundary of an HTML element.
+**Answer**: `border`. The CSS border property marks the boundary of an HTML element.
 
 Which CSS property controls the space between an HTML element and the next nearest element\(s\)?
 

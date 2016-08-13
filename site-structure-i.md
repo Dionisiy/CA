@@ -45,9 +45,36 @@ To add images to a webpage, use the HTML \_image\_element:
 
 &lt;img src="https:\/\/s3.amazonaws.com\/codecademy-content\/projects\/make-a-website\/lesson-1\/bikes1.jpg"\/&gt;
 
-
-
 Just like websites have URLs, images on the web also have URLs. Image URLs typically end with the .jpg or .png file extension. The `src` attribute sets the_source_ for an image element.
 
 Image elements are _self-closing_, which means they do not need a closing tag.
+
+
+
+The HTML _video_ element can add video to a webpage.
+
+
+
+The video element uses a number of attributes. Let's take a look at them:
+
+1. `width` and `height`: Set the size of the screen that displays the video.
+
+
+
+
+
+2. `controls`: Adds play, pause and volume control.
+
+
+
+
+
+3. `source src`: Sets the URL of the video to play.
+
+
+
+
+
+4. `type`: Specifies different video formats.
+
 

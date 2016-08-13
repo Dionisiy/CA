@@ -104,8 +104,6 @@ An element that is an immediate descendent of another element or nested within a
 
 HTML comments are sometimes used in code to explain parts of the markup. They are similar to comments in other languages. Users do not see comments in their browser.
 
-
-
 **Syntax**
 
 ```
@@ -161,11 +159,96 @@ This text is divided
 ...from this text!
 ```
 
-
-
 # HTML
 
 ## **What is HTML?**
 
 HTML stands for Hyper Text Markup Language. It is the language used to create all websites.
+
+
+
+## `<html>`** tag**
+
+All HTML files live within an over-arching html tag. This is the basic tag that defines an html document.
+
+**Syntax**
+
+```
+<html>
+  The rest of your web page goes in here!
+</html>
+```
+
+
+
+# Hyperlinks
+
+Hyperlinks \(or just links\) take the user to another webpage when they click on it. The most common attribute used with links is href, which tells the browser where the link goes.
+
+**Syntax**
+
+```
+<a href="url this link goes to">Link text</a>
+
+```
+
+**Example**
+
+```
+The following text is <a href="http://google.com">goes to Google</a>.
+
+```
+
+# Images
+
+The img tag embeds an image into your HTML. Always found with the 'src' attribute, which tells the browser where to find the image. Note that the `<img/>` tag is self-closing.
+
+**Syntax**
+
+```
+<img src='mylocalimage.jpg'/>
+
+```
+
+# Line breaks
+
+This tag is used in a block of text to force a line break. This is to be used for things which are a single paragraph, but where this formatting is necessary such as poems or addresses. To separate paragraphs, separate each paragraph into a separate element instead. The resulting element on a web page will look like:
+
+**Example**
+
+```
+<p> Some text <br/> that spans two lines </p>
+
+```
+
+# Links
+
+Link elements are used to connect your document to a related resource \(very different from hyperlinks, which take you to another webpage when you click on them\). Links appear only in the head section of a document so they do not alter the content, but only the presentation. Links are most commonly used to connect to a stylesheet, script, favicon, or alternate format of the page such as an RSS feed or PDF.
+
+**Exampl**
+
+```
+<link type="text/css" rel="stylesheet" href="styles.css" />
+
+```
+
+# Lists
+
+HTML supports two kinds of lists: ordered lists and unordered lists. Within lists each individual list item has its own tag.
+
+## **Unordered Lists**
+
+Unordered lists are just lists whose items are denoted with bullet points.
+
+**Example**
+
+```
+Shopping list
+
+<ul>
+  <li>Dish soap</li>
+  <li>Kitty litter</li>
+  <li>Tomato sauce</li>
+</ul>
+```
 

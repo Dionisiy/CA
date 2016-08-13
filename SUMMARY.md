@@ -127,7 +127,8 @@
     * Site Structure
         * [Site Structure I](site-structure-i.md)
         * [Site Structure:quiz](site-structurequiz.md)
-        * Resources A
+        * [Resources A](resources-a.md)
+            * HTML Features
         * Common Cents Party
     * [A Closer Look at CSS](a-closer-look-at-css.md)
         * A Closer Look at CSS I

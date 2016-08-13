@@ -2,18 +2,17 @@
 
 * Bootstrap is
 
-
 **Answer**: A set of prewritten CSS rules designed to help you build webpages faster
 
-- A webpage with a responsive layout
+* A webpage with a responsive layout
 
 **Answer**: All of these. Bootstrap creates CSS layouts that are responsive, meaning the layouts are maintained on different device screen sizes or page elements are rearranged automatically to fit different screen sizes.
 
-- What is a jumbotron?
+* What is a jumbotron?
 
 **Answer**: Large showcase section featuring important content
 
-- Which bootstrap class could fill in the blank to create a row?
+* Which bootstrap class could fill in the blank to create a row?
 
 ```
 <div class=" ">
@@ -39,49 +38,34 @@ Which choice describes the following Bootstrap implementation?
 
 **Answer**: The h1 spans four grid columns and the nav spans eight columns. The Bootstrap class col-sm-4 spans four columns, while the class col-sm-8 spans eight columns.
 
-- Which class is used to span 4 columns on Bootstrap's grid?
+* Which class is used to span 4 columns on Bootstrap's grid?
 
 **Answer**: `col-sm-4` The Bootstrap `col-sm-4` class spans four columns on the grid.
 
-- Which is needed in order to use Bootstrap classes on HTML elements?
+* Which is needed in order to use Bootstrap classes on HTML elements?
 
 **Answer**: An HTML link element with an href attribute set to the Bootstrap URL. In order for Bootstrap to work, the HTML link element must be used, and the URL where Bootstrap is located must be specified with the href attribute.
 
-- In the following code, how many images will display per row on tablet-sized devices and larger?
+* In the following code, how many images will display per row on tablet-sized devices and larger?
 
 ```
-<div class="row">;
 
-<div class="col-sm-6">
-
-<img src="image-1.png"\>
-
-&lt;\/div&gt;
-
-&lt;div class="col-sm-6"&gt;
-
-&lt;img src="image-2.png"\/&gt;
-
-&lt;\/div&gt;
-
-&lt;\/div&gt;
-
-&lt;div class="row"&gt;
-
-&lt;div class="col-sm-6"&gt;
-
-&lt;img src="image-3.png"\/&gt;
-
-&lt;\/div&gt;
-
-&lt;div class="col-sm-6"&gt;
-
-&lt;img src="image-4.png"\/&gt;
-
-&lt;\/div&gt;
-
-&lt;\/div&gt;
-
+<div class="row">
+   <div class="col-sm-6">
+      <img src="image-1.png"/>
+   </div>
+   <div class="col-sm-6">
+      <img src="image-2.png"/>
+   </div>
+</div>
+<div class="row">
+   <div class="col-sm-6">
+      <img src="image-3.png"/>
+   </div>
+   <div class="col-sm-6">
+      <img src="image-4.png"/>
+   </div>
+</div>
 ```
 
 Answer: Two images per row

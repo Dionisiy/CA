@@ -116,3 +116,31 @@ First, a footer element with Bootstrap's `container`class is used:
 </footer>
 ```
 
+
+
+
+
+## Review
+
+
+
+#### WEB CONCEPTS
+
+* _CSS Framework_: Set of prewritten CSS rules designed to help you build webpages faster.
+
+* _Bootstrap Grid_: 12 equal-sized columns which can be utilized via Bootstrap classes to build responsive page layouts quickly and reliably.
+
+
+#### BOOTSTRAP CLASSES
+
+* _row_: Arranges HTML elements in rows, and can be useful when building headers\/navigation menus, main feature sections, supporting content sections and footers.
+
+* _jumbotron_: Used to create large showcase sections featuring important content.
+
+* _col-sm-\*_: Used to span a specified number of columns on the Bootstrap grid. The "sm" is short for "small", and maintains desired CSS layouts on small screens \(tablet-sized\).
+
+* _text-right_: Bootstrap class used to orient text to the right side of the webpage.
+
+* _btn btn-primary_: Bootstrap class used to style page elements as buttons.
+
+

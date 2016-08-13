@@ -50,7 +50,7 @@
 
 **Answer**: To link to an external stylesheet called style.css. The link element makes CSS stylesheets available to an HTML file. The href attribute specifies the stylesheet. In this case, it is style.css.
 
-In the following CSS, which is the selector?
+- In the following CSS, which is the selector?
 
 h1 {
 

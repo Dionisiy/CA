@@ -188,3 +188,17 @@ input[required] {
 }
 ```
 
+## **Child selectors**
+
+You can also use multiple selectors to get the exact elements you want, by using parental nesting. By using the "greater-than" symbol \(&gt;\), you can select only the direct children of an element, going down only one level.
+
+**Example**
+
+```
+ul > li {
+  display: inline-block
+}
+
+/* Selects only the first-level list items in all unordered lists in the HTML */
+```
+

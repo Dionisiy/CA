@@ -26,7 +26,7 @@ The HTML _paragraph_ element, `p`, is used to hold one or more sentences, just l
 <p>Paragraph text here</p>
 ```
 
-
-
 What if you wanted to link users to a different webpage? The HTML _anchor_ element makes it possible to do this with a single click.
+
+`<a href="http://google.com"> Click here for Google!</a>`
 

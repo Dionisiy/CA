@@ -37,11 +37,11 @@ Which choice describes the following Bootstrap implementation?
 
 &lt;\/nav&gt;
 
-Answer: The h1 spans four grid columns and the nav spans eight columns. The Bootstrap class col-sm-4 spans four columns, while the class col-sm-8 spans eight columns.
+**Answer**: The h1 spans four grid columns and the nav spans eight columns. The Bootstrap class col-sm-4 spans four columns, while the class col-sm-8 spans eight columns.
 
-Which class is used to span 4 columns on Bootstrap's grid?
+- Which class is used to span 4 columns on Bootstrap's grid?
 
-Answer: col-sm-4 The Bootstrap col-sm-4 class spans four columns on the grid.
+**Answer**: col-sm-4 The Bootstrap col-sm-4 class spans four columns on the grid.
 
 Which is needed in order to use Bootstrap classes on HTML elements?
 

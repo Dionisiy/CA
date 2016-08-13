@@ -87,8 +87,6 @@ About unordered lists:
 
 Unordered list elements can be used to organize content on a webpage in a number of ways. Below we will use one to organize our website's navigation menu, sometimes called a _navbar_.
 
-
-
 With the video and unordered list elements, you may have noticed something interesting: these HTML elements had other HTML elements _nested_ inside of them.
 
 For example, in unordered lists, `li` elements are nested inside the `ul`.
@@ -100,5 +98,7 @@ For example, in unordered lists, `li` elements are nested inside the `ul`.
 </ul>
 ```
 
-Web developers refer to the enclosing element as the _parent_ element and the enclosed elements as_children_.
+Web developers refer to the enclosing element as the _parent_ element and the enclosed elements as _children_.
+
+Referring to HTML elements as parents and children may sound funny, but it's a core web development concept. The web browser also knows about these parent\/child relationships, which will be important as we explore CSS in the next lesson.
 

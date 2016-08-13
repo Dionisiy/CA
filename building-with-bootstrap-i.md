@@ -102,6 +102,8 @@ Next, div elements with the `row` class are added and finally, the rows are divi
 
 Above, two rows are divided into two equal parts. Each part takes up 6 of bootstrap's 12 columns. Using the `col-sm-6` class ensures that this layout will appear when the user's screen is the width of a tablet device\(768 pixels\). On narrower screens, such as an iPhone, only one image per row will appear.
 
+### Footer
+
 Footers display copyright information, social media links and sometimes site navigation.
 
 Below is one possible implementation for a footer section using Bootstrap:

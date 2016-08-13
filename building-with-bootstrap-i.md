@@ -77,9 +77,30 @@ First, an HTML section element with the `container`class is used:
 </section>
 ```
 
-
-
-
-
 Next, div elements with the `row` class are added and finally, the rows are divided by using divs with Bootstrap's `col-sm-...` class.
+
+```
+<section class="container">
+  <div class="row">
+    <div class="col-sm-6">
+     ...
+    </div>
+    <div class="col-sm-6">
+     ...
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+     ...
+    </div>
+    <div class="col-sm-6">
+     ...
+    </div>
+  </div>
+</section>
+```
+
+
+
+
 

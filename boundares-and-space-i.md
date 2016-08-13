@@ -63,7 +63,14 @@ Not all HTML elements are displayed on a page in the same way. _Display types_ d
 
 The diagram to the right illustrates the _block_ and_inline_ display types.
 
-
-
 ![](/jquery/blocks.png)
+
+In the diagram, notice:
+
+1. The two dotted rectangles represent webpages.
+
+2. HTML heading, paragraph, and unordered list elements are block level: each appears on its own line on the webpage.
+
+3. HTML image and anchor elements are displayed inline: they appear on the same line as their neighboring elements on the webpage.
+
 

@@ -16,11 +16,11 @@
 
 In the following CSS, which are the fallback fonts?
 
-h1 {
+`h1 {`
 
-font-family: "Arial Black", Gadget, sans-serif;
+`font-family: "Arial Black", Gadget, sans-serif;`
 
-}
+`}`
 
 Answer: Gadget and sans-serif. In CSS, fallback fonts appear after the chosen font. Each fallback is comma-separated.
 

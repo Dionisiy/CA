@@ -4,30 +4,13 @@ An important part of styling a webpage with CSS is organizing boundaries and spa
 
 Every page element has boundary and space properties that can be controlled using CSS.
 
-
-
- 
-
 1. _content_: Includes text, images, or other media contained within an HTML element.
 
+1. _padding_: The space between the content and the border. You can think of this like inner space.
+
+1. _border_: The outline of an HTML page element. You can think of it like a picture frame that contains the element.
+
+1. _margin_: The space between the HTML page element and the next nearest element\(s\).
 
 
-
-
-2. _padding_: The space between the content and the border. You can think of this like inner space.
-
-
-
-
-
-3. _border_: The outline of an HTML page element. You can think of it like a picture frame that contains the element.
-
-
-
-
-
-4. _margin_: The space between the HTML page element and the next nearest element\(s\).
-
-
-![](/jquery/box-model.svg)![](/jquery/box-model.svg)
 

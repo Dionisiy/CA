@@ -59,5 +59,28 @@ To control the size of the chosen background image, use the property _background
 
 
 
+### Review
 
+
+
+#### WEB CONCEPTS
+
+* _CSS_: Language used to style websites. Colors, fonts, and page layouts for a site are managed using CSS.
+
+* _CSS Selectors_: specifies exactly which HTML elements to style
+
+  * _class selectors_: used to target classes of HTML elements
+
+  * _id selectors_: used to style an HTML element which has an id attribute.
+
+
+* _External Stylesheet_: CSS file that styles an HTML file externally via the HTML `link`element.
+
+
+#### CSS PROPERTIES
+
+* _font-family_: sets font for a CSS selector.
+* _color_: sets font color for the CSS selector.
+* _font-size_: sets font size for text.
+* _background-image_: sets a background image of your choosing for a given selector.
 

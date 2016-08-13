@@ -14,7 +14,7 @@
 
 **Answer**: hexadecimal \(HEX\) color. In CSS, HEX color values begin with a "\#" followed by a hexadecimal number that represents a mixture of red, green and blue.
 
-- In the following CSS, which are the fallback fonts?
+* In the following CSS, which are the fallback fonts?
 
 `h1 {`
 
@@ -32,7 +32,7 @@
 
 `}`
 
-Answer: class selector. Class selectors are specified in CSS with a prepending period. For example, ".nav".
+**Answer**: class selector. Class selectors are specified in CSS with a prepending period. For example, ".nav".
 
 What does the following CSS accomplish?
 

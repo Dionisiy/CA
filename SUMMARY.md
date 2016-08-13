@@ -132,7 +132,7 @@
             * [HTML Glossary](html-glossary.md)
         * Common Cents Party
     * [A Closer Look at CSS](a-closer-look-at-css.md)
-        * A Closer Look at CSS I
+        * [A Closer Look at CSS I](a-closer-look-at-css-i.md)
         * A Closer Look at CSS:Quiz
         * Cupful Cafe
         * Resource B

@@ -139,7 +139,7 @@
             * [CSS Glossary](css-glossary.md)
             * [CSS Features](css-features.md)
     * [Boundares and Space](boundares-and-space.md)
-        * Boundares and Space I
+        * [Boundares and Space I](boundares-and-space-i.md)
         * Boundares and Space:Quiz
         * Amazing Space
         * Resource C

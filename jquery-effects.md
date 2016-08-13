@@ -10,6 +10,10 @@ Where the bit between curly braces says "hey, jQuery! Add 10 pixels to the curre
 
 ### **Introducing: jQuery UI**
 
+
+
+Developers have extended jQuery's functionality by building new libraries on top of it. One of these libraries is called[jQuery UI](https://jqueryui.com/). With jQuery UI, you can quickly add other common interactive components to a web page instead of writing it yourself, like [datepickers](https://jqueryui.com/datepicker/), [sliders](http://jqueryui.com/slider/), and [accordions](https://jqueryui.com/accordion/)..
+
 jQuery UI includes a number of ultra-fancy animations you can use to make your websites do incredible things.
 
 ### **.bounce\(\)**
@@ -24,8 +28,6 @@ $('div').effect('bounce', {times:2}, 200);
 
 The `.effect()` effect has all kinds of magical goodness in it, but it's not the most amazing thing jQuery UI can do. The library has a number of built-in effects that can make your website look sleek and professional with surprisingly little code.
 
-
-
 ### **.draggable\(\)**
 
 jQuery UI includes a `.draggable()`function that can make any HTML element draggable—you can click on it and move it anywhere on the page!
@@ -35,6 +37,4 @@ jQuery UI includes a `.draggable()`function that can make any HTML element dragg
 Images and `<div>`s aren't the only elements we can target with jQuery UI—we can also enhance our ordered and unordered lists.
 
 Check out the HTML in `index.html`. We've set up a pretty nifty ordered list, but when it shows up in the Result tab, it's a little bland. With jQuery UI, we can fix that!
-
-
 

@@ -84,7 +84,7 @@ color: red;
 }
 ```
 
-Answer: color is the property and red is the value. CSS properties and values are separated by a colon, and are located inside the curly brackets. Values end with a semi-colon.
+**Answer**: color is the property and red is the value. CSS properties and values are separated by a colon, and are located inside the curly brackets. Values end with a semi-colon.
 
 Which of the following options will increase the size of paragraph elements to 24 pixels?
 

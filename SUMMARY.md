@@ -125,7 +125,17 @@
             * [jQuery Effects Libruary](jquery-effects-libruary.md)
 * [Make a Website](make-a-website.md)
     * Site Structure
-    * A Closer Look at CSS
-    * Boundares and Space
+        * Site Structure I
+        * Site Structure:quiz
+        * Resources A
+        * Common Cents Party
+    * [A Closer Look at CSS](a-closer-look-at-css.md)
+        * A Closer Look at CSS I
+        * A Closer Look at CSS:Quiz
+        * Cupful Cafe
+        * Resource B
+    * [Boundares and Space](boundares-and-space.md)
+        * Boundares and Space I
+        * Boundares and Space:Quiz
     * Building with Bootstrap
 

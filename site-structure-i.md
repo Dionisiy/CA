@@ -82,10 +82,7 @@ About unordered lists:
 
 1. `ul` tags create the unordered list.
 
+1. `li` tags contain each list item.
 
-
-
-
-2. `li` tags contain each list item.
-
+Unordered list elements can be used to organize content on a webpage in a number of ways. Below we will use one to organize our website's navigation menu, sometimes called a _navbar_.
 

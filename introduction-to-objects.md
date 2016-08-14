@@ -53,11 +53,12 @@ Functions are defined using the`function` keyword followed by:
 
 In the last section, we discussed properties. We can think of properties as variables associated with an object. Similarly, a **method** is just like a_function_ associated with an object.
 
-
-
-**Why Are Methods Important?**
+### **Why Are Methods Important?**
 
 Methods serve several important purposes when it comes to objects.
 
-1. They can be used to change object property values.
+* They can be used to change object property values.
+
+* They can be used to make calculations based on object properties. Functions can only use parameters as an input, but methods can make calculations with object properties. 
+
 

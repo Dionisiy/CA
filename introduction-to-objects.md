@@ -16,13 +16,11 @@ An array is exactly the same as a variable in that it stores data. The differenc
 
 To access arrays, we use bracket notation and remember that arrays use 0-based indexing \(i.e., the first value in an array is at position 0\).
 
-
-
-
-
 data type: **objects**. This data type is a little bit more complex. Objects allow us to represent in code real world things and entities \(such as a person or bank account\). We do this by storing all relevant information in one place—an object.
 
 
 
-Let's review what we previously covered. Each piece of information we include in an object is known as a**property**. Think of a property like a**category label** that belongs to some object. When creating an object, each property has a name, followed by `:`and then the **value** of that property. 
+### Property
+
+Let's review what we previously covered. Each piece of information we include in an object is known as a **property**. Think of a property like a**category label** that belongs to some object. When creating an object, each property has a name, followed by `:`and then the **value** of that property.
 

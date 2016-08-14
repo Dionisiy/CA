@@ -36,11 +36,13 @@ age: 19..
 
 ```var myObj = new Object\(\);```
 
-Answer: myObj\[“name”\] = “Simon”;
+**Answer**:``` myObj\[“name”\] = “Simon”;```
 
-Which of the following is the name for the type of object below?
 
-var myObject = {
+- Which of the following is the name for the type of object below?
+
+
+```var myObject = {
 
 key: value,
 
@@ -49,7 +51,7 @@ key: value,
 key: value
 
 };
-
+```
 Answer: Object Literal Notation
 
 Which of the following best describes a multidimensional array?

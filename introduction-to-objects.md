@@ -43,8 +43,6 @@ We then have to fill this object with properties and labels.
 
 Methods are an important part of object oriented programming \(OOP\). OOP is an important part of programming which we'll dive into later.
 
-
-
 Methods are similar to functions. To prepare for methods, let's do a quick refresher on functions.
 
 Functions are defined using the`function` keyword followed by:
@@ -52,4 +50,14 @@ Functions are defined using the`function` keyword followed by:
 1. A pair of parentheses `( )` with optional parameters inside.
 2. A pair of curly braces with the function's code inside `{ }`.
 3. A semicolon `;`.
+
+In the last section, we discussed properties. We can think of properties as variables associated with an object. Similarly, a **method** is just like a_function_ associated with an object.
+
+
+
+**Why Are Methods Important?**
+
+Methods serve several important purposes when it comes to objects.
+
+1. They can be used to change object property values.
 

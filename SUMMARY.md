@@ -91,6 +91,9 @@
         * Contact List
         * [Data Structures:Quiz](data-structuresquiz.md)
     * Objects I
+        * Introduction to Objects
+        * Building an Address Book
+        * Objects I:Quiz
     * Objects II
     * Data Structures
 * [jQuery](jquery.md)

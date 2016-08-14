@@ -6,10 +6,6 @@ arrays have a property in common with strings: they can both use `.length`. When
 
 By combining all these ideas with a`for` loop, you can iterate over the`languages` array and print out each element in turn!
 
-
-
-
-
 ### **Heterogeneous arrays**
 
 Now that we've reviewed some array basics, it's time to cover a little new ground.
@@ -28,6 +24,29 @@ You can have a **heterogeneous array**, which means a mixture of data types, lik
 var mix = [42, true, "towel"];
 
 ```
+
+
+
+### **Arrays of arrays**
+
+
+
+ You can make a **two-dimensional array** by nesting arrays one layer deep, like so:
+
+```
+var twoDimensional = [[1, 1], [1, 1]];
+
+```
+
+This array is two-dimensional because it has two rows that each contain two items. If you were to put a new line between the two rows, you could log a 2D object—a square—to the console, like so:
+
+```
+[1, 1]
+[1, 1]
+
+```
+
+
 
 
 

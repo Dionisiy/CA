@@ -56,8 +56,6 @@ Using **object**s, we can put our information and the functions that use that in
 
 You can also think of objects as combinations of key-value pairs \(like arrays\), only their keys don't have to be numbers like 0, 1, or 2: they can be strings and variables.
 
-
-
 Objects are just collections of information \(keys and values\) between curly braces, like this:
 
 ```
@@ -67,4 +65,12 @@ var myObject = {
     key: value
 };
 ```
+
+
+
+
+
+### **Creating a new object**
+
+There are two ways to create an object: using **object literal notation**\(which is what you just did\) and using the **object constructor**.
 

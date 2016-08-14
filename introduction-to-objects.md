@@ -59,6 +59,8 @@ Methods serve several important purposes when it comes to objects.
 
 * They can be used to change object property values.
 
-* They can be used to make calculations based on object properties. Functions can only use parameters as an input, but methods can make calculations with object properties. 
+* They can be used to make calculations based on object properties. Functions can only use parameters as an input, but methods can make calculations with object properties.
 
+
+### **The "this" Keyword**
 

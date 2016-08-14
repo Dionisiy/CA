@@ -137,8 +137,6 @@ family[3] = new Person("timmy", 6);
 
 In addition to making arrays of Objects, we can use objects as parameters for functions as well. That way, these functions can take advantage of the methods and properties that a certain object type provides.
 
-
-
 **What Are Objects For?**
 
 Objects provide us with a way to represent real-world or virtual things. We can do this by storing information inside the object's properties. There are two basic ways to make objects:
@@ -152,5 +150,12 @@ var Name = { };
 
 **Constructor Notation**, where we use the keyword `new`.
 
+
+
+###  **Properties**
+
+Properties are like variables that belong to an object, and are used to hold pieces of information. Properties can be accessed in two ways:
+
+* **Dot notation**, with`ObjectName.PropertyName`
 
 

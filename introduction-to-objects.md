@@ -64,3 +64,7 @@ Methods serve several important purposes when it comes to objects.
 
 ### **The "this" Keyword**
 
+
+
+The keyword `this` acts as a placeholder, and will **refer to whichever object called that method** when the method is actually used.
+

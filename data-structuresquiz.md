@@ -42,7 +42,8 @@ age: 19..
 - Which of the following is the name for the type of object below?
 
 
-```var myObject = {
+```
+var myObject = {
 
 key: value,
 
@@ -51,8 +52,10 @@ key: value,
 key: value
 
 };
+
 ```
-Answer: Object Literal Notation
+
+**Answer**: Object Literal Notation
 
 Which of the following best describes a multidimensional array?
 

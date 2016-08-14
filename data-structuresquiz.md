@@ -3,11 +3,11 @@
 
 **Answer**:` var list = [2, 3, 2];`
 
-Which of the following correctly creates an empty object?
+- Which of the following correctly creates an empty object?
 
-Answer: var emptyObj = {};
+**Answer**: var emptyObj = {};
 
-From the object below, which of the following is a key?
+- From the object below, which of the following is a key?
 
 ```
 var me = {

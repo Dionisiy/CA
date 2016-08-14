@@ -18,9 +18,9 @@ age: 19..
 
 }
 ```
-Answer: age
+**Answer**: age
 
-Which of the following is the correct syntax for returning the number of elements in an array?
+- Which of the following is the correct syntax for returning the number of elements in an array?
 
 var array = \[3, 4, “hey”, false, 9\];
 

@@ -114,11 +114,7 @@ For more complicated objects we can make our own constructors and put in whateve
 
 ### **Arrays of Objects**
 
-
-
 Remember that an object is just another _type_, like a string or number but more complex. This means that just as we can make arrays of numbers and strings, we can also make arrays of objects.
-
-
 
 ```
 // Our person constructor
@@ -136,4 +132,10 @@ family[2] = new Person("michelle", 8);
 family[3] = new Person("timmy", 6);
 
 ```
+
+### **Passing Objects into Functions**
+
+In addition to making arrays of Objects, we can use objects as parameters for functions as well. That way, these functions can take advantage of the methods and properties that a certain object type provides.
+
+
 

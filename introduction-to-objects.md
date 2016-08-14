@@ -108,11 +108,15 @@ var area = rex.calcArea();
 var perimeter = rex.calcPerimeter();
 ```
 
-
-
-
-
 Constructors are a way to make objects with the keyword `new`. The most basic constructor is the `Object`constructor, which will make an object with no methods or properties.
 
 For more complicated objects we can make our own constructors and put in whatever properties and methods we want.
+
+
+
+
+
+Remember that an object is just another _type_, like a string or number but more complex. This means that just as we can make arrays of numbers and strings, we can also make arrays of objects.
+
+
 

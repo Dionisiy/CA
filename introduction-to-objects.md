@@ -80,13 +80,33 @@ But this approach of adding in properties one at a time for every object is tedi
 
 This way we can set the properties for an object right when it is created. So instead of using the `Object`constructor which is empty and has no properties, _we can make our own constructors which have properties_.
 
+To see how this works, look at our`Person` constructor in [lines 1](javascript:void(0)\)–4. This constructor is used to make `Person`objects. Notice it uses the keyword`this` to define the `name` and `age`properties and set them equal to the parameters given.
+
+Now we can use this constructor to make our good friends `bob` and `susan`in only one line each! Look at [lines 7](javascript:void(0)\)–8: once we have the constructor, it's way easier to make people because we can include their `name` and `age` as arguments to their respective constructors.
 
 
 
+### **Constructors With Methods**
 
-To see how this works, look at our`Person` constructor in [lines 1](javascript:void(0))–4. This constructor is used to make `Person`objects. Notice it uses the keyword`this` to define the `name` and `age`properties and set them equal to the parameters given.
+In addition to setting properties, constructors can also define methods. This way, as soon as the object is created it will have its own methods as well.
 
-Now we can use this constructor to make our good friends `bob` and `susan`in only one line each! Look at [lines 7](javascript:void(0))–8: once we have the constructor, it's way easier to make people because we can include their `name` and `age` as arguments to their respective constructors.
+Here we have a `Rectangle` constructor, which sets the `height` and `width`properties equal to the arguments, just like our `Person` did with `name` and`age`.
 
+```
+function Rectangle(height, width) {
+  this.height = height;
+  this.width = width;
+  this.calcArea = function() {
+      return this.height * this.width;
+  };
+  // put our perimeter function here!
+ this.calcPerimeter = function(){
+     return (this.height+this.width)*2 ;
+     }
+}
 
+var rex = new Rectangle(7,3);
+var area = rex.calcArea();
+var perimeter = rex.calcPerimeter();
+```
 

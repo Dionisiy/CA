@@ -25,13 +25,9 @@ var mix = [42, true, "towel"];
 
 ```
 
-
-
 ### **Arrays of arrays**
 
-
-
- You can make a **two-dimensional array** by nesting arrays one layer deep, like so:
+You can make a **two-dimensional array** by nesting arrays one layer deep, like so:
 
 ```
 var twoDimensional = [[1, 1], [1, 1]];
@@ -43,10 +39,6 @@ This array is two-dimensional because it has two rows that each contain two item
 ```
 [1, 1]
 [1, 1]
-
+var newArray= [[1,2,3], [true, false, "input"], ["first","second","third"]];
 ```
-
-
-
-
 

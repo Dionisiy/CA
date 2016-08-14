@@ -150,12 +150,19 @@ var Name = { };
 
 **Constructor Notation**, where we use the keyword `new`.
 
-
-
-###  **Properties**
+### **Properties**
 
 Properties are like variables that belong to an object, and are used to hold pieces of information. Properties can be accessed in two ways:
 
 * **Dot notation**, with`ObjectName.PropertyName`
 
+
+### **Customizing Constructors**
+
+
+
+In addition to the basic `Object`constructor, we can define our own custom constructors. These are helpful for two reasons:
+
+1. We can assign our objects properties through parameters we pass in when the object is created.
+2. We can give our objects methods automatically.
 

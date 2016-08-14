@@ -24,8 +24,6 @@ Let's review what we previously covered. Each piece of information we include in
 
 In addition to dot notation, we can also access properties using **bracket notation**. In this case we use`ObjectName["PropertyName"]` to access the desired property. Note, we need `" "`around the property's name.
 
-
-
 ### **Another Way to Create**
 
 The method we've used to create objects uses **object literal notation**—that is, creating a new object with `{ }`and defining properties within the brackets.
@@ -40,4 +38,10 @@ var objectName = new Object();
 ```
 
 We then have to fill this object with properties and labels.
+
+
+
+**Function Review**
+
+Methods are an important part of object oriented programming \(OOP\). OOP is an important part of programming which we'll dive into later.
 

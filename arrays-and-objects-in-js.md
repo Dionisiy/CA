@@ -46,9 +46,17 @@ var newArray= [[1,2,3], [true, false, "input"], ["first","second","third"]];
 
 Sometimes you want arrays that aren't as nice and even as your 3 x 3 two-dimensional array: you may have three elements in the first row, one element in the second row, and two elements in the third row. JavaScript allows those, and they're called **jagged arrays**.
 
-
-
 ```
 var jagged = [["one","two","three","four"],[1, 2, 3],[false]];
 ```
+
+
+
+
+
+### Objects
+
+Using **object**s, we can put our information and the functions that use that information _in the same place_.
+
+You can also think of objects as combinations of key-value pairs \(like arrays\), only their keys don't have to be numbers like 0, 1, or 2: they can be strings and variables.
 

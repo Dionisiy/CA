@@ -63,13 +63,15 @@ key: value
 
 - From the object below which of the following is a value?
 
+```
 var me = {
 
 name: "Simon",
 
-age: 19
+age: 19..
 
 }
+```
 
 Answer: “Simon”
 

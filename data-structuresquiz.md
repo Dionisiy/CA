@@ -1,6 +1,7 @@
-Which of the following is the correct syntax for creating an array?
+* Which of the following is the correct syntax for creating an array?
 
-Answer: var list = \[2, 3, 2\];
+
+**Answer**:` var list = [2, 3, 2];`
 
 Which of the following correctly creates an empty object?
 
@@ -10,9 +11,9 @@ From the object below, which of the following is a key?
 
 var me = {
 
- name: "Simon",
+name: "Simon",
 
- age: 19
+age: 19
 
 }
 
@@ -40,11 +41,11 @@ Which of the following is the name for the type of object below?
 
 var myObject = {
 
- key: value,
+key: value,
 
- key: value,
+key: value,
 
- key: value
+key: value
 
 };
 
@@ -58,9 +59,9 @@ From the object below which of the following is a value?
 
 var me = {
 
- name: "Simon",
+name: "Simon",
 
- age: 19
+age: 19
 
 }
 

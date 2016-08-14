@@ -74,17 +74,19 @@ We mentioned the term **constructor**back in section one, when we talked about m
 
 This means we have to add our properties one at a time, just like we've been doing. To review, we've created `bob` using the constructor and defined the `name` property for you.
 
-
-
-
-
 ### **Custom Constructors**
-
-
 
 But this approach of adding in properties one at a time for every object is tedious! Instead of always using the boring `Object` constructor, we can make our own constructors.
 
 This way we can set the properties for an object right when it is created. So instead of using the `Object`constructor which is empty and has no properties, _we can make our own constructors which have properties_.
+
+
+
+
+
+To see how this works, look at our`Person` constructor in [lines 1](javascript:void(0))–4. This constructor is used to make `Person`objects. Notice it uses the keyword`this` to define the `name` and `age`properties and set them equal to the parameters given.
+
+Now we can use this constructor to make our good friends `bob` and `susan`in only one line each! Look at [lines 7](javascript:void(0))–8: once we have the constructor, it's way easier to make people because we can include their `name` and `age` as arguments to their respective constructors.
 
 
 

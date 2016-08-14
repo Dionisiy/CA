@@ -32,7 +32,7 @@ age: 19..
 
 **Answer**: a two-dimensional array
 
-Which of the following correctly adds a key to the object below?
+- Which of the following correctly adds a key to the object below?
 
 var myObj = new Object\(\);
 

@@ -84,8 +84,6 @@ To see how this works, look at our`Person` constructor in [lines 1](javascript:v
 
 Now we can use this constructor to make our good friends `bob` and `susan`in only one line each! Look at [lines 7](javascript:void(0)\)–8: once we have the constructor, it's way easier to make people because we can include their `name` and `age` as arguments to their respective constructors.
 
-
-
 ### **Constructors With Methods**
 
 In addition to setting properties, constructors can also define methods. This way, as soon as the object is created it will have its own methods as well.
@@ -109,4 +107,12 @@ var rex = new Rectangle(7,3);
 var area = rex.calcArea();
 var perimeter = rex.calcPerimeter();
 ```
+
+
+
+
+
+Constructors are a way to make objects with the keyword `new`. The most basic constructor is the `Object`constructor, which will make an object with no methods or properties.
+
+For more complicated objects we can make our own constructors and put in whatever properties and methods we want.
 

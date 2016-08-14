@@ -39,9 +39,17 @@ var objectName = new Object();
 
 We then have to fill this object with properties and labels.
 
-
-
 **Function Review**
 
 Methods are an important part of object oriented programming \(OOP\). OOP is an important part of programming which we'll dive into later.
+
+
+
+Methods are similar to functions. To prepare for methods, let's do a quick refresher on functions.
+
+Functions are defined using the`function` keyword followed by:
+
+1. A pair of parentheses `( )` with optional parameters inside.
+2. A pair of curly braces with the function's code inside `{ }`.
+3. A semicolon `;`.
 

@@ -34,7 +34,7 @@ age: 19..
 
 - Which of the following correctly adds a key to the object below?
 
-var myObj = new Object\(\);
+```var myObj = new Object\(\);```
 
 Answer: myObj\[“name”\] = “Simon”;
 

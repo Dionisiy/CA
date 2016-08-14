@@ -73,11 +73,11 @@ age: 19..
 }
 ```
 
-Answer: “Simon”
+**Answer**: “Simon”
 
-Which of the following will access “hi”, from the array below?
+- Which of the following will access “hi”, from the array below?
 
-var array = \[2, 3, “Hi”, false, “hi”, 3\];
+```var array = \[2, 3, “Hi”, false, “hi”, 3\];```
 
-Answer: array\[4\]
+**Answer**: `array\[4\]`
 

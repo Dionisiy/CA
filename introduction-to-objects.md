@@ -112,11 +112,28 @@ Constructors are a way to make objects with the keyword `new`. The most basic co
 
 For more complicated objects we can make our own constructors and put in whatever properties and methods we want.
 
-
+### **Arrays of Objects**
 
 
 
 Remember that an object is just another _type_, like a string or number but more complex. This means that just as we can make arrays of numbers and strings, we can also make arrays of objects.
 
 
+
+```
+// Our person constructor
+function Person (name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+// Now we can make an array of people
+var family = new Array();
+family[0] = new Person("alice", 40);
+family[1] = new Person("bob", 42);
+family[2] = new Person("michelle", 8);
+// add the last family member, "timmy", who is 6 years old
+family[3] = new Person("timmy", 6);
+
+```
 

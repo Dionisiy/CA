@@ -66,7 +66,13 @@ Methods serve several important purposes when it comes to objects.
 
 The keyword `this` acts as a placeholder, and will **refer to whichever object called that method** when the method is actually used.
 
-
-
 ### **More Kinds of Methods**
+
+
+
+### **The Object Constructor**
+
+We mentioned the term **constructor**back in section one, when we talked about making an object using the keyword `new`. A **constructor** is a way to create an object.
+
+This means we have to add our properties one at a time, just like we've been doing. To review, we've created `bob` using the constructor and defined the `name` property for you.
 

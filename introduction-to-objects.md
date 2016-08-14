@@ -22,3 +22,9 @@ data type: **objects**. This data type is a little bit more complex. Objects all
 
 Let's review what we previously covered. Each piece of information we include in an object is known as a **property**. Think of a property like a**category label** that belongs to some object. When creating an object, each property has a name, followed by `:`and then the **value** of that property.
 
+
+
+
+
+In addition to dot notation, we can also access properties using **bracket notation**. In this case we use`ObjectName["PropertyName"]` to access the desired property. Note, we need `" "`around the property's name.
+

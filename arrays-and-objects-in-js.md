@@ -42,3 +42,11 @@ This array is two-dimensional because it has two rows that each contain two item
 var newArray= [[1,2,3], [true, false, "input"], ["first","second","third"]];
 ```
 
+
+
+### **Jagged arrays**
+
+
+
+Sometimes you want arrays that aren't as nice and even as your 3 x 3 two-dimensional array: you may have three elements in the first row, one element in the second row, and two elements in the third row. JavaScript allows those, and they're called **jagged arrays**.
+

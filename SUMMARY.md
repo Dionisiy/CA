@@ -89,7 +89,7 @@
     * [Data Structures](data-structures.md)
         * [Arrays and Objects in JS](arrays-and-objects-in-js.md)
         * Contact List
-        * Data Structures:Quiz
+        * [Data Structures:Quiz](data-structuresquiz.md)
     * Objects I
     * Objects II
     * Data Structures

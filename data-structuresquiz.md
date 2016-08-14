@@ -26,11 +26,11 @@ age: 19..
 
 **Answer**: array.length
 
-Which of the following best describes the array below?
+- Which of the following best describes the array below?
 
-array = \[\[3, 2\], \[3,2\]\];
+```array = \[\[3, 2\], \[3,2\]\];```
 
-Answer: a two-dimensional array
+**Answer**: a two-dimensional array
 
 Which of the following correctly adds a key to the object below?
 

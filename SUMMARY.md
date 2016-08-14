@@ -87,7 +87,7 @@
         * [Resource V](resource-v.md)
             * Control flow and error handling
     * [Data Structures](data-structures.md)
-        * Arrays and Objects in JS
+        * [Arrays and Objects in JS](arrays-and-objects-in-js.md)
         * Contact List
         * Data Structures:Quiz
     * Objects I

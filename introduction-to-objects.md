@@ -22,9 +22,22 @@ data type: **objects**. This data type is a little bit more complex. Objects all
 
 Let's review what we previously covered. Each piece of information we include in an object is known as a **property**. Think of a property like a**category label** that belongs to some object. When creating an object, each property has a name, followed by `:`and then the **value** of that property.
 
-
-
-
-
 In addition to dot notation, we can also access properties using **bracket notation**. In this case we use`ObjectName["PropertyName"]` to access the desired property. Note, we need `" "`around the property's name.
+
+
+
+### **Another Way to Create**
+
+The method we've used to create objects uses **object literal notation**—that is, creating a new object with `{ }`and defining properties within the brackets.
+
+Another way of creating objects without using the curly brackets `{ }` is to use the keyword `new`. This is known as creating an object using a**constructor**.
+
+The `new` keyword creates an empty object when followed by `Object()`. The general syntax is:
+
+```
+var objectName = new Object();
+
+```
+
+We then have to fill this object with properties and labels.
 

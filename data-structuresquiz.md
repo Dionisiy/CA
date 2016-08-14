@@ -61,7 +61,7 @@ key: value
 
 **Answer**: An array that contains arrays in its elements
 
-From the object below which of the following is a value?
+- From the object below which of the following is a value?
 
 var me = {
 

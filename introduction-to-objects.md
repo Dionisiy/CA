@@ -163,6 +163,12 @@ In addition to the basic `Object`constructor, we can define our own custom const
 1. We can assign our objects properties through parameters we pass in when the object is created.
 2. We can give our objects methods automatically.
 
+### **Methods**
 
+**Methods** are like functions that are associated with a particular object.
 
+They are especially helpful when you want to either:
+
+1. Update the object properties
+2. Calculate something based on an object's properties.
 

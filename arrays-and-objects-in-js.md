@@ -50,13 +50,21 @@ Sometimes you want arrays that aren't as nice and even as your 3 x 3 two-dimensi
 var jagged = [["one","two","three","four"],[1, 2, 3],[false]];
 ```
 
-
-
-
-
 ### Objects
 
 Using **object**s, we can put our information and the functions that use that information _in the same place_.
 
 You can also think of objects as combinations of key-value pairs \(like arrays\), only their keys don't have to be numbers like 0, 1, or 2: they can be strings and variables.
+
+
+
+Objects are just collections of information \(keys and values\) between curly braces, like this:
+
+```
+var myObject = {
+    key: value,
+    key: value,
+    key: value
+};
+```
 

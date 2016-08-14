@@ -57,9 +57,9 @@ key: value
 
 **Answer**: Object Literal Notation
 
-Which of the following best describes a multidimensional array?
+- Which of the following best describes a multidimensional array?
 
-Answer: An array that contains arrays in its elements
+**Answer**: An array that contains arrays in its elements
 
 From the object below which of the following is a value?
 

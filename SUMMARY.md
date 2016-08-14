@@ -86,9 +86,13 @@
         * [Control Flow:Quiz](control-flowquiz.md)
         * [Resource V](resource-v.md)
             * Control flow and error handling
-    * Data Structures
+    * [Data Structures](data-structures.md)
+        * Arrays and Objects in JS
+        * Contact List
+        * Data Structures:Quiz
     * Objects I
     * Objects II
+    * Data Structures
 * [jQuery](jquery.md)
     * [Introducing jQuery](introducing-jquery.md)
         * [Introduction to jQuery](introduction-to-jquery.md)

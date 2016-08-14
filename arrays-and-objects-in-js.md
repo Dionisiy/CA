@@ -66,11 +66,18 @@ var myObject = {
 };
 ```
 
-
-
-
-
 ### **Creating a new object**
 
 There are two ways to create an object: using **object literal notation**\(which is what you just did\) and using the **object constructor**.
+
+
+
+When you use the constructor, the syntax looks like this:
+
+```
+var myObj = new Object();
+
+```
+
+This tells JavaScript: "I want you to make me a `new` thing, and I want that thing to be an `Object`.
 

@@ -9,14 +9,15 @@ Answer: var emptyObj = {};
 
 From the object below, which of the following is a key?
 
+```
 var me = {
 
 name: "Simon",
 
-age: 19
+age: 19..
 
 }
-
+```
 Answer: age
 
 Which of the following is the correct syntax for returning the number of elements in an array?

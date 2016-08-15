@@ -8,13 +8,15 @@ Answer: Object Oriented Programming
 
 Which of the following is the correct syntax for accessing the following object using bracket notation?
 
+```
 var me = {
 
  name: "Simon",
 
- age: 19
+ age: 19//
 
 }
+```
 
 Answer: me\[“name”\];
 

@@ -94,6 +94,8 @@
         * [Introduction to Objects](introduction-to-objects.md)
         * Building an Address Book
         * [Objects I:Quiz](objects-iquiz.md)
+        * [Resource VI](resource-vi.md)
+            * [Introduction toObject-Oriented JavaScript](introduction-toobject-oriented-javascript.md)
     * Objects II
     * Data Structures
 * [jQuery](jquery.md)

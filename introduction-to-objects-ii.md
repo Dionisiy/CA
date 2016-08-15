@@ -56,9 +56,30 @@ The last line is _exactly the same_ as using `someObj["propName"];`.
 
 
 
+### **List ALL the Properties!**
 
+We've just seen how to print all of an object's property names with a for-in loop. But how do we print out all the values associated with every property? Surprise! The for-in loop will be our friend again! Let's get there slowly. Our dog object can help us.
 
-**I.D., Please**
+```
+var dog = {
+species: "bulldog",
+age: 3,
+color: brown
+};
 
+```
 
+First, remember that
+
+`dog.species = dog["species"] = "bulldog";`
+
+And if we say:
+
+`var x = "species";`
+
+then
+
+`dog[x] = "bulldog";`
+
+We see that by assigning the property name to a variable, we can then use the variable name in bracket notation to get the property's value. So to get all the values from the dog object, we would use the for-in loop and the bracket notation we just saw above. See the hint to see the code to print the property values for `dog`.
 

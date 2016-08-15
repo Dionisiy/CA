@@ -157,8 +157,6 @@ The keyword `this`, which refers to the current object, lets you work with prope
 
 In the example below, we define the `firstName` property for the `Person` class at instantiation:
 
-
-
 ```
 var Person = function (firstName) {
   this.firstName = firstName;
@@ -172,4 +170,12 @@ var person2 = new Person('Bob');
 console.log('person1 is ' + person1.firstName); // logs "person1 is Alice"
 console.log('person2 is ' + person2.firstName); // logs "person2 is Bob"
 ```
+
+#### The methods
+
+Methods are functions \(and defined like functions\), but otherwise follow the same logic as properties. Calling a method is similar to accessing a property, but you add `()` at the end of the method name, possibly with arguments. To define a method, assign a function to a named property of the class's `prototype` property. Later, you can call the method on the object by the same name as you assigned the function to.
+
+In the example below, we define and use the method `sayHello()` for the `Person` class.
+
+
 

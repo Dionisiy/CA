@@ -103,11 +103,20 @@ JavaScript is a prototype-based language and contains no `class` statement, such
 var Person = function () {};
 ```
 
-
-
 #### The object \(class instance\)
 
 To create a new instance of an object `obj` we use the statement `new obj`, assigning the result \(which is of type `obj`\) to a variable to access it later.
 
 In the example above we define a class named `Person`. In the example below we create two instances \(`person1` and `person2`\).
+
+
+
+```
+var person1 = new Person();
+var person2 = new Person();
+```
+
+
+
+
 

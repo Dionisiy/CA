@@ -133,11 +133,7 @@ printPersonName(bob);
 
 For example, look at our `Person` class again in the console. We know that any `Person` will have a `name` and `age`, because they are in the constructor. This allows us to create a function like`printPersonName`, which will take a`Person` as an argument and print out their name. We know the function will work on any `Person`, because `name` is a valid property for that class.
 
-
-
 ### **Prototype to the Rescue**
 
-
-
-In object-oriented programming,**inheritance** allows one class to see and use the methods and properties of another class. You can think of it as a child being able to use his or her parent's money because the child_inherits_ the money.
+In object-oriented programming,**inheritance** allows one class to see and use the methods and properties of another class. You can think of it as a child being able to use his or her parent's money because the child_inherits_ the money
 

@@ -113,3 +113,9 @@ snoopy.bark = buddy.bark;
 snoopy.bark();
 ```
 
+
+
+### **How do Classes Help Us?**
+
+Classes are very important in object-oriented programming. This is because a class tells us helpful information about objects, and you can think of an object as a particular instance of a class.
+

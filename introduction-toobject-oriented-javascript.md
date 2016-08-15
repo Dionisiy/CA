@@ -177,8 +177,6 @@ Methods are functions \(and defined like functions\), but otherwise follow the s
 
 In the example below, we define and use the method `sayHello()` for the `Person` class.
 
-
-
 ```
 var Person = function (firstName) {
   this.firstName = firstName;
@@ -197,6 +195,8 @@ person2.sayHello(); // logs "Hello, I'm Bob"
 ```
 
 
+
+In JavaScript methods are regular function objects bound to an object as a property, which means you can invoke methods "out of the context". Consider the following example code:
 
 
 

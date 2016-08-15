@@ -135,5 +135,13 @@ For example, look at our `Person` class again in the console. We know that any `
 
 ### **Prototype to the Rescue**
 
-In object-oriented programming,**inheritance** allows one class to see and use the methods and properties of another class. 
+In object-oriented programming,**inheritance** allows one class to see and use the methods and properties of another class.
+
+
+
+### **Private Variables**
+
+In JavaScript all properties of an object are automatically public. **Public** means that they can be accessed outside the class. Think of these properties as the information a class is willing to _share_.
+
+
 

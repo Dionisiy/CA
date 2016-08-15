@@ -135,5 +135,5 @@ For example, look at our `Person` class again in the console. We know that any `
 
 ### **Prototype to the Rescue**
 
-In object-oriented programming,**inheritance** allows one class to see and use the methods and properties of another class. You can think of it as a child being able to use his or her parent's money because the child_inherits_ the money
+In object-oriented programming,**inheritance** allows one class to see and use the methods and properties of another class. 
 

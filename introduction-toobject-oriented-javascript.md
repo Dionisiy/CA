@@ -153,9 +153,23 @@ var person2 = new Person();
 
 Properties are variables contained in the class; every instance of the object has those properties. Properties are set in the constructor \(function\) of the class so that they are created on each instance.
 
-
-
 The keyword `this`, which refers to the current object, lets you work with properties from within the class. Accessing \(reading or writing\) a property outside of the class is done with the syntax:`InstanceName.Property`, just like in C++, Java, and several other languages. \(Inside the class the syntax `this.Property` is used to get or set the property's value.\)
 
 In the example below, we define the `firstName` property for the `Person` class at instantiation:
+
+
+
+```
+var Person = function (firstName) {
+  this.firstName = firstName;
+  console.log('Person instantiated');
+};
+
+var person1 = new Person('Alice');
+var person2 = new Person('Bob');
+
+// Show the firstName properties of the objects
+console.log('person1 is ' + person1.firstName); // logs "person1 is Alice"
+console.log('person2 is ' + person2.firstName); // logs "person2 is Bob"
+```
 

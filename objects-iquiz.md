@@ -36,18 +36,19 @@ var JavaScript = {
  courseTime: 10
 
 }
-```
+
 
 for\(var placeholder in JavaScript\) {
 
  console.log\(placeholder\);
 
 }
+```
+**Answer**: Loop through the object and print all the properties
 
-Answer: Loop through the object and print all the properties
+- Which of the following properly creates an object for the array below?
 
-Which of the following properly creates an object for the array below?
-
+```
 function Employee\(name, age\) {
 
  this.name = name;
@@ -57,6 +58,7 @@ function Employee\(name, age\) {
 }
 
 var Workforce = new Array\(\);
+```
 
 Answer: Workforce\[0\] = new Employee\("alice", 40\);
 

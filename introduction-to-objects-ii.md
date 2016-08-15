@@ -81,15 +81,9 @@ then
 
 We see that by assigning the property name to a variable, we can then use the variable name in bracket notation to get the property's value. So to get all the values from the dog object, we would use the for-in loop and the bracket notation we just saw above. See the hint to see the code to print the property values for `dog`.
 
-
-
-
-
 ### **Class is in Session**
-
-
 
 abbreviated OOP\(**object-oriented programming**\), this is a very important programming paradigm that is widely used in the industry today.
 
-
+Let's start by introducing _classes_. We learned in the last [course](http://www.codecademy.com/courses/spencer-sandbox/3/1?curriculum_id=506324b3a7dffd00020bf661) that constructors are a way to make objects, but they actually do even more than that.
 

@@ -11,13 +11,23 @@ function someObject() {
 }
 ```
 
-
-
 Suppose we said `var someObj = newsomeObject();`. When we call`someObj.someMethod()`, the code between the curly brackets `{ }` above will run.
 
-
-
 ### **Literally Speaking**
+
+
+
+ We can also add methods to objects in literal notation:
+
+```
+var someObj = {
+
+aProperty: value,
+someMethod: function(some, params) { }
+
+};
+
+```
 
 
 

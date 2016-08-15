@@ -233,11 +233,7 @@ Inheritance
 
 Inheritance is a way to create a class as a specialized version of one or more classes \(JavaScript only supports single inheritance\). The specialized class is commonly called the child, and the other class is commonly called the parent. In JavaScript you do this by assigning an instance of the parent class to the child class, and then specializing it. In modern browsers you can also use Object.create to implement inheritance.
 
-
-
 In the example below, we define the class `Student` as a child class of `Person`. Then we redefine the `sayHello()` method and add the `sayGoodBye()` method.
-
-
 
 ```
 // Define the Person constructor
@@ -296,4 +292,16 @@ student1.sayGoodBye(); // "Goodbye!"
 console.log(student1 instanceof Person);  // true 
 console.log(student1 instanceof Student); // true
 ```
+
+
+
+#### Encapsulation
+
+In the previous example, `Student` does not need to know how the `Person` class's `walk()`method is implemented, but still can use that method; the `Student` class doesn't need to explicitly define that method unless we want to change it. This is called **encapsulation**, by which every class packages data and methods into a single unit.
+
+Information hiding is a common feature in other languages often as private and protected methods\/properties. Even though you could simulate something like this on JavaScript, this is not a requirement to do Object Oriented programming.[3](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript#cite-3)
+
+#### Abstraction
+
+Abstraction is a mechanism that allows you to model the current part of the working problem, either by inheritance \(specialization\) or composition. JavaScript achieves specialization by inheritance, and composition by letting class instances be the values of other objects' attributes.
 

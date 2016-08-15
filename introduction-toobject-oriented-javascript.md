@@ -229,9 +229,71 @@ console.log(helloFunction === Person.prototype.sayHello);
 helloFunction.call(person1);
 ```
 
-
-
 Inheritance
 
 Inheritance is a way to create a class as a specialized version of one or more classes \(JavaScript only supports single inheritance\). The specialized class is commonly called the child, and the other class is commonly called the parent. In JavaScript you do this by assigning an instance of the parent class to the child class, and then specializing it. In modern browsers you can also use Object.create to implement inheritance.
+
+
+
+In the example below, we define the class `Student` as a child class of `Person`. Then we redefine the `sayHello()` method and add the `sayGoodBye()` method.
+
+
+
+```
+// Define the Person constructor
+var Person = function(firstName) {
+  this.firstName = firstName;
+};
+
+// Add a couple of methods to Person.prototype
+Person.prototype.walk = function(){
+  console.log("I am walking!");
+};
+
+Person.prototype.sayHello = function(){
+  console.log("Hello, I'm " + this.firstName);
+};
+
+// Define the Student constructor
+function Student(firstName, subject) {
+  // Call the parent constructor, making sure (using Function#call)
+  // that "this" is set correctly during the call
+  Person.call(this, firstName);
+
+  // Initialize our Student-specific properties
+  this.subject = subject;
+}
+
+// Create a Student.prototype object that inherits from Person.prototype.
+// Note: A common error here is to use "new Person()" to create the
+// Student.prototype. That's incorrect for several reasons, not least 
+// that we don't have anything to give Person for the "firstName" 
+// argument. The correct place to call Person is above, where we call 
+// it from Student.
+Student.prototype = Object.create(Person.prototype); // See note below
+
+// Set the "constructor" property to refer to Student
+Student.prototype.constructor = Student;
+
+// Replace the "sayHello" method
+Student.prototype.sayHello = function(){
+  console.log("Hello, I'm " + this.firstName + ". I'm studying "
+              + this.subject + ".");
+};
+
+// Add a "sayGoodBye" method
+Student.prototype.sayGoodBye = function(){
+  console.log("Goodbye!");
+};
+
+// Example usage:
+var student1 = new Student("Janet", "Applied Physics");
+student1.sayHello();   // "Hello, I'm Janet. I'm studying Applied Physics."
+student1.walk();       // "I am walking!"
+student1.sayGoodBye(); // "Goodbye!"
+
+// Check that instanceof works correctly
+console.log(student1 instanceof Person);  // true 
+console.log(student1 instanceof Student); // true
+```
 

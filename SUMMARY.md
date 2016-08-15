@@ -97,6 +97,9 @@
         * [Resource VI](resource-vi.md)
             * [Introduction toObject-Oriented JavaScript](introduction-toobject-oriented-javascript.md)
     * Objects II
+        * [Introduction to Objects II](introduction-to-objects-ii.md)
+        * Building a Cash Regicter
+        * Objects II
     * Data Structures
 * [jQuery](jquery.md)
     * [Introducing jQuery](introducing-jquery.md)

@@ -68,7 +68,7 @@ MYAPP.commonMethod = {
     // Do something with name, you can access regExForName variable
     // using "this.regExForName"
   },
- 
+
   validatePhoneNo: function(phoneNo){
     // do something with phone number
   }
@@ -85,11 +85,21 @@ MYAPP.event = {
     getEvent: function(e) {
     // code stuff
     }
-  
+
     // Can add another method and properties
 }
 
 // Syntax for Using addListener method:
 MYAPP.event.addListener("yourel", "type", callback);
 ```
+
+
+
+
+
+### Custom objects
+
+#### The class
+
+JavaScript is a prototype-based language and contains no `class` statement, such as is found in C++ or Java. This is sometimes confusing for programmers accustomed to languages with a`class` statement. Instead, JavaScript uses functions as constructors for classes. Defining a class is as easy as defining a function. In the example below we define a new class called Person with an empty constructor.
 

@@ -76,8 +76,9 @@ var me = {
 
 **Answer**: `me.name;`
 
-Which object below will be used to give the 'this' keyword a value?
+- Which object below will be used to give the 'this' keyword a value?
 
+```
 var setAge = function \(newAge\) {
 
  this.age = newAge;
@@ -97,8 +98,8 @@ var jane = new Object\(\);
 bob.age = 24; 
 
 mary.setAge\(29\);
-
-Answer: mary
+```
+**Answer**: mary
 
 Which of the following correctly calls the method below?
 

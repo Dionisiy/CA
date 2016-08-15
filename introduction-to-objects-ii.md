@@ -29,8 +29,6 @@ someMethod: function(some, params) { }
 
 When we call `someObj.someMethod(some,values);`, the code between the curly brackets `{ }` will run.
 
-
-
 Wwe've been using **dot notation** to get the value of an object's property:
 
 ```
@@ -55,4 +53,12 @@ someObj[myProperty];
 ```
 
 The last line is _exactly the same_ as using `someObj["propName"];`.
+
+
+
+
+
+**I.D., Please**
+
+
 

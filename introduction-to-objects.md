@@ -28,7 +28,7 @@ In addition to dot notation, we can also access properties using **bracket notat
 
 The method we've used to create objects uses **object literal notation**—that is, creating a new object with `{ }`and defining properties within the brackets.
 
-Another way of creating objects without using the curly brackets `{ }` is to use the keyword `new`. This is known as creating an object using a**constructor**.
+Another way of creating objects without using the curly brackets `{ }` is to use the keyword `new`. This is known as creating an object using a **constructor**.
 
 The `new` keyword creates an empty object when followed by `Object()`. The general syntax is:
 
@@ -70,7 +70,7 @@ The keyword `this` acts as a placeholder, and will **refer to whichever object c
 
 ### **The Object Constructor**
 
-We mentioned the term **constructor**back in section one, when we talked about making an object using the keyword `new`. A **constructor** is a way to create an object.
+We mentioned the term **constructor **back in section one, when we talked about making an object using the keyword `new`. A **constructor** is a way to create an object.
 
 This means we have to add our properties one at a time, just like we've been doing. To review, we've created `bob` using the constructor and defined the `name` property for you.
 

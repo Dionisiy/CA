@@ -214,8 +214,6 @@ console.log(myBalance);
 
 The way to access a private method is similar to accessing a private variable. You must create a public method for the class that returns the private method.
 
-**Private Eye**
-
 Recall that:
 
 * **Public** properties can be accessed from outside the class

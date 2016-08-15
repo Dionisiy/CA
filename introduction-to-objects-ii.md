@@ -160,17 +160,9 @@ Look at the `Person` class. It has 3 public properties: `firstName`, `lastName`,
 
 Notice that we are free to access the`firstName` and `lastName` properties, which is what we mean when we say they are _public_.
 
-
-
-
-
 ### **Private Variables**
 
 Just as functions can have local variables which can only be accessed from within that function, objects can have private variables. **Private**variables are pieces of information you do not want to publicly share, and they can only be directly accessed from within the class.
-
-
-
-
 
 ```
 function Person(first,last,age) {
@@ -187,6 +179,12 @@ var john = new Person("john");
 // try to print his bankBalance
 console.log(john.backBalance);
 ```
+
+
+
+### **Accessing Private Variables**
+
+Although we cannot directly access private variables from outside the class, there is a way to get around this. We can define a public method that returns the value of a private variable.
 
 
 

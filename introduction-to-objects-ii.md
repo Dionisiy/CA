@@ -216,3 +216,7 @@ The way to access a private method is similar to accessing a private variable. Y
 
 
 
+### **Passing Arguments**
+
+
+

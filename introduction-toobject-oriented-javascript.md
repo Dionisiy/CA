@@ -303,9 +303,25 @@ Information hiding is a common feature in other languages often as private and p
 
 Abstraction is a mechanism that allows you to model the current part of the working problem, either by inheritance \(specialization\) or composition. JavaScript achieves specialization by inheritance, and composition by letting class instances be the values of other objects' attributes.
 
+The JavaScript Function class inherits from the Object class \(this demonstrates specialization of the model\) and the `Function.prototype` property is an instance of `Object` \(this demonstrates composition\).
 
 
-The JavaScript Function class inherits from the Object class \(this demonstrates specialization of the model\) and the [`Function.prototype`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype "The Function.prototype property represents the Function prototype object.") property is an instance of [`Object`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object "The Object constructor creates an object wrapper.") \(this demonstrates composition\).
+
+```
+var foo = function () {};
+
+// logs "foo is a Function: true"
+console.log('foo is a Function: ' + (foo instanceof Function));
+
+// logs "foo.prototype is an Object: true"
+console.log('foo.prototype is an Object: ' + (foo.prototype instanceof Object));
+```
+
+
+
+#### Polymorphism
+
+Just as all methods and properties are defined inside the prototype property, different classes can define methods with the same name; methods are scoped to the class in which they're defined, unless the two classes hold a parent-child relation \(i.e. one inherits from the other in a chain of inheritance\).
 
 
 

@@ -15,9 +15,7 @@ Suppose we said `var someObj = newsomeObject();`. When we call`someObj.someMetho
 
 ### **Literally Speaking**
 
-
-
- We can also add methods to objects in literal notation:
+We can also add methods to objects in literal notation:
 
 ```
 var someObj = {
@@ -30,4 +28,6 @@ someMethod: function(some, params) { }
 ```
 
 
+
+When we call `someObj.someMethod(some,values);`, the code between the curly brackets `{ }` will run.
 

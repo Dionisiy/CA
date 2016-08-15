@@ -38,11 +38,15 @@ The conjunction of an object's complex inheritance, methods, and properties to a
 **Polymorphism**
 Poly means "many" and morphism means "forms". Different classes might define the same method or property.
 
-
-
 ## **JavaScript object oriented programming**
 
 ### Namespace
 
 A namespace is a container which allows developers to bundle up functionality under a unique, application-specific name. **In JavaScript a namespace is just another object containing methods, properties, and objects.**
+
+
+
+> It's important to note that in JavaScript, there's no language-level difference between regular objects and namespaces. This differs from many other object-oriented languages, and can be a point of confusion for new JavaScript programmers.
+
+
 

@@ -48,3 +48,16 @@ A namespace is a container which allows developers to bundle up functionality un
 
 The idea behind creating a namespace in JavaScript is simple: create one global object, and all variables, methods, and functions become properties of that object. Use of namespaces also reduces the chance of name conflicts in an application, since each application's objects are properties of an application-defined global object.
 
+Let's create a global object called MYAPP:
+
+
+
+```
+// global namespace
+var MYAPP = MYAPP || {};
+```
+
+
+
+
+

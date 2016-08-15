@@ -89,9 +89,11 @@ Let's start by introducing _classes_. We learned in the last [course](http://www
 
 When you make a constructor, you are in fact defining a new **class**. A class can be thought of as a _type_, or a category of objects—kind of like how`Number` and `String` are types in JavaScript.
 
-
-
 So we know that a class will have certain properties and methods, but what keeps track of what a given class can or can't do? What a class has or doesn't have? That is the job of the **prototype**.
+
+
+
+JavaScript automatically defines the prototype for class with a constructor. For example, our `Dog` constructor ensures that the `Dog` prototype has a`breed` property. Remember, the `Dog`prototype keeps track of what `Dog`has, doesn't have, can, or can't do.
 
 
 

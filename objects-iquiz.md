@@ -123,8 +123,9 @@ var mike = new Person\(175, 77\);
 
 **Answer**: `mike.ratio\(\);`
 
-What is the correct syntax for creating an array that contains instances of the class below?
+- What is the correct syntax for creating an array that contains instances of the class below?
 
+```
 function Employee\(name, age\) {
 
  this.name = name;
@@ -132,16 +133,17 @@ function Employee\(name, age\) {
  this.age = age;
 
 }
+```
 
-Answer: var Workforce = new Array\(\);
+**Answer**: `var Workforce = new Array\(\);`
 
-Which of the following best describes an object property?
+- Which of the following best describes an object property?
 
-Answer: The category label for an item that belongs to an object
+**Answer**: The category label for an item that belongs to an object
 
-Which of the following is the correct way to create a function?
+- Which of the following is the correct way to create a function?
 
-Answer: var my\_function = function\(parameter\) {};
+**Answer**: `var my\_function = function\(parameter\) {};`
 
 
 

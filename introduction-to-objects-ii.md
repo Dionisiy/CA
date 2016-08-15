@@ -156,9 +156,37 @@ var myLast = john.lastName;
 var myAge = john.age;
 ```
 
-
-
-Look at the `Person` class. It has 3 public properties: `firstName`, `lastName`, and`age`. On [lines 8](javascript:void(0)) and 9, we access the`firstName` and `lastName` properties of`john` and assign them to `myFirst` and`myLast`.
+Look at the `Person` class. It has 3 public properties: `firstName`, `lastName`, and`age`. On [lines 8](javascript:void(0)\) and 9, we access the`firstName` and `lastName` properties of`john` and assign them to `myFirst` and`myLast`.
 
 Notice that we are free to access the`firstName` and `lastName` properties, which is what we mean when we say they are _public_.
+
+
+
+
+
+### **Private Variables**
+
+Just as functions can have local variables which can only be accessed from within that function, objects can have private variables. **Private**variables are pieces of information you do not want to publicly share, and they can only be directly accessed from within the class.
+
+
+
+
+
+```
+function Person(first,last,age) {
+   this.firstname = first;
+   this.lastname = last;
+   this.age = age;
+   var bankBalance = 7500;
+}
+
+// create your Person 
+var john = new Person("john");
+
+
+// try to print his bankBalance
+console.log(john.backBalance);
+```
+
+
 

@@ -55,9 +55,13 @@ Let's create a global object called MYAPP:
 var MYAPP = MYAPP || {};
 ```
 
-
-
 In the above code sample, we first checked whether `MYAPP` is already defined \(either in same file or in another file\). If yes, then use the existing MYAPP global object, otherwise create an empty object called `MYAPP` which will encapsulate methods, functions, variables, and objects.
+
+
+
+
+
+The following is code syntax for creating a namespace and adding variables, functions, and a method:
 
 
 

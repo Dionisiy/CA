@@ -180,11 +180,43 @@ var john = new Person("john");
 console.log(john.backBalance);
 ```
 
-
-
 ### **Accessing Private Variables**
 
 Although we cannot directly access private variables from outside the class, there is a way to get around this. We can define a public method that returns the value of a private variable.
+
+
+
+### **Private Methods**
+
+
+
+Why did that code work? An object's private variables can only be accessed by other methods that are part of that same object. So, we just used an object's public method to access a private variable!
+
+Methods can also be private within a class and inaccessible outside of the class. Changing `this.returnBalance`from the last exercise to `varreturnBalance` makes this method private. If you run the program trying to access the method you get an`undefined` error this time.
+
+```
+function Person(first,last,age) {
+   this.firstname = first;
+   this.lastname = last;
+   this.age = age;
+   var bankBalance = 7500;
+  
+   var returnBalance = function() {
+      return bankBalance;
+   };
+       
+   // create the new function here
+   
+}
+
+var john = new Person('John','Smith',30);
+console.log(john.returnBalance);
+var myBalanceMethod = john.askTeller();
+var myBalance = myBalanceMethod();
+console.log(myBalance);
+```
+
+
 
 
 

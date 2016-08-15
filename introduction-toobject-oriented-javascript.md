@@ -7,7 +7,43 @@ Object-oriented programming \(OOP\) is a programming paradigm that uses [abstrac
 
 OOP envisions software as a collection of cooperating objects rather than a collection of functions or simply a list of commands \(as is the traditional view\). In OOP, each object can receive messages, process data, and send messages to other objects. Each object can be viewed as an independent little machine with a distinct role or responsibility.
 
-
-
 OOP envisions software as a collection of cooperating objects rather than a collection of functions or simply a list of commands \(as is the traditional view\). In OOP, each object can receive messages, process data, and send messages to other objects. Each object can be viewed as an independent little machine with a distinct role or responsibility.
+
+
+
+### Terminology
+
+
+**Namespace**
+A container which lets developers bundle all functionality under a unique, application-specific name.
+
+
+**Class**
+Defines the object's characteristics. A class is a template definition of an object's properties and methods.
+
+
+**Object**
+An instance of a class.
+
+
+**Property**
+An object characteristic, such as color.
+
+
+**Method**
+An object capability, such as walk. It is a subroutine or function associated with a class.
+
+
+**Constructor**
+A method called at the moment an object is instantiated. It usually has the same name as the class containing it.
+
+
+**Inheritance**
+A class can inherit characteristics and capabilities from another class.
+**Encapsulation**
+A technique which involves bundling the data and the methods that use the data together.
+**Abstraction**
+The conjunction of an object's complex inheritance, methods, and properties to adequately reflect a reality model.
+**Polymorphism**
+Poly means "many" and morphism means "forms". Different classes might define the same method or property.
 

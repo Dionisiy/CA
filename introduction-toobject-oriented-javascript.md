@@ -194,9 +194,44 @@ person1.sayHello(); // logs "Hello, I'm Alice"
 person2.sayHello(); // logs "Hello, I'm Bob"
 ```
 
-
-
 In JavaScript methods are regular function objects bound to an object as a property, which means you can invoke methods "out of the context". Consider the following example code:
 
+```
+var Person = function (firstName) {
+  this.firstName = firstName;
+};
 
+Person.prototype.sayHello = function() {
+  console.log("Hello, I'm " + this.firstName);
+};
+
+var person1 = new Person("Alice");
+var person2 = new Person("Bob");
+var helloFunction = person1.sayHello;
+
+// logs "Hello, I'm Alice"
+ person1.sayHello();
+
+// logs "Hello, I'm Bob"
+person2.sayHello();
+
+// logs "Hello, I'm undefined" (or fails
+// with a TypeError in strict mode)
+helloFunction();                                    
+
+// logs true
+console.log(helloFunction === person1.sayHello);
+
+// logs true
+console.log(helloFunction === Person.prototype.sayHello);
+
+// logs "Hello, I'm Alice"
+helloFunction.call(person1);
+```
+
+
+
+Inheritance
+
+Inheritance is a way to create a class as a specialized version of one or more classes \(JavaScript only supports single inheritance\). The specialized class is commonly called the child, and the other class is commonly called the parent. In JavaScript you do this by assigning an instance of the parent class to the child class, and then specializing it. In modern browsers you can also use Object.create to implement inheritance.
 

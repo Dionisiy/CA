@@ -93,7 +93,7 @@
     * Objects I
         * [Introduction to Objects](introduction-to-objects.md)
         * Building an Address Book
-        * Objects I:Quiz
+        * [Objects I:Quiz](objects-iquiz.md)
     * Objects II
     * Data Structures
 * [jQuery](jquery.md)

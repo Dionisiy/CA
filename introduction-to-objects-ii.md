@@ -87,3 +87,11 @@ abbreviated OOP\(**object-oriented programming**\), this is a very important pro
 
 Let's start by introducing _classes_. We learned in the last [course](http://www.codecademy.com/courses/spencer-sandbox/3/1?curriculum_id=506324b3a7dffd00020bf661) that constructors are a way to make objects, but they actually do even more than that.
 
+When you make a constructor, you are in fact defining a new **class**. A class can be thought of as a _type_, or a category of objects—kind of like how`Number` and `String` are types in JavaScript.
+
+
+
+So we know that a class will have certain properties and methods, but what keeps track of what a given class can or can't do? What a class has or doesn't have? That is the job of the **prototype**.
+
+
+

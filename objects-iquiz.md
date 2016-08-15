@@ -60,9 +60,9 @@ function Employee\(name, age\) {
 var Workforce = new Array\(\);
 ```
 
-Answer: Workforce\[0\] = new Employee\("alice", 40\);
+**Answer**: `Workforce\[0\] = new Employee\("alice", 40\);`
 
-Which of the following is the correct syntax for accessing the following object using dot notation?
+- Which of the following is the correct syntax for accessing the following object using dot notation?
 
 var me = {
 

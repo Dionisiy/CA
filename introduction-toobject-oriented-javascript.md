@@ -93,13 +93,17 @@ MYAPP.event = {
 MYAPP.event.addListener("yourel", "type", callback);
 ```
 
-
-
-
-
 ### Custom objects
 
 #### The class
 
 JavaScript is a prototype-based language and contains no `class` statement, such as is found in C++ or Java. This is sometimes confusing for programmers accustomed to languages with a`class` statement. Instead, JavaScript uses functions as constructors for classes. Defining a class is as easy as defining a function. In the example below we define a new class called Person with an empty constructor.
+
+
+
+```
+var Person = function () {};
+```
+
+
 

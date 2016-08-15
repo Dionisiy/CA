@@ -18,16 +18,17 @@ var me = {
 }
 ```
 
-Answer: me\[“name”\];
+**Answer**: `me\[“name”\];`
 
-Which of the following expressions returns true?
+ -Which of the following expressions returns true?
 
-var array = \[8,9,24,35,40,54\];
+`var array = \[8,9,24,35,40,54\];`
 
-Answer: array\[3\] % 5 &lt; 4;
+**Answer**:` array\[3\] % 5 &lt; 4;`
 
-What is the function of the for\/in loop below?
+- What is the function of the for\/in loop below?
 
+```
 var JavaScript = {
 
  name: "JavaScript",
@@ -35,6 +36,7 @@ var JavaScript = {
  courseTime: 10
 
 }
+```
 
 for\(var placeholder in JavaScript\) {
 

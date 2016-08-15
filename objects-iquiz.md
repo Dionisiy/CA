@@ -64,13 +64,15 @@ var Workforce = new Array\(\);
 
 - Which of the following is the correct syntax for accessing the following object using dot notation?
 
+```
 var me = {
 
  name: "Simon",
 
- age: 19
+ age: 19//
 
 }
+```
 
 Answer: me.name;
 

@@ -108,7 +108,7 @@ buddy.bark();
 // here we make snoopy
 var snoopy = new Dog("Beagle");
 // we need you to teach snoopy how to bark here
-
+snoopy.bark = buddy.bark;
 // this causes an error, because snoopy doesn't know how to bark!
 snoopy.bark();
 ```

@@ -293,8 +293,6 @@ console.log(student1 instanceof Person);  // true
 console.log(student1 instanceof Student); // true
 ```
 
-
-
 #### Encapsulation
 
 In the previous example, `Student` does not need to know how the `Person` class's `walk()`method is implemented, but still can use that method; the `Student` class doesn't need to explicitly define that method unless we want to change it. This is called **encapsulation**, by which every class packages data and methods into a single unit.
@@ -304,4 +302,10 @@ Information hiding is a common feature in other languages often as private and p
 #### Abstraction
 
 Abstraction is a mechanism that allows you to model the current part of the working problem, either by inheritance \(specialization\) or composition. JavaScript achieves specialization by inheritance, and composition by letting class instances be the values of other objects' attributes.
+
+
+
+The JavaScript Function class inherits from the Object class \(this demonstrates specialization of the model\) and the [`Function.prototype`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype "The Function.prototype property represents the Function prototype object.") property is an instance of [`Object`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object "The Object constructor creates an object wrapper.") \(this demonstrates composition\).
+
+
 

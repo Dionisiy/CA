@@ -1,12 +1,12 @@
-Which of the following best describes a method?
+- Which of the following best describes a method?
 
-Answer: A function associated with an object
+**Answer**: A function associated with an object
 
-What does OOP stand for?
+- What does OOP stand for?
 
-Answer: Object Oriented Programming
+**Answer**: Object Oriented Programming
 
-Which of the following is the correct syntax for accessing the following object using bracket notation?
+- Which of the following is the correct syntax for accessing the following object using bracket notation?
 
 ```
 var me = {

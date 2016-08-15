@@ -101,8 +101,9 @@ mary.setAge\(29\);
 ```
 **Answer**: mary
 
-Which of the following correctly calls the method below?
+- Which of the following correctly calls the method below?
 
+```
 function Person\(height, weight\) {
 
  this.height = height;
@@ -118,8 +119,9 @@ function Person\(height, weight\) {
 }
 
 var mike = new Person\(175, 77\);
+```
 
-Answer:mike.ratio\(\);
+**Answer**: `mike.ratio\(\);`
 
 What is the correct syntax for creating an array that contains instances of the class below?
 

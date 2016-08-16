@@ -173,8 +173,9 @@ console.log\("some work required"\);
 ```
 **Answer:You’ve** done well!
 
-Which of the following calls would return 2 for the block of code below?
+- Which of the following calls would return 2 for the block of code below?
 
+```
 var num = 15 % 2 + 6 \* 4;
 
 var step = num % 2;
@@ -188,6 +189,7 @@ return ran;
 };
 
 calc\(2, 3\);
+```
 
 Answer: You've done well!
 

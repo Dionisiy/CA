@@ -195,9 +195,9 @@ calc\(2, 3\);
 
 - What is the limit to the number of parameters for a function?
 
-Answer: There is no limit
+**Answer**: There is no limit
 
-What is missing from the following loop?
+- What is missing from the following loop?
 
 for \(var i = 2; i++\) {
 

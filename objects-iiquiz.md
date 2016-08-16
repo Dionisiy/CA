@@ -121,17 +121,17 @@ var JavaScript = {
 }
 ```
 
-Answer: console.log\(typeof JavaScript\);
+**Answer**: console.log\(typeof JavaScript\);
 
-Which of the following best describes a prototype of a class?
+- Which of the following best describes a prototype of a class?
 
-Answer:
+**Answer**:
 
-What is the function of the ‘typeof’ operator?
+- What is the function of the ‘typeof’ operator?
 
-Answer:
+**Answer**:
 
-Which of the following methods in the class below is private?
+ -Which of the following methods in the class below is private?
 
 function Person\(first,last,age\) {
 

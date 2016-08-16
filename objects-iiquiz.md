@@ -103,14 +103,15 @@ function Person\(first,last,age\) {
 }
 ```
 
-Answer: address
+**Answer**: address
 
-Which of the following best describes the method to access a private variable from outside the class?
+- Which of the following best describes the method to access a private variable from outside the class?
 
-Answer: Define a public method that returns the value of a private variable.
+**Answer**: Define a public method that returns the value of a private variable.
 
-Which of the following will correctly print the type of variable below?
+- Which of the following will correctly print the type of variable below?
 
+```
 var JavaScript = {
 
  name: "JavaScript",
@@ -118,6 +119,7 @@ var JavaScript = {
  courseTime: 10;
 
 }
+```
 
 Answer: console.log\(typeof JavaScript\);
 

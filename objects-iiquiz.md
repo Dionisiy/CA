@@ -25,12 +25,13 @@ function Person\(name,age\) {
  this.age = age;
 
 }
-```
+
 var bob = new Person\("Bob Smith", 30\);
 
 var susan = new Person\("Susan Jordan", 35\);
+```
 
-Answer: Person
+**Answer**: Person
 
 Which of the following correctly implements the dot notation when calling a value from the object below?
 

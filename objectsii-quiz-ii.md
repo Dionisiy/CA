@@ -83,9 +83,9 @@ console.log\("false"\)
 };
 ```
 
-Answer: var input = 5 \* 3 + 4 \/ 2;
+**Answer**: ``var input = 5 \* 3 + 4 \/ 2;``
 
-Which of the following is the output of this function?
+- Which of the following is the output of this function?
 
 var num = 15 % 2 + 6 \* 4;
 

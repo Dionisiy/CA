@@ -19,11 +19,11 @@ console.log\(val\);
 ```
 **Answer**: number
 
-What is the function of Math.random\(\);
+- What is the function of Math.random\(\);
 
-Answer: Randomly generates a number between 0 and 1
+**Answer**: Randomly generates a number between 0 and 1/
 
-Which of the following will return “5”?
+- Which of the following will return “5”?
 
 var array = \[ 5, 6, "hello", 2, false, "false"\];
 

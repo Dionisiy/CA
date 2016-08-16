@@ -25,27 +25,27 @@ console.log\(val\);
 
 - Which of the following will return “5”?
 
-var array = \[ 5, 6, "hello", 2, false, "false"\];
+`var array = \[ 5, 6, "hello", 2, false, "false"\];`
 
-Answer: array\[0\];
+**Answer**: `array\[0\];`
 
-Which of the following is the correct way to create a confirm dialog?
+- Which of the following is the correct way to create a confirm dialog?
 
-Answer: confirm\(“This is the right way to confirm”\);
+**Answer**: `confirm\(“This is the right way to confirm”\);`
 
-Which of the following will return ''2''?
+- Which of the following will return ''2''?
 
-var array = \[ 5, 6, "hello", 2, false, "false"\];
+`var array = \[ 5, 6, "hello", 2, false, "false"\];`
 
 Answer:
 
-Which of the following returns the boolean false?
+ - Which of the following returns the boolean false?
 
-var array = \[ 5, 6, "hello", 2, false, "false"\];
+`var array = \[ 5, 6, "hello", 2, false, "false"\];`
 
-Answer: array\[3\];
+**Answer**: `array\[3\];`
 
-Which of the following are benefits of functions?
+- Which of the following are benefits of functions?
 
 Answer: All of these are correct \(Making your code more reusable through separation of concerns, Easier debugging due to better organization, Being less redundant\)
 

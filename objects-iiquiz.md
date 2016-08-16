@@ -66,11 +66,11 @@ for \(var placeholder in JavaScript\) {
 
 **Answer**: Loop through the object and print all the values
 
-Which of the following best describes a class?
+- Which of the following best describes a class?
 
-Answer: A class is a template used to create objects
+**Answer**: A class is a template used to create objects
 
-Which of the following creates private variable in a constructor?
+- Which of the following creates private variable in a constructor?
 
 Answer: var variable = variable;
 

@@ -130,11 +130,11 @@ console.log\(val\);
 
 **Answer**: It allows coding for a sequence of different outcomes
 
-What does the D.R.Y principle stand for?
+- What does the D.R.Y principle stand for?
 
-Answer: Don’t repeat yourself
+**Answer**: Don’t repeat yourself
 
-What type of variable is val in the block of text below?
+- What type of variable is val in the block of text below?
 
 var input = prompt\("Enter input value"\);
 

@@ -105,7 +105,7 @@ calc\(2, 3\);
 
 Answer: 9
 
-Which of the following creates variable from a prompt?
+- Which of the following creates variable from a prompt?
 
 **Answer**: var answer = prompt\(“Which is right?”\);
 

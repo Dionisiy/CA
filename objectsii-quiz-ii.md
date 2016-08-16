@@ -228,19 +228,4 @@ console.log\(array.length\);
 
 **Answer**: a control flow
 
-- What are the local variables in the following block of code?
-
-var input = prompt\("Enter input value"\);
-
-var controlVal = input \/ 2 + 3;
-
-var multiplier = function\(number, phase\) {
-
-var val = number \* controlVal + phase;
-
-console.log\(val\);
-
-};
-
-Answer:
 

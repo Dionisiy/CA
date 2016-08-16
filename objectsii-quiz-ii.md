@@ -152,9 +152,9 @@ console.log\(val\);
 
 ```
 
-Answer: local
+**Answer**: local
 
-What will be printed to the console by the following if \/ else statement if the prompt input is \`5\`?
+- What will be printed to the console by the following if \/ else statement if the prompt input is \`5\`?
 
 var inp = prompt\("Enter your score: "\);
 
@@ -170,7 +170,7 @@ console.log\("some work required"\);
 
 };
 
-Answer:
+**Answer:You’ve** done well!
 
 Which of the following calls would return 2 for the block of code below?
 

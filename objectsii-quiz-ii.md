@@ -1,4 +1,4 @@
-********- What is the limit to the number of ''else if'' statements that can be implemented in a sequence?
+************- What is the limit to the number of ''else if'' statements that can be implemented in a sequence?
 
 **Answer**: There is no limit
 
@@ -65,9 +65,9 @@ return ran;
 
 - Which of the following is the correct syntax for an if \/ else statement?
 
-Answer: if \(condition\) { do something } else { do something };
+Answer: `if \(condition\) { do something } else { do something };`
 
-Which statement when put in place of \*------------\* will print “true”?
+- Which statement when put in place of \*------------\* will print “true”?
 
 \*------------\*
 

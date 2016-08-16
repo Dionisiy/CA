@@ -136,6 +136,7 @@ console.log\(val\);
 
 - What type of variable is val in the block of text below?
 
+```
 var input = prompt\("Enter input value"\);
 
 var controlVal = input \/ 2 + 3;
@@ -147,6 +148,7 @@ var val = number \* controlVal + phase;
 console.log\(val\);
 
 };
+```
 
 Answer: local
 

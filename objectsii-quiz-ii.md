@@ -199,11 +199,13 @@ calc\(2, 3\);
 
 - What is missing from the following loop?
 
+```
 for \(var i = 2; i++\) {
 
 console.log\(i\);
 
 };
+```
 
 Answer: an end condition
 

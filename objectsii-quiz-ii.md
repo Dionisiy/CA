@@ -61,9 +61,9 @@ return ran;
 };
 ```
 
-Answer: numGen\(\);
+**Answer**: numGen\(\);
 
-Which of the following is the correct syntax for an if \/ else statement?
+- Which of the following is the correct syntax for an if \/ else statement?
 
 Answer: if \(condition\) { do something } else { do something };
 

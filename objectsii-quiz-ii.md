@@ -191,9 +191,9 @@ return ran;
 calc\(2, 3\);
 ```
 
-Answer: You've done well!
+**Answer**: You've done well!
 
-What is the limit to the number of parameters for a function?
+- What is the limit to the number of parameters for a function?
 
 Answer: There is no limit
 

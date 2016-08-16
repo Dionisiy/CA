@@ -102,6 +102,7 @@
         * [Objects II:Quiz I](objects-iiquiz.md)
         * [ObjectsII: Quiz II](objectsii-quiz-ii.md)
     * [Data Structures](data-structures.md)
+    * [JavaScript Final Project](javascript-final-project.md)
 * [jQuery](jquery.md)
     * [Introducing jQuery](introducing-jquery.md)
         * [Introduction to jQuery](introduction-to-jquery.md)

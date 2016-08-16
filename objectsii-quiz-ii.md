@@ -223,29 +223,6 @@ console.log\(array.length\);
 
 
 
-Which of the following best describes a parameter?
-
-Answer:
-
-What are the local variables in the following block of code?
-
-var input = prompt\("Enter input value"\);
-
-var controlVal = input \/ 2 + 3;
-
-var multiplier = function\(number, phase\) {
-
-var val = number \* controlVal + phase;
-
-console.log\(val\);
-
-};
-
-Answer:
-
-Which of the following best describes scope?
-
-Answer:
 
 Which of the following best describes a for loop?
 

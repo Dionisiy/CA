@@ -1,4 +1,4 @@
-- What is the limit to the number of ''else if'' statements that can be implemented in a sequence?
+********- What is the limit to the number of ''else if'' statements that can be implemented in a sequence?
 
 **Answer**: There is no limit
 
@@ -47,7 +47,7 @@ Answer:
 
 - Which of the following are benefits of functions?
 
-Answer: All of these are correct \(Making your code more reusable through separation of concerns, Easier debugging due to better organization, Being less redundant\)
+**Answer**: All of these are correct \(Making your code more reusable through separation of concerns, Easier debugging due to better organization, Being less redundant\)
 
 Which of the following is the correct way of calling the following function?
 

@@ -107,9 +107,9 @@ calc\(2, 3\);
 
 - Which of the following creates variable from a prompt?
 
-**Answer**: var answer = prompt\(“Which is right?”\);
+**Answer**: `var answer = prompt\(“Which is right?”\)`;
 
-Which of the following is the function name in the function below?
+- Which of the following is the function name in the function below?
 
 var input = prompt\("Enter input value"\);
 

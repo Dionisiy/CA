@@ -87,6 +87,7 @@ console.log\("false"\)
 
 - Which of the following is the output of this function?
 
+```
 var num = 15 % 2 + 6 \* 4;
 
 var step = num % 2;
@@ -100,6 +101,7 @@ return ran;
 };
 
 calc\(2, 3\);
+```
 
 Answer: 9
 

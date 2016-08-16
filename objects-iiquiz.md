@@ -9,14 +9,15 @@ function Employee\(\) {
 
 }
 ```
-Answer: Employee\[‘name’\];
+**Answer**: Employee\[‘name’\];
 
-Which of the following creates a public property in the constructor?
+- Which of the following creates a public property in the constructor?
 
-Answer: this.property = property;
+**Answer**: this.property = property;
 
-From the block of code below, which of the following can be described as a class?
+- From the block of code below, which of the following can be described as a class?
 
+```
 function Person\(name,age\) {
 
  this.name = name;
@@ -24,7 +25,7 @@ function Person\(name,age\) {
  this.age = age;
 
 }
-
+```
 var bob = new Person\("Bob Smith", 30\);
 
 var susan = new Person\("Susan Jordan", 35\);

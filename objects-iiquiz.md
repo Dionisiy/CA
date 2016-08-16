@@ -33,8 +33,9 @@ var susan = new Person\("Susan Jordan", 35\);
 
 **Answer**: Person
 
-Which of the following correctly implements the dot notation when calling a value from the object below?
+- Which of the following correctly implements the dot notation when calling a value from the object below?
 
+```
 function Employee\(\) {
 
  name: ‘mike’,
@@ -42,7 +43,7 @@ function Employee\(\) {
  job: ‘developer’
 
 }
-
+```
 Answer: Employee.name
 
 Which of the following best describes what the function of the for \/ in loop is?

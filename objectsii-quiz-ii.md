@@ -49,7 +49,7 @@ Answer:
 
 **Answer**: All of these are correct \(Making your code more reusable through separation of concerns, Easier debugging due to better organization, Being less redundant\)
 
-Which of the following is the correct way of calling the following function?
+- Which of the following is the correct way of calling the following function?
 
 var numGen = function\(\) {
 

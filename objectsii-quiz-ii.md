@@ -17,7 +17,7 @@ console.log\(val\);
 
 };
 ```
-Answer: number
+**Answer**: number
 
 What is the function of Math.random\(\);
 

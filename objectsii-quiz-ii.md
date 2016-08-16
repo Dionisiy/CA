@@ -219,11 +219,9 @@ Answer: 6
 
 What best describes a local variable?
 
-Answer: a variable defined inside a function
+**Answer**: a variable defined inside a function
 
-What best describes a global variable?
 
-Answer:
 
 Which of the following best describes a parameter?
 

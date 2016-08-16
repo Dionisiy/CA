@@ -215,9 +215,9 @@ var array = \[ 5, 6, "hello", 2, false, "false"\];
 
 console.log\(array.length\);
 
-Answer: 6
+**Answer**: 6/
 
-What best describes a local variable?
+- What best describes a local variable?
 
 **Answer**: a variable defined inside a function
 

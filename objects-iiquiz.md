@@ -44,10 +44,11 @@ function Employee\(\) {
 
 }
 ```
-Answer: Employee.name
+**Answer**: Employee.name
 
-Which of the following best describes what the function of the for \/ in loop is?
+- Which of the following best describes what the function of the for \/ in loop is?
 
+```
 var JavaScript = {
 
  name: "JavaScript",
@@ -61,8 +62,9 @@ for \(var placeholder in JavaScript\) {
  console.log\(JavaScript\[placeholder\]\);
 
 }
+```
 
-Answer: Loop through the object and print all the values
+**Answer**: Loop through the object and print all the values
 
 Which of the following best describes a class?
 

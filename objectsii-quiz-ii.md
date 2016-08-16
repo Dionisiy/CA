@@ -126,7 +126,7 @@ console.log\(val\);
 
 **Answer**: multiplier
 
-How is an ''else if'' statement useful?
+- How is an ''else if'' statement useful?
 
 Answer: It allows coding for a sequence of different outcomes
 

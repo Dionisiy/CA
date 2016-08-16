@@ -110,7 +110,7 @@ calc\(2, 3\);
 **Answer**: `var answer = prompt\(“Which is right?”\)`;
 
 - Which of the following is the function name in the function below?
-
+```
 var input = prompt\("Enter input value"\);
 
 var controlVal = input \/ 2 + 3;
@@ -122,8 +122,9 @@ var val = number \* controlVal;
 console.log\(val\);
 
 };
+```
 
-Answer: multiplier
+**Answer**: multiplier
 
 How is an ''else if'' statement useful?
 

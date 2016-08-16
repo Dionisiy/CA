@@ -99,7 +99,7 @@
     * Objects II
         * [Introduction to Objects II](introduction-to-objects-ii.md)
         * Building a Cash Regicter
-        * Objects II
+        * [Objects II:Quiz I](objects-iiquiz.md)
     * [Data Structures](data-structures.md)
 * [jQuery](jquery.md)
     * [Introducing jQuery](introducing-jquery.md)

@@ -207,9 +207,9 @@ console.log\(i\);
 };
 ```
 
-Answer: an end condition
+**Answer**: an end condition
 
-What will the following statement print to the console?
+- What will the following statement print to the console?
 
 var array = \[ 5, 6, "hello", 2, false, "false"\];
 

@@ -133,6 +133,7 @@ var JavaScript = {
 
  -Which of the following methods in the class below is private?
 
+```
 function Person\(first,last,age\) {
 
  this.firstname = first;
@@ -164,6 +165,7 @@ function Person\(first,last,age\) {
  }
 
 }
+```
 
 Answer: info
 

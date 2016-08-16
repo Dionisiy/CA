@@ -71,6 +71,7 @@ Answer: `if \(condition\) { do something } else { do something };`
 
 \*------------\*
 
+```
 if \(input &lt;= 17\) {
 
 console.log\("true"\)
@@ -80,6 +81,7 @@ console.log\("true"\)
 console.log\("false"\)
 
 };
+```
 
 Answer: var input = 5 \* 3 + 4 \/ 2;
 

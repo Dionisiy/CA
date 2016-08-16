@@ -87,8 +87,9 @@ function Person\(name,age\) {
 ```
 **Answer**: Person.prototype.info = function\(\) {
 
-Which of the following is a private variable?
+- Which of the following is a private variable?
 
+```
 function Person\(first,last,age\) {
 
  this.firstname = first;
@@ -100,6 +101,7 @@ function Person\(first,last,age\) {
  var address= ‘10 Downing St.’;
 
 }
+```
 
 Answer: address
 

@@ -1,21 +1,22 @@
-What is the limit to the number of ''else if'' statements that can be implemented in a sequence?
+- What is the limit to the number of ''else if'' statements that can be implemented in a sequence?
 
-Answer: There is no limit
+**Answer**: There is no limit
 
-In the function below, which of the following is the parameter?
+- In the function below, which of the following is the parameter?
 
+```
 var input = prompt\("Enter input value"\);
 
 var controlVal = input \/ 2 + 3;
 
 var multiplier = function\(number\) {
 
- var val = number \* controlVal;
+var val = number \* controlVal;
 
- console.log\(val\);
+console.log\(val\);
 
 };
-
+```
 Answer: number
 
 What is the function of Math.random\(\);
@@ -52,9 +53,9 @@ Which of the following is the correct way of calling the following function?
 
 var numGen = function\(\) {
 
- var ran = math.random\(\) \* 5;
+var ran = math.random\(\) \* 5;
 
- return ran;
+return ran;
 
 };
 
@@ -70,11 +71,11 @@ Which statement when put in place of \*------------\* will print “true”?
 
 if \(input &lt;= 17\) {
 
- console.log\("true"\)
+console.log\("true"\)
 
 } else {
 
- console.log\("false"\)
+console.log\("false"\)
 
 };
 
@@ -88,9 +89,9 @@ var step = num % 2;
 
 var calc = function\(step1, step2\) {
 
- var ran = \(step + step1\) \* step2;
+var ran = \(step + step1\) \* step2;
 
- return ran;
+return ran;
 
 };
 
@@ -110,9 +111,9 @@ var controlVal = input \/ 2 + 3;
 
 var multiplier = function\(number\) {
 
- var val = number \* controlVal;
+var val = number \* controlVal;
 
- console.log\(val\);
+console.log\(val\);
 
 };
 
@@ -134,9 +135,9 @@ var controlVal = input \/ 2 + 3;
 
 var multiplier = function\(number, phase\) {
 
- var val = number \* controlVal + phase;
+var val = number \* controlVal + phase;
 
- console.log\(val\);
+console.log\(val\);
 
 };
 
@@ -148,19 +149,17 @@ var inp = prompt\("Enter your score: "\);
 
 if \(\(inp + 4 \* 9 - 2\) &gt; 37\) {
 
- console.log\("You’ve done well!"\)
+console.log\("You’ve done well!"\)
 
 }
 
 else {
 
- console.log\("some work required"\);
+console.log\("some work required"\);
 
 };
 
-Answer: 
-
-
+Answer:
 
 Which of the following calls would return 2 for the block of code below?
 
@@ -170,9 +169,9 @@ var step = num % 2;
 
 var calc = function\(step1, step2\) {
 
- var ran = \(step + step1\) \* step2;
+var ran = \(step + step1\) \* step2;
 
- return ran;
+return ran;
 
 };
 
@@ -188,7 +187,7 @@ What is missing from the following loop?
 
 for \(var i = 2; i++\) {
 
- console.log\(i\);
+console.log\(i\);
 
 };
 
@@ -222,9 +221,9 @@ var controlVal = input \/ 2 + 3;
 
 var multiplier = function\(number, phase\) {
 
- var val = number \* controlVal + phase;
+var val = number \* controlVal + phase;
 
- console.log\(val\);
+console.log\(val\);
 
 };
 
@@ -246,9 +245,9 @@ var controlVal = input \/ 2 + 3;
 
 var multiplier = function\(number, phase\) {
 
- var val = number \* controlVal + phase;
+var val = number \* controlVal + phase;
 
- console.log\(val\);
+console.log\(val\);
 
 };
 

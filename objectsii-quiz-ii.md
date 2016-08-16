@@ -224,11 +224,11 @@ console.log\(array.length\);
 
 
 
-Which of the following best describes a for loop?
+- Which of the following best describes a for loop?
 
-Answer: a control flow
+**Answer**: a control flow
 
-What are the local variables in the following block of code?
+- What are the local variables in the following block of code?
 
 var input = prompt\("Enter input value"\);
 

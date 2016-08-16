@@ -72,10 +72,11 @@ for \(var placeholder in JavaScript\) {
 
 - Which of the following creates private variable in a constructor?
 
-Answer: var variable = variable;
+**Answer**: var variable = variable;
 
-What would be the first line for a prototype method to add the ‘info’ method to the object?
+- What would be the first line for a prototype method to add the ‘info’ method to the object?
 
+```
 function Person\(name,age\) {
 
  this.name = name;
@@ -83,8 +84,8 @@ function Person\(name,age\) {
  this.age = age;
 
 }
-
-Answer: Person.prototype.info = function\(\) {
+```
+**Answer**: Person.prototype.info = function\(\) {
 
 Which of the following is a private variable?
 

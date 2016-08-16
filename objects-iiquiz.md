@@ -129,7 +129,7 @@ var JavaScript = {
 
 - What is the function of the ‘typeof’ operator?
 
-**Answer**:
+**Answer**: It returns the data type of a variable
 
  -Which of the following methods in the class below is private?
 

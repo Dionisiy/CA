@@ -51,6 +51,7 @@ Answer:
 
 - Which of the following is the correct way of calling the following function?
 
+```
 var numGen = function\(\) {
 
 var ran = math.random\(\) \* 5;
@@ -58,6 +59,7 @@ var ran = math.random\(\) \* 5;
 return ran;
 
 };
+```
 
 Answer: numGen\(\);
 

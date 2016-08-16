@@ -1,4 +1,4 @@
-************- What is the limit to the number of ''else if'' statements that can be implemented in a sequence?
+****************- What is the limit to the number of ''else if'' statements that can be implemented in a sequence?
 
 **Answer**: There is no limit
 
@@ -128,7 +128,7 @@ console.log\(val\);
 
 - How is an ''else if'' statement useful?
 
-Answer: It allows coding for a sequence of different outcomes
+**Answer**: It allows coding for a sequence of different outcomes
 
 What does the D.R.Y principle stand for?
 

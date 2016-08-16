@@ -103,7 +103,7 @@ return ran;
 calc\(2, 3\);
 ```
 
-Answer: 9
+**Answer**: 9/
 
 - Which of the following creates variable from a prompt?
 

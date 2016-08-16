@@ -110,6 +110,7 @@ calc\(2, 3\);
 **Answer**: `var answer = prompt\(“Which is right?”\)`;
 
 - Which of the following is the function name in the function below?
+
 ```
 var input = prompt\("Enter input value"\);
 
@@ -148,6 +149,7 @@ var val = number \* controlVal + phase;
 console.log\(val\);
 
 };
+
 ```
 
 Answer: local

@@ -94,20 +94,20 @@
             * [Arrays in JS](arrays-in-js.md)
     * Objects I
         * [Introduction to Objects](introduction-to-objects.md)
-        * Building an Address Book
+        * [Building an Address Book](building-an-address-book.md)
         * [Objects I:Quiz](objects-iquiz.md)
         * [Resource VII](resource-vi.md)
             * [Introduction toObject-Oriented JavaScript](introduction-toobject-oriented-javascript.md)
     * Objects II
         * [Introduction to Objects II](introduction-to-objects-ii.md)
-        * Building a Cash Regicter
+        * [Building a Cash Register](building-a-cash-register.md)
         * [Objects II:Quiz I](objects-iiquiz.md)
         * [ObjectsII: Quiz II](objectsii-quiz-ii.md)
     * [Data Structures](data-structures.md)
     * [JavaScript Final Project](javascript-final-project.md)
 * [jQuery](jquery.md)
     * [Introducing jQuery](introducing-jquery.md)
-        * [Introduction to jQuery](introduction-to-jquery.md)
+        * [Introduction to jQuery I](introduction-to-jquery.md)
         * [Introduction jQuery:Quiz](introduction-jqueryquiz.md)
         * [External Resources I](external-resources-i.md)
             * [How jQuey Works?](how-jquey-works.md)

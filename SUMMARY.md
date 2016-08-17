@@ -90,11 +90,13 @@
         * [Arrays and Objects in JS](arrays-and-objects-in-js.md)
         * Contact List
         * [Data Structures:Quiz](data-structuresquiz.md)
+        * Resource VI
+            * [Arrays in JS](arrays-in-js.md)
     * Objects I
         * [Introduction to Objects](introduction-to-objects.md)
         * Building an Address Book
         * [Objects I:Quiz](objects-iquiz.md)
-        * [Resource VI](resource-vi.md)
+        * [Resource VII](resource-vi.md)
             * [Introduction toObject-Oriented JavaScript](introduction-toobject-oriented-javascript.md)
     * Objects II
         * [Introduction to Objects II](introduction-to-objects-ii.md)

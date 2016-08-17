@@ -50,8 +50,8 @@
         * [Pocketbook](pocketbook.md)
         * [Bolt Network](bolt-network.md)
         * [Bass](bass.md)
-        * [Armando Perez](armando-perez.md)
         * [Newsroom](newsroom.md)
+        * [Armando Perez](armando-perez.md)
     * [HTML & CSS Final Project](html--css-final-project.md)
         * [Result](result.md)
 * [Introduction to JavaScript](javascript.md)
@@ -85,7 +85,7 @@
         * [Code Your Own Adventure II](code-your-own-adventure-ii.md)
         * [Control Flow:Quiz](control-flowquiz.md)
         * [Resource V](resource-v.md)
-            * Control flow and error handling
+            * [Control flow and error handling](control-flow-and-error-handling.md)
     * [Data Structures](data-structures.md)
         * [Arrays and Objects in JS](arrays-and-objects-in-js.md)
         * Contact List

@@ -110,7 +110,7 @@
         * [Introduction to jQuery I](introduction-to-jquery.md)
         * [Introduction jQuery:Quiz](introduction-jqueryquiz.md)
         * [External Resources I](external-resources-i.md)
-            * [How jQuey Works?](how-jquey-works.md)
+            * [How jQuery Works?](how-jquey-works.md)
     * [jQuery Functions](jquery-functions.md)
         * [jQuery Functions and Selectors](jquery-functions-and-selectors.md)
         * [jQuery Functions:Quiz](jquery-functionsquiz.md)
@@ -124,10 +124,10 @@
             * [Manipulating Elements](manipulating-elements.md)
             * [DOM Manipulation](dom-manipulation.md)
     * [jQuery Events](jquery-events.md)
-        * [jQuery Events](jquery-events.md)
+        * [jQuery Events I](jquery-events.md)
         * [jQuery Events:Quiz](jquery-eventsquiz.md)
         * [External Resources IV](external-resources-iv.md)
-            * jQuery Events
+            * jQuery Events:literature
     * jQuery Projects
         * Bonsai
         * Pocketbook
@@ -144,7 +144,7 @@
         * [Site Structure I](site-structure-i.md)
         * [Site Structure:quiz](site-structurequiz.md)
         * [Resources A](resources-a.md)
-            * HTML Features
+            * [HTML Features](html-features.md)
             * [HTML Glossary](html-glossary.md)
         * Common Cents Party
     * [A Closer Look at CSS](a-closer-look-at-css.md)
